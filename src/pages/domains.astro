@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Section from '../components/ui/Section.astro';
+import Card from '../components/ui/Card.astro';
+import { Badge } from '../components/ui/Badge';
+
+import domainsData from '../data/domains.json';
+import type { Domain } from '../types';
+
+const domains = domainsData as Domain[];
+---
+
+<Layout title="Knowledge Domains | ReadRadar">
+    <Section id="domains-header" title="Knowledge Domains" icon="D">
+        <p class="font-mono text-gray-400 max-w-2xl mt-4">
+            Explore resources organized by technical domain.
+        </p>
+    </Section>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {domains.map(domain => (
+            <Card href={`/discover?domain=${encodeURIComponent(domain.name)}`} className="group hover:border-[#F59E0B] flex flex-col h-full">
+                <div class="flex justify-between items-start mb-4">
+                    <h3 class="font-heading font-bold text-2xl text-white group-hover:text-[#F59E0B] transition-colors">{domain.name}</h3>
+                    {domain.trending && <Badge variant="solid">🔥 Trending</Badge>}
+                </div>
+                <p class="text-gray-400 mb-8 flex-grow">{domain.description}</p>
+                <div class="mt-auto border-t-2 border-[#333333] pt-4 flex justify-between items-center">
+                    <span class="font-mono text-sm text-gray-500">{domain.resource_count} Resources</span>
+                    <span class="text-[#F59E0B] font-bold group-hover:translate-x-1 transition-transform">Explore →</span>
+                </div>
+            </Card>
+        ))}
+    </div>
+</Layout>

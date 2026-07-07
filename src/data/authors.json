@@ -1,0 +1,23 @@
+[
+  {
+    "id": "auth-1",
+    "name": "Chip Huyen",
+    "bio": "AI Engineer and Author. Focuses on MLOps and Machine Learning Systems.",
+    "website": "https://chiphuyen.com",
+    "twitter": "https://twitter.com/chipro",
+    "resource_count": 5
+  },
+  {
+    "id": "auth-2",
+    "name": "Harrison Chase",
+    "bio": "Creator of LangChain.",
+    "github": "https://github.com/hwchase17",
+    "resource_count": 2
+  },
+  {
+    "id": "auth-3",
+    "name": "Vaswani et al.",
+    "bio": "Researchers at Google Brain and University of Toronto.",
+    "resource_count": 1
+  }
+]

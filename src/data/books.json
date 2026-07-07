@@ -1,0 +1,44 @@
+[
+  {
+    "id": "book-1",
+    "title": "Designing Machine Learning Systems",
+    "type": "Book",
+    "authorId": "auth-1",
+    "publisher": "O'Reilly Media",
+    "domains": ["MLOps", "System Design"],
+    "tags": ["Production ML", "Architecture"],
+    "score": 9.5,
+    "trend_score": 8.8,
+    "official_url": "https://chiphuyen.com",
+    "description": "An excellent guide to designing, building, and deploying ML systems in production.",
+    "date_added": "2024-01-15T00:00:00Z"
+  },
+  {
+    "id": "repo-1",
+    "title": "LangChain",
+    "type": "Repository",
+    "authorId": "auth-2",
+    "publisher": "GitHub",
+    "domains": ["LLMs", "Agentic AI", "AI Engineering"],
+    "tags": ["Agents", "Framework", "Python"],
+    "score": 9.2,
+    "trend_score": 9.9,
+    "official_url": "https://github.com/langchain-ai/langchain",
+    "description": "Building applications with LLMs through composability.",
+    "date_added": "2024-02-20T00:00:00Z"
+  },
+  {
+    "id": "paper-1",
+    "title": "Attention Is All You Need",
+    "type": "Paper",
+    "authorId": "auth-3",
+    "publisher": "NeurIPS",
+    "domains": ["LLMs", "Math"],
+    "tags": ["Transformers", "Foundational", "Deep Learning"],
+    "score": 10.0,
+    "trend_score": 9.0,
+    "official_url": "https://arxiv.org/abs/1706.03762",
+    "description": "The foundational paper that introduced the Transformer architecture.",
+    "date_added": "2023-11-10T00:00:00Z"
+  }
+]

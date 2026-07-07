@@ -1,17 +1,108 @@
 ---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import Section from '../components/ui/Section.astro';
+import Card from '../components/ui/Card.astro';
+import Statistics from '../components/ui/Statistics.astro';
+import { Badge } from '../components/ui/Badge';
+import { ResourceTable } from '../components/ui/Table';
 
+import booksData from '../data/books.json';
+import domainsData from '../data/domains.json';
+import collectionsData from '../data/collections.json';
+import authorsData from '../data/authors.json';
+
+import type { Book, Domain, Collection, Author } from '../types';
+
+const books = booksData as Book[];
+const domains = domainsData as Domain[];
+const collections = collectionsData as Collection[];
+const authors = authorsData as Author[];
+
+// Process data for homepage
+const trendingBooks = [...books].sort((a, b) => b.trend_score - a.trend_score).slice(0, 3);
+const recentlyAdded = [...books].sort((a, b) => new Date(b.date_added).getTime() - new Date(a.date_added).getTime()).slice(0, 3);
+const popularDomains = [...domains].filter(d => d.trending).slice(0, 6);
+const featuredCollections = [...collections].slice(0, 6);
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="ReadRadar | The Intelligence Layer for Technical Books">
+    <Hero />
+    
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-24">
+        <Statistics value={books.length.toString()} label="Resources" />
+        <Statistics value={authors.length.toString()} label="Authors" color="text-[#06B6D4]" />
+        <Statistics value={domains.length.toString()} label="Domains" color="text-[#E11D48]" />
+        <Statistics value="6m ago" label="Updated" color="text-[#10B981]" />
+    </div>
+
+    <!-- Minimal Search Entry Point (navigates to discover) -->
+    <Section id="search" title="Search Everything" icon="?">
+        <form action="/discover" method="get" class="flex gap-4 max-w-2xl">
+            <input 
+                type="text" 
+                name="q"
+                placeholder="Search books, authors, domains..." 
+                class="bg-[#171717] border-2 border-[#333333] p-4 text-white focus:outline-none focus:border-[#F59E0B] w-full font-mono text-lg shadow-[6px_6px_0px_0px_#333333] focus:shadow-[6px_6px_0px_0px_#F59E0B] transition-all"
+            />
+            <button type="submit" class="bg-[#F59E0B] text-black font-bold font-heading px-8 py-4 uppercase shadow-[6px_6px_0px_0px_#FFFFFF] hover:shadow-[2px_2px_0px_0px_#FFFFFF] hover:translate-y-1 hover:translate-x-1 transition-all border-2 border-white">
+                Search
+            </button>
+        </form>
+    </Section>
+
+    <Section id="trending" title="Trending This Week" icon="↑" className="mt-24">
+        <ResourceTable data={trendingBooks} client:load />
+    </Section>
+
+    <Section id="recent" title="Recently Discovered" icon="+" className="mt-24">
+        <ResourceTable data={recentlyAdded} client:load />
+    </Section>
+
+    <Section id="domains" title="Popular Domains" icon="D" className="mt-24">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {popularDomains.map(domain => (
+                <Card href={`/discover?domain=${encodeURIComponent(domain.name)}`} className="group hover:border-[#F59E0B]">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="font-heading font-bold text-xl text-white group-hover:text-[#F59E0B] transition-colors">{domain.name}</h3>
+                        <Badge variant="solid">{domain.resource_count} items</Badge>
+                    </div>
+                    <p class="text-sm text-gray-400 line-clamp-2">{domain.description}</p>
+                </Card>
+            ))}
+        </div>
+    </Section>
+
+    <Section id="collections" title="Featured Collections" icon="C" className="mt-24">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {featuredCollections.map(collection => (
+                <Card href={`/collections`} className="group hover:border-[#06B6D4]">
+                    <h3 class="font-heading font-bold text-xl text-white group-hover:text-[#06B6D4] transition-colors mb-2">{collection.title}</h3>
+                    <p class="text-sm text-gray-400 mb-4">{collection.description}</p>
+                    <div class="flex justify-between items-center mt-auto">
+                        <span class="text-xs font-mono text-gray-500">Curator: {collection.curator}</span>
+                        <Badge>{collection.resources.length} resources</Badge>
+                    </div>
+                </Card>
+            ))}
+        </div>
+    </Section>
+    
+    <Section id="how-it-works" title="How ReadRadar Works" icon="⚙" className="mt-24">
+        <div class="neo-card p-12 text-center border-l-4 border-l-[#8B5CF6]">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 font-heading text-xl md:text-2xl font-bold uppercase tracking-widest text-gray-400">
+                <div class="text-white bg-[#333333] px-6 py-3 border-2 border-white shadow-[4px_4px_0px_0px_#FFFFFF]">Agent</div>
+                <span class="text-[#F59E0B]">→</span>
+                <div class="text-white bg-[#333333] px-6 py-3 border-2 border-white shadow-[4px_4px_0px_0px_#FFFFFF]">Discovery</div>
+                <span class="text-[#F59E0B]">→</span>
+                <div class="text-white bg-[#333333] px-6 py-3 border-2 border-white shadow-[4px_4px_0px_0px_#FFFFFF]">Validation</div>
+                <span class="text-[#F59E0B]">→</span>
+                <div class="text-white bg-[#333333] px-6 py-3 border-2 border-white shadow-[4px_4px_0px_0px_#FFFFFF]">Knowledge</div>
+            </div>
+            <p class="mt-12 text-gray-400 font-mono text-sm max-w-2xl mx-auto">
+                ReadRadar is entirely static. An autonomous agent continuously scans the internet for new technical resources, validates them, and updates the JSON knowledge base. This website simply reflects the current state of that knowledge base.
+            </p>
+        </div>
+    </Section>
+
+</Layout>

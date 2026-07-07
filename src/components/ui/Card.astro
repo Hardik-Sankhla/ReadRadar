@@ -1,0 +1,14 @@
+---
+interface Props {
+  href?: string;
+  className?: string;
+}
+
+const { href, className = "" } = Astro.props;
+
+const Tag = href ? "a" : "div";
+---
+
+<Tag href={href} class={`neo-card p-6 block ${className}`}>
+  <slot />
+</Tag>

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "dom-1",
+    "name": "LLMs",
+    "description": "Large Language Models, architectures, prompting, and fine-tuning.",
+    "resource_count": 42,
+    "trending": true
+  },
+  {
+    "id": "dom-2",
+    "name": "Agentic AI",
+    "description": "Autonomous agents, tool use, planning, and memory.",
+    "resource_count": 28,
+    "trending": true
+  },
+  {
+    "id": "dom-3",
+    "name": "MLOps",
+    "description": "Machine Learning Operations, deployment, monitoring, and scaling.",
+    "resource_count": 35,
+    "trending": false
+  },
+  {
+    "id": "dom-4",
+    "name": "AI Engineering",
+    "description": "Building products with AI models and APIs.",
+    "resource_count": 56,
+    "trending": true
+  },
+  {
+    "id": "dom-5",
+    "name": "Math",
+    "description": "Linear Algebra, Calculus, Probability, and Statistics for AI.",
+    "resource_count": 12,
+    "trending": false
+  },
+  {
+    "id": "dom-6",
+    "name": "System Design",
+    "description": "Distributed systems, databases, and architecture.",
+    "resource_count": 18,
+    "trending": false
+  },
+  {
+    "id": "dom-7",
+    "name": "Startups",
+    "description": "Business, product strategy, and growth for AI companies.",
+    "resource_count": 9,
+    "trending": false
+  }
+]
