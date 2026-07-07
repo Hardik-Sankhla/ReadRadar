@@ -105,4 +105,113 @@ const featuredCollections = [...collections].slice(0, 6);
         </div>
     </Section>
 
+    <Section id="recently-updated" title="Intelligence Timeline" icon="⏱" className="mt-24">
+        <div class="neo-card p-0 overflow-hidden">
+            <table class="w-full text-left text-sm font-mono">
+                <tbody>
+                    <tr class="border-b border-[#333333] hover:bg-[#262626] transition-colors">
+                        <td class="p-4 text-gray-500 w-32">Yesterday</td>
+                        <td class="p-4 text-[#10B981] font-bold w-24">Added</td>
+                        <td class="p-4 text-white">AI Engineering Domain</td>
+                    </tr>
+                    <tr class="border-b border-[#333333] hover:bg-[#262626] transition-colors">
+                        <td class="p-4 text-gray-500">2 hours ago</td>
+                        <td class="p-4 text-[#10B981] font-bold">Added</td>
+                        <td class="p-4 text-white">MCP Guide (Anthropic)</td>
+                    </tr>
+                    <tr class="hover:bg-[#262626] transition-colors">
+                        <td class="p-4 text-gray-500">6 hours ago</td>
+                        <td class="p-4 text-[#7C3AED] font-bold">Updated</td>
+                        <td class="p-4 text-white">Chip Huyen Machine Learning Collection</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </Section>
+
+    <Section id="community-picks" title="Community Picks" icon="♥" className="mt-24">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <Card href="#" className="group hover:border-[#E11D48]">
+                <h3 class="font-heading font-bold text-xl text-white group-hover:text-[#E11D48] transition-colors mb-2">Designing Data-Intensive Applications</h3>
+                <p class="text-sm text-gray-400 mb-4">The absolute bible for backend engineers.</p>
+                <Badge variant="solid">Martin Kleppmann</Badge>
+            </Card>
+            <Card href="#" className="group hover:border-[#E11D48]">
+                <h3 class="font-heading font-bold text-xl text-white group-hover:text-[#E11D48] transition-colors mb-2">Understanding Deep Learning</h3>
+                <p class="text-sm text-gray-400 mb-4">A visual, intuitive guide to modern neural networks.</p>
+                <Badge variant="solid">Simon J.D. Prince</Badge>
+            </Card>
+        </div>
+    </Section>
+
+    <Section id="open-source" title="Open Source" icon="{" className="mt-24">
+        <div class="neo-card p-8 grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
+            <div>
+                <div class="font-heading text-3xl font-bold text-white mb-1">1.2k</div>
+                <div class="font-mono text-xs text-gray-500 uppercase">⭐ Stars</div>
+            </div>
+            <div>
+                <div class="font-heading text-3xl font-bold text-white mb-1">142</div>
+                <div class="font-mono text-xs text-gray-500 uppercase">🍴 Forks</div>
+            </div>
+            <div>
+                <div class="font-heading text-3xl font-bold text-white mb-1">12</div>
+                <div class="font-mono text-xs text-gray-500 uppercase">👥 Contributors</div>
+            </div>
+            <div>
+                <div class="font-heading text-3xl font-bold text-[#E11D48] mb-1">4</div>
+                <div class="font-mono text-xs text-gray-500 uppercase">🐞 Issues</div>
+            </div>
+            <div>
+                <div class="font-heading text-3xl font-bold text-white mb-1">MIT</div>
+                <div class="font-mono text-xs text-gray-500 uppercase">📄 License</div>
+            </div>
+        </div>
+    </Section>
+
+    <Section id="roadmap" title="Development Roadmap" icon="🗺" className="mt-24">
+        <div class="flex flex-col md:flex-row gap-4 font-mono text-sm">
+            <div class="flex-1 neo-card p-6 border-l-4 border-l-[#10B981]">
+                <div class="flex justify-between items-center mb-2">
+                    <span class="text-white font-bold">Phase 1</span>
+                    <span class="text-[#10B981] font-bold">✓</span>
+                </div>
+                <span class="text-gray-400">Frontend UI</span>
+            </div>
+            <div class="flex-1 neo-card p-6 border-l-4 border-l-[#F59E0B]">
+                <div class="flex justify-between items-center mb-2">
+                    <span class="text-white font-bold">Phase 2</span>
+                    <span class="text-[#F59E0B] font-bold">⏳</span>
+                </div>
+                <span class="text-gray-400">BookOS Pipeline</span>
+            </div>
+            <div class="flex-1 neo-card p-6 border-l-4 border-l-[#333333]">
+                <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-500 font-bold">Phase 3</span>
+                    <span class="text-gray-500 font-bold">⏳</span>
+                </div>
+                <span class="text-gray-600">Autonomous Agents</span>
+            </div>
+            <div class="flex-1 neo-card p-6 border-l-4 border-l-[#333333]">
+                <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-500 font-bold">Phase 4</span>
+                    <span class="text-gray-500 font-bold">⏳</span>
+                </div>
+                <span class="text-gray-600">Personalized Recs</span>
+            </div>
+        </div>
+    </Section>
+
+    <Section id="changelog" title="Changelog Preview" icon="v" className="mt-24">
+        <div class="neo-card p-8">
+            <h3 class="font-heading text-2xl font-bold text-white mb-4">v1.1 <span class="text-sm font-mono text-gray-500 font-normal ml-2">Today</span></h3>
+            <ul class="space-y-2 font-mono text-sm">
+                <li class="flex items-center gap-3"><span class="px-2 py-0.5 bg-[#10B981]/20 text-[#10B981] text-xs font-bold border border-[#10B981]/50">ADDED</span> <span class="text-gray-300">25 new Books across AI and Systems Engineering.</span></li>
+                <li class="flex items-center gap-3"><span class="px-2 py-0.5 bg-[#10B981]/20 text-[#10B981] text-xs font-bold border border-[#10B981]/50">ADDED</span> <span class="text-gray-300">New Domains: Autonomous Agents, MLOps.</span></li>
+                <li class="flex items-center gap-3"><span class="px-2 py-0.5 bg-[#10B981]/20 text-[#10B981] text-xs font-bold border border-[#10B981]/50">ADDED</span> <span class="text-gray-300">New Collections: Anthropic MCP Guides.</span></li>
+                <li class="flex items-center gap-3"><span class="px-2 py-0.5 bg-[#7C3AED]/20 text-[#7C3AED] text-xs font-bold border border-[#7C3AED]/50">IMPROVED</span> <span class="text-gray-300">Cmd+K global search shortcut.</span></li>
+            </ul>
+        </div>
+    </Section>
+
 </Layout>

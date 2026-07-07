@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="404 | Resource Not Found">
+    <div class="min-h-[70vh] flex flex-col items-center justify-center text-center">
+        <h1 class="font-heading font-black text-9xl text-transparent bg-clip-text bg-gradient-to-r from-[#7C3AED] to-[#A78BFA] tracking-tighter mb-4">
+            404
+        </h1>
+        <div class="bg-[#171717] border-2 border-[#333333] shadow-[8px_8px_0px_0px_#7C3AED] p-8 max-w-lg mb-8">
+            <h2 class="font-heading font-bold text-2xl text-white uppercase mb-4">Resource Not Found</h2>
+            <p class="font-mono text-sm text-gray-400 leading-relaxed mb-6">
+                The requested resource could not be located in the intelligence layer. It may have been deleted, moved, or the URL is incorrect.
+            </p>
+            <div class="flex items-center justify-center gap-4">
+                <a href="/" class="bg-gradient-to-r from-[#7C3AED] to-[#5B21B6] text-white font-bold font-heading px-6 py-3 uppercase shadow-[4px_4px_0px_0px_#FFFFFF] hover:shadow-[2px_2px_0px_0px_#FFFFFF] hover:translate-y-1 hover:translate-x-1 transition-all border-2 border-white">
+                    Return to Home
+                </a>
+            </div>
+        </div>
+    </div>
+</Layout>

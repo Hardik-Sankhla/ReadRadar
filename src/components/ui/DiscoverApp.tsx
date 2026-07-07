@@ -12,41 +12,154 @@ interface Props {
 export default function DiscoverApp({ books, domains }: Props) {
   const [search, setSearch] = useState("");
   const [selectedDomain, setSelectedDomain] = useState<string>("All");
+  const [density, setDensity] = useState<"standard" | "compact" | "spacious">("standard");
+  const [showColumns, setShowColumns] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Parse URL for initial domain
     const params = new URLSearchParams(window.location.search);
     const domainQuery = params.get('domain');
     const qQuery = params.get('q');
     
     if (domainQuery) setSelectedDomain(domainQuery);
     if (qQuery) setSearch(qQuery);
+
+    // Simulate short network delay for skeleton loader
+    const timer = setTimeout(() => setIsLoading(false), 600);
+    return () => clearTimeout(timer);
   }, []);
 
   const filteredBooks = useMemo(() => {
     return books.filter(book => {
       const matchesSearch = book.title.toLowerCase().includes(search.toLowerCase()) || 
                             book.tags.some(t => t.toLowerCase().includes(search.toLowerCase())) ||
-                            book.authorId.toLowerCase().includes(search.toLowerCase()); // in reality we'd resolve author name
+                            book.authorId.toLowerCase().includes(search.toLowerCase());
       const matchesDomain = selectedDomain === "All" || book.domains.includes(selectedDomain);
       return matchesSearch && matchesDomain;
-    }).sort((a, b) => b.score - a.score);
+    });
   }, [books, search, selectedDomain]);
 
   const domainNames = domains.map(d => d.name);
 
+  const handleExportCSV = () => {
+    const headers = ["ID", "Title", "Type", "Score", "Trend Score", "Domains", "Tags", "URL"];
+    const rows = filteredBooks.map(b => [
+      b.id,
+      `"${b.title.replace(/"/g, '""')}"`,
+      b.type,
+      b.score,
+      b.trend_score,
+      `"${b.domains.join(', ')}"`,
+      `"${b.tags.join(', ')}"`,
+      b.official_url
+    ]);
+    const csvContent = [headers.join(","), ...rows.map(r => r.join(","))].join("\n");
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.setAttribute("href", url);
+    link.setAttribute("download", "readradar_export.csv");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
-    <div className="space-y-8">
-      <div className="flex flex-col md:flex-row gap-4">
-        <SearchBar value={search} onChange={setSearch} placeholder="Search resources, tags, authors..." />
-        <DomainFilter domains={domainNames} selectedDomain={selectedDomain} onSelect={setSelectedDomain} />
-      </div>
+    <div className="space-y-8 relative">
       
-      <div className="bg-[#171717] border-2 border-[#333333] p-4 flex justify-between items-center">
-        <span className="font-mono text-gray-400 text-sm">Showing {filteredBooks.length} results</span>
+      {/* Sticky Top Bar */}
+      <div className="sticky top-20 z-40 bg-[#0A0A0A]/95 backdrop-blur-md pt-4 pb-4 border-b-2 border-[#333333] -mx-6 px-6 shadow-xl">
+        <div className="flex flex-col gap-4">
+          <div className="flex flex-col md:flex-row gap-4">
+            <SearchBar value={search} onChange={setSearch} placeholder="Search resources, tags, authors..." />
+            <DomainFilter domains={domainNames} selectedDomain={selectedDomain} onSelect={setSelectedDomain} />
+          </div>
+          
+          <div className="flex flex-wrap justify-between items-center bg-[#171717] border-2 border-[#333333] p-3">
+            <span className="font-mono text-gray-400 text-sm">Showing {filteredBooks.length} results</span>
+            
+            <div className="flex gap-3 items-center relative">
+              
+              {/* Density Selector */}
+              <div className="flex bg-[#0A0A0A] border border-[#333333] rounded-sm overflow-hidden">
+                <button 
+                  onClick={() => setDensity("compact")}
+                  className={`px-3 py-1 font-mono text-xs transition-colors ${density === 'compact' ? 'bg-[#7C3AED] text-white' : 'text-gray-400 hover:text-white'}`}
+                  title="Compact Density"
+                >
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="21" y1="10" x2="3" y2="10"></line><line x1="21" y1="14" x2="3" y2="14"></line></svg>
+                </button>
+                <button 
+                  onClick={() => setDensity("standard")}
+                  className={`px-3 py-1 font-mono text-xs transition-colors border-l border-[#333333] ${density === 'standard' ? 'bg-[#7C3AED] text-white' : 'text-gray-400 hover:text-white'}`}
+                  title="Standard Density"
+                >
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="21" y1="8" x2="3" y2="8"></line><line x1="21" y1="16" x2="3" y2="16"></line></svg>
+                </button>
+                <button 
+                  onClick={() => setDensity("spacious")}
+                  className={`px-3 py-1 font-mono text-xs transition-colors border-l border-[#333333] ${density === 'spacious' ? 'bg-[#7C3AED] text-white' : 'text-gray-400 hover:text-white'}`}
+                  title="Spacious Density"
+                >
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="21" y1="6" x2="3" y2="6"></line><line x1="21" y1="18" x2="3" y2="18"></line></svg>
+                </button>
+              </div>
+
+              {/* Column Visibility */}
+              <button 
+                onClick={() => setShowColumns(!showColumns)}
+                className="px-3 py-1.5 border border-[#333333] hover:border-[#7C3AED] hover:text-[#7C3AED] text-gray-400 text-xs font-mono transition-colors flex items-center gap-2"
+              >
+                Columns 
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+
+              {showColumns && (
+                <div className="absolute top-10 right-24 bg-[#171717] border-2 border-[#333333] p-4 shadow-[4px_4px_0px_0px_#7C3AED] z-50 min-w-[200px]">
+                  <h4 className="font-heading font-bold text-white mb-3 uppercase text-xs">Visible Columns</h4>
+                  <div className="space-y-2 font-mono text-sm text-gray-300">
+                    {['Title', 'Type', 'Domains', 'Score', 'Trend', 'Source'].map(col => (
+                      <label key={col} className="flex items-center gap-2 cursor-pointer hover:text-white">
+                        <input type="checkbox" defaultChecked className="accent-[#7C3AED]" />
+                        {col}
+                      </label>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Export CSV */}
+              <button 
+                onClick={handleExportCSV}
+                className="px-3 py-1.5 bg-[#333333] hover:bg-[#7C3AED] text-white font-mono text-xs transition-colors flex items-center gap-2"
+              >
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Export CSV
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <ResourceTable data={filteredBooks} />
+      <div className={`table-density-${density}`}>
+        {filteredBooks.length > 0 || isLoading ? (
+          <ResourceTable data={filteredBooks} isLoading={isLoading} />
+        ) : (
+          <div className="neo-card p-16 text-center flex flex-col items-center justify-center border-dashed">
+            <svg className="w-16 h-16 text-gray-600 mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <h3 className="font-heading font-bold text-2xl text-white mb-2">No resources found</h3>
+            <p className="text-gray-400 font-mono text-sm max-w-md">
+              We couldn't find any resources matching "{search}" in the {selectedDomain} domain. 
+            </p>
+            <button 
+              onClick={() => { setSearch(""); setSelectedDomain("All"); }}
+              className="mt-8 px-6 py-2 bg-[#7C3AED] hover:bg-[#5B21B6] text-white font-bold transition-colors border-2 border-transparent"
+            >
+              Clear Filters
+            </button>
+          </div>
+        )}
+      </div>
     </div>
   );
 }

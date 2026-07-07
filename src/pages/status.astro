@@ -1,0 +1,68 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Section from '../components/ui/Section.astro';
+---
+
+<Layout title="System Status | ReadRadar">
+    <header class="mb-16 pb-8">
+        <h1 class="font-heading text-5xl md:text-7xl font-black text-white tracking-tighter uppercase leading-[0.9]">
+            System Status
+        </h1>
+        <p class="mt-6 text-gray-400 font-mono text-lg max-w-2xl">
+            Real-time health monitoring of the ReadRadar infrastructure and autonomous agents.
+        </p>
+    </header>
+
+    <Section id="status" title="Current Status" icon="✓">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+            <div class="neo-card p-6 border-l-4 border-l-[#10B981] flex justify-between items-center">
+                <div>
+                    <h3 class="font-heading font-bold text-xl text-white">Book Discovery Agent</h3>
+                    <p class="font-mono text-xs text-gray-500 mt-1">Crawling ArXiv, GitHub, Twitter</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full bg-[#10B981] animate-pulse"></span>
+                    <span class="font-mono text-sm font-bold text-[#10B981]">Healthy</span>
+                </div>
+            </div>
+
+            <div class="neo-card p-6 border-l-4 border-l-[#10B981] flex justify-between items-center">
+                <div>
+                    <h3 class="font-heading font-bold text-xl text-white">Validation Agent</h3>
+                    <p class="font-mono text-xs text-gray-500 mt-1">Quality checks & Metadata extraction</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full bg-[#10B981] animate-pulse"></span>
+                    <span class="font-mono text-sm font-bold text-[#10B981]">Healthy</span>
+                </div>
+            </div>
+
+            <div class="neo-card p-6 border-l-4 border-l-[#10B981] flex justify-between items-center">
+                <div>
+                    <h3 class="font-heading font-bold text-xl text-white">Frontend Website</h3>
+                    <p class="font-mono text-xs text-gray-500 mt-1">Astro + Vercel Edge Network</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full bg-[#10B981]"></span>
+                    <span class="font-mono text-sm font-bold text-[#10B981]">Online</span>
+                </div>
+            </div>
+
+            <div class="neo-card p-6 border-l-4 border-l-[#F59E0B] flex justify-between items-center">
+                <div>
+                    <h3 class="font-heading font-bold text-xl text-white">BookOS API</h3>
+                    <p class="font-mono text-xs text-gray-500 mt-1">External dependency</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full bg-[#F59E0B]"></span>
+                    <span class="font-mono text-sm font-bold text-[#F59E0B]">Degraded</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="callout-box">
+            <h4 class="font-heading font-bold text-white mb-2 uppercase">Past Incidents</h4>
+            <p class="text-sm text-gray-400">No incidents reported in the last 30 days. All systems operational.</p>
+        </div>
+    </Section>
+</Layout>

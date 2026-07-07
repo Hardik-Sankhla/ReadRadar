@@ -32,6 +32,25 @@
     font-family: var(--font-body);
   }
 
+  /* Scroll Progress Bar (Progressive Enhancement) */
+  @keyframes scroll-progress {
+    from { width: 0%; }
+    to { width: 100%; }
+  }
+
+  html::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    background: var(--color-primary);
+    z-index: 9999;
+    animation: scroll-progress linear;
+    animation-timeline: scroll();
+    pointer-events: none;
+  }
+
   /* Subtle background decorations */
   body::before {
     content: "";
@@ -143,6 +162,19 @@
   .data-table tbody tr:hover { background: rgba(124, 58, 237, 0.06); }
   .data-table td:last-child, .data-table th:last-child { border-right: none; }
   .data-table .col-wrap { white-space: normal; min-width: 250px; }
+
+  /* Table Density Variations */
+  .table-density-compact .data-table th,
+  .table-density-compact .data-table td {
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+  }
+  
+  .table-density-spacious .data-table th,
+  .table-density-spacious .data-table td {
+    padding: 1.5rem 1.25rem;
+    font-size: 0.875rem;
+  }
 
   .hl-text { color: #FFFFFF; font-weight: 600; }
 }
