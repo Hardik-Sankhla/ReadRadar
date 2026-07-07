@@ -2,14 +2,14 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { SearchBar } from './SearchBar';
 import { DomainFilter } from './DomainFilter';
 import { ResourceTable } from './Table';
-import type { Book, Domain } from '../../types';
+import type { Resource, Domain } from '../../types';
 
 interface Props {
-  books: Book[];
+  resources: Resource[];
   domains: Domain[];
 }
 
-export default function DiscoverApp({ books, domains }: Props) {
+export default function DiscoverApp({ resources, domains }: Props) {
   const [search, setSearch] = useState("");
   const [selectedDomain, setSelectedDomain] = useState<string>("All");
   const [density, setDensity] = useState<"standard" | "compact" | "spacious">("standard");
@@ -29,29 +29,29 @@ export default function DiscoverApp({ books, domains }: Props) {
     return () => clearTimeout(timer);
   }, []);
 
-  const filteredBooks = useMemo(() => {
-    return books.filter(book => {
-      const matchesSearch = book.title.toLowerCase().includes(search.toLowerCase()) || 
-                            book.tags.some(t => t.toLowerCase().includes(search.toLowerCase())) ||
-                            book.authorId.toLowerCase().includes(search.toLowerCase());
-      const matchesDomain = selectedDomain === "All" || book.domains.includes(selectedDomain);
+  const filteredResources = useMemo(() => {
+    return resources.filter(resource => {
+      const matchesSearch = resource.title.toLowerCase().includes(search.toLowerCase()) || 
+                            resource.tags.some(t => t.toLowerCase().includes(search.toLowerCase())) ||
+                            resource.authorId.toLowerCase().includes(search.toLowerCase());
+      const matchesDomain = selectedDomain === "All" || resource.domains.includes(selectedDomain);
       return matchesSearch && matchesDomain;
     });
-  }, [books, search, selectedDomain]);
+  }, [resources, search, selectedDomain]);
 
   const domainNames = domains.map(d => d.name);
 
   const handleExportCSV = () => {
     const headers = ["ID", "Title", "Type", "Score", "Trend Score", "Domains", "Tags", "URL"];
-    const rows = filteredBooks.map(b => [
-      b.id,
-      `"${b.title.replace(/"/g, '""')}"`,
-      b.type,
-      b.score,
-      b.trend_score,
-      `"${b.domains.join(', ')}"`,
-      `"${b.tags.join(', ')}"`,
-      b.official_url
+    const rows = filteredResources.map(r => [
+      r.id,
+      `"${r.title.replace(/"/g, '""')}"`,
+      r.type,
+      r.score,
+      r.trend_score,
+      `"${r.domains.join(', ')}"`,
+      `"${r.tags.join(', ')}"`,
+      r.official_url
     ]);
     const csvContent = [headers.join(","), ...rows.map(r => r.join(","))].join("\n");
     const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
@@ -76,7 +76,7 @@ export default function DiscoverApp({ books, domains }: Props) {
           </div>
           
           <div className="flex flex-wrap justify-between items-center bg-[#171717] border-2 border-[#333333] p-3">
-            <span className="font-mono text-gray-400 text-sm">Showing {filteredBooks.length} results</span>
+            <span className="font-mono text-gray-400 text-sm">Showing {filteredResources.length} results</span>
             
             <div className="flex gap-3 items-center relative">
               
@@ -142,8 +142,8 @@ export default function DiscoverApp({ books, domains }: Props) {
       </div>
 
       <div className={`table-density-${density}`}>
-        {filteredBooks.length > 0 || isLoading ? (
-          <ResourceTable data={filteredBooks} isLoading={isLoading} />
+        {filteredResources.length > 0 || isLoading ? (
+          <ResourceTable data={filteredResources} isLoading={isLoading} />
         ) : (
           <div className="neo-card p-16 text-center flex flex-col items-center justify-center border-dashed">
             <svg className="w-16 h-16 text-gray-600 mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>

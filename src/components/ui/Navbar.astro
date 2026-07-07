@@ -10,6 +10,19 @@ const currentPath = Astro.url.pathname;
                 <span class="font-heading font-bold text-xl text-white tracking-tight">Read<span class="text-[#7C3AED]">Radar</span></span>
             </a>
         </div>
+        
+        <div class="hidden lg:flex gap-4 font-mono text-[10px] text-gray-500 items-center border border-[#333333] px-3 py-1.5 bg-[#0A0A0A] shadow-[inset_2px_2px_0px_0px_#171717]">
+            <span class="flex items-center gap-1"><span class="text-white font-bold">4,218</span> RES</span>
+            <span class="w-[1px] h-3 bg-[#333333]"></span>
+            <span class="flex items-center gap-1"><span class="text-white font-bold">87</span> COL</span>
+            <span class="w-[1px] h-3 bg-[#333333]"></span>
+            <span class="flex items-center gap-1"><span class="text-white font-bold">19</span> DOM</span>
+            <span class="w-[1px] h-3 bg-[#333333]"></span>
+            <span>SYNC: <span class="text-[#10B981]">8m ago</span></span>
+            <span class="w-[1px] h-3 bg-[#333333]"></span>
+            <span class="flex items-center gap-1">AGENT: <span class="w-1.5 h-1.5 rounded-full bg-[#10B981] animate-pulse"></span></span>
+        </div>
+
         <div class="hidden md:flex gap-6 font-mono text-sm font-medium items-center">
             <a href="/discover" class={`px-1 py-2 transition-all duration-300 relative group ${currentPath.includes('/discover') ? 'text-white' : 'text-gray-500 hover:text-white'}`}>
                 Discover

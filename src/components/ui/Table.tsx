@@ -1,11 +1,11 @@
 import React, { useState, useMemo } from 'react';
-import type { Book } from '../../types';
+import type { Resource } from '../../types';
 import { Badge } from './Badge';
 import { Tag } from './Tag';
 import { SkeletonTable } from './SkeletonTable';
 
 interface Props {
-  data: Book[];
+  data: Resource[];
   isLoading?: boolean;
 }
 
@@ -74,6 +74,22 @@ export function ResourceTable({ data, isLoading = false }: Props) {
   const SortIcon = ({ field }: { field: SortField }) => {
     if (sortField !== field) return <span className="opacity-30 inline-block ml-1">↕</span>;
     return <span className="inline-block ml-1 text-[#7C3AED]">{sortOrder === 'asc' ? '↑' : '↓'}</span>;
+  };
+
+  const renderKnowledgeDNA = (dna: Record<string, number> | undefined) => {
+    if (!dna) return null;
+    return (
+      <div className="mt-2 font-mono text-xs">
+        {Object.entries(dna).map(([topic, score]) => (
+          <div key={topic} className="flex items-center mb-1">
+            <span className="w-24 text-gray-500">{topic}</span>
+            <span className="text-[#7C3AED] tracking-widest">
+              {'█'.repeat(score)}{'░'.repeat(10 - score)}
+            </span>
+          </div>
+        ))}
+      </div>
+    );
   };
 
   return (
@@ -160,31 +176,121 @@ export function ResourceTable({ data, isLoading = false }: Props) {
                   {expandedRows.has(entity.id) && (
                     <tr className="bg-[#1a1a1a]">
                       <td colSpan={7} className="p-6 border-b border-[#333333]">
-                        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 font-body text-sm">
-                          <div className="col-span-3">
-                            <h4 className="font-bold mb-2 uppercase tracking-wide font-heading text-xs text-gray-500">Description</h4>
-                            <p className="text-gray-300 leading-relaxed">{entity.description}</p>
-                            
-                            <div className="mt-4 flex gap-2 flex-wrap">
-                              {entity.tags.map(t => (
-                                <Tag key={t}>{t}</Tag>
-                              ))}
+                        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 font-body text-sm">
+                          
+                          {/* Left Column: Description & ROI */}
+                          <div className="col-span-1 md:col-span-4 flex flex-col gap-6">
+                            <div>
+                              <h4 className="font-bold mb-2 uppercase tracking-wide font-heading text-xs text-[#7C3AED]">Why Read This</h4>
+                              <p className="text-gray-300 leading-relaxed text-xs">{entity.description}</p>
+                            </div>
+
+                            {entity.learning_outcomes && entity.learning_outcomes.length > 0 && (
+                              <div>
+                                <h4 className="font-bold mb-2 uppercase tracking-wide font-heading text-xs text-[#7C3AED]">Learning Outcomes</h4>
+                                <ul className="space-y-1 text-xs text-gray-300">
+                                  {entity.learning_outcomes.map((outcome, idx) => (
+                                    <li key={idx} className="flex items-start gap-2">
+                                      <span className="text-[#10B981] mt-0.5">✓</span>
+                                      {outcome}
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            )}
+
+                            <div className="flex gap-4">
+                              <div className="neo-card p-3 flex-1 bg-[#171717] border-[#333333]">
+                                <div className="text-[10px] text-gray-500 uppercase font-mono mb-1">Difficulty</div>
+                                <div className="font-bold text-white text-sm">{entity.difficulty || "Unknown"}</div>
+                              </div>
+                              <div className="neo-card p-3 flex-1 bg-[#171717] border-[#333333]">
+                                <div className="text-[10px] text-gray-500 uppercase font-mono mb-1">Time Req</div>
+                                <div className="font-bold text-white text-sm">{entity.estimated_hours ? `${entity.estimated_hours} hours` : "Unknown"}</div>
+                              </div>
                             </div>
                           </div>
-                          
-                          <div className="neo-card p-4 h-fit border-[#333333]">
-                            <dl className="space-y-3">
-                              {entity.publisher && (
-                                <div>
-                                  <dt className="text-gray-500 font-heading text-xs uppercase mb-1">Publisher</dt>
-                                  <dd className="text-gray-300 flex items-center gap-2">{entity.publisher} <span className="text-[#10B981] font-bold">✓</span></dd>
-                                </div>
-                              )}
+
+                          {/* Middle Column: Knowledge DNA & Prerequisites */}
+                          <div className="col-span-1 md:col-span-4 flex flex-col gap-6">
+                            <div>
+                              <h4 className="font-bold mb-2 uppercase tracking-wide font-heading text-xs text-gray-400">Knowledge DNA</h4>
+                              {renderKnowledgeDNA(entity.knowledge_dna)}
+                            </div>
+
+                            {entity.prerequisites && entity.prerequisites.length > 0 && (
                               <div>
-                                <dt className="text-gray-500 font-heading text-xs uppercase mb-1">Updated</dt>
-                                <dd className="text-gray-400 font-mono text-xs flex items-center gap-2">{new Date(entity.date_added).toLocaleDateString()} <span className="text-[#10B981] font-bold">✓</span></dd>
+                                <h4 className="font-bold mb-2 uppercase tracking-wide font-heading text-xs text-gray-400">Prerequisites</h4>
+                                <ul className="space-y-1 text-xs text-gray-400 font-mono">
+                                  {entity.prerequisites.map((prereq, idx) => (
+                                    <li key={idx} className="flex items-center gap-2">
+                                      <span className="w-1.5 h-1.5 bg-[#333333] rounded-full"></span>
+                                      {prereq}
+                                    </li>
+                                  ))}
+                                </ul>
                               </div>
-                            </dl>
+                            )}
+
+                            {entity.skip_if && entity.skip_if.length > 0 && (
+                              <div className="bg-[#E11D48]/10 border border-[#E11D48]/30 p-3 rounded-sm">
+                                <h4 className="font-bold mb-1 uppercase tracking-wide font-heading text-[10px] text-[#E11D48]">Skip This If...</h4>
+                                <ul className="text-xs text-gray-300 list-disc list-inside">
+                                  {entity.skip_if.map((reason, idx) => (
+                                    <li key={idx}>{reason}</li>
+                                  ))}
+                                </ul>
+                              </div>
+                            )}
+                          </div>
+                          
+                          {/* Right Column: Trust Indicators & Metadata */}
+                          <div className="col-span-1 md:col-span-4">
+                            <div className="neo-card p-4 border-[#333333] h-full flex flex-col justify-between">
+                              <dl className="space-y-4">
+                                <div>
+                                  <dt className="text-gray-500 font-heading text-[10px] uppercase mb-1 tracking-wider">Verification Status</dt>
+                                  <dd className="space-y-2">
+                                    <div className="flex justify-between items-center text-xs font-mono">
+                                      <span className="text-gray-400">Official Source</span>
+                                      <span className={entity.verification?.official ? "text-[#10B981] font-bold" : "text-gray-500"}>
+                                        {entity.verification?.official ? "Yes ✓" : "No"}
+                                      </span>
+                                    </div>
+                                    <div className="flex justify-between items-center text-xs font-mono">
+                                      <span className="text-gray-400">Agent Confidence</span>
+                                      <span className="text-white font-bold">{entity.verification?.agent_confidence || 0}%</span>
+                                    </div>
+                                    <div className="flex justify-between items-center text-xs font-mono">
+                                      <span className="text-gray-400">Community Score</span>
+                                      <span className="text-[#F59E0B] font-bold">★ {entity.verification?.community_score || "N/A"}</span>
+                                    </div>
+                                  </dd>
+                                </div>
+                                
+                                <div className="h-[1px] bg-[#333333] w-full"></div>
+
+                                <div>
+                                  <dt className="text-gray-500 font-heading text-[10px] uppercase mb-1 tracking-wider">Metadata</dt>
+                                  <dd className="space-y-1">
+                                    <div className="flex justify-between text-[10px] font-mono">
+                                      <span className="text-gray-500">Publisher</span>
+                                      <span className="text-gray-300">{entity.publisher || "Unknown"}</span>
+                                    </div>
+                                    <div className="flex justify-between text-[10px] font-mono">
+                                      <span className="text-gray-500">Last Verified</span>
+                                      <span className="text-gray-300">{entity.metadata?.last_verified ? new Date(entity.metadata.last_verified).toLocaleDateString() : "Unknown"}</span>
+                                    </div>
+                                    {entity.metadata?.edition && (
+                                      <div className="flex justify-between text-[10px] font-mono">
+                                        <span className="text-gray-500">Edition</span>
+                                        <span className="text-gray-300">{entity.metadata.edition}</span>
+                                      </div>
+                                    )}
+                                  </dd>
+                                </div>
+                              </dl>
+                            </div>
                           </div>
                         </div>
                       </td>

@@ -7,21 +7,21 @@ import Statistics from '../components/ui/Statistics.astro';
 import { Badge } from '../components/ui/Badge';
 import { ResourceTable } from '../components/ui/Table';
 
-import booksData from '../data/books.json';
+import resourcesData from '../data/resources.json';
 import domainsData from '../data/domains.json';
 import collectionsData from '../data/collections.json';
 import authorsData from '../data/authors.json';
 
-import type { Book, Domain, Collection, Author } from '../types';
+import type { Resource, Domain, Collection, Author } from '../types';
 
-const books = booksData as Book[];
+const resources = resourcesData as Resource[];
 const domains = domainsData as Domain[];
 const collections = collectionsData as Collection[];
 const authors = authorsData as Author[];
 
 // Process data for homepage
-const trendingBooks = [...books].sort((a, b) => b.trend_score - a.trend_score).slice(0, 3);
-const recentlyAdded = [...books].sort((a, b) => new Date(b.date_added).getTime() - new Date(a.date_added).getTime()).slice(0, 3);
+const trendingResources = [...resources].sort((a, b) => b.trend_score - a.trend_score).slice(0, 3);
+const recentlyAdded = [...resources].sort((a, b) => new Date(b.date_added).getTime() - new Date(a.date_added).getTime()).slice(0, 3);
 const popularDomains = [...domains].filter(d => d.trending).slice(0, 6);
 const featuredCollections = [...collections].slice(0, 6);
 ---
@@ -30,7 +30,7 @@ const featuredCollections = [...collections].slice(0, 6);
     <Hero />
     
     <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-24">
-        <Statistics value={books.length.toString()} label="Resources" />
+        <Statistics value={resources.length.toString()} label="Resources" />
         <Statistics value={authors.length.toString()} label="Authors" color="text-[#06B6D4]" />
         <Statistics value={domains.length.toString()} label="Domains" color="text-[#E11D48]" />
         <Statistics value="6m ago" label="Updated" color="text-[#10B981]" />
@@ -42,7 +42,7 @@ const featuredCollections = [...collections].slice(0, 6);
             <input 
                 type="text" 
                 name="q"
-                placeholder="Search books, authors, domains..." 
+                placeholder="Search resources, authors, domains..." 
                 class="bg-[#171717] border-2 border-[#333333] p-4 text-white focus:outline-none focus:border-[#7C3AED] w-full font-mono text-lg shadow-[6px_6px_0px_0px_#333333] focus:shadow-[6px_6px_0px_0px_#7C3AED] transition-all"
             />
             <button type="submit" class="bg-gradient-to-r from-[#7C3AED] to-[#5B21B6] text-white font-bold font-heading px-8 py-4 uppercase shadow-[6px_6px_0px_0px_#FFFFFF] hover:shadow-[2px_2px_0px_0px_#FFFFFF] hover:translate-y-1 hover:translate-x-1 transition-all border-2 border-white">
@@ -52,7 +52,7 @@ const featuredCollections = [...collections].slice(0, 6);
     </Section>
 
     <Section id="trending" title="Trending This Week" icon="↑" className="mt-24">
-        <ResourceTable data={trendingBooks} client:load />
+        <ResourceTable data={trendingResources} client:load />
     </Section>
 
     <Section id="recent" title="Recently Discovered" icon="+" className="mt-24">

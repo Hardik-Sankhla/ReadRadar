@@ -1,6 +1,6 @@
 export type ResourceType = "Book" | "Repository" | "Paper" | "Newsletter" | "Course" | "Other";
 
-export interface Book {
+export interface Resource {
   id: string;
   title: string;
   type: ResourceType;
@@ -13,6 +13,29 @@ export interface Book {
   official_url: string;
   description: string;
   date_added: string;
+
+  // New Knowledge Layer Fields
+  difficulty: "Beginner" | "Intermediate" | "Advanced";
+  estimated_hours: number;
+  prerequisites: string[];
+  learning_outcomes: string[];
+  related_resources: string[]; // IDs of related resources
+  skip_if: string[];
+
+  verification: {
+    official: boolean;
+    community_score: number;
+    agent_confidence: number;
+  };
+
+  metadata: {
+    edition?: string;
+    language?: string;
+    isbn?: string;
+    last_verified: string;
+  };
+
+  knowledge_dna: Record<string, number>; // Maps topics to a score from 1 to 10
 }
 
 export interface Author {
@@ -38,6 +61,6 @@ export interface Collection {
   title: string;
   curator: string;
   description: string;
-  resources: string[]; // array of book IDs
+  resources: string[]; // array of resource IDs
   date_updated: string;
 }

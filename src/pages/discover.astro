@@ -3,11 +3,11 @@ import Layout from '../layouts/Layout.astro';
 import Section from '../components/ui/Section.astro';
 import DiscoverApp from '../components/ui/DiscoverApp';
 
-import booksData from '../data/books.json';
+import resourcesData from '../data/resources.json';
 import domainsData from '../data/domains.json';
-import type { Book, Domain } from '../types';
+import type { Resource, Domain } from '../types';
 
-const books = booksData as Book[];
+const resources = resourcesData as Resource[];
 const domains = domainsData as Domain[];
 ---
 
@@ -18,5 +18,5 @@ const domains = domainsData as Domain[];
         </p>
     </Section>
 
-    <DiscoverApp client:load books={books} domains={domains} />
+    <DiscoverApp client:load resources={resources} domains={domains} />
 </Layout>

@@ -5,11 +5,11 @@ import BarChart from '../components/ui/BarChart.astro';
 import Statistics from '../components/ui/Statistics.astro';
 import { ResourceTable } from '../components/ui/Table';
 
-import booksData from '../data/books.json';
-import type { Book } from '../types';
+import resourcesData from '../data/resources.json';
+import type { Resource } from '../types';
 
-const books = booksData as Book[];
-const trendingBooks = [...books].sort((a, b) => b.trend_score - a.trend_score);
+const resources = resourcesData as Resource[];
+const trendingResources = [...resources].sort((a, b) => b.trend_score - a.trend_score);
 
 // Mock chart data for "Trending Month"
 const growthData = [
@@ -52,6 +52,6 @@ const categoryData = [
     </div>
 
     <Section id="trending-table" title="Highest Velocity Resources" icon="⚡">
-        <ResourceTable data={trendingBooks} client:load />
+        <ResourceTable data={trendingResources} client:load />
     </Section>
 </Layout>
