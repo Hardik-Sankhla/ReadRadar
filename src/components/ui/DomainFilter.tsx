@@ -11,7 +11,7 @@ export function DomainFilter({ domains, selectedDomain, onSelect }: Props) {
     <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
       <button 
         onClick={() => onSelect("All")}
-        className={`px-4 py-2 border-2 text-sm font-mono whitespace-nowrap transition-colors ${selectedDomain === "All" ? 'bg-[#F59E0B] border-[#F59E0B] text-black font-bold' : 'bg-[#171717] border-[#333333] text-gray-400 hover:text-white'}`}
+        className={`px-4 py-2 border-2 text-sm font-mono whitespace-nowrap transition-colors ${selectedDomain === "All" ? 'bg-[#7C3AED] border-[#7C3AED] text-white font-bold' : 'bg-[#171717] border-[#333333] text-gray-400 hover:text-white'}`}
       >
         All
       </button>
@@ -19,7 +19,7 @@ export function DomainFilter({ domains, selectedDomain, onSelect }: Props) {
         <button 
           key={domain}
           onClick={() => onSelect(domain)}
-          className={`px-4 py-2 border-2 text-sm font-mono whitespace-nowrap transition-colors ${selectedDomain === domain ? 'bg-[#F59E0B] border-[#F59E0B] text-black font-bold' : 'bg-[#171717] border-[#333333] text-gray-400 hover:text-white'}`}
+          className={`px-4 py-2 border-2 text-sm font-mono whitespace-nowrap transition-colors ${selectedDomain === domain ? 'bg-[#7C3AED] border-[#7C3AED] text-white font-bold' : 'bg-[#171717] border-[#333333] text-gray-400 hover:text-white'}`}
         >
           {domain}
         </button>

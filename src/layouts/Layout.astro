@@ -15,6 +15,7 @@ const { title } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ReadRadar | The Intelligence Layer for Technical Books" />
     <title>{title}</title>
     
     <!-- Google Fonts -->
@@ -22,9 +23,9 @@ const { title } = Astro.props;
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;700;800;900&display=swap" rel="stylesheet">
   </head>
-  <body class="antialiased selection:bg-[#F59E0B] selection:text-black min-h-screen flex flex-col">
+  <body class="antialiased selection:bg-[#7C3AED] selection:text-white min-h-screen flex flex-col">
     <Navbar />
-    <main class="max-w-[90rem] mx-auto px-6 py-12 md:py-20 flex-grow w-full">
+    <main class="animate-fade-in max-w-[90rem] mx-auto px-6 py-12 md:py-20 flex-grow w-full">
       <slot />
     </main>
     <Footer />

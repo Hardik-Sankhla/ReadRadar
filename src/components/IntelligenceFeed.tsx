@@ -52,7 +52,7 @@ export default function IntelligenceFeed({ entities }: Props) {
       <section id="trending">
         <header className="mb-8">
             <div className="flex items-center gap-4 mb-4">
-                <span className="w-10 h-10 bg-white text-black flex items-center justify-center font-heading font-bold text-xl border-2 border-[#333333] shadow-[4px_4px_0px_0px_#F59E0B]">#</span>
+                <span className="w-10 h-10 bg-white text-black flex items-center justify-center font-heading font-bold text-xl border-2 border-[#333333] shadow-[4px_4px_0px_0px_#7C3AED]">#</span>
                 <h2 className="font-heading text-3xl md:text-4xl font-bold text-white uppercase">Trending Intelligence</h2>
             </div>
         </header>
@@ -60,7 +60,7 @@ export default function IntelligenceFeed({ entities }: Props) {
           {trendingEntities.map((entity, i) => (
             <a key={entity.id} href={entity.official_url} target="_blank" rel="noopener noreferrer" className="neo-card p-6 block">
               <div className="flex justify-between items-start mb-4">
-                <span className="font-mono text-sm text-[#F59E0B]">Trend: {entity.trend_score}</span>
+                <span className="font-mono text-sm text-[#7C3AED]">Trend: {entity.trend_score}</span>
                 <span className="bg-[#0A0A0A] px-2 py-1 text-xs border border-[#333333] text-gray-400">{entity.type}</span>
               </div>
               <h3 className="font-heading font-bold text-xl text-white mb-2">{entity.title}</h3>
@@ -74,7 +74,7 @@ export default function IntelligenceFeed({ entities }: Props) {
       <section id="feed">
         <header className="mb-10">
             <div className="flex items-center gap-4 mb-4">
-                <span className="w-10 h-10 bg-white text-black flex items-center justify-center font-heading font-bold text-xl border-2 border-[#333333] shadow-[4px_4px_0px_0px_#F59E0B]">D</span>
+                <span className="w-10 h-10 bg-white text-black flex items-center justify-center font-heading font-bold text-xl border-2 border-[#333333] shadow-[4px_4px_0px_0px_#7C3AED]">D</span>
                 <h2 className="font-heading text-3xl md:text-4xl font-bold text-white uppercase">Intelligence Database</h2>
             </div>
             
@@ -85,13 +85,13 @@ export default function IntelligenceFeed({ entities }: Props) {
                 placeholder="Search resources or tags..." 
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                className="bg-[#171717] border-2 border-[#333333] p-3 text-white focus:outline-none focus:border-[#F59E0B] w-full md:w-96 font-mono text-sm"
+                className="bg-[#171717] border-2 border-[#333333] p-3 text-white focus:outline-none focus:border-[#7C3AED] w-full md:w-96 font-mono text-sm"
               />
               
               <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
                 <button 
                   onClick={() => setSelectedDomain("All")}
-                  className={`px-4 py-2 border-2 text-sm font-mono whitespace-nowrap ${selectedDomain === "All" ? 'bg-[#F59E0B] border-[#F59E0B] text-black font-bold' : 'bg-[#171717] border-[#333333] text-gray-400 hover:text-white'}`}
+                  className={`px-4 py-2 border-2 text-sm font-mono whitespace-nowrap ${selectedDomain === "All" ? 'bg-[#7C3AED] border-[#7C3AED] text-white font-bold' : 'bg-[#171717] border-[#333333] text-gray-400 hover:text-white'}`}
                 >
                   All
                 </button>
@@ -99,7 +99,7 @@ export default function IntelligenceFeed({ entities }: Props) {
                   <button 
                     key={domain}
                     onClick={() => setSelectedDomain(domain)}
-                    className={`px-4 py-2 border-2 text-sm font-mono whitespace-nowrap ${selectedDomain === domain ? 'bg-[#F59E0B] border-[#F59E0B] text-black font-bold' : 'bg-[#171717] border-[#333333] text-gray-400 hover:text-white'}`}
+                    className={`px-4 py-2 border-2 text-sm font-mono whitespace-nowrap ${selectedDomain === domain ? 'bg-[#7C3AED] border-[#7C3AED] text-white font-bold' : 'bg-[#171717] border-[#333333] text-gray-400 hover:text-white'}`}
                   >
                     {domain}
                   </button>
@@ -125,10 +125,10 @@ export default function IntelligenceFeed({ entities }: Props) {
                   {filteredEntities.map(entity => (
                     <React.Fragment key={entity.id}>
                       <tr className="cursor-pointer group" onClick={() => toggleRow(entity.id)}>
-                        <td className="text-center font-bold text-[#F59E0B]">
+                        <td className="text-center font-bold text-[#7C3AED]">
                           {expandedRows.has(entity.id) ? '-' : '+'}
                         </td>
-                        <td className="font-bold text-white group-hover:text-[#F59E0B] transition-colors">{entity.title}</td>
+                        <td className="font-bold text-white group-hover:text-[#7C3AED] transition-colors">{entity.title}</td>
                         <td>{entity.type}</td>
                         <td>
                           <div className="flex gap-1 flex-wrap">
@@ -196,7 +196,7 @@ export default function IntelligenceFeed({ entities }: Props) {
       <section id="suggest" className="callout-box">
         <h4 className="font-heading font-bold text-white text-xl uppercase mb-3">Community Submissions</h4>
         <p className="text-sm text-gray-300 mb-4">Have an intelligence resource to add? Submit it via our Telegram bot. Approved resources are automatically processed by the Agent Layer and added to this dashboard.</p>
-        <button className="bg-[#F59E0B] text-black font-bold font-heading px-6 py-2 uppercase hover:bg-white transition-colors border-2 border-transparent hover:border-black">
+        <button className="bg-gradient-to-r from-[#7C3AED] to-[#5B21B6] text-white font-bold font-heading px-6 py-2 uppercase hover:shadow-[2px_2px_0px_0px_#FFFFFF] transition-all border-2 border-transparent hover:border-white">
           Submit Resource ↗
         </button>
       </section>

@@ -6,7 +6,7 @@ interface Props {
 
 export function Tag({ children }: Props) {
   return (
-    <span className="text-[#8B5CF6] font-mono text-xs before:content-['#']">
+    <span className="text-[#7C3AED] font-mono text-xs before:content-['#']">
       {children}
     </span>
   );

@@ -5,10 +5,10 @@ interface Props {
   color?: string;
 }
 
-const { value, label, color = "text-[#F59E0B]" } = Astro.props;
+const { value, label, color = "text-[#7C3AED]" } = Astro.props;
 ---
 
-<div class="neo-card p-6 border-l-4 border-l-[#F59E0B] shadow-[6px_6px_0px_0px_#F59E0B] flex flex-col md:flex-row gap-6 items-center">
+<div class="neo-card p-6 border-l-4 border-l-[#7C3AED] shadow-[6px_6px_0px_0px_#7C3AED] flex flex-col md:flex-row gap-6 items-center">
     <div class="flex-shrink-0">
         <span class={`font-heading font-black text-4xl md:text-5xl ${color}`}>{value}</span>
     </div>

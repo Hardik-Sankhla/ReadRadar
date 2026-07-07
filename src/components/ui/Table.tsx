@@ -38,10 +38,10 @@ export function ResourceTable({ data }: Props) {
           {data.map(entity => (
             <React.Fragment key={entity.id}>
               <tr className="cursor-pointer group hover:bg-[#262626]" onClick={() => toggleRow(entity.id)}>
-                <td className="text-center font-bold text-[#F59E0B]">
+                <td className="text-center font-bold text-[#7C3AED]">
                   {expandedRows.has(entity.id) ? '-' : '+'}
                 </td>
-                <td className="font-bold text-white group-hover:text-[#F59E0B] transition-colors">{entity.title}</td>
+                <td className="font-bold text-white group-hover:text-[#7C3AED] transition-colors">{entity.title}</td>
                 <td>{entity.type}</td>
                 <td>
                   <div className="flex gap-1 flex-wrap">
