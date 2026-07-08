@@ -55,40 +55,43 @@ const mockData: Resource[] = [
 ];
 
 describe('DiscoverApp', () => {
-  it('renders correctly with default data', () => {
+  it('renders correctly with default data', async () => {
     render(<DiscoverApp resources={mockData} domains={mockDomains} />);
     expect(screen.getByPlaceholderText('Search resources, tags, authors...')).toBeInTheDocument();
-    expect(screen.getByText('Test Repo Alpha')).toBeInTheDocument();
+    expect(await screen.findByText('Test Repo Alpha')).toBeInTheDocument();
     expect(screen.getByText('Test Repo Beta')).toBeInTheDocument();
   });
 
-  it('filters by search text', () => {
+  it('filters by search text', async () => {
     render(<DiscoverApp resources={mockData} domains={mockDomains} />);
     
     const searchInput = screen.getByPlaceholderText('Search resources, tags, authors...');
     fireEvent.change(searchInput, { target: { value: 'Alpha' } });
     
-    expect(screen.getByText('Test Repo Alpha')).toBeInTheDocument();
+    expect(await screen.findByText('Test Repo Alpha')).toBeInTheDocument();
     expect(screen.queryByText('Test Repo Beta')).not.toBeInTheDocument();
   });
 
-  it('filters by domain', () => {
+  it('filters by domain', async () => {
     render(<DiscoverApp resources={mockData} domains={mockDomains} />);
     
     // Default is "All"
-    const domainSelect = screen.getByRole('combobox');
-    fireEvent.change(domainSelect, { target: { value: 'ML' } });
+    const mlButton = screen.getByText('ML');
+    fireEvent.click(mlButton);
     
     expect(screen.queryByText('Test Repo Alpha')).not.toBeInTheDocument();
-    expect(screen.getByText('Test Repo Beta')).toBeInTheDocument();
+    expect(await screen.findByText('Test Repo Beta')).toBeInTheDocument();
   });
 
-  it('shows no results message when search matches nothing', () => {
+  it('shows no results message when search matches nothing', async () => {
     render(<DiscoverApp resources={mockData} domains={mockDomains} />);
     
     const searchInput = screen.getByPlaceholderText('Search resources, tags, authors...');
     fireEvent.change(searchInput, { target: { value: 'xyz123' } });
     
+    // Wait for the skeleton to disappear by finding any text that indicates loading finished, or just await a delay.
+    // In our case we can wait for "0 results"
+    expect(await screen.findByText(/0 results/)).toBeInTheDocument();
     expect(screen.queryByText('Test Repo Alpha')).not.toBeInTheDocument();
   });
 });
