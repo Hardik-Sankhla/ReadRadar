@@ -143,7 +143,7 @@ export function ResourceTable({ data, isLoading = false }: Props) {
                     </td>
                     <td className="font-bold text-white transition-colors relative">
                       <div className="flex items-center gap-2 flex-wrap">
-                        <a href={`/resource/${entity.id}`} onClick={(e) => e.stopPropagation()} className="hover:text-[#7C3AED] hover:underline transition-colors">
+                        <a href={`${import.meta.env.BASE_URL}/resource/${entity.id}`.replace(/\/\/+/g, '/')} onClick={(e) => e.stopPropagation()} className="hover:text-[#7C3AED] hover:underline transition-colors">
                           {entity.title}
                         </a>
                         {isFoundational && <span className="px-1.5 py-0.5 bg-[#E11D48]/20 text-[#E11D48] text-[10px] border border-[#E11D48]/50 uppercase tracking-wider font-bold">Classic</span>}
