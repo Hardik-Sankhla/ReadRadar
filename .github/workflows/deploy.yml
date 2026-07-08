@@ -6,6 +6,8 @@ on:
     branches: [ main ]
   # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
+  repository_dispatch:
+    types: [registry_updated]
 
 # Allow this job to clone the repo and create a page deployment
 permissions:
