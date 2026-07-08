@@ -179,4 +179,28 @@ if (fs.existsSync(EVAL_REPORT_PATH)) {
 
 fs.writeFileSync(path.join(DATA_PATH, 'intelligence_report.json'), JSON.stringify(intelligenceReport, null, 2));
 
+// 3. Compile Runtime Metrics
+const RUNTIME_PATH = path.join(__dirname, '..', 'BookOS', 'runtime');
+const runtimeData = {
+    heartbeat: {},
+    metrics: {},
+    state: {}
+};
+
+if (fs.existsSync(RUNTIME_PATH)) {
+    const heartbeatPath = path.join(RUNTIME_PATH, 'heartbeat.json');
+    const metricsPath = path.join(RUNTIME_PATH, 'runtime_metrics.json');
+    const statePath = path.join(RUNTIME_PATH, 'runtime_state.json');
+    
+    if (fs.existsSync(heartbeatPath)) runtimeData.heartbeat = readJSONSafe(heartbeatPath) || {};
+    if (fs.existsSync(metricsPath)) runtimeData.metrics = readJSONSafe(metricsPath) || {};
+    if (fs.existsSync(statePath)) runtimeData.state = readJSONSafe(statePath) || {};
+    
+    console.log(`[ReadRadar Prebuild] Compiled runtime status from BookOS.`);
+} else {
+    console.warn('[ReadRadar Prebuild] BookOS runtime directory not found.');
+}
+
+fs.writeFileSync(path.join(DATA_PATH, 'runtime.json'), JSON.stringify(runtimeData, null, 2));
+
 console.log("[ReadRadar Prebuild] Compilation complete.");
