@@ -24,22 +24,47 @@ const featuredCollections = [...collections].slice(0, 6);
 ---
 
 <Layout title="ReadRadar — What do you want to become?">
-    <!-- GOAL-FIRST HERO -->
+    <!-- 1 & 2. GOAL-FIRST HERO & GOAL EXPLORER -->
     <Hero />
 
-    <!-- LIVE STATS STRIP -->
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-24">
-        <Statistics value={resources.length.toString()} label="Resources" />
-        <Statistics value={collections.length.toString()} label="Collections" color="text-[#06B6D4]" />
-        <Statistics value={journeys.length.toString()} label="Journeys" color="text-[#8B5CF6]" />
-        <Statistics value="Live" label="Knowledge Graph" color="text-[#10B981]" />
-    </div>
+    <!-- 3. FEATURED LEARNING PATHS (Collections) -->
+    {featuredCollections.length > 0 && (
+        <Section id="learning-paths" title="Featured Learning Paths" icon="C" className="mt-24">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {featuredCollections.map((collection: any) => (
+                    <Card href={`${import.meta.env.BASE_URL}/collections`.replace(/\/\/+/g, '/')} className="group hover:border-[#06B6D4]">
+                        <h3 class="font-heading font-bold text-xl text-white group-hover:text-[#06B6D4] transition-colors mb-2">{collection.title}</h3>
+                        <p class="text-sm text-gray-400 mb-4 flex-grow">{collection.description}</p>
+                        <div class="flex justify-end items-center mt-auto">
+                            <span class="text-[#06B6D4] font-bold text-sm group-hover:translate-x-1 transition-transform">Explore →</span>
+                        </div>
+                    </Card>
+                ))}
+            </div>
+        </Section>
+    )}
 
-    <!-- TRENDING RESOURCES -->
-    <Section id="trending" title="Trending This Week" icon="↑">
+    <!-- 4. TRENDING RESOURCES -->
+    <Section id="trending" title="Trending Resources" icon="↑" className="mt-24">
         <ResourceTable data={trendingResources} client:load />
     </Section>
 
+    <!-- 5. RECENTLY UPDATED -->
+    <Section id="recent" title="Recently Updated" icon="+" className="mt-24">
+        <ResourceTable data={recentlyAdded} client:load />
+    </Section>
+
+    <!-- 6. INTELLIGENCE METRICS -->
+    <Section id="metrics" title="Intelligence Metrics" icon="∑" className="mt-24">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <Statistics value={resources.length.toString()} label="Resources" />
+            <Statistics value={collections.length.toString()} label="Collections" color="text-[#06B6D4]" />
+            <Statistics value={journeys.length.toString()} label="Journeys" color="text-[#8B5CF6]" />
+            <Statistics value="Live" label="Knowledge Graph" color="text-[#10B981]" />
+        </div>
+    </Section>
+
+    <!-- EXTRA SECTIONS -->
     <!-- HOW IT WORKS -->
     <Section id="how-it-works" title="How ReadRadar Works" icon="⚙" className="mt-24">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -65,28 +90,6 @@ const featuredCollections = [...collections].slice(0, 6);
                 </p>
             </div>
         </div>
-    </Section>
-
-    <!-- FEATURED COLLECTIONS -->
-    {featuredCollections.length > 0 && (
-        <Section id="collections" title="Curated Collections" icon="C" className="mt-24">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {featuredCollections.map((collection: any) => (
-                    <Card href={`${import.meta.env.BASE_URL}/collections`.replace(/\/\/+/g, '/')} className="group hover:border-[#06B6D4]">
-                        <h3 class="font-heading font-bold text-xl text-white group-hover:text-[#06B6D4] transition-colors mb-2">{collection.title}</h3>
-                        <p class="text-sm text-gray-400 mb-4 flex-grow">{collection.description}</p>
-                        <div class="flex justify-end items-center mt-auto">
-                            <span class="text-[#06B6D4] font-bold text-sm group-hover:translate-x-1 transition-transform">Explore →</span>
-                        </div>
-                    </Card>
-                ))}
-            </div>
-        </Section>
-    )}
-
-    <!-- RECENTLY DISCOVERED -->
-    <Section id="recent" title="Recently Discovered" icon="+" className="mt-24">
-        <ResourceTable data={recentlyAdded} client:load />
     </Section>
 
     <!-- PIPELINE EXPLAINER -->
