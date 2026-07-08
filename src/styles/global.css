@@ -154,9 +154,6 @@
     font-family: var(--font-heading); 
     font-size: 0.85rem;
     text-transform: uppercase; 
-    position: sticky;
-    top: 80px; /* offset by navbar height */
-    z-index: 10;
   }
   .data-table tbody tr { transition: background-color 0.15s ease; }
   .data-table tbody tr:hover { background: rgba(124, 58, 237, 0.06); }
