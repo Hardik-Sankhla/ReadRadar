@@ -16,8 +16,8 @@ test.describe('Discover Page', () => {
     await searchInput.fill('Machine Learning');
     
     // Select domain filter
-    const domainSelect = page.locator('select');
-    await domainSelect.selectOption({ label: 'All Domains' });
+    const domainBtn = page.getByRole('button', { name: 'All' });
+    await domainBtn.click();
     
     // We can't guarantee what is on the page since it's dynamic based on JSON, 
     // but we can check if the table rendered.
