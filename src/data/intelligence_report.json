@@ -1,11 +1,11 @@
 {
-  "evaluated_at": "2026-07-08T09:28:58Z",
+  "evaluated_at": "2026-07-08T09:48:35Z",
   "overall_pass": false,
   "graph": {
-    "evaluated_at": "2026-07-08T09:28:58Z",
+    "evaluated_at": "2026-07-08T09:48:35Z",
     "total_nodes": 83,
     "content_nodes": 73,
-    "total_edges": 787,
+    "total_edges": 789,
     "node_type_breakdown": {
       "Node:Collection": 5,
       "Node:Journey": 5,
@@ -13,17 +13,17 @@
       "Node:Paper": 25,
       "Node:Repository": 26
     },
-    "orphan_rate": 1.37,
-    "orphan_count": 1,
+    "orphan_rate": 0,
+    "orphan_count": 0,
     "duplicate_rate": 1.37,
     "duplicate_count": 1,
-    "average_degree": 19.96,
+    "average_degree": 20.01,
     "collection_coverage": 83.56,
-    "recommendation_coverage": 76.71,
+    "recommendation_coverage": 78.08,
     "thresholds": {
       "orphan_rate": {
         "target": 1,
-        "pass": false
+        "pass": true
       },
       "duplicate_rate": {
         "target": 5,
@@ -40,18 +40,18 @@
     }
   },
   "recommendations": {
-    "evaluated_at": "2026-07-08T09:28:58Z",
-    "recommendations_generated": 674,
-    "average_path_length": 2.2,
+    "evaluated_at": "2026-07-08T09:48:35Z",
+    "recommendations_generated": 676,
+    "average_path_length": 2.26,
     "resource_diversity": 4,
     "resource_types_in_recommendations": [
       "Node:Paper",
-      "Node:Collection",
       "Node:Model",
+      "Node:Collection",
       "Node:Repository"
     ],
     "collection_utilization": 0,
-    "graph_utilization": 76.71,
+    "graph_utilization": 78.08,
     "thresholds": {
       "graph_utilization": {
         "target": 70,
@@ -68,7 +68,7 @@
     }
   },
   "journeys": {
-    "evaluated_at": "2026-07-08T09:28:58Z",
+    "evaluated_at": "2026-07-08T09:48:35Z",
     "journey_count": 5,
     "average_resources_per_journey": 10.2,
     "average_hours": 56.2,
@@ -126,17 +126,33 @@
       }
     }
   },
+  "data": {
+    "evaluated_at": "2026-07-08T09:48:35Z",
+    "content_nodes": 73,
+    "data_quality_score": 97.12,
+    "missing_titles": 0,
+    "missing_descriptions": 1,
+    "missing_urls": 0,
+    "missing_tags": 18,
+    "missing_relationships": 0,
+    "thresholds": {
+      "data_quality_score": {
+        "target": 90,
+        "pass": true
+      }
+    }
+  },
   "summary": {
     "total_nodes": 83,
-    "total_edges": 787,
-    "orphan_rate": 1.37,
+    "total_edges": 789,
+    "orphan_rate": 0,
     "duplicate_rate": 1.37,
     "collection_coverage": 83.56,
-    "recommendation_coverage": 76.71,
-    "graph_utilization": 76.71,
+    "recommendation_coverage": 78.08,
+    "graph_utilization": 78.08,
     "journey_count": 5,
     "phase_balance_score": 82.98,
-    "graph_pass": false,
+    "graph_pass": true,
     "recommendations_pass": false,
     "journeys_pass": false
   }

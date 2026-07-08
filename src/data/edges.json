@@ -5493,7 +5493,7 @@
     "edge_type": "RECOMMENDS",
     "confidence": 0.8,
     "generated_by": "engine:graph_repair:v1",
-    "created_at": "2026-07-08T03:16:31.996362"
+    "created_at": "2026-07-08T09:48:21.200015"
   },
   {
     "source_id": "KA-PAPR-D33E00",
@@ -5501,7 +5501,7 @@
     "edge_type": "RECOMMENDS",
     "confidence": 0.8,
     "generated_by": "engine:graph_repair:v1",
-    "created_at": "2026-07-08T03:16:31.994181"
+    "created_at": "2026-07-08T09:48:21.197237"
   },
   {
     "source_id": "KA-PAPR-D33E00",
@@ -5509,7 +5509,7 @@
     "edge_type": "RECOMMENDS",
     "confidence": 0.8,
     "generated_by": "engine:graph_repair:v1",
-    "created_at": "2026-07-08T03:16:31.991719"
+    "created_at": "2026-07-08T09:48:21.194061"
   },
   {
     "source_id": "KA-PAPR-D33E00",
@@ -5765,7 +5765,7 @@
     "edge_type": "RECOMMENDS",
     "confidence": 0.8,
     "generated_by": "engine:graph_repair:v1",
-    "created_at": "2026-07-08T03:16:31.998530"
+    "created_at": "2026-07-08T09:48:21.202304"
   },
   {
     "source_id": "KA-PAPR-EC0918",
@@ -5773,7 +5773,7 @@
     "edge_type": "RECOMMENDS",
     "confidence": 0.8,
     "generated_by": "engine:graph_repair:v1",
-    "created_at": "2026-07-08T03:16:32.006807"
+    "created_at": "2026-07-08T09:48:21.210335"
   },
   {
     "source_id": "KA-PAPR-EC0918",
@@ -5781,7 +5781,7 @@
     "edge_type": "RECOMMENDS",
     "confidence": 0.8,
     "generated_by": "engine:graph_repair:v1",
-    "created_at": "2026-07-08T03:16:32.002633"
+    "created_at": "2026-07-08T09:48:21.205246"
   },
   {
     "source_id": "KA-PAPR-EC0918",
@@ -5805,7 +5805,7 @@
     "edge_type": "RECOMMENDS",
     "confidence": 0.8,
     "generated_by": "engine:graph_repair:v1",
-    "created_at": "2026-07-08T03:16:31.977791"
+    "created_at": "2026-07-08T09:48:21.181033"
   },
   {
     "source_id": "KA-PAPR-EE9A90",
@@ -5813,7 +5813,7 @@
     "edge_type": "RECOMMENDS",
     "confidence": 0.8,
     "generated_by": "engine:graph_repair:v1",
-    "created_at": "2026-07-08T03:16:31.975060"
+    "created_at": "2026-07-08T09:48:21.178402"
   },
   {
     "source_id": "KA-PAPR-EE9A90",
@@ -5821,7 +5821,7 @@
     "edge_type": "RECOMMENDS",
     "confidence": 0.8,
     "generated_by": "engine:graph_repair:v1",
-    "created_at": "2026-07-08T03:16:31.971899"
+    "created_at": "2026-07-08T09:48:21.175273"
   },
   {
     "source_id": "KA-PAPR-EE9A90",
@@ -5965,7 +5965,7 @@
     "edge_type": "RECOMMENDS",
     "confidence": 0.8,
     "generated_by": "engine:graph_repair:v1",
-    "created_at": "2026-07-08T03:16:31.968041"
+    "created_at": "2026-07-08T09:48:21.170945"
   },
   {
     "source_id": "KA-PAPR-F5F9C0",
@@ -5973,7 +5973,7 @@
     "edge_type": "RECOMMENDS",
     "confidence": 0.8,
     "generated_by": "engine:graph_repair:v1",
-    "created_at": "2026-07-08T03:16:31.964152"
+    "created_at": "2026-07-08T09:48:21.168244"
   },
   {
     "source_id": "KA-PAPR-F5F9C0",
@@ -5981,7 +5981,7 @@
     "edge_type": "RECOMMENDS",
     "confidence": 0.8,
     "generated_by": "engine:graph_repair:v1",
-    "created_at": "2026-07-08T03:16:31.961474"
+    "created_at": "2026-07-08T09:48:21.165364"
   },
   {
     "source_id": "KA-PAPR-F5F9C0",
@@ -6024,12 +6024,28 @@
     "created_at": "2026-07-08T03:16:13.529432"
   },
   {
+    "source_id": "KA-REPO-0C8150",
+    "target_id": "KA-REPO-297C15",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:graph_repair:v1",
+    "created_at": "2026-07-08T09:48:20.903495"
+  },
+  {
     "source_id": "KA-REPO-213926",
     "target_id": "KA-COLL-96FF8E",
     "edge_type": "BELONGS_TO",
     "confidence": 0.9,
     "generated_by": "engine:collections:v1",
     "created_at": "2026-07-08T01:42:25.167399"
+  },
+  {
+    "source_id": "KA-REPO-297C15",
+    "target_id": "KA-REPO-0C8150",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:graph_repair:v1",
+    "created_at": "2026-07-08T09:48:20.903524"
   },
   {
     "source_id": "KA-REPO-297C15",
