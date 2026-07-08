@@ -64,3 +64,14 @@ export interface Collection {
   resources: string[]; // array of resource IDs
   date_updated: string;
 }
+
+export interface Career {
+  id: string;
+  title: string;
+  description: string;
+  required_skills: string[];
+  career_readiness_score: number;
+  covered_skills_count: number;
+  total_skills_count: number;
+  recommended_journeys: string[];
+}

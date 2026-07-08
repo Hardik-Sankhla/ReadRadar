@@ -1,25 +1,29 @@
 {
-  "evaluated_at": "2026-07-08T09:48:35Z",
+  "evaluated_at": "2026-07-08T15:13:32Z",
   "overall_pass": false,
   "graph": {
-    "evaluated_at": "2026-07-08T09:48:35Z",
-    "total_nodes": 83,
-    "content_nodes": 73,
-    "total_edges": 789,
+    "evaluated_at": "2026-07-08T15:13:32Z",
+    "total_nodes": 98,
+    "content_nodes": 82,
+    "total_edges": 1084,
     "node_type_breakdown": {
       "Node:Collection": 5,
       "Node:Journey": 5,
+      "Node:Career": 6,
       "Node:Model": 22,
       "Node:Paper": 25,
-      "Node:Repository": 26
+      "Node:Repository": 26,
+      "Node:Skill": 9
     },
     "orphan_rate": 0,
     "orphan_count": 0,
-    "duplicate_rate": 1.37,
+    "duplicate_rate": 1.22,
     "duplicate_count": 1,
-    "average_degree": 20.01,
-    "collection_coverage": 83.56,
-    "recommendation_coverage": 78.08,
+    "average_degree": 23.83,
+    "collection_coverage": 81.71,
+    "recommendation_coverage": 78.05,
+    "average_career_readiness": 100,
+    "career_count": 6,
     "thresholds": {
       "orphan_rate": {
         "target": 1,
@@ -40,18 +44,19 @@
     }
   },
   "recommendations": {
-    "evaluated_at": "2026-07-08T09:48:35Z",
-    "recommendations_generated": 676,
-    "average_path_length": 2.26,
-    "resource_diversity": 4,
+    "evaluated_at": "2026-07-08T15:13:33Z",
+    "recommendations_generated": 744,
+    "average_path_length": 2.64,
+    "resource_diversity": 5,
     "resource_types_in_recommendations": [
-      "Node:Paper",
       "Node:Model",
+      "Node:Repository",
       "Node:Collection",
-      "Node:Repository"
+      "Node:Skill",
+      "Node:Paper"
     ],
     "collection_utilization": 0,
-    "graph_utilization": 78.08,
+    "graph_utilization": 72.73,
     "thresholds": {
       "graph_utilization": {
         "target": 70,
@@ -68,7 +73,7 @@
     }
   },
   "journeys": {
-    "evaluated_at": "2026-07-08T09:48:35Z",
+    "evaluated_at": "2026-07-08T15:13:33Z",
     "journey_count": 5,
     "average_resources_per_journey": 10.2,
     "average_hours": 56.2,
@@ -127,13 +132,13 @@
     }
   },
   "data": {
-    "evaluated_at": "2026-07-08T09:48:35Z",
-    "content_nodes": 73,
-    "data_quality_score": 97.12,
+    "evaluated_at": "2026-07-08T15:13:34Z",
+    "content_nodes": 88,
+    "data_quality_score": 96.59,
     "missing_titles": 0,
     "missing_descriptions": 1,
     "missing_urls": 0,
-    "missing_tags": 18,
+    "missing_tags": 27,
     "missing_relationships": 0,
     "thresholds": {
       "data_quality_score": {
@@ -143,13 +148,13 @@
     }
   },
   "summary": {
-    "total_nodes": 83,
-    "total_edges": 789,
+    "total_nodes": 98,
+    "total_edges": 1084,
     "orphan_rate": 0,
-    "duplicate_rate": 1.37,
-    "collection_coverage": 83.56,
-    "recommendation_coverage": 78.08,
-    "graph_utilization": 78.08,
+    "duplicate_rate": 1.22,
+    "collection_coverage": 81.71,
+    "recommendation_coverage": 78.05,
+    "graph_utilization": 72.73,
     "journey_count": 5,
     "phase_balance_score": 82.98,
     "graph_pass": true,

@@ -1,0 +1,96 @@
+[
+  {
+    "id": "KA-CARE-131079",
+    "title": "AI Product Engineer",
+    "description": "Bridges product management and AI engineering to rapidly build user-facing AI features.",
+    "required_skills": [
+      "KA-SKIL-C53EDD",
+      "KA-SKIL-FB6A72",
+      "KA-SKIL-27F083",
+      "KA-SKIL-5F6936"
+    ],
+    "career_readiness_score": 100,
+    "covered_skills_count": 4,
+    "total_skills_count": 4,
+    "recommended_journeys": []
+  },
+  {
+    "id": "KA-CARE-605E69",
+    "title": "Agent Engineer",
+    "description": "Designs and builds autonomous reasoning agents and multi-agent workflows.",
+    "required_skills": [
+      "KA-SKIL-A7F5F3",
+      "KA-SKIL-27F083",
+      "KA-SKIL-C53EDD",
+      "KA-SKIL-5F6936",
+      "KA-SKIL-FB6A72"
+    ],
+    "career_readiness_score": 100,
+    "covered_skills_count": 5,
+    "total_skills_count": 5,
+    "recommended_journeys": []
+  },
+  {
+    "id": "KA-CARE-60CD36",
+    "title": "AI Engineer",
+    "description": "Builds and deploys end-to-end AI applications using modern language models and tools.",
+    "required_skills": [
+      "KA-SKIL-A7F5F3",
+      "KA-SKIL-091FA9",
+      "KA-SKIL-FB6A72",
+      "KA-SKIL-C53EDD",
+      "KA-SKIL-6D04B6",
+      "KA-SKIL-5F6936"
+    ],
+    "career_readiness_score": 100,
+    "covered_skills_count": 6,
+    "total_skills_count": 6,
+    "recommended_journeys": []
+  },
+  {
+    "id": "KA-CARE-8DF760",
+    "title": "LLM Engineer",
+    "description": "Specializes in training, fine-tuning, and optimizing Large Language Models.",
+    "required_skills": [
+      "KA-SKIL-A7F5F3",
+      "KA-SKIL-6A68B6",
+      "KA-SKIL-5F6936",
+      "KA-SKIL-091FA9",
+      "KA-SKIL-C53EDD"
+    ],
+    "career_readiness_score": 100,
+    "covered_skills_count": 5,
+    "total_skills_count": 5,
+    "recommended_journeys": []
+  },
+  {
+    "id": "KA-CARE-C41E9D",
+    "title": "Applied Scientist",
+    "description": "Researches and applies advanced ML/AI techniques to solve complex theoretical and practical problems.",
+    "required_skills": [
+      "KA-SKIL-A7F5F3",
+      "KA-SKIL-091FA9",
+      "KA-SKIL-6A68B6",
+      "KA-SKIL-5F6936"
+    ],
+    "career_readiness_score": 100,
+    "covered_skills_count": 4,
+    "total_skills_count": 4,
+    "recommended_journeys": []
+  },
+  {
+    "id": "KA-CARE-EC7FD8",
+    "title": "MLOps Engineer",
+    "description": "Focuses on the deployment, infrastructure, scaling, and monitoring of ML systems.",
+    "required_skills": [
+      "KA-SKIL-A7F5F3",
+      "KA-SKIL-895A85",
+      "KA-SKIL-091FA9",
+      "KA-SKIL-5F6936"
+    ],
+    "career_readiness_score": 100,
+    "covered_skills_count": 4,
+    "total_skills_count": 4,
+    "recommended_journeys": []
+  }
+]

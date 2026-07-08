@@ -43,6 +43,10 @@ const currentPath = Astro.url.pathname;
                 Journeys
                 <span class={`absolute bottom-0 left-0 w-full h-[2px] transition-all duration-300 ${currentPath.includes('/journeys') ? 'bg-[#7C3AED] shadow-[0_0_8px_#7C3AED]' : 'bg-transparent group-hover:bg-gray-600'}`}></span>
             </a>
+            <a href={`${import.meta.env.BASE_URL}/careers`.replace(/\/\/+/g, '/')} class={`px-1 py-2 transition-all duration-300 relative group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#10B981] rounded-sm ${currentPath.includes('/careers') ? 'text-white' : 'text-gray-400 hover:text-white'}`}>
+                Careers
+                <span class={`absolute bottom-0 left-0 w-full h-[2px] transition-all duration-300 ${currentPath.includes('/careers') ? 'bg-[#10B981] shadow-[0_0_8px_#10B981]' : 'bg-transparent group-hover:bg-gray-600'}`}></span>
+            </a>
             <a href={`${import.meta.env.BASE_URL}/status/intelligence`.replace(/\/\/+/g, '/')} class={`px-1 py-2 transition-all duration-300 relative group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#06B6D4] rounded-sm ${currentPath.includes('/status/intelligence') ? 'text-white' : 'text-gray-400 hover:text-white'}`}>
                 Intelligence
                 <span class={`absolute bottom-0 left-0 w-full h-[2px] transition-all duration-300 ${currentPath.includes('/status/intelligence') ? 'bg-[#06B6D4] shadow-[0_0_8px_#06B6D4]' : 'bg-transparent group-hover:bg-gray-600'}`}></span>
@@ -82,6 +86,7 @@ const currentPath = Astro.url.pathname;
             <a href={`${import.meta.env.BASE_URL}/trending`.replace(/\/\/+/g, '/')} class={`block p-2 rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7C3AED] ${currentPath.includes('/trending') ? 'text-white bg-[#171717]' : 'text-gray-400 hover:text-white'}`}>Trending</a>
             <a href={`${import.meta.env.BASE_URL}/collections`.replace(/\/\/+/g, '/')} class={`block p-2 rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7C3AED] ${currentPath.includes('/collections') ? 'text-white bg-[#171717]' : 'text-gray-400 hover:text-white'}`}>Collections</a>
             <a href={`${import.meta.env.BASE_URL}/journeys`.replace(/\/\/+/g, '/')} class={`block p-2 rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7C3AED] ${currentPath.includes('/journeys') ? 'text-white bg-[#171717]' : 'text-gray-400 hover:text-white'}`}>Journeys</a>
+            <a href={`${import.meta.env.BASE_URL}/careers`.replace(/\/\/+/g, '/')} class={`block p-2 rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-[#10B981] ${currentPath.includes('/careers') ? 'text-[#10B981] bg-[#171717]' : 'text-gray-400 hover:text-[#10B981]'}`}>Careers</a>
             <a href={`${import.meta.env.BASE_URL}/status/intelligence`.replace(/\/\/+/g, '/')} class={`block p-2 rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-[#06B6D4] ${currentPath.includes('/status/intelligence') ? 'text-[#06B6D4] bg-[#171717]' : 'text-gray-400 hover:text-[#06B6D4]'}`}>Intelligence</a>
             <a href={`${import.meta.env.BASE_URL}/about`.replace(/\/\/+/g, '/')} class={`block p-2 rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7C3AED] ${currentPath.includes('/about') ? 'text-white bg-[#171717]' : 'text-gray-400 hover:text-white'}`}>About</a>
         </div>

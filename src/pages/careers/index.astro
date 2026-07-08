@@ -1,0 +1,49 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Section from '../../components/ui/Section.astro';
+import Card from '../../components/ui/Card.astro';
+import { Badge } from '../../components/ui/Badge';
+
+import careersData from '../../data/careers.json';
+---
+
+<Layout title="Career Intelligence | ReadRadar">
+    <Section id="careers-header" title="Career Intelligence" icon="C">
+        <p class="font-mono text-gray-400 max-w-2xl mt-4">
+            Navigate your professional journey. Discover what it takes to land a role, assess your readiness, and follow targeted learning paths to close your skill gaps.
+        </p>
+    </Section>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {careersData.map((career: any) => {
+            const readiness = career.career_readiness_score || 0;
+            const baseUrl = import.meta.env.BASE_URL;
+            const careerUrl = `${baseUrl}/careers/${career.id}`.replace(/\/\/+/g, '/');
+
+            return (
+                <Card href={careerUrl} className="group hover:border-[#10B981] flex flex-col h-full">
+                    <div class="flex flex-col mb-6">
+                        <h3 class="font-heading font-bold text-2xl text-white group-hover:text-[#10B981] transition-colors">{career.title}</h3>
+                    </div>
+                    
+                    <p class="text-gray-400 text-sm mb-6 flex-grow border-l-2 border-[#333333] pl-3">{career.description}</p>
+                    
+                    <div class="mt-auto bg-[#0A0A0A] p-4 border-2 border-[#333333] flex flex-col gap-2">
+                        <div class="flex justify-between items-center mb-1">
+                            <span class="text-xs font-mono text-gray-500">Global Graph Coverage</span>
+                            <span class="text-xs font-bold text-white">{readiness}%</span>
+                        </div>
+                        <div class="w-full bg-[#171717] h-2 rounded-full overflow-hidden">
+                            <div class="h-full bg-[#10B981]" style={`width: ${readiness}%`}></div>
+                        </div>
+                        
+                        <div class="mt-4 flex justify-between items-center w-full">
+                            <Badge variant="outline" className="text-xs">{career.required_skills.length} Required Skills</Badge>
+                            <span class="text-[#10B981] font-bold group-hover:translate-x-1 transition-transform text-sm">Analyze Role →</span>
+                        </div>
+                    </div>
+                </Card>
+            );
+        })}
+    </div>
+</Layout>
