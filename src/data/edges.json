@@ -1,0 +1,4330 @@
+[
+  {
+    "source_id": "KA-MODL-082D02",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.864698"
+  },
+  {
+    "source_id": "KA-MODL-082D02",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.038320"
+  },
+  {
+    "source_id": "KA-MODL-082D02",
+    "target_id": "KA-MODL-21A5AA",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.746814"
+  },
+  {
+    "source_id": "KA-MODL-082D02",
+    "target_id": "KA-MODL-27B94C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.754732"
+  },
+  {
+    "source_id": "KA-MODL-082D02",
+    "target_id": "KA-MODL-476B34",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.762886"
+  },
+  {
+    "source_id": "KA-MODL-082D02",
+    "target_id": "KA-MODL-50D1E7",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.35,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.769564"
+  },
+  {
+    "source_id": "KA-MODL-082D02",
+    "target_id": "KA-MODL-58E98E",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.27,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.776792"
+  },
+  {
+    "source_id": "KA-MODL-082D02",
+    "target_id": "KA-MODL-5FE6BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.3,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.782959"
+  },
+  {
+    "source_id": "KA-MODL-082D02",
+    "target_id": "KA-MODL-6F07FF",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.789040"
+  },
+  {
+    "source_id": "KA-MODL-082D02",
+    "target_id": "KA-MODL-986BB9",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.796289"
+  },
+  {
+    "source_id": "KA-MODL-082D02",
+    "target_id": "KA-MODL-9F883D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.33,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.802704"
+  },
+  {
+    "source_id": "KA-MODL-082D02",
+    "target_id": "KA-MODL-A51D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.3,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.809902"
+  },
+  {
+    "source_id": "KA-MODL-082D02",
+    "target_id": "KA-MODL-B54837",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.32,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.817791"
+  },
+  {
+    "source_id": "KA-MODL-082D02",
+    "target_id": "KA-MODL-C226BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.36,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.824866"
+  },
+  {
+    "source_id": "KA-MODL-082D02",
+    "target_id": "KA-MODL-C7D6CD",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.38,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.832333"
+  },
+  {
+    "source_id": "KA-MODL-082D02",
+    "target_id": "KA-MODL-D09891",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.16,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.839508"
+  },
+  {
+    "source_id": "KA-MODL-082D02",
+    "target_id": "KA-MODL-F1EC23",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.29,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.848269"
+  },
+  {
+    "source_id": "KA-MODL-082D02",
+    "target_id": "KA-MODL-FF7399",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.53,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.855179"
+  },
+  {
+    "source_id": "KA-MODL-17EB2B",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.868001"
+  },
+  {
+    "source_id": "KA-MODL-17EB2B",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.042247"
+  },
+  {
+    "source_id": "KA-MODL-21A5AA",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.871413"
+  },
+  {
+    "source_id": "KA-MODL-21A5AA",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.045732"
+  },
+  {
+    "source_id": "KA-MODL-21A5AA",
+    "target_id": "KA-MODL-082D02",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.746886"
+  },
+  {
+    "source_id": "KA-MODL-21A5AA",
+    "target_id": "KA-MODL-4B3CBE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.862755"
+  },
+  {
+    "source_id": "KA-MODL-21A5AA",
+    "target_id": "KA-MODL-50D1E7",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.22,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.869367"
+  },
+  {
+    "source_id": "KA-MODL-21A5AA",
+    "target_id": "KA-MODL-58E98E",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.876253"
+  },
+  {
+    "source_id": "KA-MODL-21A5AA",
+    "target_id": "KA-MODL-5FE6BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.883442"
+  },
+  {
+    "source_id": "KA-MODL-21A5AA",
+    "target_id": "KA-MODL-6F07FF",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.890154"
+  },
+  {
+    "source_id": "KA-MODL-21A5AA",
+    "target_id": "KA-MODL-986BB9",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.22,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.897510"
+  },
+  {
+    "source_id": "KA-MODL-21A5AA",
+    "target_id": "KA-MODL-9F883D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.903741"
+  },
+  {
+    "source_id": "KA-MODL-21A5AA",
+    "target_id": "KA-MODL-A51D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.910475"
+  },
+  {
+    "source_id": "KA-MODL-21A5AA",
+    "target_id": "KA-MODL-C226BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.916794"
+  },
+  {
+    "source_id": "KA-MODL-21A5AA",
+    "target_id": "KA-MODL-C7D6CD",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.2,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.923284"
+  },
+  {
+    "source_id": "KA-MODL-21A5AA",
+    "target_id": "KA-MODL-F1EC23",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.29,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.930751"
+  },
+  {
+    "source_id": "KA-MODL-21A5AA",
+    "target_id": "KA-MODL-FF7399",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.31,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.937360"
+  },
+  {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.875409"
+  },
+  {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.048853"
+  },
+  {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-MODL-082D02",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.754756"
+  },
+  {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-MODL-2D3F0F",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.945815"
+  },
+  {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-MODL-476B34",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.952913"
+  },
+  {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-MODL-50D1E7",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.960827"
+  },
+  {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-MODL-58E98E",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.78,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.967361"
+  },
+  {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-MODL-5FE6BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.974243"
+  },
+  {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-MODL-6F07FF",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.981234"
+  },
+  {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-MODL-986BB9",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.989472"
+  },
+  {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-MODL-9F883D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.33,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.997369"
+  },
+  {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-MODL-A51D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.27,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.004908"
+  },
+  {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-MODL-B54837",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.22,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.012040"
+  },
+  {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-MODL-C226BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.018787"
+  },
+  {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-MODL-C7D6CD",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.025291"
+  },
+  {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-MODL-D09891",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.032353"
+  },
+  {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-MODL-F1EC23",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.038776"
+  },
+  {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-MODL-FF7399",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.26,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.045729"
+  },
+  {
+    "source_id": "KA-MODL-2D3F0F",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.052085"
+  },
+  {
+    "source_id": "KA-MODL-2D3F0F",
+    "target_id": "KA-MODL-27B94C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.945840"
+  },
+  {
+    "source_id": "KA-MODL-2D3F0F",
+    "target_id": "KA-MODL-476B34",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.16,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.052281"
+  },
+  {
+    "source_id": "KA-MODL-2D3F0F",
+    "target_id": "KA-MODL-5FE6BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.059459"
+  },
+  {
+    "source_id": "KA-MODL-2D3F0F",
+    "target_id": "KA-MODL-A51D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.2,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.066939"
+  },
+  {
+    "source_id": "KA-MODL-2D3F0F",
+    "target_id": "KA-MODL-B54837",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.073266"
+  },
+  {
+    "source_id": "KA-MODL-2D3F0F",
+    "target_id": "KA-MODL-C7D6CD",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.16,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.080448"
+  },
+  {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.880497"
+  },
+  {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.055349"
+  },
+  {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-MODL-082D02",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.762908"
+  },
+  {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-MODL-27B94C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.952934"
+  },
+  {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-MODL-2D3F0F",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.16,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.052304"
+  },
+  {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-MODL-4B3CBE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.086707"
+  },
+  {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-MODL-50D1E7",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.093938"
+  },
+  {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-MODL-58E98E",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.2,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.100492"
+  },
+  {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-MODL-6F07FF",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.107150"
+  },
+  {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-MODL-986BB9",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.114721"
+  },
+  {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-MODL-9F883D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.122056"
+  },
+  {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-MODL-A51D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.130275"
+  },
+  {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-MODL-B54837",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.137782"
+  },
+  {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-MODL-C226BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.145856"
+  },
+  {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-MODL-C7D6CD",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.152363"
+  },
+  {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-MODL-D09891",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.160196"
+  },
+  {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-MODL-F1EC23",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.167263"
+  },
+  {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-MODL-FF7399",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.2,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.174362"
+  },
+  {
+    "source_id": "KA-MODL-4B3CBE",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.059509"
+  },
+  {
+    "source_id": "KA-MODL-4B3CBE",
+    "target_id": "KA-MODL-21A5AA",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.862775"
+  },
+  {
+    "source_id": "KA-MODL-4B3CBE",
+    "target_id": "KA-MODL-476B34",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.086728"
+  },
+  {
+    "source_id": "KA-MODL-4B3CBE",
+    "target_id": "KA-MODL-6F07FF",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.182389"
+  },
+  {
+    "source_id": "KA-MODL-4B3CBE",
+    "target_id": "KA-MODL-986BB9",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.190202"
+  },
+  {
+    "source_id": "KA-MODL-4B3CBE",
+    "target_id": "KA-MODL-9F883D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.197974"
+  },
+  {
+    "source_id": "KA-MODL-4B3CBE",
+    "target_id": "KA-MODL-C226BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.204361"
+  },
+  {
+    "source_id": "KA-MODL-4B3CBE",
+    "target_id": "KA-MODL-F1EC23",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.211449"
+  },
+  {
+    "source_id": "KA-MODL-4B3CBE",
+    "target_id": "KA-MODL-FF7399",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.2,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.218504"
+  },
+  {
+    "source_id": "KA-MODL-50D1E7",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.884060"
+  },
+  {
+    "source_id": "KA-MODL-50D1E7",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.063073"
+  },
+  {
+    "source_id": "KA-MODL-50D1E7",
+    "target_id": "KA-MODL-082D02",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.35,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.769587"
+  },
+  {
+    "source_id": "KA-MODL-50D1E7",
+    "target_id": "KA-MODL-21A5AA",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.22,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.869388"
+  },
+  {
+    "source_id": "KA-MODL-50D1E7",
+    "target_id": "KA-MODL-27B94C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.960850"
+  },
+  {
+    "source_id": "KA-MODL-50D1E7",
+    "target_id": "KA-MODL-476B34",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.093974"
+  },
+  {
+    "source_id": "KA-MODL-50D1E7",
+    "target_id": "KA-MODL-58E98E",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.28,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.225854"
+  },
+  {
+    "source_id": "KA-MODL-50D1E7",
+    "target_id": "KA-MODL-5FE6BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.232342"
+  },
+  {
+    "source_id": "KA-MODL-50D1E7",
+    "target_id": "KA-MODL-6F07FF",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.29,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.238408"
+  },
+  {
+    "source_id": "KA-MODL-50D1E7",
+    "target_id": "KA-MODL-986BB9",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.245403"
+  },
+  {
+    "source_id": "KA-MODL-50D1E7",
+    "target_id": "KA-MODL-9F883D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.35,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.251600"
+  },
+  {
+    "source_id": "KA-MODL-50D1E7",
+    "target_id": "KA-MODL-A51D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.53,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.258170"
+  },
+  {
+    "source_id": "KA-MODL-50D1E7",
+    "target_id": "KA-MODL-B54837",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.29,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.266569"
+  },
+  {
+    "source_id": "KA-MODL-50D1E7",
+    "target_id": "KA-MODL-C226BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.32,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.273516"
+  },
+  {
+    "source_id": "KA-MODL-50D1E7",
+    "target_id": "KA-MODL-C7D6CD",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.4,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.280751"
+  },
+  {
+    "source_id": "KA-MODL-50D1E7",
+    "target_id": "KA-MODL-D09891",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.288122"
+  },
+  {
+    "source_id": "KA-MODL-50D1E7",
+    "target_id": "KA-MODL-F1EC23",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.3,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.294889"
+  },
+  {
+    "source_id": "KA-MODL-50D1E7",
+    "target_id": "KA-MODL-FF7399",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.39,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.301594"
+  },
+  {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.887505"
+  },
+  {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.066487"
+  },
+  {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-MODL-082D02",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.27,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.776813"
+  },
+  {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-MODL-21A5AA",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.876276"
+  },
+  {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-MODL-27B94C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.78,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.967382"
+  },
+  {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-MODL-476B34",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.2,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.100513"
+  },
+  {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-MODL-50D1E7",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.28,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.225882"
+  },
+  {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-MODL-5FE6BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.308839"
+  },
+  {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-MODL-6F07FF",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.316175"
+  },
+  {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-MODL-986BB9",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.28,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.324347"
+  },
+  {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-MODL-9F883D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.37,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.331267"
+  },
+  {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-MODL-A51D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.338246"
+  },
+  {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-MODL-B54837",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.345281"
+  },
+  {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-MODL-C226BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.352976"
+  },
+  {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-MODL-C7D6CD",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.26,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.360367"
+  },
+  {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-MODL-D09891",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.367905"
+  },
+  {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-MODL-F1EC23",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.28,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.375232"
+  },
+  {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-MODL-FF7399",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.29,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.383211"
+  },
+  {
+    "source_id": "KA-MODL-5FE6BC",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.891219"
+  },
+  {
+    "source_id": "KA-MODL-5FE6BC",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.069779"
+  },
+  {
+    "source_id": "KA-MODL-5FE6BC",
+    "target_id": "KA-MODL-082D02",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.3,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.782982"
+  },
+  {
+    "source_id": "KA-MODL-5FE6BC",
+    "target_id": "KA-MODL-21A5AA",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.883465"
+  },
+  {
+    "source_id": "KA-MODL-5FE6BC",
+    "target_id": "KA-MODL-27B94C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.974265"
+  },
+  {
+    "source_id": "KA-MODL-5FE6BC",
+    "target_id": "KA-MODL-2D3F0F",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.059498"
+  },
+  {
+    "source_id": "KA-MODL-5FE6BC",
+    "target_id": "KA-MODL-50D1E7",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.232363"
+  },
+  {
+    "source_id": "KA-MODL-5FE6BC",
+    "target_id": "KA-MODL-58E98E",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.308868"
+  },
+  {
+    "source_id": "KA-MODL-5FE6BC",
+    "target_id": "KA-MODL-6F07FF",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.390121"
+  },
+  {
+    "source_id": "KA-MODL-5FE6BC",
+    "target_id": "KA-MODL-986BB9",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.396973"
+  },
+  {
+    "source_id": "KA-MODL-5FE6BC",
+    "target_id": "KA-MODL-9F883D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.26,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.403206"
+  },
+  {
+    "source_id": "KA-MODL-5FE6BC",
+    "target_id": "KA-MODL-A51D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.28,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.411466"
+  },
+  {
+    "source_id": "KA-MODL-5FE6BC",
+    "target_id": "KA-MODL-B54837",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.22,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.418040"
+  },
+  {
+    "source_id": "KA-MODL-5FE6BC",
+    "target_id": "KA-MODL-C226BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.28,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.424615"
+  },
+  {
+    "source_id": "KA-MODL-5FE6BC",
+    "target_id": "KA-MODL-C7D6CD",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.29,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.432350"
+  },
+  {
+    "source_id": "KA-MODL-5FE6BC",
+    "target_id": "KA-MODL-F1EC23",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.26,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.440139"
+  },
+  {
+    "source_id": "KA-MODL-5FE6BC",
+    "target_id": "KA-MODL-FF7399",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.33,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.449281"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-COLL-64C474",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.236258"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.895126"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.073275"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-MODL-082D02",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.789062"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-MODL-21A5AA",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.890175"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-MODL-27B94C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.981260"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-MODL-476B34",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.107172"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-MODL-4B3CBE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.182428"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-MODL-50D1E7",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.29,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.238430"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-MODL-58E98E",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.316210"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-MODL-5FE6BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.390161"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-MODL-986BB9",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.456341"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-MODL-9F883D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.38,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.463260"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-MODL-A51D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.470062"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-MODL-B54837",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.478108"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-MODL-C226BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.26,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.484795"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-MODL-C7D6CD",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.27,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.491419"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-MODL-D09891",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.499497"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-MODL-F1EC23",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.35,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.506263"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-MODL-FF7399",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.3,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.514585"
+  },
+  {
+    "source_id": "KA-MODL-8F9B3D",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.898609"
+  },
+  {
+    "source_id": "KA-MODL-8F9B3D",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.077267"
+  },
+  {
+    "source_id": "KA-MODL-8F9B3D",
+    "target_id": "KA-MODL-A51D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.16,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.521695"
+  },
+  {
+    "source_id": "KA-MODL-8F9B3D",
+    "target_id": "KA-MODL-C7D6CD",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.16,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.529556"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.901745"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.080647"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-MODL-082D02",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.796308"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-MODL-21A5AA",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.22,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.897530"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-MODL-27B94C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.989495"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-MODL-476B34",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.114743"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-MODL-4B3CBE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.190229"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-MODL-50D1E7",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.245424"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-MODL-58E98E",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.28,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.324389"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-MODL-5FE6BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.396994"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-MODL-6F07FF",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.456364"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-MODL-9F883D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.536738"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-MODL-A51D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.545290"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-MODL-B54837",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.16,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.552378"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-MODL-C226BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.26,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.559673"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-MODL-C7D6CD",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.27,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.567018"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-MODL-F1EC23",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.3,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.574628"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-MODL-FF7399",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.32,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.584230"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.905112"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.083909"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-MODL-082D02",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.33,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.802723"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-MODL-21A5AA",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.903761"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-MODL-27B94C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.33,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.997394"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-MODL-476B34",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.122083"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-MODL-4B3CBE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.197997"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-MODL-50D1E7",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.35,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.251625"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-MODL-58E98E",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.37,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.331286"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-MODL-5FE6BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.26,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.403229"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-MODL-6F07FF",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.38,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.463284"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-MODL-986BB9",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.536760"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-MODL-A51D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.26,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.594942"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-MODL-B54837",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.28,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.603331"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-MODL-C226BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.31,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.611064"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-MODL-C7D6CD",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.32,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.618078"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-MODL-D09891",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.625132"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-MODL-F1EC23",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.41,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.632642"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-MODL-FF7399",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.36,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.639539"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.908864"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.087321"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-MODL-082D02",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.3,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.809936"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-MODL-21A5AA",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.910493"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-MODL-27B94C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.27,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.004931"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-MODL-2D3F0F",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.2,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.066961"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-MODL-476B34",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.130304"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-MODL-50D1E7",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.53,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.258192"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-MODL-58E98E",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.338267"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-MODL-5FE6BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.28,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.411491"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-MODL-6F07FF",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.470083"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-MODL-8F9B3D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.16,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.521716"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-MODL-986BB9",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.545314"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-MODL-9F883D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.26,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.594978"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-MODL-B54837",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.26,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.647726"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-MODL-C226BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.33,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.654800"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-MODL-C7D6CD",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.41,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.662816"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-MODL-D09891",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.22,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.669777"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-MODL-F1EC23",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.26,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.677047"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-MODL-FF7399",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.33,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.683800"
+  },
+  {
+    "source_id": "KA-MODL-AAC97E",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.091628"
+  },
+  {
+    "source_id": "KA-MODL-AAC97E",
+    "target_id": "KA-MODL-D09891",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.691040"
+  },
+  {
+    "source_id": "KA-MODL-B54837",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.912557"
+  },
+  {
+    "source_id": "KA-MODL-B54837",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.095510"
+  },
+  {
+    "source_id": "KA-MODL-B54837",
+    "target_id": "KA-MODL-082D02",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.32,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.817814"
+  },
+  {
+    "source_id": "KA-MODL-B54837",
+    "target_id": "KA-MODL-27B94C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.22,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.012068"
+  },
+  {
+    "source_id": "KA-MODL-B54837",
+    "target_id": "KA-MODL-2D3F0F",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.073288"
+  },
+  {
+    "source_id": "KA-MODL-B54837",
+    "target_id": "KA-MODL-476B34",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.137808"
+  },
+  {
+    "source_id": "KA-MODL-B54837",
+    "target_id": "KA-MODL-50D1E7",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.29,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.266593"
+  },
+  {
+    "source_id": "KA-MODL-B54837",
+    "target_id": "KA-MODL-58E98E",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.345301"
+  },
+  {
+    "source_id": "KA-MODL-B54837",
+    "target_id": "KA-MODL-5FE6BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.22,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.418061"
+  },
+  {
+    "source_id": "KA-MODL-B54837",
+    "target_id": "KA-MODL-6F07FF",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.478131"
+  },
+  {
+    "source_id": "KA-MODL-B54837",
+    "target_id": "KA-MODL-986BB9",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.16,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.552399"
+  },
+  {
+    "source_id": "KA-MODL-B54837",
+    "target_id": "KA-MODL-9F883D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.28,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.603356"
+  },
+  {
+    "source_id": "KA-MODL-B54837",
+    "target_id": "KA-MODL-A51D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.26,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.647749"
+  },
+  {
+    "source_id": "KA-MODL-B54837",
+    "target_id": "KA-MODL-C226BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.26,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.698624"
+  },
+  {
+    "source_id": "KA-MODL-B54837",
+    "target_id": "KA-MODL-C7D6CD",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.31,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.705895"
+  },
+  {
+    "source_id": "KA-MODL-B54837",
+    "target_id": "KA-MODL-F1EC23",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.713242"
+  },
+  {
+    "source_id": "KA-MODL-B54837",
+    "target_id": "KA-MODL-FF7399",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.3,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.720933"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.915811"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.098996"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-MODL-082D02",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.36,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.824892"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-MODL-21A5AA",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.916814"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-MODL-27B94C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.018809"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-MODL-476B34",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.145880"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-MODL-4B3CBE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.204384"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-MODL-50D1E7",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.32,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.273539"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-MODL-58E98E",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.352999"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-MODL-5FE6BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.28,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.424637"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-MODL-6F07FF",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.26,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.484816"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-MODL-986BB9",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.26,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.559714"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-MODL-9F883D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.31,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.611104"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-MODL-A51D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.33,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.654827"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-MODL-B54837",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.26,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.698648"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-MODL-C7D6CD",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.35,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.728983"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-MODL-D09891",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.736166"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-MODL-F1EC23",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.32,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.743969"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-MODL-FF7399",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.47,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.751077"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.919185"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.102426"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-MODL-082D02",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.38,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.832355"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-MODL-21A5AA",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.2,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.923307"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-MODL-27B94C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.025315"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-MODL-2D3F0F",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.16,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.080470"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-MODL-476B34",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.152385"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-MODL-50D1E7",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.4,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.280773"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-MODL-58E98E",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.26,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.360393"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-MODL-5FE6BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.29,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.432377"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-MODL-6F07FF",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.27,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.491443"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-MODL-8F9B3D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.16,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.529576"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-MODL-986BB9",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.27,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.567043"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-MODL-9F883D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.32,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.618103"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-MODL-A51D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.41,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.662859"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-MODL-B54837",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.31,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.705919"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-MODL-C226BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.35,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.729005"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-MODL-D09891",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.758135"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-MODL-F1EC23",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.27,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.765093"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-MODL-FF7399",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.5,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.771575"
+  },
+  {
+    "source_id": "KA-MODL-D09891",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.105871"
+  },
+  {
+    "source_id": "KA-MODL-D09891",
+    "target_id": "KA-MODL-082D02",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.16,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.839531"
+  },
+  {
+    "source_id": "KA-MODL-D09891",
+    "target_id": "KA-MODL-27B94C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.032378"
+  },
+  {
+    "source_id": "KA-MODL-D09891",
+    "target_id": "KA-MODL-476B34",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.160249"
+  },
+  {
+    "source_id": "KA-MODL-D09891",
+    "target_id": "KA-MODL-50D1E7",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.288142"
+  },
+  {
+    "source_id": "KA-MODL-D09891",
+    "target_id": "KA-MODL-58E98E",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.367928"
+  },
+  {
+    "source_id": "KA-MODL-D09891",
+    "target_id": "KA-MODL-6F07FF",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.499532"
+  },
+  {
+    "source_id": "KA-MODL-D09891",
+    "target_id": "KA-MODL-9F883D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.625157"
+  },
+  {
+    "source_id": "KA-MODL-D09891",
+    "target_id": "KA-MODL-A51D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.22,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.669798"
+  },
+  {
+    "source_id": "KA-MODL-D09891",
+    "target_id": "KA-MODL-AAC97E",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.691063"
+  },
+  {
+    "source_id": "KA-MODL-D09891",
+    "target_id": "KA-MODL-C226BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.736188"
+  },
+  {
+    "source_id": "KA-MODL-D09891",
+    "target_id": "KA-MODL-C7D6CD",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.758156"
+  },
+  {
+    "source_id": "KA-MODL-D09891",
+    "target_id": "KA-MODL-F1EC23",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.16,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.779129"
+  },
+  {
+    "source_id": "KA-MODL-D09891",
+    "target_id": "KA-MODL-FF7399",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.786032"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.922326"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.109639"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-MODL-082D02",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.29,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.848293"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-MODL-21A5AA",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.29,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.930771"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-MODL-27B94C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.038796"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-MODL-476B34",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.167286"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-MODL-4B3CBE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.211471"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-MODL-50D1E7",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.3,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.294913"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-MODL-58E98E",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.28,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.375277"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-MODL-5FE6BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.26,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.440171"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-MODL-6F07FF",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.35,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.506284"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-MODL-986BB9",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.3,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.574664"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-MODL-9F883D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.41,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.632667"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-MODL-A51D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.26,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.677071"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-MODL-B54837",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.713268"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-MODL-C226BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.32,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.743990"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-MODL-C7D6CD",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.27,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.765112"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-MODL-D09891",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.16,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.779153"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-MODL-FF7399",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.32,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.793542"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.926160"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.112972"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-MODL-082D02",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.53,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.855202"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-MODL-21A5AA",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.31,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:19.937384"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-MODL-27B94C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.26,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.045749"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-MODL-476B34",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.2,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.174386"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-MODL-4B3CBE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.2,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.218525"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-MODL-50D1E7",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.39,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.301619"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-MODL-58E98E",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.29,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.383238"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-MODL-5FE6BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.33,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.449303"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-MODL-6F07FF",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.3,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.514609"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-MODL-986BB9",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.32,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.584257"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-MODL-9F883D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.36,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.639567"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-MODL-A51D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.33,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.683824"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-MODL-B54837",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.3,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.720958"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-MODL-C226BC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.47,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.751096"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-MODL-C7D6CD",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.5,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.771597"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-MODL-D09891",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.786054"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-MODL-F1EC23",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.32,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.793564"
+  },
+  {
+    "source_id": "KA-PAPR-05ADEB",
+    "target_id": "KA-COLL-64C474",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.240204"
+  },
+  {
+    "source_id": "KA-PAPR-05ADEB",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.116352"
+  },
+  {
+    "source_id": "KA-PAPR-05ADEB",
+    "target_id": "KA-PAPR-8B1077",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.800925"
+  },
+  {
+    "source_id": "KA-PAPR-05ADEB",
+    "target_id": "KA-PAPR-B591B8",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.807809"
+  },
+  {
+    "source_id": "KA-PAPR-0F3D5D",
+    "target_id": "KA-COLL-011085",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.987546"
+  },
+  {
+    "source_id": "KA-PAPR-0F3D5D",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.929484"
+  },
+  {
+    "source_id": "KA-PAPR-0F3D5D",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.119915"
+  },
+  {
+    "source_id": "KA-PAPR-0F3D5D",
+    "target_id": "KA-PAPR-364659",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.815364"
+  },
+  {
+    "source_id": "KA-PAPR-0F3D5D",
+    "target_id": "KA-PAPR-39E2A0",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.822941"
+  },
+  {
+    "source_id": "KA-PAPR-0F3D5D",
+    "target_id": "KA-PAPR-574207",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.830997"
+  },
+  {
+    "source_id": "KA-PAPR-0F3D5D",
+    "target_id": "KA-PAPR-686507",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.837694"
+  },
+  {
+    "source_id": "KA-PAPR-0F3D5D",
+    "target_id": "KA-PAPR-8585CC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.845198"
+  },
+  {
+    "source_id": "KA-PAPR-0F3D5D",
+    "target_id": "KA-PAPR-8AE9CE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.851790"
+  },
+  {
+    "source_id": "KA-PAPR-0F3D5D",
+    "target_id": "KA-PAPR-D33E00",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.859121"
+  },
+  {
+    "source_id": "KA-PAPR-1340C5",
+    "target_id": "KA-PAPR-364659",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.865909"
+  },
+  {
+    "source_id": "KA-PAPR-1340C5",
+    "target_id": "KA-PAPR-39E2A0",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.872702"
+  },
+  {
+    "source_id": "KA-PAPR-1340C5",
+    "target_id": "KA-PAPR-3B444C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.880621"
+  },
+  {
+    "source_id": "KA-PAPR-1340C5",
+    "target_id": "KA-PAPR-8585CC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.887323"
+  },
+  {
+    "source_id": "KA-PAPR-1340C5",
+    "target_id": "KA-PAPR-D33E00",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.895279"
+  },
+  {
+    "source_id": "KA-PAPR-1340C5",
+    "target_id": "KA-PAPR-DC00CE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.38,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.902255"
+  },
+  {
+    "source_id": "KA-PAPR-227F5A",
+    "target_id": "KA-PAPR-C37580",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.910761"
+  },
+  {
+    "source_id": "KA-PAPR-227F5A",
+    "target_id": "KA-PAPR-F5F9C0",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.917837"
+  },
+  {
+    "source_id": "KA-PAPR-364659",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.123569"
+  },
+  {
+    "source_id": "KA-PAPR-364659",
+    "target_id": "KA-PAPR-0F3D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.815385"
+  },
+  {
+    "source_id": "KA-PAPR-364659",
+    "target_id": "KA-PAPR-1340C5",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.865949"
+  },
+  {
+    "source_id": "KA-PAPR-364659",
+    "target_id": "KA-PAPR-39E2A0",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.38,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.924728"
+  },
+  {
+    "source_id": "KA-PAPR-364659",
+    "target_id": "KA-PAPR-3B444C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.931885"
+  },
+  {
+    "source_id": "KA-PAPR-364659",
+    "target_id": "KA-PAPR-574207",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.938442"
+  },
+  {
+    "source_id": "KA-PAPR-364659",
+    "target_id": "KA-PAPR-5C6742",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.946351"
+  },
+  {
+    "source_id": "KA-PAPR-364659",
+    "target_id": "KA-PAPR-686507",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.31,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.953547"
+  },
+  {
+    "source_id": "KA-PAPR-364659",
+    "target_id": "KA-PAPR-8585CC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.29,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.961775"
+  },
+  {
+    "source_id": "KA-PAPR-364659",
+    "target_id": "KA-PAPR-8AE9CE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.4,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.968517"
+  },
+  {
+    "source_id": "KA-PAPR-364659",
+    "target_id": "KA-PAPR-8B1077",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.975814"
+  },
+  {
+    "source_id": "KA-PAPR-364659",
+    "target_id": "KA-PAPR-C89F80",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.983045"
+  },
+  {
+    "source_id": "KA-PAPR-364659",
+    "target_id": "KA-PAPR-D33E00",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.38,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.990339"
+  },
+  {
+    "source_id": "KA-PAPR-364659",
+    "target_id": "KA-PAPR-DC00CE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.997765"
+  },
+  {
+    "source_id": "KA-PAPR-364659",
+    "target_id": "KA-PAPR-F4A0DE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.005358"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-COLL-011085",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.992028"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-COLL-64C474",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.244641"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.932635"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.127906"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-PAPR-0F3D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.822963"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-PAPR-1340C5",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.872722"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-PAPR-364659",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.38,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.924748"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-PAPR-3B444C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.013402"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-PAPR-574207",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.020847"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-PAPR-5C6742",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.028344"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-PAPR-686507",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.31,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.035357"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-PAPR-8585CC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.38,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.042742"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-PAPR-8AE9CE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.31,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.050378"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-PAPR-8B1077",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.057578"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-PAPR-C89F80",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.065508"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-PAPR-D33E00",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.38,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.072770"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-PAPR-DC00CE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.080355"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-PAPR-F4A0DE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.087691"
+  },
+  {
+    "source_id": "KA-PAPR-3B444C",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.131593"
+  },
+  {
+    "source_id": "KA-PAPR-3B444C",
+    "target_id": "KA-PAPR-1340C5",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.880642"
+  },
+  {
+    "source_id": "KA-PAPR-3B444C",
+    "target_id": "KA-PAPR-364659",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.931905"
+  },
+  {
+    "source_id": "KA-PAPR-3B444C",
+    "target_id": "KA-PAPR-39E2A0",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.013429"
+  },
+  {
+    "source_id": "KA-PAPR-3B444C",
+    "target_id": "KA-PAPR-686507",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.094461"
+  },
+  {
+    "source_id": "KA-PAPR-3B444C",
+    "target_id": "KA-PAPR-8585CC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.100910"
+  },
+  {
+    "source_id": "KA-PAPR-3B444C",
+    "target_id": "KA-PAPR-8AE9CE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.107491"
+  },
+  {
+    "source_id": "KA-PAPR-3B444C",
+    "target_id": "KA-PAPR-8B1077",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.36,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.114200"
+  },
+  {
+    "source_id": "KA-PAPR-3B444C",
+    "target_id": "KA-PAPR-D33E00",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.120828"
+  },
+  {
+    "source_id": "KA-PAPR-3B444C",
+    "target_id": "KA-PAPR-DC00CE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.128069"
+  },
+  {
+    "source_id": "KA-PAPR-574207",
+    "target_id": "KA-PAPR-0F3D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.831018"
+  },
+  {
+    "source_id": "KA-PAPR-574207",
+    "target_id": "KA-PAPR-364659",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.938466"
+  },
+  {
+    "source_id": "KA-PAPR-574207",
+    "target_id": "KA-PAPR-39E2A0",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.020870"
+  },
+  {
+    "source_id": "KA-PAPR-574207",
+    "target_id": "KA-PAPR-5C6742",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.135154"
+  },
+  {
+    "source_id": "KA-PAPR-574207",
+    "target_id": "KA-PAPR-686507",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.2,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.141644"
+  },
+  {
+    "source_id": "KA-PAPR-5C6742",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.935745"
+  },
+  {
+    "source_id": "KA-PAPR-5C6742",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.135396"
+  },
+  {
+    "source_id": "KA-PAPR-5C6742",
+    "target_id": "KA-PAPR-364659",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.946374"
+  },
+  {
+    "source_id": "KA-PAPR-5C6742",
+    "target_id": "KA-PAPR-39E2A0",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.028367"
+  },
+  {
+    "source_id": "KA-PAPR-5C6742",
+    "target_id": "KA-PAPR-574207",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.135173"
+  },
+  {
+    "source_id": "KA-PAPR-5C6742",
+    "target_id": "KA-PAPR-686507",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.149791"
+  },
+  {
+    "source_id": "KA-PAPR-67A73B",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.938664"
+  },
+  {
+    "source_id": "KA-PAPR-686507",
+    "target_id": "KA-COLL-64C474",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.249173"
+  },
+  {
+    "source_id": "KA-PAPR-686507",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.139015"
+  },
+  {
+    "source_id": "KA-PAPR-686507",
+    "target_id": "KA-PAPR-0F3D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.837714"
+  },
+  {
+    "source_id": "KA-PAPR-686507",
+    "target_id": "KA-PAPR-364659",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.31,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.953570"
+  },
+  {
+    "source_id": "KA-PAPR-686507",
+    "target_id": "KA-PAPR-39E2A0",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.31,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.035379"
+  },
+  {
+    "source_id": "KA-PAPR-686507",
+    "target_id": "KA-PAPR-3B444C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.094483"
+  },
+  {
+    "source_id": "KA-PAPR-686507",
+    "target_id": "KA-PAPR-574207",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.2,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.141722"
+  },
+  {
+    "source_id": "KA-PAPR-686507",
+    "target_id": "KA-PAPR-5C6742",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.149813"
+  },
+  {
+    "source_id": "KA-PAPR-686507",
+    "target_id": "KA-PAPR-8585CC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.156642"
+  },
+  {
+    "source_id": "KA-PAPR-686507",
+    "target_id": "KA-PAPR-8AE9CE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.164315"
+  },
+  {
+    "source_id": "KA-PAPR-686507",
+    "target_id": "KA-PAPR-8B1077",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.36,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.172406"
+  },
+  {
+    "source_id": "KA-PAPR-686507",
+    "target_id": "KA-PAPR-B591B8",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.179724"
+  },
+  {
+    "source_id": "KA-PAPR-686507",
+    "target_id": "KA-PAPR-C89F80",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.2,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.186418"
+  },
+  {
+    "source_id": "KA-PAPR-686507",
+    "target_id": "KA-PAPR-D33E00",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.193708"
+  },
+  {
+    "source_id": "KA-PAPR-686507",
+    "target_id": "KA-PAPR-EE9A90",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.2,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.201345"
+  },
+  {
+    "source_id": "KA-PAPR-686507",
+    "target_id": "KA-PAPR-F4A0DE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.212553"
+  },
+  {
+    "source_id": "KA-PAPR-8585CC",
+    "target_id": "KA-COLL-011085",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.995915"
+  },
+  {
+    "source_id": "KA-PAPR-8585CC",
+    "target_id": "KA-COLL-64C474",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.254615"
+  },
+  {
+    "source_id": "KA-PAPR-8585CC",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.943168"
+  },
+  {
+    "source_id": "KA-PAPR-8585CC",
+    "target_id": "KA-PAPR-0F3D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.845221"
+  },
+  {
+    "source_id": "KA-PAPR-8585CC",
+    "target_id": "KA-PAPR-1340C5",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.887342"
+  },
+  {
+    "source_id": "KA-PAPR-8585CC",
+    "target_id": "KA-PAPR-364659",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.29,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.961794"
+  },
+  {
+    "source_id": "KA-PAPR-8585CC",
+    "target_id": "KA-PAPR-39E2A0",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.38,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.042766"
+  },
+  {
+    "source_id": "KA-PAPR-8585CC",
+    "target_id": "KA-PAPR-3B444C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.100931"
+  },
+  {
+    "source_id": "KA-PAPR-8585CC",
+    "target_id": "KA-PAPR-686507",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.156689"
+  },
+  {
+    "source_id": "KA-PAPR-8585CC",
+    "target_id": "KA-PAPR-8AE9CE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.221023"
+  },
+  {
+    "source_id": "KA-PAPR-8585CC",
+    "target_id": "KA-PAPR-8B1077",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.228545"
+  },
+  {
+    "source_id": "KA-PAPR-8585CC",
+    "target_id": "KA-PAPR-D33E00",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.38,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.235721"
+  },
+  {
+    "source_id": "KA-PAPR-8585CC",
+    "target_id": "KA-PAPR-DC00CE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.244010"
+  },
+  {
+    "source_id": "KA-PAPR-8AE9CE",
+    "target_id": "KA-COLL-011085",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.999591"
+  },
+  {
+    "source_id": "KA-PAPR-8AE9CE",
+    "target_id": "KA-COLL-64C474",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.259567"
+  },
+  {
+    "source_id": "KA-PAPR-8AE9CE",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.143256"
+  },
+  {
+    "source_id": "KA-PAPR-8AE9CE",
+    "target_id": "KA-PAPR-0F3D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.851811"
+  },
+  {
+    "source_id": "KA-PAPR-8AE9CE",
+    "target_id": "KA-PAPR-364659",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.4,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.968541"
+  },
+  {
+    "source_id": "KA-PAPR-8AE9CE",
+    "target_id": "KA-PAPR-39E2A0",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.31,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.050416"
+  },
+  {
+    "source_id": "KA-PAPR-8AE9CE",
+    "target_id": "KA-PAPR-3B444C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.107513"
+  },
+  {
+    "source_id": "KA-PAPR-8AE9CE",
+    "target_id": "KA-PAPR-686507",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.164338"
+  },
+  {
+    "source_id": "KA-PAPR-8AE9CE",
+    "target_id": "KA-PAPR-8585CC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.24,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.221048"
+  },
+  {
+    "source_id": "KA-PAPR-8AE9CE",
+    "target_id": "KA-PAPR-8B1077",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.252006"
+  },
+  {
+    "source_id": "KA-PAPR-8AE9CE",
+    "target_id": "KA-PAPR-B591B8",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.259900"
+  },
+  {
+    "source_id": "KA-PAPR-8AE9CE",
+    "target_id": "KA-PAPR-C89F80",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.16,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.267109"
+  },
+  {
+    "source_id": "KA-PAPR-8AE9CE",
+    "target_id": "KA-PAPR-D33E00",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.31,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.273992"
+  },
+  {
+    "source_id": "KA-PAPR-8AE9CE",
+    "target_id": "KA-PAPR-DC00CE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.2,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.281028"
+  },
+  {
+    "source_id": "KA-PAPR-8AE9CE",
+    "target_id": "KA-PAPR-F4A0DE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.287714"
+  },
+  {
+    "source_id": "KA-PAPR-8B1077",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.146988"
+  },
+  {
+    "source_id": "KA-PAPR-8B1077",
+    "target_id": "KA-PAPR-05ADEB",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.800945"
+  },
+  {
+    "source_id": "KA-PAPR-8B1077",
+    "target_id": "KA-PAPR-364659",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.975839"
+  },
+  {
+    "source_id": "KA-PAPR-8B1077",
+    "target_id": "KA-PAPR-39E2A0",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.057601"
+  },
+  {
+    "source_id": "KA-PAPR-8B1077",
+    "target_id": "KA-PAPR-3B444C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.36,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.114227"
+  },
+  {
+    "source_id": "KA-PAPR-8B1077",
+    "target_id": "KA-PAPR-686507",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.36,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.172430"
+  },
+  {
+    "source_id": "KA-PAPR-8B1077",
+    "target_id": "KA-PAPR-8585CC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.228568"
+  },
+  {
+    "source_id": "KA-PAPR-8B1077",
+    "target_id": "KA-PAPR-8AE9CE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.252032"
+  },
+  {
+    "source_id": "KA-PAPR-8B1077",
+    "target_id": "KA-PAPR-B591B8",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.295125"
+  },
+  {
+    "source_id": "KA-PAPR-8B1077",
+    "target_id": "KA-PAPR-D33E00",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.303024"
+  },
+  {
+    "source_id": "KA-PAPR-8B1077",
+    "target_id": "KA-PAPR-F4A0DE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.309694"
+  },
+  {
+    "source_id": "KA-PAPR-B591B8",
+    "target_id": "KA-COLL-011085",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.003627"
+  },
+  {
+    "source_id": "KA-PAPR-B591B8",
+    "target_id": "KA-COLL-21F553",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.209981"
+  },
+  {
+    "source_id": "KA-PAPR-B591B8",
+    "target_id": "KA-COLL-64C474",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.263685"
+  },
+  {
+    "source_id": "KA-PAPR-B591B8",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.946508"
+  },
+  {
+    "source_id": "KA-PAPR-B591B8",
+    "target_id": "KA-PAPR-05ADEB",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.807832"
+  },
+  {
+    "source_id": "KA-PAPR-B591B8",
+    "target_id": "KA-PAPR-686507",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.179747"
+  },
+  {
+    "source_id": "KA-PAPR-B591B8",
+    "target_id": "KA-PAPR-8AE9CE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.259925"
+  },
+  {
+    "source_id": "KA-PAPR-B591B8",
+    "target_id": "KA-PAPR-8B1077",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.295148"
+  },
+  {
+    "source_id": "KA-PAPR-B591B8",
+    "target_id": "KA-PAPR-DC00CE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.317365"
+  },
+  {
+    "source_id": "KA-PAPR-B591B8",
+    "target_id": "KA-PAPR-F4A0DE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.324365"
+  },
+  {
+    "source_id": "KA-PAPR-C37580",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.150755"
+  },
+  {
+    "source_id": "KA-PAPR-C37580",
+    "target_id": "KA-PAPR-227F5A",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.910782"
+  },
+  {
+    "source_id": "KA-PAPR-C89F80",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.949832"
+  },
+  {
+    "source_id": "KA-PAPR-C89F80",
+    "target_id": "KA-PAPR-364659",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.983069"
+  },
+  {
+    "source_id": "KA-PAPR-C89F80",
+    "target_id": "KA-PAPR-39E2A0",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.065532"
+  },
+  {
+    "source_id": "KA-PAPR-C89F80",
+    "target_id": "KA-PAPR-686507",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.2,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.186440"
+  },
+  {
+    "source_id": "KA-PAPR-C89F80",
+    "target_id": "KA-PAPR-8AE9CE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.16,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.267133"
+  },
+  {
+    "source_id": "KA-PAPR-C89F80",
+    "target_id": "KA-PAPR-F4A0DE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.332923"
+  },
+  {
+    "source_id": "KA-PAPR-D33E00",
+    "target_id": "KA-COLL-011085",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.007848"
+  },
+  {
+    "source_id": "KA-PAPR-D33E00",
+    "target_id": "KA-COLL-64C474",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.267952"
+  },
+  {
+    "source_id": "KA-PAPR-D33E00",
+    "target_id": "KA-PAPR-0F3D5D",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.859156"
+  },
+  {
+    "source_id": "KA-PAPR-D33E00",
+    "target_id": "KA-PAPR-1340C5",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.895301"
+  },
+  {
+    "source_id": "KA-PAPR-D33E00",
+    "target_id": "KA-PAPR-364659",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.38,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.990364"
+  },
+  {
+    "source_id": "KA-PAPR-D33E00",
+    "target_id": "KA-PAPR-39E2A0",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.38,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.072794"
+  },
+  {
+    "source_id": "KA-PAPR-D33E00",
+    "target_id": "KA-PAPR-3B444C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.120850"
+  },
+  {
+    "source_id": "KA-PAPR-D33E00",
+    "target_id": "KA-PAPR-686507",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.193732"
+  },
+  {
+    "source_id": "KA-PAPR-D33E00",
+    "target_id": "KA-PAPR-8585CC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.38,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.235743"
+  },
+  {
+    "source_id": "KA-PAPR-D33E00",
+    "target_id": "KA-PAPR-8AE9CE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.31,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.274014"
+  },
+  {
+    "source_id": "KA-PAPR-D33E00",
+    "target_id": "KA-PAPR-8B1077",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.303046"
+  },
+  {
+    "source_id": "KA-PAPR-D33E00",
+    "target_id": "KA-PAPR-DC00CE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.340212"
+  },
+  {
+    "source_id": "KA-PAPR-DC00CE",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.154608"
+  },
+  {
+    "source_id": "KA-PAPR-DC00CE",
+    "target_id": "KA-PAPR-1340C5",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.38,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.902288"
+  },
+  {
+    "source_id": "KA-PAPR-DC00CE",
+    "target_id": "KA-PAPR-364659",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.997790"
+  },
+  {
+    "source_id": "KA-PAPR-DC00CE",
+    "target_id": "KA-PAPR-39E2A0",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.080379"
+  },
+  {
+    "source_id": "KA-PAPR-DC00CE",
+    "target_id": "KA-PAPR-3B444C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.128089"
+  },
+  {
+    "source_id": "KA-PAPR-DC00CE",
+    "target_id": "KA-PAPR-8585CC",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.244053"
+  },
+  {
+    "source_id": "KA-PAPR-DC00CE",
+    "target_id": "KA-PAPR-8AE9CE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.2,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.281049"
+  },
+  {
+    "source_id": "KA-PAPR-DC00CE",
+    "target_id": "KA-PAPR-B591B8",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.18,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.317389"
+  },
+  {
+    "source_id": "KA-PAPR-DC00CE",
+    "target_id": "KA-PAPR-D33E00",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.15,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.340235"
+  },
+  {
+    "source_id": "KA-PAPR-EC0918",
+    "target_id": "KA-COLL-21F553",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.214004"
+  },
+  {
+    "source_id": "KA-PAPR-EC0918",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.953206"
+  },
+  {
+    "source_id": "KA-PAPR-EC0918",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.159474"
+  },
+  {
+    "source_id": "KA-PAPR-EE9A90",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.163501"
+  },
+  {
+    "source_id": "KA-PAPR-EE9A90",
+    "target_id": "KA-PAPR-686507",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.2,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.201384"
+  },
+  {
+    "source_id": "KA-PAPR-F4A0DE",
+    "target_id": "KA-PAPR-364659",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.005384"
+  },
+  {
+    "source_id": "KA-PAPR-F4A0DE",
+    "target_id": "KA-PAPR-39E2A0",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.23,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.087713"
+  },
+  {
+    "source_id": "KA-PAPR-F4A0DE",
+    "target_id": "KA-PAPR-686507",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.25,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.212579"
+  },
+  {
+    "source_id": "KA-PAPR-F4A0DE",
+    "target_id": "KA-PAPR-8AE9CE",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.19,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.287734"
+  },
+  {
+    "source_id": "KA-PAPR-F4A0DE",
+    "target_id": "KA-PAPR-8B1077",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.309716"
+  },
+  {
+    "source_id": "KA-PAPR-F4A0DE",
+    "target_id": "KA-PAPR-B591B8",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.324403"
+  },
+  {
+    "source_id": "KA-PAPR-F4A0DE",
+    "target_id": "KA-PAPR-C89F80",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.21,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.332949"
+  },
+  {
+    "source_id": "KA-PAPR-F5F9C0",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.956763"
+  },
+  {
+    "source_id": "KA-PAPR-F5F9C0",
+    "target_id": "KA-PAPR-227F5A",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 0.17,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:20.917859"
+  },
+  {
+    "source_id": "KA-REPO-213926",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.167399"
+  },
+  {
+    "source_id": "KA-REPO-375A37",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.960751"
+  },
+  {
+    "source_id": "KA-REPO-39C495",
+    "target_id": "KA-COLL-011085",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.011752"
+  },
+  {
+    "source_id": "KA-REPO-3BC35A",
+    "target_id": "KA-COLL-21F553",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.217493"
+  },
+  {
+    "source_id": "KA-REPO-609634",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.964476"
+  },
+  {
+    "source_id": "KA-REPO-621FA3",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.967844"
+  },
+  {
+    "source_id": "KA-REPO-63F1FB",
+    "target_id": "KA-COLL-011085",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.015008"
+  },
+  {
+    "source_id": "KA-REPO-63F1FB",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.971376"
+  },
+  {
+    "source_id": "KA-REPO-63F1FB",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.171777"
+  },
+  {
+    "source_id": "KA-REPO-68E04C",
+    "target_id": "KA-COLL-011085",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.017977"
+  },
+  {
+    "source_id": "KA-REPO-7C7AF9",
+    "target_id": "KA-COLL-21F553",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.221368"
+  },
+  {
+    "source_id": "KA-REPO-89AA88",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.975390"
+  },
+  {
+    "source_id": "KA-REPO-917A8C",
+    "target_id": "KA-COLL-011085",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.021097"
+  },
+  {
+    "source_id": "KA-REPO-917A8C",
+    "target_id": "KA-REPO-94D874",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 1,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.348862"
+  },
+  {
+    "source_id": "KA-REPO-94D874",
+    "target_id": "KA-COLL-011085",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.024422"
+  },
+  {
+    "source_id": "KA-REPO-94D874",
+    "target_id": "KA-REPO-917A8C",
+    "edge_type": "SIMILAR_TO",
+    "confidence": 1,
+    "generated_by": "engine:relationships:v1",
+    "created_at": "2026-07-08T01:42:21.348885"
+  },
+  {
+    "source_id": "KA-REPO-99B0C1",
+    "target_id": "KA-COLL-011085",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.027826"
+  },
+  {
+    "source_id": "KA-REPO-A53D3C",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.179286"
+  },
+  {
+    "source_id": "KA-REPO-B4203A",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.184575"
+  },
+  {
+    "source_id": "KA-REPO-C41B5D",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.189907"
+  },
+  {
+    "source_id": "KA-REPO-D6F0AD",
+    "target_id": "KA-COLL-21F553",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.225769"
+  },
+  {
+    "source_id": "KA-REPO-D6F0AD",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.194455"
+  },
+  {
+    "source_id": "KA-REPO-E44A08",
+    "target_id": "KA-COLL-88EED7",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:24.979071"
+  },
+  {
+    "source_id": "KA-REPO-E4B7BA",
+    "target_id": "KA-COLL-011085",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.031053"
+  },
+  {
+    "source_id": "KA-REPO-FF870F",
+    "target_id": "KA-COLL-96FF8E",
+    "edge_type": "BELONGS_TO",
+    "confidence": 0.9,
+    "generated_by": "engine:collections:v1",
+    "created_at": "2026-07-08T01:42:25.198630"
+  }
+]

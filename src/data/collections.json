@@ -1,26 +1,32 @@
 [
   {
-    "id": "col-1",
-    "title": "Chip Huyen Reading List",
-    "curator": "Chip Huyen",
-    "description": "Essential reading for MLOps and Machine Learning Systems.",
-    "resources": ["book-1", "paper-1"],
-    "date_updated": "2024-03-01T00:00:00Z"
+    "id": "KA-COLL-011085",
+    "title": "Learn Agents",
+    "description": "A curated collection on Learn Agents",
+    "resources": []
   },
   {
-    "id": "col-2",
-    "title": "Anthropic Reading List",
-    "curator": "Anthropic Engineers",
-    "description": "Resources on AI safety, alignment, and interpretability.",
-    "resources": ["paper-1", "repo-1"],
-    "date_updated": "2024-04-12T00:00:00Z"
+    "id": "KA-COLL-21F553",
+    "title": "Learn MLOps",
+    "description": "A curated collection on Learn MLOps",
+    "resources": []
   },
   {
-    "id": "col-3",
-    "title": "OpenAI Reading List",
-    "curator": "OpenAI",
-    "description": "Foundational papers on scaling laws, reinforcement learning, and transformers.",
-    "resources": ["paper-1"],
-    "date_updated": "2024-02-15T00:00:00Z"
+    "id": "KA-COLL-64C474",
+    "title": "Learn Prompt Engineering",
+    "description": "A curated collection on Learn Prompt Engineering",
+    "resources": []
+  },
+  {
+    "id": "KA-COLL-88EED7",
+    "title": "Learn RAG",
+    "description": "A curated collection on Learn RAG",
+    "resources": []
+  },
+  {
+    "id": "KA-COLL-96FF8E",
+    "title": "Learn LLM Engineering",
+    "description": "A curated collection on Learn LLM Engineering",
+    "resources": []
   }
 ]

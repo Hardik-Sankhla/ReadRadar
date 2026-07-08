@@ -5,10 +5,14 @@ import DiscoverApp from '../components/ui/DiscoverApp';
 
 import resourcesData from '../data/resources.json';
 import domainsData from '../data/domains.json';
+import collectionsData from '../data/collections.json';
+import edgesData from '../data/edges.json';
 import type { Resource, Domain } from '../types';
 
 const resources = resourcesData as Resource[];
 const domains = domainsData as Domain[];
+const collections = collectionsData as any[];
+const edges = edgesData as any[];
 ---
 
 <Layout title="Discover | ReadRadar">
@@ -18,5 +22,5 @@ const domains = domainsData as Domain[];
         </p>
     </Section>
 
-    <DiscoverApp client:load resources={resources} domains={domains} />
+    <DiscoverApp client:load resources={resources} domains={domains} collections={collections} edges={edges} />
 </Layout>

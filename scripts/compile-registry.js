@@ -3,12 +3,17 @@ import path from 'path';
 
 // Define paths
 const __dirname = path.resolve();
-const REGISTRY_PATH = path.join(__dirname, 'src', 'KnowledgeRegistry');
 const DATA_PATH = path.join(__dirname, 'src', 'data');
 
-// If the registry wasn't cloned into src/KnowledgeRegistry during build, fail gracefully or warn.
+// Try src/KnowledgeRegistry first (used in CI), then fallback to ../KnowledgeRegistry (used locally)
+let REGISTRY_PATH = path.join(__dirname, 'src', 'KnowledgeRegistry');
 if (!fs.existsSync(REGISTRY_PATH)) {
-    console.warn(`[ReadRadar Prebuild] KnowledgeRegistry not found at ${REGISTRY_PATH}. Using fallback mock data if available.`);
+    REGISTRY_PATH = path.join(__dirname, '..', 'KnowledgeRegistry');
+}
+
+// If the registry wasn't found at all, fail gracefully or warn.
+if (!fs.existsSync(REGISTRY_PATH)) {
+    console.warn(`[ReadRadar Prebuild] KnowledgeRegistry not found. Using fallback mock data if available.`);
     process.exit(0); // For local dev, they might not have cloned the registry.
 }
 
@@ -25,10 +30,11 @@ function readJSONSafe(filePath) {
     }
 }
 
-// 1. Compile Resources (Nodes: Repositories and Books)
+// 1. Compile Resources (Nodes: Repositories, Books, Papers, Models)
 const resources = [];
+const collections = [];
 const nodesDir = path.join(REGISTRY_PATH, 'nodes');
-['repositories', 'books'].forEach(subDir => {
+['repositories', 'books', 'papers', 'models', 'collections'].forEach(subDir => {
     const dirPath = path.join(nodesDir, subDir);
     if (fs.existsSync(dirPath)) {
         const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.json'));
@@ -41,19 +47,36 @@ const nodesDir = path.join(REGISTRY_PATH, 'nodes');
                 // Assuming basic mapping. Note: ReadRadar's `resources.json` has a specific schema.
                 // We'll map as much as we can. Since the user said ReadRadar currently uses `data/resources.json`,
                 // and BookOS outputs `Node` Pydantic models. We'll do a simple transformation.
-                const resourceType = node.node_type === 'Node:Repository' ? 'Repository' : 'Book';
+                if (node.node_type === 'Node:Collection') {
+                    collections.push({
+                        id: node.node_id,
+                        title: node.title?.value || "Unknown Collection",
+                        description: node.description?.value || "",
+                        resources: [] // To be filled using edges
+                    });
+                    continue;
+                }
+                
+                let resourceType = 'Unknown';
+                if (node.node_type === 'Node:Repository') resourceType = 'Repository';
+                else if (node.node_type === 'Node:Book') resourceType = 'Book';
+                else if (node.node_type === 'Node:Paper') resourceType = 'Paper';
+                else if (node.node_type === 'Node:Model') resourceType = 'Model';
+                
+                const meta = node.extended_metadata?.value || {};
+                const tags = meta.tags || meta.categories || [];
                 
                 const resource = {
                     id: node.node_id,
                     title: node.title?.value || "Unknown Title",
                     type: resourceType,
-                    authorId: (node.authors && node.authors.length > 0) ? node.authors[0] : "unknown",
-                    domains: ["Technology"], // Hardcoded for now if not present
-                    tags: [],
-                    score: 85, // Mock data for demo
-                    trend_score: 90, // Mock data for demo
+                    authorId: meta.authors ? meta.authors[0] : (meta.author || "unknown"),
+                    domains: ["Technology"], 
+                    tags: tags.slice(0, 5),
+                    score: node.quality_score || 85,
+                    trend_score: node.trust_score || 90,
                     official_url: node.primary_url?.value || "#",
-                    description: node.content?.raw_content || "No description provided.",
+                    description: node.description?.value || "No description provided.",
                     date_added: new Date().toISOString().split('T')[0],
                     difficulty: "Intermediate",
                     estimated_hours: 5,
@@ -82,10 +105,21 @@ if (!fs.existsSync(DATA_PATH)) {
     fs.mkdirSync(DATA_PATH, { recursive: true });
 }
 
-fs.writeFileSync(path.join(DATA_PATH, 'resources.json'), JSON.stringify(resources, null, 2));
-console.log(`[ReadRadar Prebuild] Compiled ${resources.length} resources.`);
+const edges = [];
+const edgesDir = path.join(REGISTRY_PATH, 'edges');
+if (fs.existsSync(edgesDir)) {
+    const files = fs.readdirSync(edgesDir).filter(f => f.endsWith('.json'));
+    for (const file of files) {
+        const edge = readJSONSafe(path.join(edgesDir, file));
+        if (edge) {
+            edges.push(edge);
+        }
+    }
+}
 
-// Note: Domains, Authors, and Collections can also be compiled if they exist in KnowledgeRegistry.
-// If they don't, we will leave the existing ones in `src/data/` untouched if they exist, or mock them.
+fs.writeFileSync(path.join(DATA_PATH, 'resources.json'), JSON.stringify(resources, null, 2));
+fs.writeFileSync(path.join(DATA_PATH, 'collections.json'), JSON.stringify(collections, null, 2));
+fs.writeFileSync(path.join(DATA_PATH, 'edges.json'), JSON.stringify(edges, null, 2));
+console.log(`[ReadRadar Prebuild] Compiled ${resources.length} resources, ${collections.length} collections, and ${edges.length} edges.`);
 
 console.log("[ReadRadar Prebuild] Compilation complete.");
