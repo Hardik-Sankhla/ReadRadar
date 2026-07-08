@@ -5,7 +5,7 @@ const currentPath = Astro.url.pathname;
 <nav class="sticky top-0 z-50 bg-[#0A0A0A]/90 backdrop-blur-md border-b-2 border-[#333333]">
     <div class="max-w-[90rem] mx-auto px-6 h-20 flex items-center justify-between">
         <div class="flex items-center gap-4">
-            <a href="/" class="flex items-center gap-4 group">
+            <a href={`${import.meta.env.BASE_URL}`} class="flex items-center gap-4 group">
                 <div class="w-10 h-10 bg-[#7C3AED] border-2 border-white flex items-center justify-center font-heading font-bold text-white text-xl shadow-[4px_4px_0px_0px_#FFFFFF] group-hover:shadow-[2px_2px_0px_0px_#FFFFFF] transition-all duration-200">RR</div>
                 <span class="font-heading font-bold text-xl text-white tracking-tight">Read<span class="text-[#7C3AED]">Radar</span></span>
             </a>
@@ -24,23 +24,23 @@ const currentPath = Astro.url.pathname;
         </div>
 
         <div class="hidden md:flex gap-6 font-mono text-sm font-medium items-center">
-            <a href="/discover" class={`px-1 py-2 transition-all duration-300 relative group ${currentPath.includes('/discover') ? 'text-white' : 'text-gray-500 hover:text-white'}`}>
+            <a href={`${import.meta.env.BASE_URL}discover`} class={`px-1 py-2 transition-all duration-300 relative group ${currentPath.includes('/discover') ? 'text-white' : 'text-gray-500 hover:text-white'}`}>
                 Discover
                 <span class={`absolute bottom-0 left-0 w-full h-[2px] transition-all duration-300 ${currentPath.includes('/discover') ? 'bg-[#7C3AED] shadow-[0_0_8px_#7C3AED]' : 'bg-transparent group-hover:bg-gray-600'}`}></span>
             </a>
-            <a href="/domains" class={`px-1 py-2 transition-all duration-300 relative group ${currentPath.includes('/domains') ? 'text-white' : 'text-gray-500 hover:text-white'}`}>
+            <a href={`${import.meta.env.BASE_URL}domains`} class={`px-1 py-2 transition-all duration-300 relative group ${currentPath.includes('/domains') ? 'text-white' : 'text-gray-500 hover:text-white'}`}>
                 Domains
                 <span class={`absolute bottom-0 left-0 w-full h-[2px] transition-all duration-300 ${currentPath.includes('/domains') ? 'bg-[#7C3AED] shadow-[0_0_8px_#7C3AED]' : 'bg-transparent group-hover:bg-gray-600'}`}></span>
             </a>
-            <a href="/trending" class={`px-1 py-2 transition-all duration-300 relative group ${currentPath.includes('/trending') ? 'text-white' : 'text-gray-500 hover:text-white'}`}>
+            <a href={`${import.meta.env.BASE_URL}trending`} class={`px-1 py-2 transition-all duration-300 relative group ${currentPath.includes('/trending') ? 'text-white' : 'text-gray-500 hover:text-white'}`}>
                 Trending
                 <span class={`absolute bottom-0 left-0 w-full h-[2px] transition-all duration-300 ${currentPath.includes('/trending') ? 'bg-[#7C3AED] shadow-[0_0_8px_#7C3AED]' : 'bg-transparent group-hover:bg-gray-600'}`}></span>
             </a>
-            <a href="/collections" class={`px-1 py-2 transition-all duration-300 relative group ${currentPath.includes('/collections') ? 'text-white' : 'text-gray-500 hover:text-white'}`}>
+            <a href={`${import.meta.env.BASE_URL}collections`} class={`px-1 py-2 transition-all duration-300 relative group ${currentPath.includes('/collections') ? 'text-white' : 'text-gray-500 hover:text-white'}`}>
                 Collections
                 <span class={`absolute bottom-0 left-0 w-full h-[2px] transition-all duration-300 ${currentPath.includes('/collections') ? 'bg-[#7C3AED] shadow-[0_0_8px_#7C3AED]' : 'bg-transparent group-hover:bg-gray-600'}`}></span>
             </a>
-            <a href="/about" class={`px-1 py-2 transition-all duration-300 relative group ${currentPath.includes('/about') ? 'text-white' : 'text-gray-500 hover:text-white'}`}>
+            <a href={`${import.meta.env.BASE_URL}about`} class={`px-1 py-2 transition-all duration-300 relative group ${currentPath.includes('/about') ? 'text-white' : 'text-gray-500 hover:text-white'}`}>
                 About
                 <span class={`absolute bottom-0 left-0 w-full h-[2px] transition-all duration-300 ${currentPath.includes('/about') ? 'bg-[#7C3AED] shadow-[0_0_8px_#7C3AED]' : 'bg-transparent group-hover:bg-gray-600'}`}></span>
             </a>

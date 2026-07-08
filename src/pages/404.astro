@@ -13,7 +13,7 @@ import Layout from '../layouts/Layout.astro';
                 The requested resource could not be located in the intelligence layer. It may have been deleted, moved, or the URL is incorrect.
             </p>
             <div class="flex items-center justify-center gap-4">
-                <a href="/" class="bg-gradient-to-r from-[#7C3AED] to-[#5B21B6] text-white font-bold font-heading px-6 py-3 uppercase shadow-[4px_4px_0px_0px_#FFFFFF] hover:shadow-[2px_2px_0px_0px_#FFFFFF] hover:translate-y-1 hover:translate-x-1 transition-all border-2 border-white">
+                <a href={`${import.meta.env.BASE_URL}`} class="bg-gradient-to-r from-[#7C3AED] to-[#5B21B6] text-white font-bold font-heading px-6 py-3 uppercase shadow-[4px_4px_0px_0px_#FFFFFF] hover:shadow-[2px_2px_0px_0px_#FFFFFF] hover:translate-y-1 hover:translate-x-1 transition-all border-2 border-white">
                     Return to Home
                 </a>
             </div>

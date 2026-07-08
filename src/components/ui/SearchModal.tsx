@@ -60,9 +60,9 @@ export function SearchModal() {
             <div className="text-gray-500 font-mono text-sm">
               <p className="mb-2 uppercase text-xs font-bold text-gray-400">Quick Links</p>
               <ul className="space-y-2">
-                <li><a href="/trending" className="hover:text-[#7C3AED] transition-colors block">🔥 Trending Intelligence</a></li>
-                <li><a href="/discover" className="hover:text-[#7C3AED] transition-colors block">🔍 Discover Resources</a></li>
-                <li><a href="/domains" className="hover:text-[#7C3AED] transition-colors block">📚 Explore Domains</a></li>
+                <li><a href={`${import.meta.env.BASE_URL}trending`} className="hover:text-[#7C3AED] transition-colors block">🔥 Trending Intelligence</a></li>
+                <li><a href={`${import.meta.env.BASE_URL}discover`} className="hover:text-[#7C3AED] transition-colors block">🔍 Discover Resources</a></li>
+                <li><a href={`${import.meta.env.BASE_URL}domains`} className="hover:text-[#7C3AED] transition-colors block">📚 Explore Domains</a></li>
               </ul>
             </div>
           )}
