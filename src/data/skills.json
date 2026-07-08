@@ -1,0 +1,47 @@
+[
+  {
+    "id": "KA-SKIL-091FA9",
+    "title": "Machine Learning",
+    "description": "Core ML concepts, algorithms, and training techniques."
+  },
+  {
+    "id": "KA-SKIL-27F083",
+    "title": "AI Agents",
+    "description": "Autonomous reasoning, tool use, and multi-agent workflows."
+  },
+  {
+    "id": "KA-SKIL-5F6936",
+    "title": "LLMs",
+    "description": "Large Language Models architecture, fine-tuning, and inference."
+  },
+  {
+    "id": "KA-SKIL-6A68B6",
+    "title": "Deep Learning",
+    "description": "Neural networks, PyTorch, and advanced model building."
+  },
+  {
+    "id": "KA-SKIL-6D04B6",
+    "title": "Vector Databases",
+    "description": "Storing and querying dense vector embeddings."
+  },
+  {
+    "id": "KA-SKIL-895A85",
+    "title": "MLOps",
+    "description": "Deploying, operating, and monitoring ML systems in production."
+  },
+  {
+    "id": "KA-SKIL-A7F5F3",
+    "title": "Python",
+    "description": "General-purpose programming language widely used in AI."
+  },
+  {
+    "id": "KA-SKIL-C53EDD",
+    "title": "Prompt Engineering",
+    "description": "Designing prompts and context to control LLMs."
+  },
+  {
+    "id": "KA-SKIL-FB6A72",
+    "title": "RAG",
+    "description": "Retrieval-Augmented Generation for grounded LLM responses."
+  }
+]

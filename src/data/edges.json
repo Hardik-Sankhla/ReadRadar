@@ -32,12 +32,28 @@
     "created_at": "2026-07-08T03:15:31.068962"
   },
   {
+    "source_id": "KA-COLL-011085",
+    "target_id": "KA-SKIL-27F083",
+    "edge_type": "TARGETS",
+    "confidence": 0.9,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.231513"
+  },
+  {
     "source_id": "KA-COLL-21F553",
     "target_id": "KA-COLL-011085",
     "edge_type": "SIMILAR_TO",
     "confidence": 0.33,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:31.049955"
+  },
+  {
+    "source_id": "KA-COLL-21F553",
+    "target_id": "KA-SKIL-895A85",
+    "edge_type": "TARGETS",
+    "confidence": 0.9,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.237136"
   },
   {
     "source_id": "KA-COLL-64C474",
@@ -48,6 +64,14 @@
     "created_at": "2026-07-08T03:15:31.057316"
   },
   {
+    "source_id": "KA-COLL-64C474",
+    "target_id": "KA-SKIL-C53EDD",
+    "edge_type": "TARGETS",
+    "confidence": 0.9,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.243158"
+  },
+  {
     "source_id": "KA-COLL-88EED7",
     "target_id": "KA-COLL-011085",
     "edge_type": "SIMILAR_TO",
@@ -56,12 +80,84 @@
     "created_at": "2026-07-08T03:15:31.063119"
   },
   {
+    "source_id": "KA-COLL-88EED7",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TARGETS",
+    "confidence": 0.9,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.247766"
+  },
+  {
     "source_id": "KA-COLL-96FF8E",
     "target_id": "KA-COLL-011085",
     "edge_type": "SIMILAR_TO",
     "confidence": 0.33,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:31.068978"
+  },
+  {
+    "source_id": "KA-COLL-96FF8E",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TARGETS",
+    "confidence": 0.9,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.253323"
+  },
+  {
+    "source_id": "KA-JURN-25D100",
+    "target_id": "KA-SKIL-27F083",
+    "edge_type": "TARGETS",
+    "confidence": 0.9,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.264482"
+  },
+  {
+    "source_id": "KA-JURN-25D100",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TARGETS",
+    "confidence": 0.9,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.270021"
+  },
+  {
+    "source_id": "KA-JURN-25D100",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TARGETS",
+    "confidence": 0.9,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.259148"
+  },
+  {
+    "source_id": "KA-JURN-338524",
+    "target_id": "KA-SKIL-A7F5F3",
+    "edge_type": "TARGETS",
+    "confidence": 0.9,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.276524"
+  },
+  {
+    "source_id": "KA-JURN-3E1B8A",
+    "target_id": "KA-SKIL-895A85",
+    "edge_type": "TARGETS",
+    "confidence": 0.9,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.281189"
+  },
+  {
+    "source_id": "KA-JURN-E91504",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TARGETS",
+    "confidence": 0.9,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.286454"
+  },
+  {
+    "source_id": "KA-JURN-EA7D04",
+    "target_id": "KA-SKIL-A7F5F3",
+    "edge_type": "TARGETS",
+    "confidence": 0.9,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.291441"
   },
   {
     "source_id": "KA-MODL-082D02",
@@ -248,6 +344,22 @@
     "created_at": "2026-07-08T03:15:50.435021"
   },
   {
+    "source_id": "KA-MODL-082D02",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.565267"
+  },
+  {
+    "source_id": "KA-MODL-082D02",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.561389"
+  },
+  {
     "source_id": "KA-MODL-17EB2B",
     "target_id": "KA-COLL-88EED7",
     "edge_type": "BELONGS_TO",
@@ -374,6 +486,30 @@
     "confidence": 0.12,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:50.529014"
+  },
+  {
+    "source_id": "KA-MODL-17EB2B",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.573768"
+  },
+  {
+    "source_id": "KA-MODL-17EB2B",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.578388"
+  },
+  {
+    "source_id": "KA-MODL-17EB2B",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.569245"
   },
   {
     "source_id": "KA-MODL-21A5AA",
@@ -526,6 +662,30 @@
     "confidence": 0.31,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:50.633856"
+  },
+  {
+    "source_id": "KA-MODL-21A5AA",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.585994"
+  },
+  {
+    "source_id": "KA-MODL-21A5AA",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.591614"
+  },
+  {
+    "source_id": "KA-MODL-21A5AA",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.582050"
   },
   {
     "source_id": "KA-MODL-27B94C",
@@ -696,6 +856,30 @@
     "created_at": "2026-07-08T03:15:50.751945"
   },
   {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.599788"
+  },
+  {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.604344"
+  },
+  {
+    "source_id": "KA-MODL-27B94C",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.596082"
+  },
+  {
     "source_id": "KA-MODL-2D3F0F",
     "target_id": "KA-COLL-96FF8E",
     "edge_type": "BELONGS_TO",
@@ -806,6 +990,14 @@
     "confidence": 0.12,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:50.820288"
+  },
+  {
+    "source_id": "KA-MODL-2D3F0F",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.611236"
   },
   {
     "source_id": "KA-MODL-476B34",
@@ -984,6 +1176,30 @@
     "created_at": "2026-07-08T03:15:50.916709"
   },
   {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.619127"
+  },
+  {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.624928"
+  },
+  {
+    "source_id": "KA-MODL-476B34",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.615235"
+  },
+  {
     "source_id": "KA-MODL-4B3CBE",
     "target_id": "KA-COLL-96FF8E",
     "edge_type": "BELONGS_TO",
@@ -1110,6 +1326,22 @@
     "confidence": 0.2,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:50.991296"
+  },
+  {
+    "source_id": "KA-MODL-4B3CBE",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.629129"
+  },
+  {
+    "source_id": "KA-MODL-4B3CBE",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.633213"
   },
   {
     "source_id": "KA-MODL-50D1E7",
@@ -1296,6 +1528,22 @@
     "created_at": "2026-07-08T03:15:51.077891"
   },
   {
+    "source_id": "KA-MODL-50D1E7",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.642038"
+  },
+  {
+    "source_id": "KA-MODL-50D1E7",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.637959"
+  },
+  {
     "source_id": "KA-MODL-58E98E",
     "target_id": "KA-COLL-88EED7",
     "edge_type": "BELONGS_TO",
@@ -1480,6 +1728,30 @@
     "created_at": "2026-07-08T03:15:51.177953"
   },
   {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.651713"
+  },
+  {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.657618"
+  },
+  {
+    "source_id": "KA-MODL-58E98E",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.645921"
+  },
+  {
     "source_id": "KA-MODL-5FE6BC",
     "target_id": "KA-COLL-88EED7",
     "edge_type": "BELONGS_TO",
@@ -1654,6 +1926,30 @@
     "confidence": 0.33,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:51.267230"
+  },
+  {
+    "source_id": "KA-MODL-5FE6BC",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.666164"
+  },
+  {
+    "source_id": "KA-MODL-5FE6BC",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.670795"
+  },
+  {
+    "source_id": "KA-MODL-5FE6BC",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.661728"
   },
   {
     "source_id": "KA-MODL-6F07FF",
@@ -1840,6 +2136,38 @@
     "created_at": "2026-07-08T03:15:51.340289"
   },
   {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.682770"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.686696"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-SKIL-C53EDD",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.679107"
+  },
+  {
+    "source_id": "KA-MODL-6F07FF",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.675169"
+  },
+  {
     "source_id": "KA-MODL-8F9B3D",
     "target_id": "KA-COLL-88EED7",
     "edge_type": "BELONGS_TO",
@@ -1950,6 +2278,22 @@
     "confidence": 0.15,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:51.388020"
+  },
+  {
+    "source_id": "KA-MODL-8F9B3D",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.695233"
+  },
+  {
+    "source_id": "KA-MODL-8F9B3D",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.691255"
   },
   {
     "source_id": "KA-MODL-986BB9",
@@ -2102,6 +2446,30 @@
     "confidence": 0.32,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:51.439468"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.702804"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.707617"
+  },
+  {
+    "source_id": "KA-MODL-986BB9",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.698882"
   },
   {
     "source_id": "KA-MODL-9F883D",
@@ -2288,6 +2656,30 @@
     "created_at": "2026-07-08T03:15:51.487206"
   },
   {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.716334"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.720696"
+  },
+  {
+    "source_id": "KA-MODL-9F883D",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.712305"
+  },
+  {
     "source_id": "KA-MODL-A51D5D",
     "target_id": "KA-COLL-88EED7",
     "edge_type": "BELONGS_TO",
@@ -2472,6 +2864,22 @@
     "created_at": "2026-07-08T03:15:51.527887"
   },
   {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.728893"
+  },
+  {
+    "source_id": "KA-MODL-A51D5D",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.725021"
+  },
+  {
     "source_id": "KA-MODL-AAC97E",
     "target_id": "KA-COLL-96FF8E",
     "edge_type": "BELONGS_TO",
@@ -2598,6 +3006,22 @@
     "confidence": 0.11,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:51.566129"
+  },
+  {
+    "source_id": "KA-MODL-AAC97E",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.732676"
+  },
+  {
+    "source_id": "KA-MODL-AAC97E",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.736738"
   },
   {
     "source_id": "KA-MODL-B54837",
@@ -2774,6 +3198,22 @@
     "confidence": 0.3,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:51.595327"
+  },
+  {
+    "source_id": "KA-MODL-B54837",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.745187"
+  },
+  {
+    "source_id": "KA-MODL-B54837",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.741166"
   },
   {
     "source_id": "KA-MODL-C226BC",
@@ -2960,6 +3400,30 @@
     "created_at": "2026-07-08T03:15:51.622854"
   },
   {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.753144"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.757930"
+  },
+  {
+    "source_id": "KA-MODL-C226BC",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.748873"
+  },
+  {
     "source_id": "KA-MODL-C7D6CD",
     "target_id": "KA-COLL-88EED7",
     "edge_type": "BELONGS_TO",
@@ -3144,6 +3608,22 @@
     "created_at": "2026-07-08T03:15:51.647427"
   },
   {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.765413"
+  },
+  {
+    "source_id": "KA-MODL-C7D6CD",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.761898"
+  },
+  {
     "source_id": "KA-MODL-D09891",
     "target_id": "KA-COLL-96FF8E",
     "edge_type": "BELONGS_TO",
@@ -3310,6 +3790,22 @@
     "confidence": 0.21,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:51.661089"
+  },
+  {
+    "source_id": "KA-MODL-D09891",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.769307"
+  },
+  {
+    "source_id": "KA-MODL-D09891",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.773684"
   },
   {
     "source_id": "KA-MODL-F1EC23",
@@ -3496,6 +3992,30 @@
     "created_at": "2026-07-08T03:15:51.669341"
   },
   {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.781482"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.785815"
+  },
+  {
+    "source_id": "KA-MODL-F1EC23",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.777830"
+  },
+  {
     "source_id": "KA-MODL-FF7399",
     "target_id": "KA-COLL-88EED7",
     "edge_type": "BELONGS_TO",
@@ -3672,6 +4192,30 @@
     "created_at": "2026-07-08T03:15:51.669362"
   },
   {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.794652"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.798257"
+  },
+  {
+    "source_id": "KA-MODL-FF7399",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.790659"
+  },
+  {
     "source_id": "KA-PAPR-05ADEB",
     "target_id": "KA-COLL-64C474",
     "edge_type": "BELONGS_TO",
@@ -3758,6 +4302,22 @@
     "confidence": 0.13,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:51.729917"
+  },
+  {
+    "source_id": "KA-PAPR-05ADEB",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.806554"
+  },
+  {
+    "source_id": "KA-PAPR-05ADEB",
+    "target_id": "KA-SKIL-C53EDD",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.802083"
   },
   {
     "source_id": "KA-PAPR-0F3D5D",
@@ -3920,6 +4480,30 @@
     "created_at": "2026-07-08T03:15:51.835364"
   },
   {
+    "source_id": "KA-PAPR-0F3D5D",
+    "target_id": "KA-SKIL-27F083",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.814420"
+  },
+  {
+    "source_id": "KA-PAPR-0F3D5D",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.818688"
+  },
+  {
+    "source_id": "KA-PAPR-0F3D5D",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.810472"
+  },
+  {
     "source_id": "KA-PAPR-1340C5",
     "target_id": "KA-PAPR-0F3D5D",
     "edge_type": "SIMILAR_TO",
@@ -4000,6 +4584,14 @@
     "created_at": "2026-07-08T03:15:51.893639"
   },
   {
+    "source_id": "KA-PAPR-1340C5",
+    "target_id": "KA-SKIL-895A85",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.823574"
+  },
+  {
     "source_id": "KA-PAPR-227F5A",
     "target_id": "KA-PAPR-C37580",
     "edge_type": "SIMILAR_TO",
@@ -4022,6 +4614,14 @@
     "confidence": 0.17,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:51.919890"
+  },
+  {
+    "source_id": "KA-PAPR-227F5A",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.827686"
   },
   {
     "source_id": "KA-PAPR-364659",
@@ -4166,6 +4766,22 @@
     "confidence": 0.23,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:52.036190"
+  },
+  {
+    "source_id": "KA-PAPR-364659",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.831583"
+  },
+  {
+    "source_id": "KA-PAPR-364659",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.836087"
   },
   {
     "source_id": "KA-PAPR-39E2A0",
@@ -4336,6 +4952,38 @@
     "created_at": "2026-07-08T03:15:52.153970"
   },
   {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-SKIL-27F083",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.848762"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.853479"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-SKIL-C53EDD",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.844566"
+  },
+  {
+    "source_id": "KA-PAPR-39E2A0",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.840459"
+  },
+  {
     "source_id": "KA-PAPR-3B444C",
     "target_id": "KA-COLL-96FF8E",
     "edge_type": "BELONGS_TO",
@@ -4422,6 +5070,14 @@
     "confidence": 0.17,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:52.217057"
+  },
+  {
+    "source_id": "KA-PAPR-3B444C",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.858281"
   },
   {
     "source_id": "KA-PAPR-574207",
@@ -4520,6 +5176,14 @@
     "created_at": "2026-07-08T03:15:52.282381"
   },
   {
+    "source_id": "KA-PAPR-574207",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.862424"
+  },
+  {
     "source_id": "KA-PAPR-5C6742",
     "target_id": "KA-COLL-88EED7",
     "edge_type": "BELONGS_TO",
@@ -4592,6 +5256,30 @@
     "created_at": "2026-07-08T03:15:52.304142"
   },
   {
+    "source_id": "KA-PAPR-5C6742",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.874813"
+  },
+  {
+    "source_id": "KA-PAPR-5C6742",
+    "target_id": "KA-SKIL-6D04B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.870619"
+  },
+  {
+    "source_id": "KA-PAPR-5C6742",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.866290"
+  },
+  {
     "source_id": "KA-PAPR-67A73B",
     "target_id": "KA-COLL-88EED7",
     "edge_type": "BELONGS_TO",
@@ -4614,6 +5302,14 @@
     "confidence": 0.11,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:52.309546"
+  },
+  {
+    "source_id": "KA-PAPR-67A73B",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.878658"
   },
   {
     "source_id": "KA-PAPR-686507",
@@ -4752,6 +5448,22 @@
     "created_at": "2026-07-08T03:15:52.360900"
   },
   {
+    "source_id": "KA-PAPR-686507",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.887039"
+  },
+  {
+    "source_id": "KA-PAPR-686507",
+    "target_id": "KA-SKIL-C53EDD",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.882553"
+  },
+  {
     "source_id": "KA-PAPR-8585CC",
     "target_id": "KA-COLL-011085",
     "edge_type": "BELONGS_TO",
@@ -4886,6 +5598,30 @@
     "confidence": 0.14,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:52.406789"
+  },
+  {
+    "source_id": "KA-PAPR-8585CC",
+    "target_id": "KA-SKIL-27F083",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.898961"
+  },
+  {
+    "source_id": "KA-PAPR-8585CC",
+    "target_id": "KA-SKIL-C53EDD",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.895241"
+  },
+  {
+    "source_id": "KA-PAPR-8585CC",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.891342"
   },
   {
     "source_id": "KA-PAPR-8AE9CE",
@@ -5048,6 +5784,30 @@
     "created_at": "2026-07-08T03:15:52.451902"
   },
   {
+    "source_id": "KA-PAPR-8AE9CE",
+    "target_id": "KA-SKIL-27F083",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.908042"
+  },
+  {
+    "source_id": "KA-PAPR-8AE9CE",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.911929"
+  },
+  {
+    "source_id": "KA-PAPR-8AE9CE",
+    "target_id": "KA-SKIL-C53EDD",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.903777"
+  },
+  {
     "source_id": "KA-PAPR-8B1077",
     "target_id": "KA-COLL-96FF8E",
     "edge_type": "BELONGS_TO",
@@ -5150,6 +5910,14 @@
     "confidence": 0.17,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:52.477854"
+  },
+  {
+    "source_id": "KA-PAPR-8B1077",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.915717"
   },
   {
     "source_id": "KA-PAPR-A7410C",
@@ -5312,6 +6080,46 @@
     "created_at": "2026-07-08T03:15:52.510458"
   },
   {
+    "source_id": "KA-PAPR-B591B8",
+    "target_id": "KA-SKIL-091FA9",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.921062"
+  },
+  {
+    "source_id": "KA-PAPR-B591B8",
+    "target_id": "KA-SKIL-27F083",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.937984"
+  },
+  {
+    "source_id": "KA-PAPR-B591B8",
+    "target_id": "KA-SKIL-895A85",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.925805"
+  },
+  {
+    "source_id": "KA-PAPR-B591B8",
+    "target_id": "KA-SKIL-C53EDD",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.933060"
+  },
+  {
+    "source_id": "KA-PAPR-B591B8",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.929518"
+  },
+  {
     "source_id": "KA-PAPR-C37580",
     "target_id": "KA-COLL-96FF8E",
     "edge_type": "BELONGS_TO",
@@ -5366,6 +6174,14 @@
     "confidence": 0.12,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:52.523669"
+  },
+  {
+    "source_id": "KA-PAPR-C37580",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.942175"
   },
   {
     "source_id": "KA-PAPR-C89F80",
@@ -5470,6 +6286,14 @@
     "confidence": 0.12,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:52.543120"
+  },
+  {
+    "source_id": "KA-PAPR-C89F80",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.946018"
   },
   {
     "source_id": "KA-PAPR-D33E00",
@@ -5624,6 +6448,22 @@
     "created_at": "2026-07-08T03:15:52.555897"
   },
   {
+    "source_id": "KA-PAPR-D33E00",
+    "target_id": "KA-SKIL-27F083",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.955064"
+  },
+  {
+    "source_id": "KA-PAPR-D33E00",
+    "target_id": "KA-SKIL-C53EDD",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.949763"
+  },
+  {
     "source_id": "KA-PAPR-DC00CE",
     "target_id": "KA-COLL-96FF8E",
     "edge_type": "BELONGS_TO",
@@ -5728,6 +6568,14 @@
     "created_at": "2026-07-08T03:15:52.560989"
   },
   {
+    "source_id": "KA-PAPR-DC00CE",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.959239"
+  },
+  {
     "source_id": "KA-PAPR-E5AA3F",
     "target_id": "KA-PAPR-B591B8",
     "edge_type": "SIMILAR_TO",
@@ -5790,6 +6638,30 @@
     "confidence": 0.11,
     "generated_by": "engine:relationships:v1",
     "created_at": "2026-07-08T03:15:52.273683"
+  },
+  {
+    "source_id": "KA-PAPR-EC0918",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.974865"
+  },
+  {
+    "source_id": "KA-PAPR-EC0918",
+    "target_id": "KA-SKIL-895A85",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.963348"
+  },
+  {
+    "source_id": "KA-PAPR-EC0918",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.968082"
   },
   {
     "source_id": "KA-PAPR-EE9A90",
@@ -5872,6 +6744,14 @@
     "created_at": "2026-07-08T03:15:52.561038"
   },
   {
+    "source_id": "KA-PAPR-EE9A90",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.979118"
+  },
+  {
     "source_id": "KA-PAPR-F4A0DE",
     "target_id": "KA-PAPR-0F3D5D",
     "edge_type": "SIMILAR_TO",
@@ -5952,6 +6832,14 @@
     "created_at": "2026-07-08T03:15:52.555913"
   },
   {
+    "source_id": "KA-PAPR-F4A0DE",
+    "target_id": "KA-SKIL-895A85",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.983853"
+  },
+  {
     "source_id": "KA-PAPR-F5F9C0",
     "target_id": "KA-COLL-88EED7",
     "edge_type": "BELONGS_TO",
@@ -6016,12 +6904,36 @@
     "created_at": "2026-07-08T03:15:52.543135"
   },
   {
+    "source_id": "KA-PAPR-F5F9C0",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.989848"
+  },
+  {
     "source_id": "KA-REPO-078C11",
     "target_id": "KA-REPO-E4B7BA",
     "edge_type": "SIMILAR_TO",
     "confidence": 0.06,
     "generated_by": "engine:graph_repair:v1",
     "created_at": "2026-07-08T03:16:13.529432"
+  },
+  {
+    "source_id": "KA-REPO-078C11",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.997672"
+  },
+  {
+    "source_id": "KA-REPO-078C11",
+    "target_id": "KA-SKIL-A7F5F3",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:22.993866"
   },
   {
     "source_id": "KA-REPO-0C8150",
@@ -6032,12 +6944,28 @@
     "created_at": "2026-07-08T09:48:20.903495"
   },
   {
+    "source_id": "KA-REPO-0C8150",
+    "target_id": "KA-SKIL-A7F5F3",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.001285"
+  },
+  {
     "source_id": "KA-REPO-213926",
     "target_id": "KA-COLL-96FF8E",
     "edge_type": "BELONGS_TO",
     "confidence": 0.9,
     "generated_by": "engine:collections:v1",
     "created_at": "2026-07-08T01:42:25.167399"
+  },
+  {
+    "source_id": "KA-REPO-213926",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.006982"
   },
   {
     "source_id": "KA-REPO-297C15",
@@ -6056,12 +6984,52 @@
     "created_at": "2026-07-08T03:16:31.691295"
   },
   {
+    "source_id": "KA-REPO-297C15",
+    "target_id": "KA-SKIL-091FA9",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.014569"
+  },
+  {
+    "source_id": "KA-REPO-297C15",
+    "target_id": "KA-SKIL-A7F5F3",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.010921"
+  },
+  {
     "source_id": "KA-REPO-375A37",
     "target_id": "KA-COLL-88EED7",
     "edge_type": "BELONGS_TO",
     "confidence": 0.9,
     "generated_by": "engine:collections:v1",
     "created_at": "2026-07-08T01:42:24.960751"
+  },
+  {
+    "source_id": "KA-REPO-375A37",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.028117"
+  },
+  {
+    "source_id": "KA-REPO-375A37",
+    "target_id": "KA-SKIL-A7F5F3",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.019988"
+  },
+  {
+    "source_id": "KA-REPO-375A37",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.024151"
   },
   {
     "source_id": "KA-REPO-37FE41",
@@ -6072,12 +7040,36 @@
     "created_at": "2026-07-08T03:16:31.699057"
   },
   {
+    "source_id": "KA-REPO-37FE41",
+    "target_id": "KA-SKIL-A7F5F3",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.032432"
+  },
+  {
     "source_id": "KA-REPO-39C495",
     "target_id": "KA-COLL-011085",
     "edge_type": "BELONGS_TO",
     "confidence": 0.9,
     "generated_by": "engine:collections:v1",
     "created_at": "2026-07-08T01:42:25.011752"
+  },
+  {
+    "source_id": "KA-REPO-39C495",
+    "target_id": "KA-SKIL-27F083",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.041579"
+  },
+  {
+    "source_id": "KA-REPO-39C495",
+    "target_id": "KA-SKIL-A7F5F3",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.037219"
   },
   {
     "source_id": "KA-REPO-3BC35A",
@@ -6088,12 +7080,52 @@
     "created_at": "2026-07-08T01:42:25.217493"
   },
   {
+    "source_id": "KA-REPO-3BC35A",
+    "target_id": "KA-SKIL-091FA9",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.049529"
+  },
+  {
+    "source_id": "KA-REPO-3BC35A",
+    "target_id": "KA-SKIL-895A85",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.054137"
+  },
+  {
+    "source_id": "KA-REPO-3BC35A",
+    "target_id": "KA-SKIL-A7F5F3",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.045403"
+  },
+  {
     "source_id": "KA-REPO-5535E2",
     "target_id": "KA-REPO-FF870F",
     "edge_type": "SIMILAR_TO",
     "confidence": 0.05,
     "generated_by": "engine:graph_repair:v1",
     "created_at": "2026-07-08T03:16:31.708795"
+  },
+  {
+    "source_id": "KA-REPO-5535E2",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.062434"
+  },
+  {
+    "source_id": "KA-REPO-5535E2",
+    "target_id": "KA-SKIL-A7F5F3",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.058362"
   },
   {
     "source_id": "KA-REPO-609634",
@@ -6104,12 +7136,36 @@
     "created_at": "2026-07-08T01:42:24.964476"
   },
   {
+    "source_id": "KA-REPO-609634",
+    "target_id": "KA-SKIL-6D04B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.066444"
+  },
+  {
     "source_id": "KA-REPO-621FA3",
     "target_id": "KA-COLL-88EED7",
     "edge_type": "BELONGS_TO",
     "confidence": 0.9,
     "generated_by": "engine:collections:v1",
     "created_at": "2026-07-08T01:42:24.967844"
+  },
+  {
+    "source_id": "KA-REPO-621FA3",
+    "target_id": "KA-SKIL-6D04B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.075690"
+  },
+  {
+    "source_id": "KA-REPO-621FA3",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.071787"
   },
   {
     "source_id": "KA-REPO-63F1FB",
@@ -6136,12 +7192,60 @@
     "created_at": "2026-07-08T01:42:25.171777"
   },
   {
+    "source_id": "KA-REPO-63F1FB",
+    "target_id": "KA-SKIL-27F083",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.087650"
+  },
+  {
+    "source_id": "KA-REPO-63F1FB",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.091779"
+  },
+  {
+    "source_id": "KA-REPO-63F1FB",
+    "target_id": "KA-SKIL-A7F5F3",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.079518"
+  },
+  {
+    "source_id": "KA-REPO-63F1FB",
+    "target_id": "KA-SKIL-FB6A72",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.083133"
+  },
+  {
     "source_id": "KA-REPO-68E04C",
     "target_id": "KA-COLL-011085",
     "edge_type": "BELONGS_TO",
     "confidence": 0.9,
     "generated_by": "engine:collections:v1",
     "created_at": "2026-07-08T01:42:25.017977"
+  },
+  {
+    "source_id": "KA-REPO-68E04C",
+    "target_id": "KA-SKIL-27F083",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.099127"
+  },
+  {
+    "source_id": "KA-REPO-68E04C",
+    "target_id": "KA-SKIL-A7F5F3",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.095490"
   },
   {
     "source_id": "KA-REPO-7C7AF9",
@@ -6152,12 +7256,36 @@
     "created_at": "2026-07-08T01:42:25.221368"
   },
   {
+    "source_id": "KA-REPO-7C7AF9",
+    "target_id": "KA-SKIL-895A85",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.108221"
+  },
+  {
+    "source_id": "KA-REPO-7C7AF9",
+    "target_id": "KA-SKIL-A7F5F3",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.103851"
+  },
+  {
     "source_id": "KA-REPO-89AA88",
     "target_id": "KA-COLL-88EED7",
     "edge_type": "BELONGS_TO",
     "confidence": 0.9,
     "generated_by": "engine:collections:v1",
     "created_at": "2026-07-08T01:42:24.975390"
+  },
+  {
+    "source_id": "KA-REPO-89AA88",
+    "target_id": "KA-SKIL-6D04B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.112127"
   },
   {
     "source_id": "KA-REPO-917A8C",
@@ -6176,6 +7304,22 @@
     "created_at": "2026-07-08T03:15:52.572692"
   },
   {
+    "source_id": "KA-REPO-917A8C",
+    "target_id": "KA-SKIL-27F083",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.122068"
+  },
+  {
+    "source_id": "KA-REPO-917A8C",
+    "target_id": "KA-SKIL-A7F5F3",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.116040"
+  },
+  {
     "source_id": "KA-REPO-94D874",
     "target_id": "KA-COLL-011085",
     "edge_type": "BELONGS_TO",
@@ -6192,12 +7336,44 @@
     "created_at": "2026-07-08T03:15:52.572744"
   },
   {
+    "source_id": "KA-REPO-94D874",
+    "target_id": "KA-SKIL-27F083",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.130991"
+  },
+  {
+    "source_id": "KA-REPO-94D874",
+    "target_id": "KA-SKIL-A7F5F3",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.126479"
+  },
+  {
     "source_id": "KA-REPO-99B0C1",
     "target_id": "KA-COLL-011085",
     "edge_type": "BELONGS_TO",
     "confidence": 0.9,
     "generated_by": "engine:collections:v1",
     "created_at": "2026-07-08T01:42:25.027826"
+  },
+  {
+    "source_id": "KA-REPO-99B0C1",
+    "target_id": "KA-SKIL-27F083",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.142095"
+  },
+  {
+    "source_id": "KA-REPO-99B0C1",
+    "target_id": "KA-SKIL-A7F5F3",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.137423"
   },
   {
     "source_id": "KA-REPO-A53D3C",
@@ -6208,12 +7384,44 @@
     "created_at": "2026-07-08T01:42:25.179286"
   },
   {
+    "source_id": "KA-REPO-A53D3C",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.151222"
+  },
+  {
+    "source_id": "KA-REPO-A53D3C",
+    "target_id": "KA-SKIL-A7F5F3",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.146421"
+  },
+  {
     "source_id": "KA-REPO-B38D2E",
     "target_id": "KA-REPO-FF870F",
     "edge_type": "SIMILAR_TO",
     "confidence": 0.15,
     "generated_by": "engine:graph_repair:v1",
     "created_at": "2026-07-08T03:16:31.715436"
+  },
+  {
+    "source_id": "KA-REPO-B38D2E",
+    "target_id": "KA-SKIL-091FA9",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.156854"
+  },
+  {
+    "source_id": "KA-REPO-B38D2E",
+    "target_id": "KA-SKIL-6A68B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.162062"
   },
   {
     "source_id": "KA-REPO-B4203A",
@@ -6224,12 +7432,28 @@
     "created_at": "2026-07-08T01:42:25.184575"
   },
   {
+    "source_id": "KA-REPO-B4203A",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.167908"
+  },
+  {
     "source_id": "KA-REPO-C41B5D",
     "target_id": "KA-COLL-96FF8E",
     "edge_type": "BELONGS_TO",
     "confidence": 0.9,
     "generated_by": "engine:collections:v1",
     "created_at": "2026-07-08T01:42:25.189907"
+  },
+  {
+    "source_id": "KA-REPO-C41B5D",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.173342"
   },
   {
     "source_id": "KA-REPO-D6F0AD",
@@ -6248,12 +7472,44 @@
     "created_at": "2026-07-08T01:42:25.194455"
   },
   {
+    "source_id": "KA-REPO-D6F0AD",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.187258"
+  },
+  {
+    "source_id": "KA-REPO-D6F0AD",
+    "target_id": "KA-SKIL-895A85",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.182285"
+  },
+  {
+    "source_id": "KA-REPO-D6F0AD",
+    "target_id": "KA-SKIL-A7F5F3",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.178051"
+  },
+  {
     "source_id": "KA-REPO-E44A08",
     "target_id": "KA-COLL-88EED7",
     "edge_type": "BELONGS_TO",
     "confidence": 0.9,
     "generated_by": "engine:collections:v1",
     "created_at": "2026-07-08T01:42:24.979071"
+  },
+  {
+    "source_id": "KA-REPO-E44A08",
+    "target_id": "KA-SKIL-6D04B6",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.198678"
   },
   {
     "source_id": "KA-REPO-E4B7BA",
@@ -6278,6 +7534,22 @@
     "confidence": 0.08,
     "generated_by": "engine:graph_repair:v1",
     "created_at": "2026-07-08T03:16:31.699075"
+  },
+  {
+    "source_id": "KA-REPO-E4B7BA",
+    "target_id": "KA-SKIL-27F083",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.211043"
+  },
+  {
+    "source_id": "KA-REPO-E4B7BA",
+    "target_id": "KA-SKIL-A7F5F3",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.206443"
   },
   {
     "source_id": "KA-REPO-FF870F",
@@ -6310,5 +7582,29 @@
     "confidence": 0.15,
     "generated_by": "engine:graph_repair:v1",
     "created_at": "2026-07-08T03:16:31.715455"
+  },
+  {
+    "source_id": "KA-REPO-FF870F",
+    "target_id": "KA-SKIL-091FA9",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.220717"
+  },
+  {
+    "source_id": "KA-REPO-FF870F",
+    "target_id": "KA-SKIL-5F6936",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.225640"
+  },
+  {
+    "source_id": "KA-REPO-FF870F",
+    "target_id": "KA-SKIL-A7F5F3",
+    "edge_type": "TEACHES",
+    "confidence": 0.8,
+    "generated_by": "engine:skill_extractor:v1",
+    "created_at": "2026-07-08T12:11:23.215385"
   }
 ]

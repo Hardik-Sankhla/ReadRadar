@@ -34,8 +34,9 @@ function readJSONSafe(filePath) {
 const resources = [];
 const collections = [];
 const journeys = [];
+const skills = [];
 const nodesDir = path.join(REGISTRY_PATH, 'nodes');
-['repositories', 'books', 'papers', 'models', 'collections', 'journeys'].forEach(subDir => {
+['repositories', 'books', 'papers', 'models', 'collections', 'journeys', 'skills'].forEach(subDir => {
     const dirPath = path.join(nodesDir, subDir);
     if (fs.existsSync(dirPath)) {
         const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.json'));
@@ -64,6 +65,15 @@ const nodesDir = path.join(REGISTRY_PATH, 'nodes');
                         title: node.title?.value || "Unknown Journey",
                         description: node.description?.value || "",
                         metadata: node.extended_metadata?.value || {}
+                    });
+                    continue;
+                }
+                
+                if (node.node_type === 'Node:Skill') {
+                    skills.push({
+                        id: node.node_id,
+                        title: node.title?.value || "Unknown Skill",
+                        description: node.description?.value || ""
                     });
                     continue;
                 }
@@ -131,8 +141,9 @@ if (fs.existsSync(edgesDir)) {
 fs.writeFileSync(path.join(DATA_PATH, 'resources.json'), JSON.stringify(resources, null, 2));
 fs.writeFileSync(path.join(DATA_PATH, 'collections.json'), JSON.stringify(collections, null, 2));
 fs.writeFileSync(path.join(DATA_PATH, 'journeys.json'), JSON.stringify(journeys, null, 2));
+fs.writeFileSync(path.join(DATA_PATH, 'skills.json'), JSON.stringify(skills, null, 2));
 fs.writeFileSync(path.join(DATA_PATH, 'edges.json'), JSON.stringify(edges, null, 2));
-console.log(`[ReadRadar Prebuild] Compiled ${resources.length} resources, ${collections.length} collections, ${journeys.length} journeys, and ${edges.length} edges.`);
+console.log(`[ReadRadar Prebuild] Compiled ${resources.length} resources, ${collections.length} collections, ${journeys.length} journeys, ${skills.length} skills, and ${edges.length} edges.`);
 
 // 2. Compile Intelligence Evaluation Report
 const EVAL_REPORT_PATH = path.join(REGISTRY_PATH, 'evaluation', 'system_report.json');
