@@ -3,7 +3,7 @@ const currentPath = Astro.url.pathname;
 ---
 
 <nav class="sticky top-0 z-50 bg-[#0A0A0A]/90 backdrop-blur-md border-b-2 border-[#333333]">
-    <div class="max-w-[100rem] mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
+    <div class="max-w-[90rem] mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
         <div class="flex items-center gap-4 shrink-0">
             <a href={`${import.meta.env.BASE_URL}/`.replace(/\/\/+/g, '/')} class="flex items-center gap-3 md:gap-4 group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7C3AED] focus-visible:ring-offset-2 focus-visible:ring-offset-[#0A0A0A] rounded-md shrink-0">
                 <div class="w-8 h-8 md:w-10 md:h-10 bg-[#7C3AED] border-2 border-white flex items-center justify-center font-heading font-bold text-white text-base md:text-xl shadow-[4px_4px_0px_0px_#FFFFFF] group-hover:shadow-[2px_2px_0px_0px_#FFFFFF] transition-all duration-200 shrink-0">RR</div>
@@ -11,8 +11,8 @@ const currentPath = Astro.url.pathname;
             </a>
         </div>
         
-        <div class="flex items-center gap-4 md:gap-8 shrink-0">
-            <div class="hidden xl:flex gap-4 font-mono text-[10px] text-gray-400 items-center border border-[#333333] px-3 py-1.5 bg-[#0A0A0A] shadow-[inset_2px_2px_0px_0px_#171717]">
+        <div class="flex items-center gap-4 shrink-0">
+            <div class="hidden xl:flex gap-3 font-mono text-[10px] text-gray-400 items-center border border-[#333333] px-3 py-1 bg-[#0A0A0A] shadow-[inset_2px_2px_0px_0px_#171717]">
                 <span class="flex items-center gap-1"><span class="text-white font-bold">73</span> RES</span>
                 <span class="w-[1px] h-3 bg-[#333333]"></span>
                 <span class="flex items-center gap-1"><span class="text-white font-bold">5</span> COL</span>
@@ -23,7 +23,7 @@ const currentPath = Astro.url.pathname;
             </div>
     
             <!-- Desktop Navigation -->
-            <div class="hidden md:flex gap-4 lg:gap-6 font-mono text-sm font-medium items-center">
+            <div class="hidden md:flex gap-3 xl:gap-4 font-mono text-sm font-medium items-center">
             <a href={`${import.meta.env.BASE_URL}/discover`.replace(/\/\/+/g, '/')} class={`px-1 py-2 transition-all duration-300 relative group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7C3AED] rounded-sm ${currentPath.includes('/discover') ? 'text-white' : 'text-gray-400 hover:text-white'}`}>
                 Discover
                 <span class={`absolute bottom-0 left-0 w-full h-[2px] transition-all duration-300 ${currentPath.includes('/discover') ? 'bg-[#7C3AED] shadow-[0_0_8px_#7C3AED]' : 'bg-transparent group-hover:bg-gray-600'}`}></span>
