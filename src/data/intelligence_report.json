@@ -1,0 +1,128 @@
+{
+  "evaluated_at": "2026-07-08T03:07:30Z",
+  "overall_pass": false,
+  "graph": {
+    "evaluated_at": "2026-07-08T03:07:30Z",
+    "total_nodes": 81,
+    "content_nodes": 73,
+    "total_edges": 541,
+    "node_type_breakdown": {
+      "Node:Collection": 5,
+      "Node:Journey": 3,
+      "Node:Model": 22,
+      "Node:Paper": 25,
+      "Node:Repository": 26
+    },
+    "orphan_rate": 10.96,
+    "orphan_count": 8,
+    "duplicate_rate": 1.37,
+    "duplicate_count": 1,
+    "average_degree": 13.44,
+    "collection_coverage": 0,
+    "recommendation_coverage": 60.27,
+    "thresholds": {
+      "orphan_rate": {
+        "target": 1,
+        "pass": false
+      },
+      "duplicate_rate": {
+        "target": 5,
+        "pass": true
+      },
+      "collection_coverage": {
+        "target": 80,
+        "pass": false
+      },
+      "recommendation_coverage": {
+        "target": 70,
+        "pass": false
+      }
+    }
+  },
+  "recommendations": {
+    "evaluated_at": "2026-07-08T03:07:30Z",
+    "recommendations_generated": 440,
+    "average_path_length": 2.3,
+    "resource_diversity": 3,
+    "resource_types_in_recommendations": [
+      "Node:Model",
+      "Node:Paper",
+      "Node:Repository"
+    ],
+    "collection_utilization": 0,
+    "graph_utilization": 60.27,
+    "thresholds": {
+      "graph_utilization": {
+        "target": 70,
+        "pass": false
+      },
+      "resource_diversity": {
+        "target": 2,
+        "pass": true
+      },
+      "collection_utilization": {
+        "target": 50,
+        "pass": false
+      }
+    }
+  },
+  "journeys": {
+    "evaluated_at": "2026-07-08T03:07:31Z",
+    "journey_count": 3,
+    "average_resources_per_journey": 10.67,
+    "average_hours": 57,
+    "phase_balance_score": 67.45,
+    "duplicate_resource_usage": 45.45,
+    "per_journey": [
+      {
+        "id": "KA-JURN-338524",
+        "title": "Become a AI Engineer",
+        "resources": 2,
+        "hours": 20,
+        "balance_score": 75
+      },
+      {
+        "id": "KA-JURN-5E6CE3",
+        "title": "Become a LLM Engineering",
+        "resources": 15,
+        "hours": 91,
+        "balance_score": 67.34
+      },
+      {
+        "id": "KA-JURN-7542DC",
+        "title": "Learn RAG",
+        "resources": 15,
+        "hours": 60,
+        "balance_score": 60
+      }
+    ],
+    "thresholds": {
+      "journey_count": {
+        "target": 1,
+        "pass": true
+      },
+      "phase_balance_score": {
+        "target": 80,
+        "pass": false
+      },
+      "duplicate_resource_usage": {
+        "target": 5,
+        "pass": false
+      }
+    }
+  },
+  "summary": {
+    "total_nodes": 81,
+    "total_edges": 541,
+    "orphan_rate": 10.96,
+    "duplicate_rate": 1.37,
+    "collection_coverage": 0,
+    "recommendation_coverage": 60.27,
+    "graph_utilization": 60.27,
+    "journey_count": 3,
+    "phase_balance_score": 67.45,
+    "graph_pass": false,
+    "recommendations_pass": false,
+    "journeys_pass": false
+  }
+}

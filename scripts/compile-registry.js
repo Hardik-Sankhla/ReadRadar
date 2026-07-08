@@ -134,4 +134,38 @@ fs.writeFileSync(path.join(DATA_PATH, 'journeys.json'), JSON.stringify(journeys,
 fs.writeFileSync(path.join(DATA_PATH, 'edges.json'), JSON.stringify(edges, null, 2));
 console.log(`[ReadRadar Prebuild] Compiled ${resources.length} resources, ${collections.length} collections, ${journeys.length} journeys, and ${edges.length} edges.`);
 
+// 2. Compile Intelligence Evaluation Report
+const EVAL_REPORT_PATH = path.join(REGISTRY_PATH, 'evaluation', 'system_report.json');
+const defaultIntelligenceReport = {
+    evaluated_at: null,
+    overall_pass: false,
+    summary: {
+        total_nodes: 0,
+        total_edges: 0,
+        orphan_rate: 0,
+        duplicate_rate: 0,
+        collection_coverage: 0,
+        recommendation_coverage: 0,
+        graph_utilization: 0,
+        journey_count: 0,
+        phase_balance_score: 0,
+        graph_pass: false,
+        recommendations_pass: false,
+        journeys_pass: false,
+    }
+};
+
+let intelligenceReport = defaultIntelligenceReport;
+if (fs.existsSync(EVAL_REPORT_PATH)) {
+    const evalData = readJSONSafe(EVAL_REPORT_PATH);
+    if (evalData) {
+        intelligenceReport = evalData;
+        console.log(`[ReadRadar Prebuild] Compiled evaluation report from ${EVAL_REPORT_PATH}`);
+    }
+} else {
+    console.warn('[ReadRadar Prebuild] evaluation/system_report.json not found. Using defaults.');
+}
+
+fs.writeFileSync(path.join(DATA_PATH, 'intelligence_report.json'), JSON.stringify(intelligenceReport, null, 2));
+
 console.log("[ReadRadar Prebuild] Compilation complete.");

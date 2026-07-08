@@ -44,6 +44,10 @@ const currentPath = Astro.url.pathname;
                 Journeys
                 <span class={`absolute bottom-0 left-0 w-full h-[2px] transition-all duration-300 ${currentPath.includes('/journeys') ? 'bg-[#7C3AED] shadow-[0_0_8px_#7C3AED]' : 'bg-transparent group-hover:bg-gray-600'}`}></span>
             </a>
+            <a href={`${import.meta.env.BASE_URL}/status/intelligence`.replace(/\/\/+/g, '/')} class={`px-1 py-2 transition-all duration-300 relative group ${currentPath.includes('/status/intelligence') ? 'text-white' : 'text-gray-500 hover:text-white'}`}>
+                Intelligence
+                <span class={`absolute bottom-0 left-0 w-full h-[2px] transition-all duration-300 ${currentPath.includes('/status/intelligence') ? 'bg-[#06B6D4] shadow-[0_0_8px_#06B6D4]' : 'bg-transparent group-hover:bg-gray-600'}`}></span>
+            </a>
             <a href={`${import.meta.env.BASE_URL}/about`.replace(/\/\/+/g, '/')} class={`px-1 py-2 transition-all duration-300 relative group ${currentPath.includes('/about') ? 'text-white' : 'text-gray-500 hover:text-white'}`}>
                 About
                 <span class={`absolute bottom-0 left-0 w-full h-[2px] transition-all duration-300 ${currentPath.includes('/about') ? 'bg-[#7C3AED] shadow-[0_0_8px_#7C3AED]' : 'bg-transparent group-hover:bg-gray-600'}`}></span>
