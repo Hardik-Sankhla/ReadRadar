@@ -55,6 +55,8 @@ const nodesDir = path.join(REGISTRY_PATH, 'nodes');
                         id: node.node_id,
                         title: node.title?.value || "Unknown Collection",
                         description: node.description?.value || "",
+                        curator: node.extended_metadata?.value?.curator || "Agent OS",
+                        date_updated: node.updated_at || new Date().toISOString(),
                         resources: [] // To be filled using edges
                     });
                     continue;
@@ -103,12 +105,29 @@ const nodesDir = path.join(REGISTRY_PATH, 'nodes');
                 const meta = node.extended_metadata?.value || {};
                 const tags = meta.tags || meta.categories || [];
                 
+                // Map tags to actual ReadRadar domains
+                const allDomains = ["LLMs", "Agentic AI", "MLOps", "AI Engineering", "Math", "System Design", "Startups"];
+                const mappedDomains = [];
+                for (const tag of tags) {
+                    const lTag = tag.toLowerCase();
+                    if (lTag.includes("llm") || lTag.includes("prompt")) mappedDomains.push("LLMs");
+                    if (lTag.includes("agent")) mappedDomains.push("Agentic AI");
+                    if (lTag.includes("mlops") || lTag.includes("deploy")) mappedDomains.push("MLOps");
+                    if (lTag.includes("python") || lTag.includes("engineer")) mappedDomains.push("AI Engineering");
+                    if (lTag.includes("math") || lTag.includes("algebra") || lTag.includes("stat")) mappedDomains.push("Math");
+                    if (lTag.includes("system") || lTag.includes("design") || lTag.includes("architecture")) mappedDomains.push("System Design");
+                    if (lTag.includes("startup") || lTag.includes("business")) mappedDomains.push("Startups");
+                }
+                if (mappedDomains.length === 0) {
+                    mappedDomains.push("AI Engineering"); // Fallback
+                }
+                
                 const resource = {
                     id: node.node_id,
                     title: node.title?.value || "Unknown Title",
                     type: resourceType,
                     authorId: meta.authors ? meta.authors[0] : (meta.author || "unknown"),
-                    domains: ["Technology"], 
+                    domains: [...new Set(mappedDomains)], 
                     tags: tags.slice(0, 5),
                     score: node.quality_score || 85,
                     trend_score: node.trust_score || 90,
@@ -152,6 +171,17 @@ if (fs.existsSync(edgesDir)) {
             edges.push(edge);
         }
     }
+}
+
+// 1.5 Process Relationships (Collections & Careers)
+const validResourceIds = new Set(resources.map(r => r.id));
+for (const col of collections) {
+    const colEdges = edges.filter(e => e.target_id === col.id && e.edge_type === 'BELONGS_TO');
+    col.resources = colEdges.map(e => e.source_id).filter(id => validResourceIds.has(id));
+}
+for (const car of careers) {
+    const recEdges = edges.filter(e => e.source_id === car.id && e.edge_type === 'RECOMMENDS');
+    car.recommended_journeys = recEdges.map(e => e.target_id);
 }
 
 fs.writeFileSync(path.join(DATA_PATH, 'resources.json'), JSON.stringify(resources, null, 2));

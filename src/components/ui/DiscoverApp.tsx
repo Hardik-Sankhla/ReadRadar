@@ -148,16 +148,16 @@ export default function DiscoverApp({ resources, domains, collections = [], edge
           <h3 className="text-xl font-heading font-bold text-white mb-4 border-l-4 border-[#7C3AED] pl-3">Curated Learning Paths</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {collections.map(col => {
-              const items = edges.filter(e => e.target_id === col.id && e.edge_type === "BELONGS_TO").length;
+              const items = col.resources?.length || 0;
               return (
-                <div key={col.id} className="neo-card p-4 hover:border-[#7C3AED] transition-colors cursor-pointer group">
+                <a href={`/ReadRadar/collections/${col.id}`} key={col.id} className="neo-card p-4 hover:border-[#7C3AED] transition-colors cursor-pointer group block">
                   <h4 className="font-bold text-white text-lg group-hover:text-[#7C3AED] transition-colors">{col.title}</h4>
                   <p className="text-sm text-gray-400 mt-1">{col.description}</p>
                   <div className="mt-4 flex items-center justify-between">
                     <span className="text-xs font-mono bg-[#333333] px-2 py-1">{items} Resources</span>
                     <span className="text-xs text-[#7C3AED] group-hover:underline">Explore Path &rarr;</span>
                   </div>
-                </div>
+                </a>
               );
             })}
           </div>

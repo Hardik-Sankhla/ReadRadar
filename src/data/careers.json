@@ -12,7 +12,10 @@
     "career_readiness_score": 100,
     "covered_skills_count": 4,
     "total_skills_count": 4,
-    "recommended_journeys": []
+    "recommended_journeys": [
+      "KA-JURN-25D100",
+      "KA-JURN-E91504"
+    ]
   },
   {
     "id": "KA-CARE-605E69",
@@ -28,7 +31,11 @@
     "career_readiness_score": 100,
     "covered_skills_count": 5,
     "total_skills_count": 5,
-    "recommended_journeys": []
+    "recommended_journeys": [
+      "KA-JURN-25D100",
+      "KA-JURN-E91504",
+      "KA-JURN-EA7D04"
+    ]
   },
   {
     "id": "KA-CARE-60CD36",
@@ -45,7 +52,11 @@
     "career_readiness_score": 100,
     "covered_skills_count": 6,
     "total_skills_count": 6,
-    "recommended_journeys": []
+    "recommended_journeys": [
+      "KA-JURN-25D100",
+      "KA-JURN-E91504",
+      "KA-JURN-EA7D04"
+    ]
   },
   {
     "id": "KA-CARE-8DF760",
@@ -61,7 +72,11 @@
     "career_readiness_score": 100,
     "covered_skills_count": 5,
     "total_skills_count": 5,
-    "recommended_journeys": []
+    "recommended_journeys": [
+      "KA-JURN-338524",
+      "KA-JURN-E91504",
+      "KA-JURN-EA7D04"
+    ]
   },
   {
     "id": "KA-CARE-C41E9D",
@@ -76,7 +91,11 @@
     "career_readiness_score": 100,
     "covered_skills_count": 4,
     "total_skills_count": 4,
-    "recommended_journeys": []
+    "recommended_journeys": [
+      "KA-JURN-338524",
+      "KA-JURN-E91504",
+      "KA-JURN-EA7D04"
+    ]
   },
   {
     "id": "KA-CARE-EC7FD8",
@@ -91,6 +110,10 @@
     "career_readiness_score": 100,
     "covered_skills_count": 4,
     "total_skills_count": 4,
-    "recommended_journeys": []
+    "recommended_journeys": [
+      "KA-JURN-3E1B8A",
+      "KA-JURN-E91504",
+      "KA-JURN-EA7D04"
+    ]
   }
 ]
