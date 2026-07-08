@@ -1,11 +1,11 @@
 {
-  "evaluated_at": "2026-07-08T03:07:30Z",
+  "evaluated_at": "2026-07-08T03:16:40Z",
   "overall_pass": false,
   "graph": {
-    "evaluated_at": "2026-07-08T03:07:30Z",
+    "evaluated_at": "2026-07-08T03:16:40Z",
     "total_nodes": 81,
     "content_nodes": 73,
-    "total_edges": 541,
+    "total_edges": 787,
     "node_type_breakdown": {
       "Node:Collection": 5,
       "Node:Journey": 3,
@@ -13,13 +13,13 @@
       "Node:Paper": 25,
       "Node:Repository": 26
     },
-    "orphan_rate": 10.96,
-    "orphan_count": 8,
+    "orphan_rate": 1.37,
+    "orphan_count": 1,
     "duplicate_rate": 1.37,
     "duplicate_count": 1,
-    "average_degree": 13.44,
-    "collection_coverage": 0,
-    "recommendation_coverage": 60.27,
+    "average_degree": 19.96,
+    "collection_coverage": 83.56,
+    "recommendation_coverage": 76.71,
     "thresholds": {
       "orphan_rate": {
         "target": 1,
@@ -31,30 +31,31 @@
       },
       "collection_coverage": {
         "target": 80,
-        "pass": false
+        "pass": true
       },
       "recommendation_coverage": {
         "target": 70,
-        "pass": false
+        "pass": true
       }
     }
   },
   "recommendations": {
-    "evaluated_at": "2026-07-08T03:07:30Z",
-    "recommendations_generated": 440,
-    "average_path_length": 2.3,
-    "resource_diversity": 3,
+    "evaluated_at": "2026-07-08T03:16:41Z",
+    "recommendations_generated": 674,
+    "average_path_length": 2.2,
+    "resource_diversity": 4,
     "resource_types_in_recommendations": [
-      "Node:Model",
       "Node:Paper",
-      "Node:Repository"
+      "Node:Model",
+      "Node:Repository",
+      "Node:Collection"
     ],
     "collection_utilization": 0,
-    "graph_utilization": 60.27,
+    "graph_utilization": 76.71,
     "thresholds": {
       "graph_utilization": {
         "target": 70,
-        "pass": false
+        "pass": true
       },
       "resource_diversity": {
         "target": 2,
@@ -67,7 +68,7 @@
     }
   },
   "journeys": {
-    "evaluated_at": "2026-07-08T03:07:31Z",
+    "evaluated_at": "2026-07-08T03:16:41Z",
     "journey_count": 3,
     "average_resources_per_journey": 10.67,
     "average_hours": 57,
@@ -113,12 +114,12 @@
   },
   "summary": {
     "total_nodes": 81,
-    "total_edges": 541,
-    "orphan_rate": 10.96,
+    "total_edges": 787,
+    "orphan_rate": 1.37,
     "duplicate_rate": 1.37,
-    "collection_coverage": 0,
-    "recommendation_coverage": 60.27,
-    "graph_utilization": 60.27,
+    "collection_coverage": 83.56,
+    "recommendation_coverage": 76.71,
+    "graph_utilization": 76.71,
     "journey_count": 3,
     "phase_balance_score": 67.45,
     "graph_pass": false,

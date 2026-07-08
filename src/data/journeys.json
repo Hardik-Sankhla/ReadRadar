@@ -1,7 +1,49 @@
 [
   {
+    "id": "KA-JURN-25D100",
+    "title": "Become an Agent Engineer",
+    "description": "A structured learning path to master Agent Engineer.",
+    "metadata": {
+      "phases": [
+        {
+          "name": "Phase 1: Foundations",
+          "description": "Build your core understanding.",
+          "resources": [
+            "KA-REPO-917A8C"
+          ]
+        },
+        {
+          "name": "Phase 2: Application",
+          "description": "Apply concepts and build projects.",
+          "resources": [
+            "KA-REPO-94D874",
+            "KA-REPO-39C495"
+          ]
+        },
+        {
+          "name": "Phase 3: Advanced",
+          "description": "Deep dive into research and niche areas.",
+          "resources": [
+            "KA-REPO-63F1FB"
+          ]
+        }
+      ],
+      "total_estimated_hours": 40,
+      "milestones": [
+        "Complete theoretical foundations",
+        "Build and interact with core implementations",
+        "Read advanced research and apply techniques"
+      ],
+      "projects": [
+        "langchain-ai/langchain",
+        "langchain-ai/langchain",
+        "microsoft/autogen"
+      ]
+    }
+  },
+  {
     "id": "KA-JURN-338524",
-    "title": "Become a AI Engineer",
+    "title": "Become an AI Engineer",
     "description": "A structured learning path to master AI Engineer.",
     "metadata": {
       "phases": [
@@ -15,20 +57,57 @@
         {
           "name": "Phase 2: Application",
           "description": "Apply concepts and build projects.",
-          "resources": []
+          "resources": [
+            "KA-REPO-94D874"
+          ]
         },
         {
           "name": "Phase 3: Advanced",
           "description": "Deep dive into research and niche areas.",
-          "resources": [
-            "KA-REPO-94D874"
-          ]
+          "resources": []
         }
       ],
       "total_estimated_hours": 20,
       "milestones": [
         "Complete theoretical foundations",
-        "Read advanced research and apply techniques"
+        "Build and interact with core implementations"
+      ],
+      "projects": [
+        "langchain-ai/langchain",
+        "langchain-ai/langchain"
+      ]
+    }
+  },
+  {
+    "id": "KA-JURN-3E1B8A",
+    "title": "Become a MLOps Engineer",
+    "description": "A structured learning path to master MLOps Engineer.",
+    "metadata": {
+      "phases": [
+        {
+          "name": "Phase 1: Foundations",
+          "description": "Build your core understanding.",
+          "resources": [
+            "KA-REPO-917A8C"
+          ]
+        },
+        {
+          "name": "Phase 2: Application",
+          "description": "Apply concepts and build projects.",
+          "resources": [
+            "KA-REPO-94D874"
+          ]
+        },
+        {
+          "name": "Phase 3: Advanced",
+          "description": "Deep dive into research and niche areas.",
+          "resources": []
+        }
+      ],
+      "total_estimated_hours": 20,
+      "milestones": [
+        "Complete theoretical foundations",
+        "Build and interact with core implementations"
       ],
       "projects": [
         "langchain-ai/langchain",
@@ -126,6 +205,108 @@
             "KA-PAPR-39E2A0",
             "KA-PAPR-3B444C",
             "KA-PAPR-574207"
+          ]
+        }
+      ],
+      "total_estimated_hours": 60,
+      "milestones": [
+        "Complete theoretical foundations",
+        "Build and interact with core implementations",
+        "Read advanced research and apply techniques"
+      ],
+      "projects": []
+    }
+  },
+  {
+    "id": "KA-JURN-E91504",
+    "title": "Become a LLM Engineer",
+    "description": "A structured learning path to master LLM Engineer.",
+    "metadata": {
+      "phases": [
+        {
+          "name": "Phase 1: Foundations",
+          "description": "Build your core understanding.",
+          "resources": [
+            "KA-REPO-D6F0AD"
+          ]
+        },
+        {
+          "name": "Phase 2: Application",
+          "description": "Apply concepts and build projects.",
+          "resources": [
+            "KA-MODL-2D3F0F",
+            "KA-REPO-917A8C",
+            "KA-REPO-94D874",
+            "KA-REPO-B4203A",
+            "KA-REPO-C41B5D"
+          ]
+        },
+        {
+          "name": "Phase 3: Advanced",
+          "description": "Deep dive into research and niche areas.",
+          "resources": [
+            "KA-PAPR-EC0918",
+            "KA-PAPR-39E2A0",
+            "KA-PAPR-3B444C",
+            "KA-PAPR-8AE9CE",
+            "KA-PAPR-DC00CE",
+            "KA-PAPR-05ADEB",
+            "KA-PAPR-686507",
+            "KA-PAPR-8585CC",
+            "KA-PAPR-8B1077"
+          ]
+        }
+      ],
+      "total_estimated_hours": 91,
+      "milestones": [
+        "Complete theoretical foundations",
+        "Build and interact with core implementations",
+        "Read advanced research and apply techniques"
+      ],
+      "projects": [
+        "vllm-project/vllm",
+        "langchain-ai/langchain",
+        "langchain-ai/langchain"
+      ]
+    }
+  },
+  {
+    "id": "KA-JURN-EA7D04",
+    "title": "Become an AI Researcher",
+    "description": "A structured learning path to master AI Researcher.",
+    "metadata": {
+      "phases": [
+        {
+          "name": "Phase 1: Foundations",
+          "description": "Build your core understanding.",
+          "resources": [
+            "KA-PAPR-686507"
+          ]
+        },
+        {
+          "name": "Phase 2: Application",
+          "description": "Apply concepts and build projects.",
+          "resources": [
+            "KA-PAPR-05ADEB"
+          ]
+        },
+        {
+          "name": "Phase 3: Advanced",
+          "description": "Deep dive into research and niche areas.",
+          "resources": [
+            "KA-PAPR-8585CC",
+            "KA-PAPR-8AE9CE",
+            "KA-PAPR-8B1077",
+            "KA-PAPR-B591B8",
+            "KA-PAPR-D33E00",
+            "KA-PAPR-0F3D5D",
+            "KA-PAPR-1340C5",
+            "KA-PAPR-364659",
+            "KA-PAPR-39E2A0",
+            "KA-PAPR-3B444C",
+            "KA-PAPR-574207",
+            "KA-PAPR-5C6742",
+            "KA-PAPR-C37580"
           ]
         }
       ],

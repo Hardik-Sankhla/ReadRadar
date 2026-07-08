@@ -1,8 +1,163 @@
 ---
+import journeysData from '../data/journeys.json';
+
+// Pre-generated canonical goal journeys (Phase 2.7)
+const GOALS = [
+    {
+        id: "KA-JURN-338524",
+        goal: "Become an AI Engineer",
+        icon: "⚙",
+        color: "#7C3AED",
+        glow: "#7C3AED",
+        hours: 20,
+        tagline: "Build intelligent systems end-to-end",
+    },
+    {
+        id: "KA-JURN-25D100",
+        goal: "Become an Agent Engineer",
+        icon: "◈",
+        color: "#06B6D4",
+        glow: "#06B6D4",
+        hours: 40,
+        tagline: "Design and deploy autonomous AI agents",
+    },
+    {
+        id: "KA-JURN-E91504",
+        goal: "Become an LLM Engineer",
+        icon: "⟨⟩",
+        color: "#8B5CF6",
+        glow: "#8B5CF6",
+        hours: 91,
+        tagline: "Master language model engineering",
+    },
+    {
+        id: "KA-JURN-3E1B8A",
+        goal: "Become an MLOps Engineer",
+        icon: "∞",
+        color: "#10B981",
+        glow: "#10B981",
+        hours: 20,
+        tagline: "Deploy and operate ML systems at scale",
+    },
+    {
+        id: "KA-JURN-EA7D04",
+        goal: "Become an AI Researcher",
+        icon: "∂",
+        color: "#E11D48",
+        glow: "#E11D48",
+        hours: 60,
+        tagline: "Push the frontier of AI research",
+    },
+];
+
+// Lookup journey metadata from compiled data
+const journeyMap = Object.fromEntries(
+    (journeysData as any[]).map((j: any) => [j.id, j])
+);
 ---
-<header class="mb-16 pb-8">
-    <h1 class="font-heading text-5xl md:text-7xl font-black text-white tracking-tighter uppercase leading-[0.9]">
-        The Intelligence Layer <br>
-        <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#7C3AED] to-[#A78BFA]">for Technical Books.</span>
+
+<header class="mb-20 pb-8">
+    <!-- Eyebrow -->
+    <p class="font-mono text-xs text-gray-500 uppercase tracking-[0.3em] mb-6 flex items-center gap-3">
+        <span class="w-8 h-[1px] bg-[#7C3AED]"></span>
+        AI Learning Operating System
+        <span class="w-8 h-[1px] bg-[#7C3AED]"></span>
+    </p>
+
+    <!-- Headline -->
+    <h1 class="font-heading text-5xl md:text-7xl font-black text-white tracking-tighter uppercase leading-[0.9] mb-4">
+        What do you<br/>
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#7C3AED] via-[#06B6D4] to-[#8B5CF6]">
+            want to become?
+        </span>
     </h1>
+    <p class="font-mono text-gray-400 text-lg max-w-xl mt-6">
+        Choose a goal. Get a structured learning path. Built from a live knowledge graph of books, papers, repos, and models.
+    </p>
+
+    <!-- Goal Cards Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-12">
+        {GOALS.map((goal) => {
+            const journey = journeyMap[goal.id];
+            const phases = journey?.metadata?.phases?.length ?? 3;
+            const baseUrl = import.meta.env.BASE_URL;
+            const href = `${baseUrl}/journeys/${goal.id}`.replace(/\/\/+/g, '/');
+
+            return (
+                <a
+                    href={href}
+                    class="group neo-card p-6 flex flex-col gap-4 hover:translate-y-[-2px] transition-all duration-200 cursor-pointer"
+                    style={`--glow: ${goal.glow}; border-left-color: ${goal.color};`}
+                >
+                    <!-- Icon + title row -->
+                    <div class="flex items-start justify-between">
+                        <div
+                            class="w-10 h-10 flex items-center justify-center font-heading font-bold text-lg border-2 flex-shrink-0"
+                            style={`color: ${goal.color}; border-color: ${goal.color}; background: ${goal.color}18;`}
+                        >
+                            {goal.icon}
+                        </div>
+                        <span
+                            class="font-mono text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity"
+                            style={`color: ${goal.color};`}
+                        >
+                            Start →
+                        </span>
+                    </div>
+
+                    <!-- Goal label -->
+                    <div>
+                        <h3
+                            class="font-heading font-black text-xl text-white group-hover:transition-colors leading-tight"
+                            style={`--hover-color: ${goal.color};`}
+                        >
+                            <span class="group-hover:text-[var(--hover-color)] transition-colors">{goal.goal}</span>
+                        </h3>
+                        <p class="font-mono text-xs text-gray-500 mt-1">{goal.tagline}</p>
+                    </div>
+
+                    <!-- Stats row -->
+                    <div class="flex items-center gap-4 mt-auto pt-4 border-t border-[#222]">
+                        <span class="font-mono text-xs text-gray-500">
+                            <span class="text-white font-bold">{goal.hours}h</span> estimated
+                        </span>
+                        <span class="w-[1px] h-3 bg-[#333]"></span>
+                        <span class="font-mono text-xs text-gray-500">
+                            <span class="text-white font-bold">{phases}</span> phases
+                        </span>
+                    </div>
+                </a>
+            );
+        })}
+
+        <!-- Browse card -->
+        <a
+            href={`${import.meta.env.BASE_URL}/discover`.replace(/\/\/+/g, '/')}
+            class="group neo-card p-6 flex flex-col gap-4 hover:translate-y-[-2px] transition-all duration-200 border-dashed border-[#333] hover:border-[#555]"
+        >
+            <div class="flex items-start justify-between">
+                <div class="w-10 h-10 flex items-center justify-center font-heading font-bold text-lg border-2 border-dashed border-[#444] text-gray-500 flex-shrink-0">
+                    +
+                </div>
+                <span class="font-mono text-xs font-bold text-gray-600 opacity-0 group-hover:opacity-100 transition-opacity">
+                    Browse →
+                </span>
+            </div>
+            <div>
+                <h3 class="font-heading font-black text-xl text-gray-500 group-hover:text-gray-300 transition-colors leading-tight">
+                    Browse Everything
+                </h3>
+                <p class="font-mono text-xs text-gray-600 mt-1">Explore the full knowledge graph</p>
+            </div>
+            <div class="flex items-center gap-4 mt-auto pt-4 border-t border-[#222]">
+                <span class="font-mono text-xs text-gray-600">
+                    <span class="text-gray-400 font-bold">73+</span> resources
+                </span>
+                <span class="w-[1px] h-3 bg-[#333]"></span>
+                <span class="font-mono text-xs text-gray-600">
+                    <span class="text-gray-400 font-bold">5</span> collections
+                </span>
+            </div>
+        </a>
+    </div>
 </header>
