@@ -32,6 +32,7 @@ jobs:
         with:
           repository: Hardik-Sankhla/KnowledgeRegistry
           path: src/KnowledgeRegistry
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Install dependencies
         run: npm ci
