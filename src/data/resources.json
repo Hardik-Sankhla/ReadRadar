@@ -1,112 +1,32 @@
 [
   {
-    "id": "book-1",
-    "title": "Designing Machine Learning Systems",
-    "type": "Book",
-    "authorId": "auth-1",
-    "publisher": "O'Reilly Media",
-    "domains": ["MLOps", "System Design"],
-    "tags": ["Production ML", "Architecture"],
-    "score": 9.5,
-    "trend_score": 8.8,
-    "official_url": "https://chiphuyen.com",
-    "description": "An excellent guide to designing, building, and deploying ML systems in production.",
-    "date_added": "2024-01-15T00:00:00Z",
-    "difficulty": "Intermediate",
-    "estimated_hours": 24,
-    "prerequisites": ["Python", "Statistics", "Basic ML Concepts"],
-    "learning_outcomes": ["Production ML Deployment", "Feature Stores", "Model Monitoring", "System Architecture"],
-    "related_resources": ["book-2", "repo-1"],
-    "skip_if": ["You've built and deployed multiple ML systems in production"],
-    "verification": {
-      "official": true,
-      "community_score": 4.9,
-      "agent_confidence": 98
-    },
-    "metadata": {
-      "edition": "1st Edition",
-      "language": "English",
-      "isbn": "978-1098107963",
-      "last_verified": "2024-03-01T00:00:00Z"
-    },
-    "knowledge_dna": {
-      "Production": 10,
-      "Theory": 4,
-      "Code": 6,
-      "Architecture": 9,
-      "Math": 3
-    }
-  },
-  {
-    "id": "repo-1",
-    "title": "LangChain",
+    "id": "KA-REPO-917A8C",
+    "title": "langchain-ai/langchain",
     "type": "Repository",
-    "authorId": "auth-2",
-    "publisher": "GitHub",
-    "domains": ["LLMs", "Agentic AI", "AI Engineering"],
-    "tags": ["Agents", "Framework", "Python"],
-    "score": 9.2,
-    "trend_score": 9.9,
+    "authorId": "unknown",
+    "domains": [
+      "Technology"
+    ],
+    "tags": [],
+    "score": 85,
+    "trend_score": 90,
     "official_url": "https://github.com/langchain-ai/langchain",
-    "description": "Building applications with LLMs through composability.",
-    "date_added": "2024-02-20T00:00:00Z",
-    "difficulty": "Beginner",
-    "estimated_hours": 12,
-    "prerequisites": ["Python basics", "Understanding of APIs"],
-    "learning_outcomes": ["Agent Orchestration", "RAG Pipelines", "Tool Calling", "Prompt Engineering"],
-    "related_resources": ["book-1"],
-    "skip_if": ["You prefer building from scratch without abstraction frameworks"],
-    "verification": {
-      "official": true,
-      "community_score": 4.5,
-      "agent_confidence": 95
-    },
-    "metadata": {
-      "language": "Python / TypeScript",
-      "last_verified": "2024-03-05T00:00:00Z"
-    },
-    "knowledge_dna": {
-      "Code": 10,
-      "Production": 7,
-      "Theory": 2,
-      "Agents": 9,
-      "Hands-on": 9
-    }
-  },
-  {
-    "id": "paper-1",
-    "title": "Attention Is All You Need",
-    "type": "Paper",
-    "authorId": "auth-3",
-    "publisher": "NeurIPS",
-    "domains": ["LLMs", "Math"],
-    "tags": ["Transformers", "Foundational", "Deep Learning"],
-    "score": 10.0,
-    "trend_score": 9.0,
-    "official_url": "https://arxiv.org/abs/1706.03762",
-    "description": "The foundational paper that introduced the Transformer architecture.",
-    "date_added": "2023-11-10T00:00:00Z",
-    "difficulty": "Advanced",
-    "estimated_hours": 8,
-    "prerequisites": ["Linear Algebra", "Calculus", "Basic Deep Learning"],
-    "learning_outcomes": ["Self-Attention Mechanism", "Transformer Architecture", "Multi-head Attention", "Positional Encoding"],
+    "description": "No description provided.",
+    "date_added": "2026-07-08",
+    "difficulty": "Intermediate",
+    "estimated_hours": 5,
+    "prerequisites": [],
+    "learning_outcomes": [],
     "related_resources": [],
-    "skip_if": ["You already understand Transformer math intimately"],
+    "skip_if": [],
     "verification": {
       "official": true,
-      "community_score": 5.0,
-      "agent_confidence": 100
+      "community_score": 85,
+      "agent_confidence": 1
     },
     "metadata": {
-      "language": "English",
-      "last_verified": "2024-02-15T00:00:00Z"
+      "last_verified": "2026-07-08T01:18:31.086Z"
     },
-    "knowledge_dna": {
-      "Math": 10,
-      "Theory": 10,
-      "Code": 0,
-      "Research": 10,
-      "Production": 0
-    }
+    "knowledge_dna": {}
   }
 ]

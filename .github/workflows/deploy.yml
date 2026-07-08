@@ -25,6 +25,12 @@ jobs:
         with:
           node-version: 22
 
+      - name: Checkout KnowledgeRegistry
+        uses: actions/checkout@v4
+        with:
+          repository: Hardik-Sankhla/KnowledgeRegistry
+          path: src/KnowledgeRegistry
+
       - name: Install dependencies
         run: npm ci
         
