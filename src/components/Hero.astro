@@ -71,7 +71,7 @@ const journeyMap = Object.fromEntries(
 );
 ---
 
-<header class="mb-20 pb-8">
+<header class="mb-10 sm:mb-16 md:mb-20 pb-4 md:pb-8">
     <!-- Eyebrow -->
     <p class="font-mono text-xs text-gray-500 uppercase tracking-[0.3em] mb-6 flex items-center gap-3">
         <span class="w-8 h-[1px] bg-[#7C3AED]"></span>
@@ -80,13 +80,13 @@ const journeyMap = Object.fromEntries(
     </p>
 
     <!-- Headline -->
-    <h1 class="font-heading text-5xl md:text-7xl font-black text-white tracking-tighter uppercase leading-[0.9] mb-4">
+    <h1 class="font-heading text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-white tracking-tighter uppercase leading-[0.9] mb-4">
         What do you<br/>
         <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#7C3AED] via-[#06B6D4] to-[#8B5CF6]">
             want to become?
         </span>
     </h1>
-    <p class="font-mono text-gray-400 text-lg max-w-xl mt-6">
+    <p class="font-mono text-gray-400 text-base sm:text-lg max-w-xl mt-6">
         Choose a goal. Get a structured learning path. Built from a live knowledge graph of books, papers, repos, and models.
     </p>
 
@@ -125,7 +125,7 @@ const journeyMap = Object.fromEntries(
                     </div>
 
                     <!-- Stats row -->
-                    <div class="flex items-center gap-4 mt-auto pt-4 border-t border-[#222]">
+                    <div class="flex items-center gap-2 sm:gap-4 mt-auto pt-4 border-t border-[#222]">
                         <span class="font-mono text-xs text-gray-500">
                             <span class="text-white font-bold">{goal.hours}h</span> estimated
                         </span>
@@ -157,7 +157,7 @@ const journeyMap = Object.fromEntries(
                 </h3>
                 <p class="font-mono text-xs text-gray-600 mt-1">Explore the full knowledge graph</p>
             </div>
-            <div class="flex items-center gap-4 mt-auto pt-4 border-t border-[#222]">
+            <div class="flex items-center gap-2 sm:gap-4 mt-auto pt-4 border-t border-[#222]">
                 <span class="font-mono text-xs text-gray-600">
                     <span class="text-gray-400 font-bold">73+</span> resources
                 </span>

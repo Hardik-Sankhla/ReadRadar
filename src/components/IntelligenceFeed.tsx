@@ -53,7 +53,7 @@ export default function IntelligenceFeed({ entities }: Props) {
         <header className="mb-8">
             <div className="flex items-center gap-4 mb-4">
                 <span className="w-10 h-10 bg-white text-black flex items-center justify-center font-heading font-bold text-xl border-2 border-[#333333] shadow-[4px_4px_0px_0px_#7C3AED]">#</span>
-                <h2 className="font-heading text-3xl md:text-4xl font-bold text-white uppercase">Trending Intelligence</h2>
+                <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl font-bold text-white uppercase">Trending Intelligence</h2>
             </div>
         </header>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -75,7 +75,7 @@ export default function IntelligenceFeed({ entities }: Props) {
         <header className="mb-10">
             <div className="flex items-center gap-4 mb-4">
                 <span className="w-10 h-10 bg-white text-black flex items-center justify-center font-heading font-bold text-xl border-2 border-[#333333] shadow-[4px_4px_0px_0px_#7C3AED]">D</span>
-                <h2 className="font-heading text-3xl md:text-4xl font-bold text-white uppercase">Intelligence Database</h2>
+                <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl font-bold text-white uppercase">Intelligence Database</h2>
             </div>
             
             {/* Controls */}
@@ -144,7 +144,7 @@ export default function IntelligenceFeed({ entities }: Props) {
                         <tr className="bg-[#1a1a1a]">
                           <td colSpan={7} className="p-6 border-b border-[#333333]">
                             <div className="grid grid-cols-1 md:grid-cols-4 gap-6 font-body text-sm">
-                              <div className="col-span-3">
+                              <div className="col-span-1 md:col-span-3">
                                 <h4 className="text-white font-bold mb-2 uppercase tracking-wide font-heading text-xs text-gray-500">Description</h4>
                                 <p className="text-gray-300 leading-relaxed">{entity.description}</p>
                                 

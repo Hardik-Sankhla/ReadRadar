@@ -27,8 +27,8 @@ const collections = collectionsData as Collection[];
                 
                 <p class="text-gray-400 text-lg mb-8 flex-grow border-l-4 border-[#333333] pl-4">{collection.description}</p>
                 
-                <div class="mt-auto bg-[#0A0A0A] p-4 border-2 border-[#333333] flex justify-between items-center">
-                    <div class="flex items-center gap-4">
+                <div class="mt-auto bg-[#0A0A0A] p-4 border-2 border-[#333333] flex flex-wrap gap-4 justify-between items-center">
+                    <div class="flex flex-wrap items-center gap-2 sm:gap-4">
                         <Badge variant="solid">{collection.resources.length} Resources</Badge>
                         <span class="font-mono text-xs text-gray-500">Updated: {new Date(collection.date_updated).toLocaleDateString()}</span>
                     </div>

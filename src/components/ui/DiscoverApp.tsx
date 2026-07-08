@@ -70,17 +70,17 @@ export default function DiscoverApp({ resources, domains, collections = [], edge
     <div className="space-y-8 relative">
       
       {/* Sticky Top Bar */}
-      <div className="sticky top-20 z-40 bg-[#0A0A0A]/95 backdrop-blur-md pt-4 pb-4 border-b-2 border-[#333333] -mx-6 px-6 shadow-xl">
+      <div className="sticky top-20 z-40 bg-[#0A0A0A]/95 backdrop-blur-md pt-4 pb-4 border-b-2 border-[#333333] -mx-4 px-4 sm:-mx-6 sm:px-6 md:-mx-8 md:px-8 shadow-xl">
         <div className="flex flex-col gap-4">
           <div className="flex flex-col md:flex-row gap-4">
             <SearchBar value={search} onChange={setSearch} placeholder="Search resources, tags, authors..." />
             <DomainFilter domains={domainNames} selectedDomain={selectedDomain} onSelect={setSelectedDomain} />
           </div>
           
-          <div className="flex flex-wrap justify-between items-center bg-[#171717] border-2 border-[#333333] p-3">
+          <div className="flex flex-wrap justify-between items-center gap-3 bg-[#171717] border-2 border-[#333333] p-3">
             <span className="font-mono text-gray-400 text-sm">Showing {filteredResources.length} results</span>
             
-            <div className="flex gap-3 items-center relative">
+            <div className="flex flex-wrap gap-2 sm:gap-3 items-center relative">
               
               {/* Density Selector */}
               <div className="flex bg-[#0A0A0A] border border-[#333333] rounded-sm overflow-hidden">

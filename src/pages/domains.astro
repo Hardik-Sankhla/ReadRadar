@@ -25,7 +25,7 @@ const domains = domainsData as Domain[];
                     {domain.trending && <Badge variant="solid">🔥 Trending</Badge>}
                 </div>
                 <p class="text-gray-400 mb-8 flex-grow">{domain.description}</p>
-                <div class="mt-auto border-t-2 border-[#333333] pt-4 flex justify-between items-center">
+                <div class="mt-auto border-t-2 border-[#333333] pt-4 flex flex-wrap gap-2 justify-between items-center">
                     <span class="font-mono text-sm text-gray-500">{domain.resource_count} Resources</span>
                     <span class="text-[#7C3AED] font-bold group-hover:translate-x-1 transition-transform">Explore →</span>
                 </div>

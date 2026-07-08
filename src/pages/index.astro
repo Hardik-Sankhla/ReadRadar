@@ -55,8 +55,8 @@ const featuredCollections = [...collections].slice(0, 6);
     </Section>
 
     <!-- 6. INTELLIGENCE METRICS -->
-    <Section id="metrics" title="Intelligence Metrics" icon="∑" className="mt-24">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <Section id="metrics" title="Intelligence Metrics" icon="∑" className="mt-16 md:mt-24">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
             <Statistics value={resources.length.toString()} label="Resources" />
             <Statistics value={collections.length.toString()} label="Collections" color="text-[#06B6D4]" />
             <Statistics value={journeys.length.toString()} label="Journeys" color="text-[#8B5CF6]" />
@@ -111,6 +111,7 @@ const featuredCollections = [...collections].slice(0, 6);
                             {step.label}
                         </div>
                         {i < 4 && <span class="text-[#333] hidden md:block">→</span>}
+                        {i < 4 && <span class="text-[#333] md:hidden">↓</span>}
                     </>
                 ))}
             </div>

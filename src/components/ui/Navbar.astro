@@ -3,11 +3,11 @@ const currentPath = Astro.url.pathname;
 ---
 
 <nav class="sticky top-0 z-50 bg-[#0A0A0A]/90 backdrop-blur-md border-b-2 border-[#333333]">
-    <div class="max-w-[90rem] mx-auto px-6 h-20 flex items-center justify-between">
+    <div class="max-w-[90rem] mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
         <div class="flex items-center gap-4">
-            <a href={`${import.meta.env.BASE_URL}/`.replace(/\/\/+/g, '/')} class="flex items-center gap-4 group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7C3AED] focus-visible:ring-offset-2 focus-visible:ring-offset-[#0A0A0A] rounded-md">
-                <div class="w-10 h-10 bg-[#7C3AED] border-2 border-white flex items-center justify-center font-heading font-bold text-white text-xl shadow-[4px_4px_0px_0px_#FFFFFF] group-hover:shadow-[2px_2px_0px_0px_#FFFFFF] transition-all duration-200">RR</div>
-                <span class="font-heading font-bold text-xl text-white tracking-tight">Read<span class="text-[#7C3AED]">Radar</span></span>
+            <a href={`${import.meta.env.BASE_URL}/`.replace(/\/\/+/g, '/')} class="flex items-center gap-3 md:gap-4 group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7C3AED] focus-visible:ring-offset-2 focus-visible:ring-offset-[#0A0A0A] rounded-md">
+                <div class="w-8 h-8 md:w-10 md:h-10 bg-[#7C3AED] border-2 border-white flex items-center justify-center font-heading font-bold text-white text-base md:text-xl shadow-[4px_4px_0px_0px_#FFFFFF] group-hover:shadow-[2px_2px_0px_0px_#FFFFFF] transition-all duration-200">RR</div>
+                <span class="font-heading font-bold text-lg md:text-xl text-white tracking-tight">Read<span class="text-[#7C3AED]">Radar</span></span>
             </a>
         </div>
         
