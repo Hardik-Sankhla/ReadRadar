@@ -11,18 +11,19 @@ const currentPath = Astro.url.pathname;
             </a>
         </div>
         
-        <div class="hidden xl:flex gap-4 font-mono text-[10px] text-gray-400 items-center border border-[#333333] px-3 py-1.5 bg-[#0A0A0A] shadow-[inset_2px_2px_0px_0px_#171717]">
-            <span class="flex items-center gap-1"><span class="text-white font-bold">73</span> RES</span>
-            <span class="w-[1px] h-3 bg-[#333333]"></span>
-            <span class="flex items-center gap-1"><span class="text-white font-bold">5</span> COL</span>
-            <span class="w-[1px] h-3 bg-[#333333]"></span>
-            <span class="flex items-center gap-1"><span class="text-white font-bold">8</span> DOM</span>
-            <span class="w-[1px] h-3 bg-[#333333]"></span>
-            <span>AGENT: <span class="w-1.5 h-1.5 rounded-full bg-[#10B981] animate-pulse inline-block"></span></span>
-        </div>
-
-        <!-- Desktop Navigation -->
-        <div class="hidden md:flex gap-6 font-mono text-sm font-medium items-center">
+        <div class="flex items-center gap-4 md:gap-8">
+            <div class="hidden xl:flex gap-4 font-mono text-[10px] text-gray-400 items-center border border-[#333333] px-3 py-1.5 bg-[#0A0A0A] shadow-[inset_2px_2px_0px_0px_#171717]">
+                <span class="flex items-center gap-1"><span class="text-white font-bold">73</span> RES</span>
+                <span class="w-[1px] h-3 bg-[#333333]"></span>
+                <span class="flex items-center gap-1"><span class="text-white font-bold">5</span> COL</span>
+                <span class="w-[1px] h-3 bg-[#333333]"></span>
+                <span class="flex items-center gap-1"><span class="text-white font-bold">8</span> DOM</span>
+                <span class="w-[1px] h-3 bg-[#333333]"></span>
+                <span>AGENT: <span class="w-1.5 h-1.5 rounded-full bg-[#10B981] animate-pulse inline-block"></span></span>
+            </div>
+    
+            <!-- Desktop Navigation -->
+            <div class="hidden md:flex gap-6 font-mono text-sm font-medium items-center">
             <a href={`${import.meta.env.BASE_URL}/discover`.replace(/\/\/+/g, '/')} class={`px-1 py-2 transition-all duration-300 relative group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7C3AED] rounded-sm ${currentPath.includes('/discover') ? 'text-white' : 'text-gray-400 hover:text-white'}`}>
                 Discover
                 <span class={`absolute bottom-0 left-0 w-full h-[2px] transition-all duration-300 ${currentPath.includes('/discover') ? 'bg-[#7C3AED] shadow-[0_0_8px_#7C3AED]' : 'bg-transparent group-hover:bg-gray-600'}`}></span>
@@ -76,6 +77,7 @@ const currentPath = Astro.url.pathname;
         <button id="mobile-menu-btn" class="md:hidden text-gray-400 hover:text-white p-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7C3AED] rounded-md transition-colors" aria-label="Toggle Menu">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
         </button>
+        </div>
     </div>
 
     <!-- Mobile Navigation Dropdown -->
