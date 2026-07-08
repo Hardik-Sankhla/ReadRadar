@@ -19,7 +19,7 @@ const domains = domainsData as Domain[];
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {domains.map(domain => (
-            <Card href={`/discover?domain=${encodeURIComponent(domain.name)}`} className="group hover:border-[#7C3AED] flex flex-col h-full">
+            <Card href={`${import.meta.env.BASE_URL}/discover?domain=${encodeURIComponent(domain.name)}`.replace(/\/\/+/g, '/')} className="group hover:border-[#7C3AED] flex flex-col h-full">
                 <div class="flex justify-between items-start mb-4">
                     <h3 class="font-heading font-bold text-2xl text-white group-hover:text-[#7C3AED] transition-colors">{domain.name}</h3>
                     {domain.trending && <Badge variant="solid">🔥 Trending</Badge>}

@@ -49,7 +49,7 @@ export function SearchModal() {
               <br/>
               <button 
                 onClick={() => {
-                  window.location.href = `/discover?q=${encodeURIComponent(query)}`;
+                  window.location.href = `${import.meta.env.BASE_URL}/discover?q=${encodeURIComponent(query)}`.replace(/\/\/+/g, '/');
                 }}
                 className="mt-4 px-4 py-2 bg-[#7C3AED] text-white font-bold hover:bg-[#5B21B6] transition-colors border-2 border-transparent"
               >
@@ -60,9 +60,9 @@ export function SearchModal() {
             <div className="text-gray-500 font-mono text-sm">
               <p className="mb-2 uppercase text-xs font-bold text-gray-400">Quick Links</p>
               <ul className="space-y-2">
-                <li><a href={`${import.meta.env.BASE_URL}trending`} className="hover:text-[#7C3AED] transition-colors block">🔥 Trending Intelligence</a></li>
-                <li><a href={`${import.meta.env.BASE_URL}discover`} className="hover:text-[#7C3AED] transition-colors block">🔍 Discover Resources</a></li>
-                <li><a href={`${import.meta.env.BASE_URL}domains`} className="hover:text-[#7C3AED] transition-colors block">📚 Explore Domains</a></li>
+                <li><a href={`${import.meta.env.BASE_URL}/trending`.replace(/\/\/+/g, '/')} className="hover:text-[#7C3AED] transition-colors block">🔥 Trending Intelligence</a></li>
+                <li><a href={`${import.meta.env.BASE_URL}/discover`.replace(/\/\/+/g, '/')} className="hover:text-[#7C3AED] transition-colors block">🔍 Discover Resources</a></li>
+                <li><a href={`${import.meta.env.BASE_URL}/domains`.replace(/\/\/+/g, '/')} className="hover:text-[#7C3AED] transition-colors block">📚 Explore Domains</a></li>
               </ul>
             </div>
           )}

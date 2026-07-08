@@ -19,7 +19,7 @@ const collections = collectionsData as Collection[];
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         {collections.map(collection => (
-            <Card href={`/discover`} className="group hover:border-[#06B6D4] flex flex-col h-full">
+            <Card href={`${import.meta.env.BASE_URL}/discover`.replace(/\/\/+/g, '/')} className="group hover:border-[#06B6D4] flex flex-col h-full">
                 <div class="flex flex-col mb-6">
                     <span class="text-[#06B6D4] font-mono text-sm mb-2">Curated by {collection.curator}</span>
                     <h3 class="font-heading font-bold text-3xl text-white group-hover:text-[#06B6D4] transition-colors">{collection.title}</h3>

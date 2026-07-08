@@ -38,7 +38,7 @@ const featuredCollections = [...collections].slice(0, 6);
 
     <!-- Minimal Search Entry Point (navigates to discover) -->
     <Section id="search" title="Search Everything" icon="?">
-        <form action="/discover" method="get" class="flex gap-4 max-w-2xl">
+        <form action={`${import.meta.env.BASE_URL}/discover`.replace(/\/\/+/g, '/')} method="get" class="flex gap-4 max-w-2xl">
             <input 
                 type="text" 
                 name="q"
@@ -62,7 +62,7 @@ const featuredCollections = [...collections].slice(0, 6);
     <Section id="domains" title="Popular Domains" icon="D" className="mt-24">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {popularDomains.map(domain => (
-                <Card href={`/discover?domain=${encodeURIComponent(domain.name)}`} className="group hover:border-[#7C3AED]">
+                <Card href={`${import.meta.env.BASE_URL}/discover?domain=${encodeURIComponent(domain.name)}`.replace(/\/\/+/g, '/')} className="group hover:border-[#7C3AED]">
                     <div class="flex justify-between items-start mb-4">
                         <h3 class="font-heading font-bold text-xl text-white group-hover:text-[#7C3AED] transition-colors">{domain.name}</h3>
                         <Badge variant="solid">{domain.resource_count} items</Badge>
@@ -76,7 +76,7 @@ const featuredCollections = [...collections].slice(0, 6);
     <Section id="collections" title="Featured Collections" icon="C" className="mt-24">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {featuredCollections.map(collection => (
-                <Card href={`/collections`} className="group hover:border-[#06B6D4]">
+                <Card href={`${import.meta.env.BASE_URL}/collections`.replace(/\/\/+/g, '/')} className="group hover:border-[#06B6D4]">
                     <h3 class="font-heading font-bold text-xl text-white group-hover:text-[#06B6D4] transition-colors mb-2">{collection.title}</h3>
                     <p class="text-sm text-gray-400 mb-4">{collection.description}</p>
                     <div class="flex justify-between items-center mt-auto">
