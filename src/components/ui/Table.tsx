@@ -142,8 +142,10 @@ export function ResourceTable({ data, isLoading = false }: Props) {
                       {expandedRows.has(entity.id) ? '-' : '+'}
                     </td>
                     <td className="font-bold text-white transition-colors relative">
-                      <div className="flex items-center gap-2 group-hover:text-[#7C3AED] flex-wrap">
-                        {entity.title}
+                      <div className="flex items-center gap-2 flex-wrap">
+                        <a href={`/resource/${entity.id}`} onClick={(e) => e.stopPropagation()} className="hover:text-[#7C3AED] hover:underline transition-colors">
+                          {entity.title}
+                        </a>
                         {isFoundational && <span className="px-1.5 py-0.5 bg-[#E11D48]/20 text-[#E11D48] text-[10px] border border-[#E11D48]/50 uppercase tracking-wider font-bold">Classic</span>}
                         {!isFoundational && isNew && <span className="px-1.5 py-0.5 bg-[#10B981]/20 text-[#10B981] text-[10px] border border-[#10B981]/50 uppercase tracking-wider font-bold">New</span>}
                         {!isFoundational && !isNew && isTrending && <span className="px-1.5 py-0.5 bg-[#F59E0B]/20 text-[#F59E0B] text-[10px] border border-[#F59E0B]/50 uppercase tracking-wider font-bold">Trending</span>}

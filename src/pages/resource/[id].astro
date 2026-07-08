@@ -1,0 +1,135 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Section from '../../components/ui/Section.astro';
+import { Badge } from '../../components/ui/Badge';
+
+import resourcesData from '../../data/resources.json';
+import collectionsData from '../../data/collections.json';
+import edgesData from '../../data/edges.json';
+import type { Resource } from '../../types';
+
+export async function getStaticPaths() {
+  const resources = resourcesData as Resource[];
+  return resources.map((resource) => {
+    return {
+      params: { id: resource.id },
+      props: { resource },
+    };
+  });
+}
+
+const { id } = Astro.params;
+const { resource } = Astro.props;
+const resources = resourcesData as Resource[];
+const collections = collectionsData as any[];
+const edges = edgesData as any[];
+
+// Find Suggested Learning Path (Collection this resource belongs to)
+const belongsToEdges = edges.filter(e => e.source_id === id && e.edge_type === 'BELONGS_TO');
+const parentCollections = belongsToEdges.map(e => collections.find(c => c.id === e.target_id)).filter(Boolean);
+
+// Find Recommended Next Resource
+let recommendedNext = null;
+
+if (parentCollections.length > 0) {
+  // Recommend the next resource in the same collection
+  const coll = parentCollections[0];
+  const siblingEdges = edges.filter(e => e.target_id === coll.id && e.edge_type === 'BELONGS_TO');
+  // Simple heuristic: pick a sibling that isn't this one
+  const siblings = siblingEdges.filter(e => e.source_id !== id);
+  if (siblings.length > 0) {
+    // Pick the first sibling for now
+    recommendedNext = resources.find(r => r.id === siblings[0].source_id);
+  }
+}
+
+if (!recommendedNext) {
+  // Traverse SIMILAR_TO edges
+  const similarEdges = edges.filter(e => e.edge_type === 'SIMILAR_TO' && (e.source_id === id || e.target_id === id));
+  if (similarEdges.length > 0) {
+    const firstSim = similarEdges[0];
+    const targetId = firstSim.source_id === id ? firstSim.target_id : firstSim.source_id;
+    recommendedNext = resources.find(r => r.id === targetId);
+  }
+}
+
+// Find Related Topics (just using tags for now)
+const relatedTopics = resource.tags || [];
+
+---
+
+<Layout title={`${resource.title} | ReadRadar`}>
+  <div class="max-w-4xl mx-auto py-12 px-6">
+    <a href="/discover" class="text-[#7C3AED] hover:underline font-mono text-sm mb-8 inline-block">&larr; Back to Discover</a>
+    
+    <div class="neo-card p-8 mb-8 border-l-4 border-[#7C3AED]">
+      <div class="flex items-center gap-3 mb-4">
+        <Badge variant="primary">{resource.type}</Badge>
+        {resource.domains?.map((domain: string) => (
+          <Badge variant="secondary">{domain}</Badge>
+        ))}
+      </div>
+      
+      <h1 class="text-3xl font-heading font-bold text-white mb-4">{resource.title}</h1>
+      
+      <p class="text-gray-300 font-mono mb-8 leading-relaxed">
+        {resource.description}
+      </p>
+      
+      <div class="flex gap-4">
+        <a href={resource.official_url} target="_blank" rel="noopener noreferrer" class="px-6 py-3 bg-[#7C3AED] hover:bg-[#5B21B6] text-white font-bold transition-colors">
+          View Resource &rarr;
+        </a>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      {parentCollections.length > 0 && (
+        <div class="neo-card p-6 bg-[#0A0A0A]">
+          <h3 class="text-xl font-heading font-bold text-white mb-4 border-l-2 border-[#7C3AED] pl-2">Suggested Learning Path</h3>
+          <p class="text-gray-400 text-sm mb-4">This resource is part of the <strong>{parentCollections[0].title}</strong> path.</p>
+          <div class="space-y-3">
+            {edges.filter(e => e.target_id === parentCollections[0].id && e.edge_type === 'BELONGS_TO').slice(0, 3).map(e => {
+              const r = resources.find(res => res.id === e.source_id);
+              if (!r) return null;
+              return (
+                <a href={`/resource/${r.id}`} class={`block p-3 border border-[#333333] hover:border-[#7C3AED] transition-colors ${r.id === id ? 'bg-[#171717] border-[#7C3AED]' : ''}`}>
+                  <div class="text-xs text-gray-500 font-mono mb-1">{r.type}</div>
+                  <div class="text-sm font-bold text-gray-200">{r.title}</div>
+                </a>
+              );
+            })}
+            <div class="text-xs text-gray-500 text-center mt-2">...and more</div>
+          </div>
+        </div>
+      )}
+
+      {recommendedNext && (
+        <div class="neo-card p-6 bg-[#0A0A0A]">
+          <h3 class="text-xl font-heading font-bold text-white mb-4 border-l-2 border-[#10B981] pl-2">Recommended Next</h3>
+          <p class="text-gray-400 text-sm mb-4">Based on Graph Intelligence, you should look at this next:</p>
+          <a href={`/resource/${recommendedNext.id}`} class="block p-4 border border-[#333333] hover:border-[#10B981] transition-colors group">
+            <div class="flex items-center gap-2 mb-2">
+              <Badge variant="outline">{recommendedNext.type}</Badge>
+            </div>
+            <h4 class="font-bold text-lg text-white group-hover:text-[#10B981] transition-colors">{recommendedNext.title}</h4>
+            <p class="text-sm text-gray-400 mt-2 line-clamp-2">{recommendedNext.description}</p>
+          </a>
+        </div>
+      )}
+    </div>
+
+    {relatedTopics.length > 0 && (
+      <div class="mt-8">
+        <h3 class="text-lg font-heading font-bold text-white mb-4">Related Topics</h3>
+        <div class="flex flex-wrap gap-2">
+          {relatedTopics.map((topic: string) => (
+            <span class="px-3 py-1 bg-[#171717] border border-[#333333] text-gray-300 font-mono text-xs">
+              {topic}
+            </span>
+          ))}
+        </div>
+      </div>
+    )}
+  </div>
+</Layout>
