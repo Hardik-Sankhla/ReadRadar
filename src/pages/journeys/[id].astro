@@ -1,0 +1,92 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Section from '../../components/ui/Section.astro';
+import Card from '../../components/ui/Card.astro';
+import { Badge } from '../../components/ui/Badge';
+
+import journeysData from '../../data/journeys.json';
+import resourcesData from '../../data/resources.json';
+
+export function getStaticPaths() {
+    return journeysData.map((j: any) => ({
+        params: { id: j.id },
+        props: { journey: j },
+    }));
+}
+
+const { journey } = Astro.props;
+const meta = journey.metadata || {};
+const phases = meta.phases || [];
+const hours = meta.total_estimated_hours || 0;
+const baseUrl = import.meta.env.BASE_URL;
+
+function getResource(id: string) {
+    return resourcesData.find((r: any) => r.id === id);
+}
+---
+
+<Layout title={`${journey.title} | ReadRadar Learning Journey`}>
+    <div class="mb-8">
+        <a href={`${baseUrl}/journeys`.replace(/\/\/+/g, '/')} class="text-gray-400 hover:text-white font-mono text-sm">← Back to Journeys</a>
+    </div>
+
+    <div class="bg-[#0A0A0A] border-2 border-[#333333] p-8 mb-12">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
+            <h1 class="font-heading font-bold text-4xl md:text-5xl text-white mb-4 md:mb-0">{journey.title}</h1>
+            <Badge variant="solid" className="text-lg px-4 py-2">{hours}h Estimated</Badge>
+        </div>
+        <p class="text-gray-400 text-xl border-l-4 border-[#06B6D4] pl-4">{journey.description}</p>
+        
+        {meta.milestones && meta.milestones.length > 0 && (
+            <div class="mt-8 pt-8 border-t border-[#333333]">
+                <h3 class="font-mono text-[#06B6D4] mb-4 uppercase tracking-wider text-sm">Key Milestones</h3>
+                <ul class="list-disc list-inside text-gray-300 space-y-2">
+                    {meta.milestones.map((m: string) => <li>{m}</li>)}
+                </ul>
+            </div>
+        )}
+        
+        {meta.projects && meta.projects.length > 0 && (
+            <div class="mt-8 pt-8 border-t border-[#333333]">
+                <h3 class="font-mono text-[#EAB308] mb-4 uppercase tracking-wider text-sm">Core Projects</h3>
+                <ul class="list-disc list-inside text-gray-300 space-y-2">
+                    {meta.projects.map((p: string) => <li>{p}</li>)}
+                </ul>
+            </div>
+        )}
+    </div>
+
+    <div class="space-y-12 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-[#333333] before:to-transparent">
+        {phases.map((phase: any, index: number) => (
+            <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                <div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-[#06B6D4] bg-[#0A0A0A] text-[#06B6D4] shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10 font-bold font-mono">
+                    {index + 1}
+                </div>
+                
+                <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-[#0A0A0A] border-2 border-[#333333] p-6 rounded hover:border-[#06B6D4] transition-colors">
+                    <h3 class="font-heading font-bold text-2xl text-white mb-2">{phase.name}</h3>
+                    <p class="text-gray-400 mb-6 font-mono text-sm">{phase.description}</p>
+                    
+                    {phase.resources.length > 0 ? (
+                        <div class="space-y-4">
+                            {phase.resources.map((resId: string) => {
+                                const r = getResource(resId);
+                                if (!r) return null;
+                                return (
+                                    <a href={`${baseUrl}/resource/${r.id}`.replace(/\/\/+/g, '/')} class="block bg-black border border-[#333333] hover:border-[#06B6D4] p-4 transition-colors">
+                                        <div class="flex justify-between items-start mb-2">
+                                            <span class="font-bold text-white group-hover:text-[#06B6D4]">{r.title}</span>
+                                            <Badge variant="outline" className="text-xs">{r.type}</Badge>
+                                        </div>
+                                    </a>
+                                )
+                            })}
+                        </div>
+                    ) : (
+                        <div class="text-gray-500 italic text-sm">No specific resources required. Practice implementation.</div>
+                    )}
+                </div>
+            </div>
+        ))}
+    </div>
+</Layout>

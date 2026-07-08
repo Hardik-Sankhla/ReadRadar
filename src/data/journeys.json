@@ -1,0 +1,141 @@
+[
+  {
+    "id": "KA-JURN-338524",
+    "title": "Become a AI Engineer",
+    "description": "A structured learning path to master AI Engineer.",
+    "metadata": {
+      "phases": [
+        {
+          "name": "Phase 1: Foundations",
+          "description": "Build your core understanding.",
+          "resources": [
+            "KA-REPO-917A8C"
+          ]
+        },
+        {
+          "name": "Phase 2: Application",
+          "description": "Apply concepts and build projects.",
+          "resources": []
+        },
+        {
+          "name": "Phase 3: Advanced",
+          "description": "Deep dive into research and niche areas.",
+          "resources": [
+            "KA-REPO-94D874"
+          ]
+        }
+      ],
+      "total_estimated_hours": 20,
+      "milestones": [
+        "Complete theoretical foundations",
+        "Read advanced research and apply techniques"
+      ],
+      "projects": [
+        "langchain-ai/langchain",
+        "langchain-ai/langchain"
+      ]
+    }
+  },
+  {
+    "id": "KA-JURN-5E6CE3",
+    "title": "Become a LLM Engineering",
+    "description": "A structured learning path to master LLM Engineering.",
+    "metadata": {
+      "phases": [
+        {
+          "name": "Phase 1: Foundations",
+          "description": "Build your core understanding.",
+          "resources": [
+            "KA-REPO-D6F0AD"
+          ]
+        },
+        {
+          "name": "Phase 2: Application",
+          "description": "Apply concepts and build projects.",
+          "resources": [
+            "KA-MODL-2D3F0F",
+            "KA-REPO-917A8C",
+            "KA-REPO-94D874",
+            "KA-REPO-B4203A",
+            "KA-REPO-C41B5D"
+          ]
+        },
+        {
+          "name": "Phase 3: Advanced",
+          "description": "Deep dive into research and niche areas.",
+          "resources": [
+            "KA-PAPR-EC0918",
+            "KA-PAPR-39E2A0",
+            "KA-PAPR-3B444C",
+            "KA-PAPR-8AE9CE",
+            "KA-PAPR-DC00CE",
+            "KA-PAPR-0F3D5D",
+            "KA-PAPR-574207",
+            "KA-PAPR-686507",
+            "KA-PAPR-8585CC"
+          ]
+        }
+      ],
+      "total_estimated_hours": 91,
+      "milestones": [
+        "Complete theoretical foundations",
+        "Build and interact with core implementations",
+        "Read advanced research and apply techniques"
+      ],
+      "projects": [
+        "vllm-project/vllm",
+        "langchain-ai/langchain",
+        "langchain-ai/langchain"
+      ]
+    }
+  },
+  {
+    "id": "KA-JURN-7542DC",
+    "title": "Learn RAG",
+    "description": "A structured learning path to master RAG.",
+    "metadata": {
+      "phases": [
+        {
+          "name": "Phase 1: Foundations",
+          "description": "Build your core understanding.",
+          "resources": [
+            "KA-PAPR-5C6742"
+          ]
+        },
+        {
+          "name": "Phase 2: Application",
+          "description": "Apply concepts and build projects.",
+          "resources": [
+            "KA-PAPR-8585CC"
+          ]
+        },
+        {
+          "name": "Phase 3: Advanced",
+          "description": "Deep dive into research and niche areas.",
+          "resources": [
+            "KA-PAPR-B591B8",
+            "KA-PAPR-C89F80",
+            "KA-PAPR-EC0918",
+            "KA-PAPR-05ADEB",
+            "KA-PAPR-0F3D5D",
+            "KA-PAPR-8AE9CE",
+            "KA-PAPR-D33E00",
+            "KA-PAPR-1340C5",
+            "KA-PAPR-DC00CE",
+            "KA-PAPR-364659",
+            "KA-PAPR-39E2A0",
+            "KA-PAPR-3B444C",
+            "KA-PAPR-574207"
+          ]
+        }
+      ],
+      "total_estimated_hours": 60,
+      "milestones": [
+        "Complete theoretical foundations",
+        "Build and interact with core implementations",
+        "Read advanced research and apply techniques"
+      ],
+      "projects": []
+    }
+  }
+]
