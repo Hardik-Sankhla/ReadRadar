@@ -1,0 +1,57 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Section from '../../components/ui/Section.astro';
+import { ResourceTable } from '../../components/ui/Table';
+
+import collectionsData from '../../data/collections.json';
+import resourcesData from '../../data/resources.json';
+import edgesData from '../../data/edges.json';
+
+import type { Collection, Resource } from '../../types';
+
+export async function getStaticPaths() {
+    const collections = collectionsData as Collection[];
+    return collections.map((collection) => {
+        return {
+            params: { id: collection.id },
+            props: { collection },
+        };
+    });
+}
+
+const { collection } = Astro.props;
+const resources = resourcesData as Resource[];
+const edges = edgesData as any[];
+
+// Filter edges for BELONGS_TO where target is this collection
+const collectionEdges = edges.filter(e => e.target_id === collection.id && e.edge_type === 'BELONGS_TO');
+const resourceIds = new Set(collectionEdges.map(e => e.source_id));
+
+// Find the actual resources
+const collectionResources = resources.filter(r => resourceIds.has(r.id));
+---
+
+<Layout title={`${collection.title} | Collections | ReadRadar`}>
+    <header class="mb-16 pb-8 border-b-2 border-[#222]">
+        <a href={`${import.meta.env.BASE_URL}/collections`.replace(/\/\/+/g, '/')} class="text-[#7C3AED] hover:text-white font-mono text-sm mb-6 inline-block transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7C3AED] rounded-sm">
+            ← Back to Collections
+        </a>
+        <h1 class="font-heading text-4xl md:text-5xl font-black text-white tracking-tighter uppercase leading-tight mb-4">
+            {collection.title}
+        </h1>
+        <p class="font-mono text-gray-400 text-lg max-w-2xl mb-6">
+            {collection.description}
+        </p>
+        <div class="flex items-center gap-4 font-mono text-xs text-gray-500">
+            <span class="text-[#06B6D4]">Curated by {collection.curator}</span>
+            <span class="w-[1px] h-3 bg-[#333]"></span>
+            <span>{collectionResources.length} Resources</span>
+            <span class="w-[1px] h-3 bg-[#333]"></span>
+            <span>Updated {new Date(collection.date_updated).toLocaleDateString()}</span>
+        </div>
+    </header>
+
+    <Section id="collection-resources" title="Resources in this Collection" icon="R">
+        <ResourceTable data={collectionResources} client:load />
+    </Section>
+</Layout>

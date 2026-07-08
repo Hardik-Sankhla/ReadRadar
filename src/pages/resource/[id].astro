@@ -60,7 +60,7 @@ const relatedTopics = resource.tags || [];
 
 <Layout title={`${resource.title} | ReadRadar`}>
   <div class="max-w-4xl mx-auto py-12 px-6">
-    <a href={`${import.meta.env.BASE_URL}/discover`.replace(/\/\/+/g, '/')} class="text-[#7C3AED] hover:underline font-mono text-sm mb-8 inline-block">&larr; Back to Discover</a>
+    <a href={`${import.meta.env.BASE_URL}/discover`.replace(/\/\/+/g, '/')} class="text-[#7C3AED] hover:underline font-mono text-sm mb-8 inline-block focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7C3AED] rounded-sm">&larr; Back to Discover</a>
     
     <div class="neo-card p-8 mb-8 border-l-4 border-[#7C3AED]">
       <div class="flex items-center gap-3 mb-4">
@@ -73,13 +73,19 @@ const relatedTopics = resource.tags || [];
       <h1 class="text-3xl font-heading font-bold text-white mb-4">{resource.title}</h1>
       
       <p class="text-gray-300 font-mono mb-8 leading-relaxed">
-        {resource.description}
+        {resource.description ? resource.description : <span class="italic text-gray-500">No description provided.</span>}
       </p>
       
       <div class="flex gap-4">
-        <a href={resource.official_url} target="_blank" rel="noopener noreferrer" class="px-6 py-3 bg-[#7C3AED] hover:bg-[#5B21B6] text-white font-bold transition-colors">
-          View Resource &rarr;
-        </a>
+        {resource.official_url ? (
+            <a href={resource.official_url} target="_blank" rel="noopener noreferrer" class="px-6 py-3 bg-[#7C3AED] hover:bg-[#5B21B6] text-white font-bold transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7C3AED] focus-visible:ring-offset-2 focus-visible:ring-offset-[#0A0A0A] rounded-sm">
+            View Resource &rarr;
+            </a>
+        ) : (
+            <button disabled class="px-6 py-3 bg-gray-800 text-gray-500 font-bold cursor-not-allowed">
+            URL Not Available
+            </button>
+        )}
       </div>
     </div>
 
@@ -93,7 +99,7 @@ const relatedTopics = resource.tags || [];
               const r = resources.find(res => res.id === e.source_id);
               if (!r) return null;
               return (
-                <a href={`${import.meta.env.BASE_URL}/resource/${r.id}`.replace(/\/\/+/g, '/')} class={`block p-3 border border-[#333333] hover:border-[#7C3AED] transition-colors ${r.id === id ? 'bg-[#171717] border-[#7C3AED]' : ''}`}>
+                <a href={`${import.meta.env.BASE_URL}/resource/${r.id}`.replace(/\/\/+/g, '/')} class={`block p-3 border border-[#333333] hover:border-[#7C3AED] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7C3AED] ${r.id === id ? 'bg-[#171717] border-[#7C3AED]' : ''}`}>
                   <div class="text-xs text-gray-500 font-mono mb-1">{r.type}</div>
                   <div class="text-sm font-bold text-gray-200">{r.title}</div>
                 </a>
@@ -108,12 +114,12 @@ const relatedTopics = resource.tags || [];
         <div class="neo-card p-6 bg-[#0A0A0A]">
           <h3 class="text-xl font-heading font-bold text-white mb-4 border-l-2 border-[#10B981] pl-2">Recommended Next</h3>
           <p class="text-gray-400 text-sm mb-4">Based on Graph Intelligence, you should look at this next:</p>
-          <a href={`${import.meta.env.BASE_URL}/resource/${recommendedNext.id}`.replace(/\/\/+/g, '/')} class="block p-4 border border-[#333333] hover:border-[#10B981] transition-colors group">
+          <a href={`${import.meta.env.BASE_URL}/resource/${recommendedNext.id}`.replace(/\/\/+/g, '/')} class="block p-4 border border-[#333333] hover:border-[#10B981] transition-colors group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#10B981]">
             <div class="flex items-center gap-2 mb-2">
               <Badge variant="outline">{recommendedNext.type}</Badge>
             </div>
             <h4 class="font-bold text-lg text-white group-hover:text-[#10B981] transition-colors">{recommendedNext.title}</h4>
-            <p class="text-sm text-gray-400 mt-2 line-clamp-2">{recommendedNext.description}</p>
+            <p class="text-sm text-gray-400 mt-2 line-clamp-2">{recommendedNext.description || 'No description available.'}</p>
           </a>
         </div>
       )}
