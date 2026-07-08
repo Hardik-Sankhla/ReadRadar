@@ -176,9 +176,9 @@ export function ResourceTable({ data, isLoading = false }: Props) {
                   </tr>
                   
                   {expandedRows.has(entity.id) && (
-                    <tr className="bg-[#1a1a1a]">
-                      <td colSpan={7} className="p-6 border-b border-[#333333]">
-                        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 font-body text-sm">
+                  <tr className="bg-[#1a1a1a]">
+                      <td colSpan={7} className="p-6 border-b border-[#333333] expanded-panel">
+                        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 font-body text-sm overflow-hidden">
                           
                           {/* Left Column: Description & ROI */}
                           <div className="col-span-1 md:col-span-4 flex flex-col gap-6">

@@ -8,45 +8,60 @@ const GOALS = [
         goal: "Become an AI Engineer",
         icon: "⚙",
         color: "#7C3AED",
-        glow: "#7C3AED",
         hours: 20,
         tagline: "Build intelligent systems end-to-end",
+        twBorder: "border-l-[#7C3AED]",
+        twText: "group-hover:text-[#7C3AED]",
+        twBg: "group-hover:bg-[#7C3AED]/5",
+        twStart: "text-[#7C3AED]",
     },
     {
         id: "KA-JURN-25D100",
         goal: "Become an Agent Engineer",
         icon: "◈",
         color: "#06B6D4",
-        glow: "#06B6D4",
         hours: 40,
         tagline: "Design and deploy autonomous AI agents",
+        twBorder: "border-l-[#06B6D4]",
+        twText: "group-hover:text-[#06B6D4]",
+        twBg: "group-hover:bg-[#06B6D4]/5",
+        twStart: "text-[#06B6D4]",
     },
     {
         id: "KA-JURN-E91504",
         goal: "Become an LLM Engineer",
         icon: "⟨⟩",
         color: "#8B5CF6",
-        glow: "#8B5CF6",
         hours: 91,
         tagline: "Master language model engineering",
+        twBorder: "border-l-[#8B5CF6]",
+        twText: "group-hover:text-[#8B5CF6]",
+        twBg: "group-hover:bg-[#8B5CF6]/5",
+        twStart: "text-[#8B5CF6]",
     },
     {
         id: "KA-JURN-3E1B8A",
         goal: "Become an MLOps Engineer",
         icon: "∞",
         color: "#10B981",
-        glow: "#10B981",
         hours: 20,
         tagline: "Deploy and operate ML systems at scale",
+        twBorder: "border-l-[#10B981]",
+        twText: "group-hover:text-[#10B981]",
+        twBg: "group-hover:bg-[#10B981]/5",
+        twStart: "text-[#10B981]",
     },
     {
         id: "KA-JURN-EA7D04",
         goal: "Become an AI Researcher",
         icon: "∂",
         color: "#E11D48",
-        glow: "#E11D48",
         hours: 60,
         tagline: "Push the frontier of AI research",
+        twBorder: "border-l-[#E11D48]",
+        twText: "group-hover:text-[#E11D48]",
+        twBg: "group-hover:bg-[#E11D48]/5",
+        twStart: "text-[#E11D48]",
     },
 ];
 
@@ -86,32 +101,25 @@ const journeyMap = Object.fromEntries(
             return (
                 <a
                     href={href}
-                    class="group neo-card p-6 flex flex-col gap-4 hover:translate-y-[-2px] transition-all duration-200 cursor-pointer"
-                    style={`--glow: ${goal.glow}; border-left-color: ${goal.color};`}
+                    class={`group neo-card p-6 flex flex-col gap-4 hover:translate-y-[-2px] transition-all duration-200 cursor-pointer border-l-4 ${goal.twBorder} ${goal.twBg}`}
                 >
-                    <!-- Icon + title row -->
+                    <!-- Icon + arrow row -->
                     <div class="flex items-start justify-between">
                         <div
-                            class="w-10 h-10 flex items-center justify-center font-heading font-bold text-lg border-2 flex-shrink-0"
-                            style={`color: ${goal.color}; border-color: ${goal.color}; background: ${goal.color}18;`}
+                            class={`w-10 h-10 flex items-center justify-center font-heading font-bold text-lg border-2 flex-shrink-0 ${goal.twStart}`}
+                            style={`border-color: ${goal.color}66; background: ${goal.color}18;`}
                         >
                             {goal.icon}
                         </div>
-                        <span
-                            class="font-mono text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity"
-                            style={`color: ${goal.color};`}
-                        >
+                        <span class={`font-mono text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity ${goal.twStart}`}>
                             Start →
                         </span>
                     </div>
 
                     <!-- Goal label -->
                     <div>
-                        <h3
-                            class="font-heading font-black text-xl text-white group-hover:transition-colors leading-tight"
-                            style={`--hover-color: ${goal.color};`}
-                        >
-                            <span class="group-hover:text-[var(--hover-color)] transition-colors">{goal.goal}</span>
+                        <h3 class={`font-heading font-black text-xl text-white leading-tight transition-colors ${goal.twText}`}>
+                            {goal.goal}
                         </h3>
                         <p class="font-mono text-xs text-gray-500 mt-1">{goal.tagline}</p>
                     </div>
@@ -133,7 +141,7 @@ const journeyMap = Object.fromEntries(
         <!-- Browse card -->
         <a
             href={`${import.meta.env.BASE_URL}/discover`.replace(/\/\/+/g, '/')}
-            class="group neo-card p-6 flex flex-col gap-4 hover:translate-y-[-2px] transition-all duration-200 border-dashed border-[#333] hover:border-[#555]"
+            class="group neo-card p-6 flex flex-col gap-4 hover:translate-y-[-2px] transition-all duration-200 border-dashed border-[#333] hover:border-[#555] border-l-4 border-l-[#333]"
         >
             <div class="flex items-start justify-between">
                 <div class="w-10 h-10 flex items-center justify-center font-heading font-bold text-lg border-2 border-dashed border-[#444] text-gray-500 flex-shrink-0">
