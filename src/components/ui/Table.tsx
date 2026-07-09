@@ -96,12 +96,12 @@ export function ResourceTable({ data, isLoading = false }: Props) {
   return (
     <div className="flex flex-col w-full">
       <div className="data-table-container mb-4 w-full overflow-x-auto border border-[#262626] rounded-sm">
-        <table className="data-table font-mono text-[13px] w-full table-fixed">
+        <table className="data-table font-mono text-[13px] w-full min-w-[600px] table-fixed">
           <thead>
             <tr>
               <th className="w-10 whitespace-nowrap"></th>
               <th 
-                className="w-full cursor-pointer hover:text-primary select-none transition-colors"
+                className="cursor-pointer hover:text-primary select-none transition-colors"
                 style={{ resize: 'horizontal', overflow: 'hidden' }}
                 onClick={() => handleSort('title')}
               >
@@ -116,18 +116,18 @@ export function ResourceTable({ data, isLoading = false }: Props) {
               </th>
               <th className="hidden lg:table-cell w-48" style={{ resize: 'horizontal', overflow: 'hidden' }}>Domains</th>
               <th 
-                className="w-auto whitespace-nowrap cursor-pointer hover:text-primary select-none transition-colors"
+                className="w-20 cursor-pointer hover:text-primary select-none transition-colors"
                 onClick={() => handleSort('score')}
               >
                 Score <SortIcon field="score" />
               </th>
               <th 
-                className="hidden sm:table-cell w-auto whitespace-nowrap cursor-pointer hover:text-primary select-none transition-colors"
+                className="hidden sm:table-cell w-20 cursor-pointer hover:text-primary select-none transition-colors"
                 onClick={() => handleSort('trend_score')}
               >
                 Trend <SortIcon field="trend_score" />
               </th>
-              <th className="w-auto whitespace-nowrap">Source</th>
+              <th className="w-20">Source</th>
             </tr>
           </thead>
           <tbody className="text-gray-300">

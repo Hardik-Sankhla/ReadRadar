@@ -110,16 +110,16 @@ export default function IntelligenceFeed({ entities }: Props) {
         </header>
 
         <div className="data-table-container w-full overflow-x-auto border border-[#262626] rounded-sm">
-            <table className="data-table font-mono text-[13px] w-full table-fixed">
+            <table className="data-table font-mono text-[13px] w-full min-w-[600px] table-fixed">
                 <thead>
                     <tr>
                         <th className="w-10 whitespace-nowrap"></th>
-                        <th className="w-full">Title</th>
+                        <th className="">Title</th>
                         <th className="hidden md:table-cell w-24">Type</th>
                         <th className="hidden lg:table-cell w-48">Domains</th>
-                        <th className="w-auto whitespace-nowrap">Score</th>
-                        <th className="hidden sm:table-cell w-auto whitespace-nowrap">Trend</th>
-                        <th className="w-auto whitespace-nowrap">Source</th>
+                        <th className="w-20">Score</th>
+                        <th className="hidden sm:table-cell w-20">Trend</th>
+                        <th className="w-20">Source</th>
                     </tr>
                 </thead>
                 <tbody className="text-gray-300">
