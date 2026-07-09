@@ -14,7 +14,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/pytorch/pytorch",
     "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -27,7 +27,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.693Z"
+      "last_verified": "2026-07-09T05:16:10.220Z"
     },
     "knowledge_dna": {}
   },
@@ -46,7 +46,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/anthropics/anthropic-sdk-python",
     "description": "No description provided.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -59,7 +59,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.694Z"
+      "last_verified": "2026-07-09T05:16:10.220Z"
     },
     "knowledge_dna": {}
   },
@@ -76,7 +76,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/ollama/ollama",
     "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -89,7 +89,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.695Z"
+      "last_verified": "2026-07-09T05:16:10.221Z"
     },
     "knowledge_dna": {}
   },
@@ -108,7 +108,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/scikit-learn/scikit-learn",
     "description": "scikit-learn: machine learning in Python",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -121,7 +121,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.696Z"
+      "last_verified": "2026-07-09T05:16:10.222Z"
     },
     "knowledge_dna": {}
   },
@@ -138,7 +138,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/huggingface/diffusers",
     "description": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -151,7 +151,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.697Z"
+      "last_verified": "2026-07-09T05:16:10.222Z"
     },
     "knowledge_dna": {}
   },
@@ -170,7 +170,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/openai/openai-python",
     "description": "The official Python library for the OpenAI API",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -183,7 +183,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.697Z"
+      "last_verified": "2026-07-09T05:16:10.223Z"
     },
     "knowledge_dna": {}
   },
@@ -200,7 +200,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/microsoft/autogen",
     "description": "A programming framework for agentic AI",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -213,7 +213,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.698Z"
+      "last_verified": "2026-07-09T05:16:10.224Z"
     },
     "knowledge_dna": {}
   },
@@ -230,7 +230,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/ray-project/ray",
     "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -243,7 +243,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.698Z"
+      "last_verified": "2026-07-09T05:16:10.224Z"
     },
     "knowledge_dna": {}
   },
@@ -260,7 +260,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/keras-team/keras",
     "description": "Deep Learning for humans",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -273,7 +273,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.701Z"
+      "last_verified": "2026-07-09T05:16:10.225Z"
     },
     "knowledge_dna": {}
   },
@@ -290,7 +290,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/milvus-io/milvus",
     "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -303,7 +303,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.704Z"
+      "last_verified": "2026-07-09T05:16:10.225Z"
     },
     "knowledge_dna": {}
   },
@@ -320,7 +320,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/qdrant/qdrant",
     "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -333,7 +333,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.705Z"
+      "last_verified": "2026-07-09T05:16:10.226Z"
     },
     "knowledge_dna": {}
   },
@@ -350,7 +350,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/run-llama/llama_index",
     "description": "LlamaIndex is the leading document agent and OCR platform",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -363,7 +363,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.706Z"
+      "last_verified": "2026-07-09T05:16:10.227Z"
     },
     "knowledge_dna": {}
   },
@@ -380,7 +380,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/Significant-Gravitas/AutoGPT",
     "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -393,7 +393,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.707Z"
+      "last_verified": "2026-07-09T05:16:10.228Z"
     },
     "knowledge_dna": {}
   },
@@ -410,7 +410,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/lm-sys/FastChat",
     "description": "An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -423,7 +423,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.708Z"
+      "last_verified": "2026-07-09T05:16:10.228Z"
     },
     "knowledge_dna": {}
   },
@@ -440,7 +440,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/weaviate/weaviate",
     "description": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -453,7 +453,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.708Z"
+      "last_verified": "2026-07-09T05:16:10.229Z"
     },
     "knowledge_dna": {}
   },
@@ -470,7 +470,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/langchain-ai/langchain",
     "description": "The agent engineering platform.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -483,7 +483,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.709Z"
+      "last_verified": "2026-07-09T05:16:10.230Z"
     },
     "knowledge_dna": {}
   },
@@ -500,7 +500,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/langchain-ai/langchain",
     "description": "The agent engineering platform.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -513,7 +513,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.709Z"
+      "last_verified": "2026-07-09T05:16:10.230Z"
     },
     "knowledge_dna": {}
   },
@@ -530,7 +530,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/open-mmlab/mmdetection",
     "description": "OpenMMLab Detection Toolbox and Benchmark",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -543,7 +543,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.710Z"
+      "last_verified": "2026-07-09T05:16:10.231Z"
     },
     "knowledge_dna": {}
   },
@@ -560,7 +560,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/EleutherAI/gpt-neox",
     "description": "An implementation of model parallel autoregressive transformers on GPUs, based on the Megatron and DeepSpeed libraries",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -573,7 +573,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.710Z"
+      "last_verified": "2026-07-09T05:16:10.232Z"
     },
     "knowledge_dna": {}
   },
@@ -590,7 +590,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/tensorflow/tensorflow",
     "description": "An Open Source Machine Learning Framework for Everyone",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -603,7 +603,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.711Z"
+      "last_verified": "2026-07-09T05:16:10.232Z"
     },
     "knowledge_dna": {}
   },
@@ -622,7 +622,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/microsoft/semantic-kernel",
     "description": "Integrate cutting-edge LLM technology quickly and easily into your apps",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -635,7 +635,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.711Z"
+      "last_verified": "2026-07-09T05:16:10.233Z"
     },
     "knowledge_dna": {}
   },
@@ -654,7 +654,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/ggml-org/llama.cpp",
     "description": "LLM inference in C/C++",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -667,7 +667,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.712Z"
+      "last_verified": "2026-07-09T05:16:10.233Z"
     },
     "knowledge_dna": {}
   },
@@ -686,7 +686,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/vllm-project/vllm",
     "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -699,7 +699,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.712Z"
+      "last_verified": "2026-07-09T05:16:10.234Z"
     },
     "knowledge_dna": {}
   },
@@ -716,7 +716,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/chroma-core/chroma",
     "description": "Search infrastructure for AI",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -729,7 +729,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.713Z"
+      "last_verified": "2026-07-09T05:16:10.234Z"
     },
     "knowledge_dna": {}
   },
@@ -748,7 +748,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/microsoft/markitdown",
     "description": "Python tool for converting files and office documents to Markdown.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -761,7 +761,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.714Z"
+      "last_verified": "2026-07-09T05:16:10.235Z"
     },
     "knowledge_dna": {}
   },
@@ -778,7 +778,7 @@
     "trend_score": 80,
     "official_url": "https://github.com/huggingface/transformers",
     "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -791,7 +791,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.714Z"
+      "last_verified": "2026-07-09T05:16:10.235Z"
     },
     "knowledge_dna": {}
   },
@@ -810,7 +810,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/1810.04805",
     "description": "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications.   BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -823,7 +823,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.716Z"
+      "last_verified": "2026-07-09T05:16:10.237Z"
     },
     "knowledge_dna": {}
   },
@@ -844,7 +844,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/2305.18290",
     "description": "While large-scale unsupervised language models (LMs) learn broad world knowledge and some reasoning skills, achieving precise control of their behavior is difficult due to the completely unsupervised nature of their training. Existing methods for gaining such steerability collect human labels of the relative quality of model generations and fine-tune the unsupervised LM to align with these preferences, often with reinforcement learning from human feedback (RLHF). However, RLHF is a complex and often unstable procedure, first fitting a reward model that reflects the human preferences, and then fine-tuning the large unsupervised LM using reinforcement learning to maximize this estimated reward without drifting too far from the original model. In this paper we introduce a new parameterization of the reward model in RLHF that enables extraction of the corresponding optimal policy in closed form, allowing us to solve the standard RLHF problem with only a simple classification loss. The resulting algorithm, which we call Direct Preference Optimization (DPO), is stable, performant, and computationally lightweight, eliminating the need for sampling from the LM during fine-tuning or performing significant hyperparameter tuning. Our experiments show that DPO can fine-tune LMs to align with human preferences as well as or better than existing methods. Notably, fine-tuning with DPO exceeds PPO-based RLHF in ability to control sentiment of generations, and matches or improves response quality in summarization and single-turn dialogue while being substantially simpler to implement and train.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -857,7 +857,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.718Z"
+      "last_verified": "2026-07-09T05:16:10.237Z"
     },
     "knowledge_dna": {}
   },
@@ -877,7 +877,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/2303.08774",
     "description": "We report the development of GPT-4, a large-scale, multimodal model which can accept image and text inputs and produce text outputs. While less capable than humans in many real-world scenarios, GPT-4 exhibits human-level performance on various professional and academic benchmarks, including passing a simulated bar exam with a score around the top 10% of test takers. GPT-4 is a Transformer-based model pre-trained to predict the next token in a document. The post-training alignment process results in improved performance on measures of factuality and adherence to desired behavior. A core component of this project was developing infrastructure and optimization methods that behave predictably across a wide range of scales. This allowed us to accurately predict some aspects of GPT-4's performance based on models trained with no more than 1/1,000th the compute of GPT-4.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -890,7 +890,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.719Z"
+      "last_verified": "2026-07-09T05:16:10.238Z"
     },
     "knowledge_dna": {}
   },
@@ -909,7 +909,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/1512.03385",
     "description": "Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers---8x deeper than VGG nets but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers.   The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28% relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC & COCO 2015 competitions, where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -922,7 +922,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.719Z"
+      "last_verified": "2026-07-09T05:16:10.239Z"
     },
     "knowledge_dna": {}
   },
@@ -943,7 +943,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/2106.09685",
     "description": "An important paradigm of natural language processing consists of large-scale pre-training on general domain data and adaptation to particular tasks or domains. As we pre-train larger models, full fine-tuning, which retrains all model parameters, becomes less feasible. Using GPT-3 175B as an example -- deploying independent instances of fine-tuned models, each with 175B parameters, is prohibitively expensive. We propose Low-Rank Adaptation, or LoRA, which freezes the pre-trained model weights and injects trainable rank decomposition matrices into each layer of the Transformer architecture, greatly reducing the number of trainable parameters for downstream tasks. Compared to GPT-3 175B fine-tuned with Adam, LoRA can reduce the number of trainable parameters by 10,000 times and the GPU memory requirement by 3 times. LoRA performs on-par or better than fine-tuning in model quality on RoBERTa, DeBERTa, GPT-2, and GPT-3, despite having fewer trainable parameters, a higher training throughput, and, unlike adapters, no additional inference latency. We also provide an empirical investigation into rank-deficiency in language model adaptation, which sheds light on the efficacy of LoRA. We release a package that facilitates the integration of LoRA with PyTorch models and provide our implementations and model checkpoints for RoBERTa, DeBERTa, and GPT-2 at https://github.com/microsoft/LoRA.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -956,7 +956,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.722Z"
+      "last_verified": "2026-07-09T05:16:10.240Z"
     },
     "knowledge_dna": {}
   },
@@ -975,7 +975,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/2210.03629",
     "description": "While large language models (LLMs) have demonstrated impressive capabilities across tasks in language understanding and interactive decision making, their abilities for reasoning (e.g. chain-of-thought prompting) and acting (e.g. action plan generation) have primarily been studied as separate topics. In this paper, we explore the use of LLMs to generate both reasoning traces and task-specific actions in an interleaved manner, allowing for greater synergy between the two: reasoning traces help the model induce, track, and update action plans as well as handle exceptions, while actions allow it to interface with external sources, such as knowledge bases or environments, to gather additional information. We apply our approach, named ReAct, to a diverse set of language and decision making tasks and demonstrate its effectiveness over state-of-the-art baselines, as well as improved human interpretability and trustworthiness over methods without reasoning or acting components. Concretely, on question answering (HotpotQA) and fact verification (Fever), ReAct overcomes issues of hallucination and error propagation prevalent in chain-of-thought reasoning by interacting with a simple Wikipedia API, and generates human-like task-solving trajectories that are more interpretable than baselines without reasoning traces. On two interactive decision making benchmarks (ALFWorld and WebShop), ReAct outperforms imitation and reinforcement learning methods by an absolute success rate of 34% and 10% respectively, while being prompted with only one or two in-context examples. Project site with code: https://react-lm.github.io",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -988,7 +988,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.723Z"
+      "last_verified": "2026-07-09T05:16:10.240Z"
     },
     "knowledge_dna": {}
   },
@@ -1007,7 +1007,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/2307.09288",
     "description": "In this work, we develop and release Llama 2, a collection of pretrained and fine-tuned large language models (LLMs) ranging in scale from 7 billion to 70 billion parameters. Our fine-tuned LLMs, called Llama 2-Chat, are optimized for dialogue use cases. Our models outperform open-source chat models on most benchmarks we tested, and based on our human evaluations for helpfulness and safety, may be a suitable substitute for closed-source models. We provide a detailed description of our approach to fine-tuning and safety improvements of Llama 2-Chat in order to enable the community to build on our work and contribute to the responsible development of LLMs.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1020,7 +1020,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.724Z"
+      "last_verified": "2026-07-09T05:16:10.241Z"
     },
     "knowledge_dna": {}
   },
@@ -1040,7 +1040,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/1706.03762",
     "description": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1053,7 +1053,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.724Z"
+      "last_verified": "2026-07-09T05:16:10.242Z"
     },
     "knowledge_dna": {}
   },
@@ -1072,7 +1072,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/2005.11401",
     "description": "Large pre-trained language models have been shown to store factual knowledge in their parameters, and achieve state-of-the-art results when fine-tuned on downstream NLP tasks. However, their ability to access and precisely manipulate knowledge is still limited, and hence on knowledge-intensive tasks, their performance lags behind task-specific architectures. Additionally, providing provenance for their decisions and updating their world knowledge remain open research problems. Pre-trained models with a differentiable access mechanism to explicit non-parametric memory can overcome this issue, but have so far been only investigated for extractive downstream tasks. We explore a general-purpose fine-tuning recipe for retrieval-augmented generation (RAG) -- models which combine pre-trained parametric and non-parametric memory for language generation. We introduce RAG models where the parametric memory is a pre-trained seq2seq model and the non-parametric memory is a dense vector index of Wikipedia, accessed with a pre-trained neural retriever. We compare two RAG formulations, one which conditions on the same retrieved passages across the whole generated sequence, the other can use different passages per token. We fine-tune and evaluate our models on a wide range of knowledge-intensive NLP tasks and set the state-of-the-art on three open domain QA tasks, outperforming parametric seq2seq models and task-specific retrieve-and-extract architectures. For language generation tasks, we find that RAG models generate more specific, diverse and factual language than a state-of-the-art parametric-only seq2seq baseline.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1085,7 +1085,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.725Z"
+      "last_verified": "2026-07-09T05:16:10.242Z"
     },
     "knowledge_dna": {}
   },
@@ -1104,7 +1104,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/1904.09751",
     "description": "Despite considerable advancements with deep neural language models, the enigma of neural text degeneration persists when these models are tested as text generators. The counter-intuitive empirical observation is that even though the use of likelihood as training objective leads to high quality models for a broad range of language understanding tasks, using likelihood as a decoding objective leads to text that is bland and strangely repetitive.   In this paper, we reveal surprising distributional differences between human text and machine text. In addition, we find that decoding strategies alone can dramatically effect the quality of machine text, even when generated from exactly the same neural language model. Our findings motivate Nucleus Sampling, a simple but effective method to draw the best out of neural generation. By sampling text from the dynamic nucleus of the probability distribution, which allows for diversity while effectively truncating the less reliable tail of the distribution, the resulting text better demonstrates the quality of human text, yielding enhanced diversity without sacrificing fluency and coherence.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1117,7 +1117,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.725Z"
+      "last_verified": "2026-07-09T05:16:10.243Z"
     },
     "knowledge_dna": {}
   },
@@ -1137,7 +1137,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/2205.01068",
     "description": "Large language models, which are often trained for hundreds of thousands of compute days, have shown remarkable capabilities for zero- and few-shot learning. Given their computational cost, these models are difficult to replicate without significant capital. For the few that are available through APIs, no access is granted to the full model weights, making them difficult to study. We present Open Pre-trained Transformers (OPT), a suite of decoder-only pre-trained transformers ranging from 125M to 175B parameters, which we aim to fully and responsibly share with interested researchers. We show that OPT-175B is comparable to GPT-3, while requiring only 1/7th the carbon footprint to develop. We are also releasing our logbook detailing the infrastructure challenges we faced, along with code for experimenting with all of the released models.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1150,7 +1150,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.726Z"
+      "last_verified": "2026-07-09T05:16:10.244Z"
     },
     "knowledge_dna": {}
   },
@@ -1169,7 +1169,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/2203.11171",
     "description": "Chain-of-thought prompting combined with pre-trained large language models has achieved encouraging results on complex reasoning tasks. In this paper, we propose a new decoding strategy, self-consistency, to replace the naive greedy decoding used in chain-of-thought prompting. It first samples a diverse set of reasoning paths instead of only taking the greedy one, and then selects the most consistent answer by marginalizing out the sampled reasoning paths. Self-consistency leverages the intuition that a complex reasoning problem typically admits multiple different ways of thinking leading to its unique correct answer. Our extensive empirical evaluation shows that self-consistency boosts the performance of chain-of-thought prompting with a striking margin on a range of popular arithmetic and commonsense reasoning benchmarks, including GSM8K (+17.9%), SVAMP (+11.0%), AQuA (+12.2%), StrategyQA (+6.4%) and ARC-challenge (+3.9%).",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1182,7 +1182,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.727Z"
+      "last_verified": "2026-07-09T05:16:10.245Z"
     },
     "knowledge_dna": {}
   },
@@ -1201,7 +1201,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/2305.10601",
     "description": "Language models are increasingly being deployed for general problem solving across a wide range of tasks, but are still confined to token-level, left-to-right decision-making processes during inference. This means they can fall short in tasks that require exploration, strategic lookahead, or where initial decisions play a pivotal role. To surmount these challenges, we introduce a new framework for language model inference, Tree of Thoughts (ToT), which generalizes over the popular Chain of Thought approach to prompting language models, and enables exploration over coherent units of text (thoughts) that serve as intermediate steps toward problem solving. ToT allows LMs to perform deliberate decision making by considering multiple different reasoning paths and self-evaluating choices to decide the next course of action, as well as looking ahead or backtracking when necessary to make global choices. Our experiments show that ToT significantly enhances language models' problem-solving abilities on three novel tasks requiring non-trivial planning or search: Game of 24, Creative Writing, and Mini Crosswords. For instance, in Game of 24, while GPT-4 with chain-of-thought prompting only solved 4% of tasks, our method achieved a success rate of 74%. Code repo with all prompts: https://github.com/princeton-nlp/tree-of-thought-llm.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1214,7 +1214,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.727Z"
+      "last_verified": "2026-07-09T05:16:10.246Z"
     },
     "knowledge_dna": {}
   },
@@ -1233,7 +1233,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/2302.13971",
     "description": "We introduce LLaMA, a collection of foundation language models ranging from 7B to 65B parameters. We train our models on trillions of tokens, and show that it is possible to train state-of-the-art models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets. In particular, LLaMA-13B outperforms GPT-3 (175B) on most benchmarks, and LLaMA-65B is competitive with the best models, Chinchilla-70B and PaLM-540B. We release all our models to the research community.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1246,7 +1246,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.728Z"
+      "last_verified": "2026-07-09T05:16:10.246Z"
     },
     "knowledge_dna": {}
   },
@@ -1265,7 +1265,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/2108.12409",
     "description": "Since the introduction of the transformer model by Vaswani et al. (2017), a fundamental question has yet to be answered: how does a model achieve extrapolation at inference time for sequences that are longer than it saw during training? We first show that extrapolation can be enabled by simply changing the position representation method, though we find that current methods do not allow for efficient extrapolation. We therefore introduce a simpler and more efficient position method, Attention with Linear Biases (ALiBi). ALiBi does not add positional embeddings to word embeddings; instead, it biases query-key attention scores with a penalty that is proportional to their distance. We show that this method trains a 1.3 billion parameter model on input sequences of length 1024 that extrapolates to input sequences of length 2048, achieving the same perplexity as a sinusoidal position embedding model trained on inputs of length 2048 but training 11% faster and using 11% less memory. ALiBi's inductive bias towards recency also leads it to outperform multiple strong position methods on the WikiText-103 benchmark.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1278,7 +1278,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.728Z"
+      "last_verified": "2026-07-09T05:16:10.247Z"
     },
     "knowledge_dna": {}
   },
@@ -1297,7 +1297,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/2204.02311",
     "description": "Large language models have been shown to achieve remarkable performance across a variety of natural language tasks using few-shot learning, which drastically reduces the number of task-specific training examples needed to adapt the model to a particular application. To further our understanding of the impact of scale on few-shot learning, we trained a 540-billion parameter, densely activated, Transformer language model, which we call Pathways Language Model PaLM. We trained PaLM on 6144 TPU v4 chips using Pathways, a new ML system which enables highly efficient training across multiple TPU Pods. We demonstrate continued benefits of scaling by achieving state-of-the-art few-shot learning results on hundreds of language understanding and generation benchmarks. On a number of these tasks, PaLM 540B achieves breakthrough performance, outperforming the finetuned state-of-the-art on a suite of multi-step reasoning tasks, and outperforming average human performance on the recently released BIG-bench benchmark. A significant number of BIG-bench tasks showed discontinuous improvements from model scale, meaning that performance steeply increased as we scaled to our largest model. PaLM also has strong capabilities in multilingual tasks and source code generation, which we demonstrate on a wide array of benchmarks. We additionally provide a comprehensive analysis on bias and toxicity, and study the extent of training data memorization with respect to model scale. Finally, we discuss the ethical considerations related to large language models and discuss potential mitigation strategies.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1310,7 +1310,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.729Z"
+      "last_verified": "2026-07-09T05:16:10.248Z"
     },
     "knowledge_dna": {}
   },
@@ -1331,7 +1331,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/2010.11929",
     "description": "While the Transformer architecture has become the de-facto standard for natural language processing tasks, its applications to computer vision remain limited. In vision, attention is either applied in conjunction with convolutional networks, or used to replace certain components of convolutional networks while keeping their overall structure in place. We show that this reliance on CNNs is not necessary and a pure transformer applied directly to sequences of image patches can perform very well on image classification tasks. When pre-trained on large amounts of data and transferred to multiple mid-sized or small image recognition benchmarks (ImageNet, CIFAR-100, VTAB, etc.), Vision Transformer (ViT) attains excellent results compared to state-of-the-art convolutional networks while requiring substantially fewer computational resources to train.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1344,7 +1344,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.730Z"
+      "last_verified": "2026-07-09T05:16:10.249Z"
     },
     "knowledge_dna": {}
   },
@@ -1363,7 +1363,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/2103.00020",
     "description": "State-of-the-art computer vision systems are trained to predict a fixed set of predetermined object categories. This restricted form of supervision limits their generality and usability since additional labeled data is needed to specify any other visual concept. Learning directly from raw text about images is a promising alternative which leverages a much broader source of supervision. We demonstrate that the simple pre-training task of predicting which caption goes with which image is an efficient and scalable way to learn SOTA image representations from scratch on a dataset of 400 million (image, text) pairs collected from the internet. After pre-training, natural language is used to reference learned visual concepts (or describe new ones) enabling zero-shot transfer of the model to downstream tasks. We study the performance of this approach by benchmarking on over 30 different existing computer vision datasets, spanning tasks such as OCR, action recognition in videos, geo-localization, and many types of fine-grained object classification. The model transfers non-trivially to most tasks and is often competitive with a fully supervised baseline without the need for any dataset specific training. For instance, we match the accuracy of the original ResNet-50 on ImageNet zero-shot without needing to use any of the 1.28 million training examples it was trained on. We release our code and pre-trained model weights at https://github.com/OpenAI/CLIP.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1376,7 +1376,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.730Z"
+      "last_verified": "2026-07-09T05:16:10.249Z"
     },
     "knowledge_dna": {}
   },
@@ -1396,7 +1396,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/2201.11903",
     "description": "We explore how generating a chain of thought -- a series of intermediate reasoning steps -- significantly improves the ability of large language models to perform complex reasoning. In particular, we show how such reasoning abilities emerge naturally in sufficiently large language models via a simple method called chain of thought prompting, where a few chain of thought demonstrations are provided as exemplars in prompting. Experiments on three large language models show that chain of thought prompting improves performance on a range of arithmetic, commonsense, and symbolic reasoning tasks. The empirical gains can be striking. For instance, prompting a 540B-parameter language model with just eight chain of thought exemplars achieves state of the art accuracy on the GSM8K benchmark of math word problems, surpassing even finetuned GPT-3 with a verifier.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1409,7 +1409,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.731Z"
+      "last_verified": "2026-07-09T05:16:10.250Z"
     },
     "knowledge_dna": {}
   },
@@ -1428,7 +1428,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/2304.03277",
     "description": "Prior work has shown that finetuning large language models (LLMs) using machine-generated instruction-following data enables such models to achieve remarkable zero-shot capabilities on new tasks, and no human-written instructions are needed. In this paper, we present the first attempt to use GPT-4 to generate instruction-following data for LLM finetuning. Our early experiments on instruction-tuned LLaMA models show that the 52K English and Chinese instruction-following data generated by GPT-4 leads to superior zero-shot performance on new tasks to the instruction-following data generated by previous state-of-the-art models. We also collect feedback and comparison data from GPT-4 to enable a comprehensive evaluation and reward model training. We make our data generated using GPT-4 as well as our codebase publicly available.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1441,7 +1441,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.731Z"
+      "last_verified": "2026-07-09T05:16:10.250Z"
     },
     "knowledge_dna": {}
   },
@@ -1460,7 +1460,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/1907.11692",
     "description": "Language model pretraining has led to significant performance gains but careful comparison between different approaches is challenging. Training is computationally expensive, often done on private datasets of different sizes, and, as we will show, hyperparameter choices have significant impact on the final results. We present a replication study of BERT pretraining (Devlin et al., 2019) that carefully measures the impact of many key hyperparameters and training data size. We find that BERT was significantly undertrained, and can match or exceed the performance of every model published after it. Our best model achieves state-of-the-art results on GLUE, RACE and SQuAD. These results highlight the importance of previously overlooked design choices, and raise questions about the source of recently reported improvements. We release our models and code.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1473,7 +1473,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.732Z"
+      "last_verified": "2026-07-09T05:16:10.251Z"
     },
     "knowledge_dna": {}
   },
@@ -1493,7 +1493,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/2305.14314",
     "description": "We present QLoRA, an efficient finetuning approach that reduces memory usage enough to finetune a 65B parameter model on a single 48GB GPU while preserving full 16-bit finetuning task performance. QLoRA backpropagates gradients through a frozen, 4-bit quantized pretrained language model into Low Rank Adapters~(LoRA). Our best model family, which we name Guanaco, outperforms all previous openly released models on the Vicuna benchmark, reaching 99.3% of the performance level of ChatGPT while only requiring 24 hours of finetuning on a single GPU. QLoRA introduces a number of innovations to save memory without sacrificing performance: (a) 4-bit NormalFloat (NF4), a new data type that is information theoretically optimal for normally distributed weights (b) double quantization to reduce the average memory footprint by quantizing the quantization constants, and (c) paged optimziers to manage memory spikes. We use QLoRA to finetune more than 1,000 models, providing a detailed analysis of instruction following and chatbot performance across 8 instruction datasets, multiple model types (LLaMA, T5), and model scales that would be infeasible to run with regular finetuning (e.g. 33B and 65B parameter models). Our results show that QLoRA finetuning on a small high-quality dataset leads to state-of-the-art results, even when using smaller models than the previous SoTA. We provide a detailed analysis of chatbot performance based on both human and GPT-4 evaluations showing that GPT-4 evaluations are a cheap and reasonable alternative to human evaluation. Furthermore, we find that current chatbot benchmarks are not trustworthy to accurately evaluate the performance levels of chatbots. A lemon-picked analysis demonstrates where Guanaco fails compared to ChatGPT. We release all of our models and code, including CUDA kernels for 4-bit training.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1506,7 +1506,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.732Z"
+      "last_verified": "2026-07-09T05:16:10.252Z"
     },
     "knowledge_dna": {}
   },
@@ -1525,7 +1525,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/2004.05150",
     "description": "Transformer-based models are unable to process long sequences due to their self-attention operation, which scales quadratically with the sequence length. To address this limitation, we introduce the Longformer with an attention mechanism that scales linearly with sequence length, making it easy to process documents of thousands of tokens or longer. Longformer's attention mechanism is a drop-in replacement for the standard self-attention and combines a local windowed attention with a task motivated global attention. Following prior work on long-sequence transformers, we evaluate Longformer on character-level language modeling and achieve state-of-the-art results on text8 and enwik8. In contrast to most prior work, we also pretrain Longformer and finetune it on a variety of downstream tasks. Our pretrained Longformer consistently outperforms RoBERTa on long document tasks and sets new state-of-the-art results on WikiHop and TriviaQA. We finally introduce the Longformer-Encoder-Decoder (LED), a Longformer variant for supporting long document generative sequence-to-sequence tasks, and demonstrate its effectiveness on the arXiv summarization dataset.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1538,7 +1538,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.735Z"
+      "last_verified": "2026-07-09T05:16:10.252Z"
     },
     "knowledge_dna": {}
   },
@@ -1558,7 +1558,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/2001.08361",
     "description": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the amount of compute used for training, with some trends spanning more than seven orders of magnitude. Other architectural details such as network width or depth have minimal effects within a wide range. Simple equations govern the dependence of overfitting on model/dataset size and the dependence of training speed on model size. These relationships allow us to determine the optimal allocation of a fixed compute budget. Larger models are significantly more sample-efficient, such that optimally compute-efficient training involves training very large models on a relatively modest amount of data and stopping significantly before convergence.",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1571,7 +1571,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.737Z"
+      "last_verified": "2026-07-09T05:16:10.253Z"
     },
     "knowledge_dna": {}
   },
@@ -1590,7 +1590,7 @@
     "trend_score": 95,
     "official_url": "https://arxiv.org/abs/2112.10752",
     "description": "By decomposing the image formation process into a sequential application of denoising autoencoders, diffusion models (DMs) achieve state-of-the-art synthesis results on image data and beyond. Additionally, their formulation allows for a guiding mechanism to control the image generation process without retraining. However, since these models typically operate directly in pixel space, optimization of powerful DMs often consumes hundreds of GPU days and inference is expensive due to sequential evaluations. To enable DM training on limited computational resources while retaining their quality and flexibility, we apply them in the latent space of powerful pretrained autoencoders. In contrast to previous work, training diffusion models on such a representation allows for the first time to reach a near-optimal point between complexity reduction and detail preservation, greatly boosting visual fidelity. By introducing cross-attention layers into the model architecture, we turn diffusion models into powerful and flexible generators for general conditioning inputs such as text or bounding boxes and high-resolution synthesis becomes possible in a convolutional manner. Our latent diffusion models (LDMs) achieve a new state of the art for image inpainting and highly competitive performance on various tasks, including unconditional image generation, semantic scene synthesis, and super-resolution, while significantly reducing computational requirements compared to pixel-based DMs. Code is available at https://github.com/CompVis/latent-diffusion .",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1603,7 +1603,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.741Z"
+      "last_verified": "2026-07-09T05:16:10.255Z"
     },
     "knowledge_dna": {}
   },
@@ -1626,7 +1626,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/01-ai/Yi-34B-Chat",
     "description": "text-generation",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1639,7 +1639,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.742Z"
+      "last_verified": "2026-07-09T05:16:10.256Z"
     },
     "knowledge_dna": {}
   },
@@ -1662,7 +1662,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/bigscience/bloomz-7b1",
     "description": "text-generation",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1675,7 +1675,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.743Z"
+      "last_verified": "2026-07-09T05:16:10.256Z"
     },
     "knowledge_dna": {}
   },
@@ -1698,7 +1698,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/Salesforce/codegen-16B-mono",
     "description": "text-generation",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1711,7 +1711,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.743Z"
+      "last_verified": "2026-07-09T05:16:10.257Z"
     },
     "knowledge_dna": {}
   },
@@ -1734,7 +1734,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/tiiuae/falcon-40b",
     "description": "text-generation",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1747,7 +1747,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.744Z"
+      "last_verified": "2026-07-09T05:16:10.258Z"
     },
     "knowledge_dna": {}
   },
@@ -1770,7 +1770,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1",
     "description": "AI Model",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1783,7 +1783,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.745Z"
+      "last_verified": "2026-07-09T05:16:10.258Z"
     },
     "knowledge_dna": {}
   },
@@ -1806,7 +1806,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/google/flan-t5-xxl",
     "description": "AI Model",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1819,7 +1819,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.746Z"
+      "last_verified": "2026-07-09T05:16:10.259Z"
     },
     "knowledge_dna": {}
   },
@@ -1842,7 +1842,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/openai/clip-vit-base-patch32",
     "description": "zero-shot-image-classification",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1855,7 +1855,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.746Z"
+      "last_verified": "2026-07-09T05:16:10.260Z"
     },
     "knowledge_dna": {}
   },
@@ -1878,7 +1878,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/microsoft/phi-2",
     "description": "text-generation",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1891,7 +1891,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.747Z"
+      "last_verified": "2026-07-09T05:16:10.261Z"
     },
     "knowledge_dna": {}
   },
@@ -1914,7 +1914,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/tiiuae/falcon-7b",
     "description": "text-generation",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1927,7 +1927,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.747Z"
+      "last_verified": "2026-07-09T05:16:10.262Z"
     },
     "knowledge_dna": {}
   },
@@ -1950,7 +1950,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1",
     "description": "text-generation",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -1963,7 +1963,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.748Z"
+      "last_verified": "2026-07-09T05:16:10.263Z"
     },
     "knowledge_dna": {}
   },
@@ -1987,7 +1987,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/stabilityai/stablelm-tuned-alpha-7b",
     "description": "text-generation",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -2000,7 +2000,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.749Z"
+      "last_verified": "2026-07-09T05:16:10.264Z"
     },
     "knowledge_dna": {}
   },
@@ -2023,7 +2023,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/google/gemma-7b",
     "description": "text-generation",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -2036,7 +2036,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.749Z"
+      "last_verified": "2026-07-09T05:16:10.265Z"
     },
     "knowledge_dna": {}
   },
@@ -2059,7 +2059,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/facebook/opt-13b",
     "description": "text-generation",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -2072,7 +2072,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.753Z"
+      "last_verified": "2026-07-09T05:16:10.266Z"
     },
     "knowledge_dna": {}
   },
@@ -2095,7 +2095,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/EleutherAI/pythia-12b",
     "description": "text-generation",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -2108,7 +2108,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.754Z"
+      "last_verified": "2026-07-09T05:16:10.269Z"
     },
     "knowledge_dna": {}
   },
@@ -2131,7 +2131,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/microsoft/phi-3-mini-4k-instruct",
     "description": "text-generation",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -2144,7 +2144,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.755Z"
+      "last_verified": "2026-07-09T05:16:10.269Z"
     },
     "knowledge_dna": {}
   },
@@ -2167,7 +2167,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
     "description": "sentence-similarity",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -2180,7 +2180,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.756Z"
+      "last_verified": "2026-07-09T05:16:10.270Z"
     },
     "knowledge_dna": {}
   },
@@ -2203,7 +2203,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
     "description": "text-generation",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -2216,7 +2216,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.757Z"
+      "last_verified": "2026-07-09T05:16:10.271Z"
     },
     "knowledge_dna": {}
   },
@@ -2239,7 +2239,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf",
     "description": "text-generation",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -2252,7 +2252,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.758Z"
+      "last_verified": "2026-07-09T05:16:10.271Z"
     },
     "knowledge_dna": {}
   },
@@ -2275,7 +2275,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/Qwen/Qwen1.5-7B-Chat",
     "description": "text-generation",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -2288,7 +2288,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.758Z"
+      "last_verified": "2026-07-09T05:16:10.272Z"
     },
     "knowledge_dna": {}
   },
@@ -2311,7 +2311,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
     "description": "feature-extraction",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -2324,7 +2324,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.759Z"
+      "last_verified": "2026-07-09T05:16:10.273Z"
     },
     "knowledge_dna": {}
   },
@@ -2347,7 +2347,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Chat",
     "description": "text-generation",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -2360,7 +2360,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.759Z"
+      "last_verified": "2026-07-09T05:16:10.273Z"
     },
     "knowledge_dna": {}
   },
@@ -2383,7 +2383,7 @@
     "trend_score": 90,
     "official_url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct",
     "description": "text-generation",
-    "date_added": "2026-07-08",
+    "date_added": "2026-07-09",
     "difficulty": "Intermediate",
     "estimated_hours": 5,
     "prerequisites": [],
@@ -2396,7 +2396,7 @@
       "agent_confidence": 1
     },
     "metadata": {
-      "last_verified": "2026-07-08T15:44:23.760Z"
+      "last_verified": "2026-07-09T05:16:10.274Z"
     },
     "knowledge_dna": {}
   }

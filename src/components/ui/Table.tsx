@@ -93,40 +93,40 @@ export function ResourceTable({ data, isLoading = false }: Props) {
   };
 
   return (
-    <div className="flex flex-col">
-      <div className="data-table-container mb-4">
-        <table className="data-table font-mono text-[13px] w-full" style={{ tableLayout: 'auto' }}>
+    <div className="flex flex-col w-full">
+      <div className="data-table-container mb-4 w-full overflow-x-auto border border-[#262626] rounded-sm">
+        <table className="data-table font-mono text-[13px] w-full table-fixed">
           <thead>
             <tr>
-              <th className="w-10"></th>
+              <th className="w-10 whitespace-nowrap"></th>
               <th 
-                className="cursor-pointer hover:text-[#7C3AED] select-none transition-colors"
-                style={{ resize: 'horizontal', overflow: 'hidden', minWidth: '150px' }}
+                className="w-full cursor-pointer hover:text-[#7C3AED] select-none transition-colors"
+                style={{ resize: 'horizontal', overflow: 'hidden' }}
                 onClick={() => handleSort('title')}
               >
                 Title <SortIcon field="title" />
               </th>
               <th 
-                className="cursor-pointer hover:text-[#7C3AED] select-none transition-colors"
+                className="hidden md:table-cell w-24 cursor-pointer hover:text-[#7C3AED] select-none transition-colors"
                 style={{ resize: 'horizontal', overflow: 'hidden' }}
                 onClick={() => handleSort('type')}
               >
                 Type <SortIcon field="type" />
               </th>
-              <th style={{ resize: 'horizontal', overflow: 'hidden' }}>Domains</th>
+              <th className="hidden lg:table-cell w-48" style={{ resize: 'horizontal', overflow: 'hidden' }}>Domains</th>
               <th 
-                className="cursor-pointer hover:text-[#7C3AED] select-none transition-colors"
+                className="w-auto whitespace-nowrap cursor-pointer hover:text-[#7C3AED] select-none transition-colors"
                 onClick={() => handleSort('score')}
               >
                 Score <SortIcon field="score" />
               </th>
               <th 
-                className="cursor-pointer hover:text-[#7C3AED] select-none transition-colors"
+                className="hidden sm:table-cell w-auto whitespace-nowrap cursor-pointer hover:text-[#7C3AED] select-none transition-colors"
                 onClick={() => handleSort('trend_score')}
               >
                 Trend <SortIcon field="trend_score" />
               </th>
-              <th>Source</th>
+              <th className="w-auto whitespace-nowrap">Source</th>
             </tr>
           </thead>
           <tbody className="text-gray-300">
@@ -141,7 +141,7 @@ export function ResourceTable({ data, isLoading = false }: Props) {
                     <td className="text-center font-bold text-[#7C3AED]">
                       {expandedRows.has(entity.id) ? '-' : '+'}
                     </td>
-                    <td className="font-bold text-white transition-colors relative">
+                    <td className="font-bold text-white transition-colors relative whitespace-normal min-w-[200px]">
                       <div className="flex items-center gap-2 flex-wrap">
                         <a href={`${import.meta.env.BASE_URL}/resource/${entity.id}`.replace(/\/\/+/g, '/')} onClick={(e) => e.stopPropagation()} className="hover:text-[#7C3AED] hover:underline transition-colors">
                           {entity.title}
@@ -151,15 +151,15 @@ export function ResourceTable({ data, isLoading = false }: Props) {
                         {!isFoundational && !isNew && isTrending && <span className="px-1.5 py-0.5 bg-[#F59E0B]/20 text-[#F59E0B] text-[10px] border border-[#F59E0B]/50 uppercase tracking-wider font-bold">Trending</span>}
                       </div>
                     </td>
-                    <td>{entity.type}</td>
-                    <td>
+                    <td className="hidden md:table-cell">{entity.type}</td>
+                    <td className="hidden lg:table-cell">
                       <div className="flex gap-1 flex-wrap">
                         {entity.domains.map(d => <Badge key={d}>{d}</Badge>)}
                       </div>
                     </td>
-                    <td className="font-bold text-[#10B981]">{entity.score.toFixed(1)}</td>
-                    <td className="text-[#06B6D4]">{entity.trend_score.toFixed(1)}</td>
-                    <td>
+                    <td className="w-auto whitespace-nowrap font-bold text-[#10B981]">{entity.score.toFixed(1)}</td>
+                    <td className="hidden sm:table-cell w-auto whitespace-nowrap text-[#06B6D4]">{entity.trend_score.toFixed(1)}</td>
+                    <td className="w-auto whitespace-nowrap">
                       <div className="flex items-center gap-3">
                         <a href={entity.official_url} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline" onClick={(e) => e.stopPropagation()}>
                           Link ↗

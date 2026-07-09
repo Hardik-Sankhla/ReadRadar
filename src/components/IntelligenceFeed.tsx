@@ -108,17 +108,17 @@ export default function IntelligenceFeed({ entities }: Props) {
             </div>
         </header>
 
-        <div className="data-table-container">
-            <table className="data-table font-mono text-[13px]">
+        <div className="data-table-container w-full overflow-x-auto border border-[#262626] rounded-sm">
+            <table className="data-table font-mono text-[13px] w-full table-fixed">
                 <thead>
                     <tr>
-                        <th className="w-10"></th>
-                        <th>Title</th>
-                        <th>Type</th>
-                        <th>Domains</th>
-                        <th>Score</th>
-                        <th>Trend</th>
-                        <th>Source</th>
+                        <th className="w-10 whitespace-nowrap"></th>
+                        <th className="w-full">Title</th>
+                        <th className="hidden md:table-cell w-24">Type</th>
+                        <th className="hidden lg:table-cell w-48">Domains</th>
+                        <th className="w-auto whitespace-nowrap">Score</th>
+                        <th className="hidden sm:table-cell w-auto whitespace-nowrap">Trend</th>
+                        <th className="w-auto whitespace-nowrap">Source</th>
                     </tr>
                 </thead>
                 <tbody className="text-gray-300">
@@ -128,16 +128,16 @@ export default function IntelligenceFeed({ entities }: Props) {
                         <td className="text-center font-bold text-[#7C3AED]">
                           {expandedRows.has(entity.id) ? '-' : '+'}
                         </td>
-                        <td className="font-bold text-white group-hover:text-[#7C3AED] transition-colors">{entity.title}</td>
-                        <td>{entity.type}</td>
-                        <td>
+                        <td className="font-bold text-white group-hover:text-[#7C3AED] transition-colors whitespace-normal min-w-[200px]">{entity.title}</td>
+                        <td className="hidden md:table-cell">{entity.type}</td>
+                        <td className="hidden lg:table-cell">
                           <div className="flex gap-1 flex-wrap">
                             {entity.domains.map(d => <span key={d} className="px-1.5 py-0.5 bg-[#333333]/50 text-gray-300 text-[10px] uppercase border border-[#333333]">{d}</span>)}
                           </div>
                         </td>
-                        <td className="font-bold text-[#10B981]">{entity.score.toFixed(1)}</td>
-                        <td className="text-[#06B6D4]">{entity.trend_score.toFixed(1)}</td>
-                        <td><a href={entity.official_url} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline" onClick={(e) => e.stopPropagation()}>Link ↗</a></td>
+                        <td className="w-auto whitespace-nowrap font-bold text-[#10B981]">{entity.score.toFixed(1)}</td>
+                        <td className="hidden sm:table-cell w-auto whitespace-nowrap text-[#06B6D4]">{entity.trend_score.toFixed(1)}</td>
+                        <td className="w-auto whitespace-nowrap"><a href={entity.official_url} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline" onClick={(e) => e.stopPropagation()}>Link ↗</a></td>
                       </tr>
                       
                       {expandedRows.has(entity.id) && (
