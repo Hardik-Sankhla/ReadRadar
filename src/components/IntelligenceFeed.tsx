@@ -110,16 +110,16 @@ export default function IntelligenceFeed({ entities }: Props) {
         </header>
 
         <div className="data-table-container w-full overflow-x-auto border border-[#262626] rounded-sm">
-            <table className="data-table font-mono text-[13px] w-full min-w-[600px] table-fixed">
+            <table className="data-table font-mono text-[13px] w-full min-w-max table-auto">
                 <thead>
                     <tr>
                         <th className="w-10 whitespace-nowrap"></th>
-                        <th className="">Title</th>
-                        <th className="hidden md:table-cell w-24">Type</th>
-                        <th className="hidden lg:table-cell w-48">Domains</th>
-                        <th className="w-20">Score</th>
-                        <th className="hidden sm:table-cell w-20">Trend</th>
-                        <th className="w-20">Source</th>
+                        <th className="whitespace-nowrap pr-8">Title</th>
+                        <th className="hidden md:table-cell whitespace-nowrap pr-8">Type</th>
+                        <th className="hidden lg:table-cell whitespace-nowrap pr-8">Domains</th>
+                        <th className="whitespace-nowrap pr-8">Score</th>
+                        <th className="hidden sm:table-cell whitespace-nowrap pr-8">Trend</th>
+                        <th className="whitespace-nowrap">Source</th>
                     </tr>
                 </thead>
                 <tbody className="text-gray-300">
@@ -129,7 +129,7 @@ export default function IntelligenceFeed({ entities }: Props) {
                         <td className="text-center font-bold text-primary">
                           {expandedRows.has(entity.id) ? '-' : '+'}
                         </td>
-                        <td className="font-bold text-white group-hover:text-primary transition-colors whitespace-normal min-w-[200px]">{entity.title}</td>
+                        <td className="font-bold text-white group-hover:text-primary transition-colors whitespace-nowrap pr-8">{entity.title}</td>
                         <td className="hidden md:table-cell">{entity.type}</td>
                         <td className="hidden lg:table-cell">
                           <div className="flex gap-1 flex-wrap">

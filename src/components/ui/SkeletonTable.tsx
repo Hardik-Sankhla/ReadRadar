@@ -3,26 +3,26 @@ import React from 'react';
 export function SkeletonTable() {
   return (
     <div className="w-full overflow-x-auto border-2 border-border bg-muted mb-12 animate-pulse rounded-sm">
-      <table className="w-full min-w-[600px] table-fixed border-collapse text-left font-mono">
+      <table className="w-full min-w-max table-auto border-collapse text-left font-mono">
         <thead>
           <tr>
             <th className="p-4 border-b border-r border-border bg-background w-10"></th>
             <th className="p-4 border-b border-r border-border bg-background">
-              <div className="h-4 bg-border rounded w-32"></div>
+              <div className="h-4 bg-border rounded w-48"></div>
             </th>
-            <th className="hidden md:table-cell p-4 border-b border-r border-border bg-background w-24">
+            <th className="hidden md:table-cell p-4 border-b border-r border-border bg-background whitespace-nowrap pr-8">
               <div className="h-4 bg-border rounded w-16"></div>
             </th>
-            <th className="hidden lg:table-cell p-4 border-b border-r border-border bg-background w-48">
+            <th className="hidden lg:table-cell p-4 border-b border-r border-border bg-background whitespace-nowrap pr-8">
               <div className="h-4 bg-border rounded w-32"></div>
             </th>
-            <th className="p-4 border-b border-r border-border bg-background w-20">
+            <th className="p-4 border-b border-r border-border bg-background whitespace-nowrap pr-8">
               <div className="h-4 bg-border rounded w-12"></div>
             </th>
-            <th className="hidden sm:table-cell p-4 border-b border-r border-border bg-background w-20">
+            <th className="hidden sm:table-cell p-4 border-b border-r border-border bg-background whitespace-nowrap pr-8">
               <div className="h-4 bg-border rounded w-12"></div>
             </th>
-            <th className="p-4 border-b border-border bg-background w-20">
+            <th className="p-4 border-b border-border bg-background whitespace-nowrap">
               <div className="h-4 bg-border rounded w-12"></div>
             </th>
           </tr>

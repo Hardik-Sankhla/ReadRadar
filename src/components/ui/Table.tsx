@@ -96,38 +96,36 @@ export function ResourceTable({ data, isLoading = false }: Props) {
   return (
     <div className="flex flex-col w-full">
       <div className="data-table-container mb-4 w-full overflow-x-auto border border-[#262626] rounded-sm">
-        <table className="data-table font-mono text-[13px] w-full min-w-[600px] table-fixed">
+        <table className="data-table font-mono text-[13px] w-full min-w-max table-auto">
           <thead>
             <tr>
               <th className="w-10 whitespace-nowrap"></th>
               <th 
-                className="cursor-pointer hover:text-primary select-none transition-colors"
-                style={{ resize: 'horizontal', overflow: 'hidden' }}
+                className="whitespace-nowrap cursor-pointer hover:text-primary select-none transition-colors pr-8"
                 onClick={() => handleSort('title')}
               >
                 Title <SortIcon field="title" />
               </th>
               <th 
-                className="hidden md:table-cell w-24 cursor-pointer hover:text-primary select-none transition-colors"
-                style={{ resize: 'horizontal', overflow: 'hidden' }}
+                className="hidden md:table-cell whitespace-nowrap cursor-pointer hover:text-primary select-none transition-colors pr-8"
                 onClick={() => handleSort('type')}
               >
                 Type <SortIcon field="type" />
               </th>
-              <th className="hidden lg:table-cell w-48" style={{ resize: 'horizontal', overflow: 'hidden' }}>Domains</th>
+              <th className="hidden lg:table-cell whitespace-nowrap pr-8">Domains</th>
               <th 
-                className="w-20 cursor-pointer hover:text-primary select-none transition-colors"
+                className="whitespace-nowrap cursor-pointer hover:text-primary select-none transition-colors pr-8"
                 onClick={() => handleSort('score')}
               >
                 Score <SortIcon field="score" />
               </th>
               <th 
-                className="hidden sm:table-cell w-20 cursor-pointer hover:text-primary select-none transition-colors"
+                className="hidden sm:table-cell whitespace-nowrap cursor-pointer hover:text-primary select-none transition-colors pr-8"
                 onClick={() => handleSort('trend_score')}
               >
                 Trend <SortIcon field="trend_score" />
               </th>
-              <th className="w-20">Source</th>
+              <th className="whitespace-nowrap">Source</th>
             </tr>
           </thead>
           <tbody className="text-gray-300">
@@ -142,7 +140,7 @@ export function ResourceTable({ data, isLoading = false }: Props) {
                     <td className="text-center font-bold text-primary">
                       {expandedRows.has(entity.id) ? '-' : '+'}
                     </td>
-                    <td className="font-bold text-white transition-colors relative whitespace-normal min-w-[200px]">
+                    <td className="font-bold text-white transition-colors relative whitespace-nowrap pr-8">
                       <div className="flex items-center gap-2 flex-wrap">
                         <a href={`${import.meta.env.BASE_URL}/resource/${entity.id}`.replace(/\/\/+/g, '/')} onClick={(e) => e.stopPropagation()} className="hover:text-primary hover:underline transition-colors">
                           {entity.title}
