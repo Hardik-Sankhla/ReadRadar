@@ -9,7 +9,7 @@ import journeysData from '../../data/journeys.json';
 
 <Layout title="Learning Journeys | ReadRadar">
     <Section id="journeys-header" title="Learning Journeys" icon="J">
-        <p class="font-mono text-gray-400 max-w-2xl mt-4">
+        <p class="font-mono text-gray-300 max-w-2xl mt-4">
             Goal-driven learning roadmaps structured logically with estimated timelines, generated from the KnowledgeRegistry graph.
         </p>
     </Section>
@@ -23,19 +23,19 @@ import journeysData from '../../data/journeys.json';
             const journeyUrl = `${baseUrl}/journeys/${journey.id}`.replace(/\/\/+/g, '/');
 
             return (
-                <Card href={journeyUrl} className="group hover:border-[#06B6D4] flex flex-col h-full">
+                <Card href={journeyUrl} className="group hover:border-secondary flex flex-col h-full">
                     <div class="flex flex-col mb-6">
-                        <h3 class="font-heading font-bold text-3xl text-white group-hover:text-[#06B6D4] transition-colors">{journey.title}</h3>
+                        <h3 class="font-heading font-bold text-3xl text-white group-hover:text-secondary transition-colors">{journey.title}</h3>
                     </div>
                     
-                    <p class="text-gray-400 text-lg mb-8 flex-grow border-l-4 border-[#333333] pl-4">{journey.description}</p>
+                    <p class="text-gray-300 text-lg mb-8 flex-grow border-l-4 border-border pl-4">{journey.description}</p>
                     
-                    <div class="mt-auto bg-[#0A0A0A] p-4 border-2 border-[#333333] flex flex-wrap gap-4 justify-between items-center">
+                    <div class="mt-auto bg-background p-4 border-2 border-border flex flex-wrap gap-4 justify-between items-center">
                         <div class="flex flex-wrap items-center gap-2 sm:gap-4">
                             <Badge variant="solid">{phases} Phases</Badge>
                             <Badge variant="outline">{hours}h Estimated</Badge>
                         </div>
-                        <span class="text-[#06B6D4] font-bold group-hover:translate-x-1 transition-transform">Start Journey →</span>
+                        <span class="text-secondary font-bold group-hover:translate-x-1 transition-transform">Start Journey →</span>
                     </div>
                 </Card>
             );

@@ -23,7 +23,7 @@ const formatDate = (dateString: string) => {
     <div class="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4">
       <div>
         <h1 class="text-3xl font-bold mb-2 text-white">BookOS Runtime Status</h1>
-        <p class="text-gray-400">Production Control Plane</p>
+        <p class="text-gray-300">Production Control Plane</p>
       </div>
       <div class="flex items-center space-x-2 bg-gray-800 px-4 py-2 rounded-full border border-gray-700 shadow-sm self-start md:self-auto">
         <span class={`w-3 h-3 rounded-full ${statusColor} animate-pulse`}></span>
@@ -33,11 +33,11 @@ const formatDate = (dateString: string) => {
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
       <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 shadow-sm transition-all hover:border-gray-600">
-        <h3 class="text-gray-400 text-sm font-medium mb-1">Uptime</h3>
-        <p class="text-2xl font-bold text-white">{heartbeat.uptime_hours || 0} <span class="text-sm font-normal text-gray-500">hours</span></p>
+        <h3 class="text-gray-300 text-sm font-medium mb-1">Uptime</h3>
+        <p class="text-2xl font-bold text-white">{heartbeat.uptime_hours || 0} <span class="text-sm font-normal text-gray-400">hours</span></p>
       </div>
       <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 shadow-sm transition-all hover:border-gray-600">
-        <h3 class="text-gray-400 text-sm font-medium mb-1">Success Rate</h3>
+        <h3 class="text-gray-300 text-sm font-medium mb-1">Success Rate</h3>
         <p class="text-2xl font-bold text-white">
           {(heartbeat.successful_runs || 0) + (heartbeat.failed_runs || 0) > 0 
             ? Math.round(((heartbeat.successful_runs || 0) / ((heartbeat.successful_runs || 0) + (heartbeat.failed_runs || 0))) * 100)
@@ -45,11 +45,11 @@ const formatDate = (dateString: string) => {
         </p>
       </div>
       <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 shadow-sm transition-all hover:border-gray-600">
-        <h3 class="text-gray-400 text-sm font-medium mb-1">Last Run</h3>
+        <h3 class="text-gray-300 text-sm font-medium mb-1">Last Run</h3>
         <p class="text-sm font-medium text-white truncate" title={formatDate(heartbeat.last_run)}>{formatDate(heartbeat.last_run)}</p>
       </div>
       <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 shadow-sm transition-all hover:border-gray-600">
-        <h3 class="text-gray-400 text-sm font-medium mb-1">Next Run</h3>
+        <h3 class="text-gray-300 text-sm font-medium mb-1">Next Run</h3>
         <p class="text-sm font-medium text-white truncate" title={formatDate(heartbeat.next_run)}>{formatDate(heartbeat.next_run)}</p>
       </div>
     </div>
@@ -57,19 +57,19 @@ const formatDate = (dateString: string) => {
     <h2 class="text-2xl font-semibold mb-4 mt-12 text-white">Registry Metrics</h2>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
       <div class="bg-gray-800/50 p-5 rounded-lg border border-gray-700/50 shadow-inner">
-        <div class="text-gray-400 text-xs uppercase tracking-wider mb-2 font-medium">Total Nodes</div>
+        <div class="text-gray-300 text-xs uppercase tracking-wider mb-2 font-medium">Total Nodes</div>
         <div class="text-2xl font-bold text-blue-400">{metrics.total_nodes || 0}</div>
       </div>
       <div class="bg-gray-800/50 p-5 rounded-lg border border-gray-700/50 shadow-inner">
-        <div class="text-gray-400 text-xs uppercase tracking-wider mb-2 font-medium">Total Edges</div>
+        <div class="text-gray-300 text-xs uppercase tracking-wider mb-2 font-medium">Total Edges</div>
         <div class="text-2xl font-bold text-purple-400">{metrics.total_edges || 0}</div>
       </div>
       <div class="bg-gray-800/50 p-5 rounded-lg border border-gray-700/50 shadow-inner">
-        <div class="text-gray-400 text-xs uppercase tracking-wider mb-2 font-medium">Skills</div>
+        <div class="text-gray-300 text-xs uppercase tracking-wider mb-2 font-medium">Skills</div>
         <div class="text-2xl font-bold text-yellow-400">{metrics.skills || 0}</div>
       </div>
       <div class="bg-gray-800/50 p-5 rounded-lg border border-gray-700/50 shadow-inner">
-        <div class="text-gray-400 text-xs uppercase tracking-wider mb-2 font-medium">Collections</div>
+        <div class="text-gray-300 text-xs uppercase tracking-wider mb-2 font-medium">Collections</div>
         <div class="text-2xl font-bold text-green-400">{metrics.collections || 0}</div>
       </div>
     </div>
@@ -81,15 +81,15 @@ const formatDate = (dateString: string) => {
       <div class="p-6">
         <div class="space-y-4">
           <div class="flex justify-between items-center border-b border-gray-700/50 pb-4 hover:bg-gray-750 transition-colors px-2 -mx-2 rounded">
-            <span class="text-gray-400">Orphan Rate</span>
+            <span class="text-gray-300">Orphan Rate</span>
             <span class="font-medium text-white">{metrics.orphan_rate !== undefined ? metrics.orphan_rate + '%' : 'N/A'}</span>
           </div>
           <div class="flex justify-between items-center border-b border-gray-700/50 pb-4 hover:bg-gray-750 transition-colors px-2 -mx-2 rounded">
-            <span class="text-gray-400">Collection Coverage</span>
+            <span class="text-gray-300">Collection Coverage</span>
             <span class="font-medium text-white">{metrics.coverage !== undefined ? metrics.coverage + '%' : 'N/A'}</span>
           </div>
           <div class="flex justify-between items-center hover:bg-gray-750 transition-colors px-2 -mx-2 rounded pb-2">
-            <span class="text-gray-400">Last Deployment</span>
+            <span class="text-gray-300">Last Deployment</span>
             <span class="font-medium text-white">{formatDate(heartbeat.last_publish)}</span>
           </div>
         </div>

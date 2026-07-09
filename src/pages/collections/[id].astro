@@ -33,17 +33,17 @@ const collectionResources = resources.filter(r => resourceIds.has(r.id));
 
 <Layout title={`${collection.title} | Collections | ReadRadar`}>
     <header class="mb-16 pb-8 border-b-2 border-[#222]">
-        <a href={`${import.meta.env.BASE_URL}/collections`.replace(/\/\/+/g, '/')} class="text-[#7C3AED] hover:text-white font-mono text-sm mb-6 inline-block transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7C3AED] rounded-sm">
+        <a href={`${import.meta.env.BASE_URL}/collections`.replace(/\/\/+/g, '/')} class="text-primary hover:text-white font-mono text-sm mb-6 inline-block transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-sm">
             ← Back to Collections
         </a>
         <h1 class="font-heading text-4xl md:text-5xl font-black text-white tracking-tighter uppercase leading-tight mb-4">
             {collection.title}
         </h1>
-        <p class="font-mono text-gray-400 text-lg max-w-2xl mb-6">
+        <p class="font-mono text-gray-300 text-lg max-w-2xl mb-6">
             {collection.description}
         </p>
-        <div class="flex items-center gap-4 font-mono text-xs text-gray-500">
-            <span class="text-[#06B6D4]">Curated by {collection.curator}</span>
+        <div class="flex items-center gap-4 font-mono text-xs text-gray-400">
+            <span class="text-secondary">Curated by {collection.curator}</span>
             <span class="w-[1px] h-3 bg-[#333]"></span>
             <span>{collectionResources.length} Resources</span>
             <span class="w-[1px] h-3 bg-[#333]"></span>

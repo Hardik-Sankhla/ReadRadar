@@ -14,16 +14,16 @@ function fmt(val: any, suffix = '%'): string {
 }
 
 function statusBg(pass: boolean): string {
-    return pass ? 'border-l-[#10B981]' : 'border-l-[#EF4444]';
+    return pass ? 'border-l-[var(--color-success)]' : 'border-l-[#EF4444]';
 }
 function statusColor(pass: boolean): string {
-    return pass ? 'text-[#10B981]' : 'text-[#EF4444]';
+    return pass ? 'text-success' : 'text-[#EF4444]';
 }
 function statusLabel(pass: boolean): string {
     return pass ? '✓ PASS' : '✗ FAIL';
 }
 function pulseBg(pass: boolean): string {
-    return pass ? 'bg-[#10B981]' : 'bg-[#EF4444]';
+    return pass ? 'bg-success' : 'bg-[#EF4444]';
 }
 
 // Graph metrics
@@ -57,13 +57,13 @@ const journeyMetrics = [
                 <h1 class="font-heading text-5xl md:text-7xl font-black text-white tracking-tighter uppercase leading-[0.9]">
                     Intelligence<br/>Dashboard
                 </h1>
-                <p class="mt-6 text-gray-400 font-mono text-lg max-w-2xl">
+                <p class="mt-6 text-gray-300 font-mono text-lg max-w-2xl">
                     Real-time quality metrics measuring the health of the Knowledge Graph,
                     Recommendations, and Learning Journeys. Self-scoring via BookOS Phase 2.5.
                 </p>
             </div>
             <div class={`neo-card p-6 border-l-4 ${statusBg(overallPass)} min-w-[180px]`}>
-                <p class="font-mono text-xs text-gray-500 uppercase tracking-widest mb-2">Overall Status</p>
+                <p class="font-mono text-xs text-gray-400 uppercase tracking-widest mb-2">Overall Status</p>
                 <div class="flex items-center gap-3">
                     <span class={`w-4 h-4 rounded-full ${pulseBg(overallPass)} ${overallPass ? 'animate-pulse' : ''}`}></span>
                     <span class={`font-heading font-black text-2xl ${statusColor(overallPass)}`}>
@@ -73,7 +73,7 @@ const journeyMetrics = [
                 {evaluatedAt && (
                     <p class="font-mono text-xs text-gray-600 mt-3">
                         Last run:<br/>
-                        <span class="text-gray-400">{new Date(evaluatedAt).toLocaleString()}</span>
+                        <span class="text-gray-300">{new Date(evaluatedAt).toLocaleString()}</span>
                     </p>
                 )}
                 {!evaluatedAt && (
@@ -87,21 +87,21 @@ const journeyMetrics = [
     <Section id="system-summary" title="System Overview" icon="◈">
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
             <div class="neo-card p-6 text-center">
-                <p class="font-mono text-xs text-gray-500 uppercase tracking-widest mb-2">Nodes</p>
+                <p class="font-mono text-xs text-gray-400 uppercase tracking-widest mb-2">Nodes</p>
                 <p class="font-heading font-black text-4xl text-white">{summary.total_nodes ?? '—'}</p>
             </div>
             <div class="neo-card p-6 text-center">
-                <p class="font-mono text-xs text-gray-500 uppercase tracking-widest mb-2">Edges</p>
+                <p class="font-mono text-xs text-gray-400 uppercase tracking-widest mb-2">Edges</p>
                 <p class="font-heading font-black text-4xl text-white">{summary.total_edges ?? '—'}</p>
             </div>
             <div class="neo-card p-6 text-center">
-                <p class="font-mono text-xs text-gray-500 uppercase tracking-widest mb-2">Journeys</p>
+                <p class="font-mono text-xs text-gray-400 uppercase tracking-widest mb-2">Journeys</p>
                 <p class="font-heading font-black text-4xl text-white">{summary.journey_count ?? '—'}</p>
             </div>
             <div class="neo-card p-6 text-center">
-                <p class="font-mono text-xs text-gray-500 uppercase tracking-widest mb-2">Balance Score</p>
+                <p class="font-mono text-xs text-gray-400 uppercase tracking-widest mb-2">Balance Score</p>
                 <p class={`font-heading font-black text-4xl ${statusColor(journeysPass)}`}>
-                    {summary.phase_balance_score ?? '—'}<span class="text-xl text-gray-500">/100</span>
+                    {summary.phase_balance_score ?? '—'}<span class="text-xl text-gray-400">/100</span>
                 </p>
             </div>
         </div>
@@ -110,13 +110,13 @@ const journeyMetrics = [
     <!-- Graph Health -->
     <Section id="graph-health" title="Graph Health" icon="G">
         <div class={`neo-card p-4 border-l-4 ${statusBg(graphPass)} mb-6 flex items-center justify-between`}>
-            <p class="font-mono text-sm text-gray-400">Knowledge Graph structural integrity evaluation</p>
+            <p class="font-mono text-sm text-gray-300">Knowledge Graph structural integrity evaluation</p>
             <span class={`font-mono font-bold text-sm ${statusColor(graphPass)}`}>{statusLabel(graphPass)}</span>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {graphMetrics.map((m) => (
                 <div class={`neo-card p-5 border-l-4 ${m.noThreshold ? 'border-l-[#333]' : statusBg(m.pass)}`}>
-                    <p class="font-mono text-xs text-gray-500 uppercase tracking-widest mb-1">{m.label}</p>
+                    <p class="font-mono text-xs text-gray-400 uppercase tracking-widest mb-1">{m.label}</p>
                     <p class={`font-heading font-black text-3xl ${m.noThreshold ? 'text-white' : statusColor(m.pass)}`}>{m.value}</p>
                     {!m.noThreshold && (
                         <p class="font-mono text-xs text-gray-600 mt-2">Target: {m.target}</p>
@@ -129,30 +129,30 @@ const journeyMetrics = [
     <!-- Recommendation Health -->
     <Section id="recommendation-health" title="Recommendation Health" icon="R">
         <div class={`neo-card p-4 border-l-4 ${statusBg(recsPass)} mb-6 flex items-center justify-between`}>
-            <p class="font-mono text-sm text-gray-400">Recommendation engine utilization and diversity</p>
+            <p class="font-mono text-sm text-gray-300">Recommendation engine utilization and diversity</p>
             <span class={`font-mono font-bold text-sm ${statusColor(recsPass)}`}>{statusLabel(recsPass)}</span>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             {recMetrics.map((m) => (
                 <div class={`neo-card p-5 border-l-4 ${statusBg(m.pass)}`}>
-                    <p class="font-mono text-xs text-gray-500 uppercase tracking-widest mb-1">{m.label}</p>
+                    <p class="font-mono text-xs text-gray-400 uppercase tracking-widest mb-1">{m.label}</p>
                     <p class={`font-heading font-black text-3xl ${statusColor(m.pass)}`}>{m.value}</p>
                     <p class="font-mono text-xs text-gray-600 mt-2">Target: {m.target}</p>
                 </div>
             ))}
             <!-- Full-width graph coverage bar -->
             <div class="neo-card p-5 md:col-span-2 border-l-4 border-l-[#333]">
-                <p class="font-mono text-xs text-gray-500 uppercase tracking-widest mb-3">Graph Coverage</p>
+                <p class="font-mono text-xs text-gray-400 uppercase tracking-widest mb-3">Graph Coverage</p>
                 <div class="w-full bg-[#111] h-4 border-2 border-[#333]">
                     <div
-                        class="h-full bg-gradient-to-r from-[#06B6D4] to-[#8B5CF6] transition-all"
+                        class="h-full bg-gradient-to-r from-[var(--color-secondary)] to-[#8B5CF6] transition-all"
                         style={`width: ${Math.min(summary.recommendation_coverage ?? 0, 100)}%`}
                     ></div>
                 </div>
                 <div class="flex justify-between mt-2">
-                    <span class="font-mono text-xs text-gray-500">0%</span>
+                    <span class="font-mono text-xs text-gray-400">0%</span>
                     <span class="font-mono text-xs text-gray-300">{summary.recommendation_coverage ?? 0}% covered</span>
-                    <span class="font-mono text-xs text-gray-500">100%</span>
+                    <span class="font-mono text-xs text-gray-400">100%</span>
                 </div>
             </div>
         </div>
@@ -161,30 +161,30 @@ const journeyMetrics = [
     <!-- Journey Health -->
     <Section id="journey-health" title="Journey Health" icon="J">
         <div class={`neo-card p-4 border-l-4 ${statusBg(journeysPass)} mb-6 flex items-center justify-between`}>
-            <p class="font-mono text-sm text-gray-400">Learning journey quality and phase balance</p>
+            <p class="font-mono text-sm text-gray-300">Learning journey quality and phase balance</p>
             <span class={`font-mono font-bold text-sm ${statusColor(journeysPass)}`}>{statusLabel(journeysPass)}</span>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             {journeyMetrics.map((m) => (
                 <div class={`neo-card p-5 border-l-4 ${statusBg(m.pass)}`}>
-                    <p class="font-mono text-xs text-gray-500 uppercase tracking-widest mb-1">{m.label}</p>
+                    <p class="font-mono text-xs text-gray-400 uppercase tracking-widest mb-1">{m.label}</p>
                     <p class={`font-heading font-black text-3xl ${statusColor(m.pass)}`}>{m.value}</p>
                     <p class="font-mono text-xs text-gray-600 mt-2">Target: {m.target}</p>
                 </div>
             ))}
             <!-- Phase Balance Bar -->
             <div class="neo-card p-5 md:col-span-2 border-l-4 border-l-[#333]">
-                <p class="font-mono text-xs text-gray-500 uppercase tracking-widest mb-3">Phase Balance Score</p>
+                <p class="font-mono text-xs text-gray-400 uppercase tracking-widest mb-3">Phase Balance Score</p>
                 <div class="w-full bg-[#111] h-4 border-2 border-[#333]">
                     <div
-                        class={`h-full transition-all ${(summary.phase_balance_score ?? 0) >= 80 ? 'bg-[#10B981]' : 'bg-[#F59E0B]'}`}
+                        class={`h-full transition-all ${(summary.phase_balance_score ?? 0) >= 80 ? 'bg-success' : 'bg-warning'}`}
                         style={`width: ${Math.min(summary.phase_balance_score ?? 0, 100)}%`}
                     ></div>
                 </div>
                 <div class="flex justify-between mt-2">
-                    <span class="font-mono text-xs text-gray-500">0</span>
+                    <span class="font-mono text-xs text-gray-400">0</span>
                     <span class="font-mono text-xs text-gray-300">{summary.phase_balance_score ?? 0}/100</span>
-                    <span class="font-mono text-xs text-gray-500">100</span>
+                    <span class="font-mono text-xs text-gray-400">100</span>
                 </div>
             </div>
         </div>
@@ -202,14 +202,14 @@ const journeyMetrics = [
                 const passing = m.value >= m.target;
                 return (
                     <div class="neo-card p-5">
-                        <p class="font-mono text-xs text-gray-500 uppercase tracking-widest mb-2">{m.label}</p>
+                        <p class="font-mono text-xs text-gray-400 uppercase tracking-widest mb-2">{m.label}</p>
                         <div class="flex items-end gap-3 mb-3">
-                            <p class={`font-heading font-black text-4xl ${passing ? 'text-[#10B981]' : 'text-[#EF4444]'}`}>{m.value}%</p>
+                            <p class={`font-heading font-black text-4xl ${passing ? 'text-success' : 'text-[#EF4444]'}`}>{m.value}%</p>
                             <p class="font-mono text-xs text-gray-600 mb-1">target >{m.target}%</p>
                         </div>
                         <div class="w-full bg-[#111] h-2 border border-[#333]">
                             <div
-                                class={`h-full ${passing ? 'bg-[#10B981]' : 'bg-[#EF4444]'}`}
+                                class={`h-full ${passing ? 'bg-success' : 'bg-[#EF4444]'}`}
                                 style={`width: ${pct}%`}
                             ></div>
                         </div>
@@ -222,9 +222,9 @@ const journeyMetrics = [
     <!-- Footer hint -->
     <div class="mt-16 callout-box">
         <h4 class="font-heading font-bold text-white mb-2 uppercase">How to Update</h4>
-        <p class="font-mono text-sm text-gray-400">
-            Run <code class="bg-[#111] px-2 py-0.5 border border-[#333] text-[#06B6D4]">bookos evaluate all</code> on your
-            BookOS server, then <code class="bg-[#111] px-2 py-0.5 border border-[#333] text-[#06B6D4]">bookos publish</code> to
+        <p class="font-mono text-sm text-gray-300">
+            Run <code class="bg-[#111] px-2 py-0.5 border border-[#333] text-secondary">bookos evaluate all</code> on your
+            BookOS server, then <code class="bg-[#111] px-2 py-0.5 border border-[#333] text-secondary">bookos publish</code> to
             push the evaluation reports to KnowledgeRegistry. ReadRadar will rebuild automatically.
         </p>
     </div>

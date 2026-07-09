@@ -7,25 +7,25 @@ const GOALS = [
         id: "KA-JURN-338524",
         goal: "Become an AI Engineer",
         icon: "⚙",
-        color: "#7C3AED",
+        color: "var(--color-primary)",
         hours: 20,
         tagline: "Build intelligent systems end-to-end",
-        twBorder: "border-l-[#7C3AED]",
-        twText: "group-hover:text-[#7C3AED]",
-        twBg: "group-hover:bg-[#7C3AED]/5",
-        twStart: "text-[#7C3AED]",
+        twBorder: "border-l-[var(--color-primary)]",
+        twText: "group-hover:text-primary",
+        twBg: "group-hover:bg-primary/5",
+        twStart: "text-primary",
     },
     {
         id: "KA-JURN-25D100",
         goal: "Become an Agent Engineer",
         icon: "◈",
-        color: "#06B6D4",
+        color: "var(--color-secondary)",
         hours: 40,
         tagline: "Design and deploy autonomous AI agents",
-        twBorder: "border-l-[#06B6D4]",
-        twText: "group-hover:text-[#06B6D4]",
-        twBg: "group-hover:bg-[#06B6D4]/5",
-        twStart: "text-[#06B6D4]",
+        twBorder: "border-l-[var(--color-secondary)]",
+        twText: "group-hover:text-secondary",
+        twBg: "group-hover:bg-secondary/5",
+        twStart: "text-secondary",
     },
     {
         id: "KA-JURN-E91504",
@@ -43,25 +43,25 @@ const GOALS = [
         id: "KA-JURN-3E1B8A",
         goal: "Become an MLOps Engineer",
         icon: "∞",
-        color: "#10B981",
+        color: "var(--color-success)",
         hours: 20,
         tagline: "Deploy and operate ML systems at scale",
-        twBorder: "border-l-[#10B981]",
-        twText: "group-hover:text-[#10B981]",
-        twBg: "group-hover:bg-[#10B981]/5",
-        twStart: "text-[#10B981]",
+        twBorder: "border-l-[var(--color-success)]",
+        twText: "group-hover:text-success",
+        twBg: "group-hover:bg-success/5",
+        twStart: "text-success",
     },
     {
         id: "KA-JURN-EA7D04",
         goal: "Become an AI Researcher",
         icon: "∂",
-        color: "#E11D48",
+        color: "var(--color-danger)",
         hours: 60,
         tagline: "Push the frontier of AI research",
-        twBorder: "border-l-[#E11D48]",
-        twText: "group-hover:text-[#E11D48]",
-        twBg: "group-hover:bg-[#E11D48]/5",
-        twStart: "text-[#E11D48]",
+        twBorder: "border-l-[var(--color-danger)]",
+        twText: "group-hover:text-danger",
+        twBg: "group-hover:bg-danger/5",
+        twStart: "text-danger",
     },
 ];
 
@@ -73,20 +73,20 @@ const journeyMap = Object.fromEntries(
 
 <header class="mb-10 sm:mb-16 md:mb-20 pb-4 md:pb-8">
     <!-- Eyebrow -->
-    <p class="font-mono text-xs text-gray-500 uppercase tracking-[0.3em] mb-6 flex items-center gap-3">
-        <span class="w-8 h-[1px] bg-[#7C3AED]"></span>
+    <p class="font-mono text-xs text-gray-400 uppercase tracking-[0.3em] mb-6 flex items-center gap-3">
+        <span class="w-8 h-[1px] bg-primary"></span>
         AI Learning Operating System
-        <span class="w-8 h-[1px] bg-[#7C3AED]"></span>
+        <span class="w-8 h-[1px] bg-primary"></span>
     </p>
 
     <!-- Headline -->
     <h1 class="font-heading text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-white tracking-tighter uppercase leading-[0.9] mb-4">
         What do you<br/>
-        <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#7C3AED] via-[#06B6D4] to-[#8B5CF6]">
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-[var(--color-secondary)] to-[#8B5CF6]">
             want to become?
         </span>
     </h1>
-    <p class="font-mono text-gray-400 text-base sm:text-lg max-w-xl mt-6">
+    <p class="font-mono text-gray-300 text-base sm:text-lg max-w-xl mt-6">
         Choose a goal. Get a structured learning path. Built from a live knowledge graph of books, papers, repos, and models.
     </p>
 
@@ -121,16 +121,16 @@ const journeyMap = Object.fromEntries(
                         <h3 class={`font-heading font-black text-xl text-white leading-tight transition-colors ${goal.twText}`}>
                             {goal.goal}
                         </h3>
-                        <p class="font-mono text-xs text-gray-500 mt-1">{goal.tagline}</p>
+                        <p class="font-mono text-xs text-gray-400 mt-1">{goal.tagline}</p>
                     </div>
 
                     <!-- Stats row -->
                     <div class="flex items-center gap-2 sm:gap-4 mt-auto pt-4 border-t border-[#222]">
-                        <span class="font-mono text-xs text-gray-500">
+                        <span class="font-mono text-xs text-gray-400">
                             <span class="text-white font-bold">{goal.hours}h</span> estimated
                         </span>
                         <span class="w-[1px] h-3 bg-[#333]"></span>
-                        <span class="font-mono text-xs text-gray-500">
+                        <span class="font-mono text-xs text-gray-400">
                             <span class="text-white font-bold">{phases}</span> phases
                         </span>
                     </div>
@@ -144,7 +144,7 @@ const journeyMap = Object.fromEntries(
             class="group neo-card p-6 flex flex-col gap-4 hover:translate-y-[-2px] transition-all duration-200 border-dashed border-[#333] hover:border-[#555] border-l-4 border-l-[#333]"
         >
             <div class="flex items-start justify-between">
-                <div class="w-10 h-10 flex items-center justify-center font-heading font-bold text-lg border-2 border-dashed border-[#444] text-gray-500 flex-shrink-0">
+                <div class="w-10 h-10 flex items-center justify-center font-heading font-bold text-lg border-2 border-dashed border-[#444] text-gray-400 flex-shrink-0">
                     +
                 </div>
                 <span class="font-mono text-xs font-bold text-gray-600 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -152,18 +152,18 @@ const journeyMap = Object.fromEntries(
                 </span>
             </div>
             <div>
-                <h3 class="font-heading font-black text-xl text-gray-500 group-hover:text-gray-300 transition-colors leading-tight">
+                <h3 class="font-heading font-black text-xl text-gray-400 group-hover:text-gray-300 transition-colors leading-tight">
                     Browse Everything
                 </h3>
                 <p class="font-mono text-xs text-gray-600 mt-1">Explore the full knowledge graph</p>
             </div>
             <div class="flex items-center gap-2 sm:gap-4 mt-auto pt-4 border-t border-[#222]">
                 <span class="font-mono text-xs text-gray-600">
-                    <span class="text-gray-400 font-bold">73+</span> resources
+                    <span class="text-gray-300 font-bold">73+</span> resources
                 </span>
                 <span class="w-[1px] h-3 bg-[#333]"></span>
                 <span class="font-mono text-xs text-gray-600">
-                    <span class="text-gray-400 font-bold">5</span> collections
+                    <span class="text-gray-300 font-bold">5</span> collections
                 </span>
             </div>
         </a>

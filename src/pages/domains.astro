@@ -12,22 +12,22 @@ const domains = domainsData as Domain[];
 
 <Layout title="Knowledge Domains | ReadRadar">
     <Section id="domains-header" title="Knowledge Domains" icon="D">
-        <p class="font-mono text-gray-400 max-w-2xl mt-4">
+        <p class="font-mono text-gray-300 max-w-2xl mt-4">
             Explore resources organized by technical domain.
         </p>
     </Section>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {domains.map(domain => (
-            <Card href={`${import.meta.env.BASE_URL}/discover?domain=${encodeURIComponent(domain.name)}`.replace(/\/\/+/g, '/')} className="group hover:border-[#7C3AED] flex flex-col h-full">
+            <Card href={`${import.meta.env.BASE_URL}/discover?domain=${encodeURIComponent(domain.name)}`.replace(/\/\/+/g, '/')} className="group hover:border-primary flex flex-col h-full">
                 <div class="flex justify-between items-start mb-4">
-                    <h3 class="font-heading font-bold text-2xl text-white group-hover:text-[#7C3AED] transition-colors">{domain.name}</h3>
+                    <h3 class="font-heading font-bold text-2xl text-white group-hover:text-primary transition-colors">{domain.name}</h3>
                     {domain.trending && <Badge variant="solid">🔥 Trending</Badge>}
                 </div>
-                <p class="text-gray-400 mb-8 flex-grow">{domain.description}</p>
-                <div class="mt-auto border-t-2 border-[#333333] pt-4 flex flex-wrap gap-2 justify-between items-center">
-                    <span class="font-mono text-sm text-gray-500">{domain.resource_count} Resources</span>
-                    <span class="text-[#7C3AED] font-bold group-hover:translate-x-1 transition-transform">Explore →</span>
+                <p class="text-gray-300 mb-8 flex-grow">{domain.description}</p>
+                <div class="mt-auto border-t-2 border-border pt-4 flex flex-wrap gap-2 justify-between items-center">
+                    <span class="font-mono text-sm text-gray-400">{domain.resource_count} Resources</span>
+                    <span class="text-primary font-bold group-hover:translate-x-1 transition-transform">Explore →</span>
                 </div>
             </Card>
         ))}

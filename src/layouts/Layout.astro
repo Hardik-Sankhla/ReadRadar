@@ -30,8 +30,8 @@ const { title } = Astro.props;
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;700;800;900&display=swap" rel="stylesheet">
   </head>
-  <body class="antialiased selection:bg-[#7C3AED] selection:text-white min-h-screen flex flex-col relative">
-    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-[#7C3AED] text-white px-4 py-2 z-[100] font-bold">Skip to main content</a>
+  <body class="antialiased selection:bg-primary selection:text-white min-h-screen flex flex-col relative">
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-primary text-white px-4 py-2 z-[100] font-bold">Skip to main content</a>
     <Navbar />
     <main id="main-content" class="animate-fade-in max-w-[90rem] mx-auto px-4 sm:px-6 md:px-8 py-8 sm:py-12 md:py-20 flex-grow w-full">
       <slot />

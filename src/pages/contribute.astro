@@ -6,62 +6,62 @@ import Card from '../components/ui/Card.astro';
 
 <Layout title="Contribute | ReadRadar">
     <Section id="contribute-header" title="Contribute to ReadRadar" icon="+">
-        <p class="font-mono text-gray-400 max-w-2xl mt-4">
+        <p class="font-mono text-gray-300 max-w-2xl mt-4">
             ReadRadar relies on community intelligence. Submit high-quality resources to be evaluated by the Agent Layer.
         </p>
     </Section>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-24">
-        <Card href="#" className="group hover:border-[#06B6D4]">
+        <Card href="#" className="group hover:border-secondary">
             <div class="flex items-center gap-4 mb-4">
                 <span class="text-3xl">✈️</span>
-                <h3 class="font-heading font-bold text-xl text-white group-hover:text-[#06B6D4] transition-colors">Telegram Bot</h3>
+                <h3 class="font-heading font-bold text-xl text-white group-hover:text-secondary transition-colors">Telegram Bot</h3>
             </div>
-            <p class="text-gray-400 text-sm mb-4">Send a link to our Telegram bot. The agent will instantly parse and queue it for validation.</p>
-            <span class="text-[#06B6D4] font-bold text-sm">@ReadRadarBot →</span>
+            <p class="text-gray-300 text-sm mb-4">Send a link to our Telegram bot. The agent will instantly parse and queue it for validation.</p>
+            <span class="text-secondary font-bold text-sm">@ReadRadarBot →</span>
         </Card>
 
-        <Card href="https://github.com/Hardik-Sankhla/ReadRadar" className="group hover:border-[#7C3AED]">
+        <Card href="https://github.com/Hardik-Sankhla/ReadRadar" className="group hover:border-primary">
             <div class="flex items-center gap-4 mb-4">
                 <span class="text-3xl">🐙</span>
-                <h3 class="font-heading font-bold text-xl text-white group-hover:text-[#7C3AED] transition-colors">GitHub PR</h3>
+                <h3 class="font-heading font-bold text-xl text-white group-hover:text-primary transition-colors">GitHub PR</h3>
             </div>
-            <p class="text-gray-400 text-sm mb-4">Directly modify the resources.json file and submit a Pull Request. Ideal for bulk additions.</p>
-            <span class="text-[#7C3AED] font-bold text-sm">Open Repository →</span>
+            <p class="text-gray-300 text-sm mb-4">Directly modify the resources.json file and submit a Pull Request. Ideal for bulk additions.</p>
+            <span class="text-primary font-bold text-sm">Open Repository →</span>
         </Card>
 
-        <Card href="#" className="group hover:border-[#E11D48]">
+        <Card href="#" className="group hover:border-danger">
             <div class="flex items-center gap-4 mb-4">
                 <span class="text-3xl">✉️</span>
-                <h3 class="font-heading font-bold text-xl text-white group-hover:text-[#E11D48] transition-colors">Email</h3>
+                <h3 class="font-heading font-bold text-xl text-white group-hover:text-danger transition-colors">Email</h3>
             </div>
-            <p class="text-gray-400 text-sm mb-4">Curating a massive list? Email us directly and we'll have the agents process your payload.</p>
-            <span class="text-[#E11D48] font-bold text-sm">intel@readradar.dev →</span>
+            <p class="text-gray-300 text-sm mb-4">Curating a massive list? Email us directly and we'll have the agents process your payload.</p>
+            <span class="text-danger font-bold text-sm">intel@readradar.dev →</span>
         </Card>
     </div>
 
     <Section id="guidelines" title="Contribution Guidelines" icon="=">
-        <div class="bg-[#171717] border-2 border-[#333333] p-8">
+        <div class="bg-muted border-2 border-border p-8">
             <h4 class="font-heading font-bold text-white mb-4 uppercase tracking-wider text-sm">Resource Validation Criteria</h4>
-            <ul class="space-y-4 font-mono text-sm text-gray-400">
+            <ul class="space-y-4 font-mono text-sm text-gray-300">
                 <li class="flex items-start gap-3">
-                    <span class="text-[#10B981]">✓</span>
+                    <span class="text-success">✓</span>
                     <span><strong>High Signal-to-Noise:</strong> Resources must be technically dense. Avoid introductory "what is AI" articles.</span>
                 </li>
                 <li class="flex items-start gap-3">
-                    <span class="text-[#10B981]">✓</span>
+                    <span class="text-success">✓</span>
                     <span><strong>Authoritative:</strong> Authored by known researchers, engineers, or respected organizations.</span>
                 </li>
                 <li class="flex items-start gap-3">
-                    <span class="text-[#10B981]">✓</span>
+                    <span class="text-success">✓</span>
                     <span><strong>Actionable:</strong> Must contain practical code, mathematical foundations, or architectural blueprints.</span>
                 </li>
-                <li class="flex items-start gap-3 mt-4 pt-4 border-t border-[#333333]">
-                    <span class="text-[#E11D48]">✗</span>
+                <li class="flex items-start gap-3 mt-4 pt-4 border-t border-border">
+                    <span class="text-danger">✗</span>
                     <span><strong>No Paywalled Courses:</strong> We prioritize open knowledge. Books are fine, but no closed-ecosystem $999 courses.</span>
                 </li>
                 <li class="flex items-start gap-3">
-                    <span class="text-[#E11D48]">✗</span>
+                    <span class="text-danger">✗</span>
                     <span><strong>No SEO Spam:</strong> Medium articles written by generative AI are automatically rejected by the Agent Layer.</span>
                 </li>
             </ul>

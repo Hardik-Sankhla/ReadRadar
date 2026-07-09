@@ -12,27 +12,27 @@ const collections = collectionsData as Collection[];
 
 <Layout title="Curated Collections | ReadRadar">
     <Section id="collections-header" title="Curated Collections" icon="C">
-        <p class="font-mono text-gray-400 max-w-2xl mt-4">
+        <p class="font-mono text-gray-300 max-w-2xl mt-4">
             Reading lists and resource collections curated by top AI researchers and engineering organizations.
         </p>
     </Section>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         {collections.map(collection => (
-            <Card href={`${import.meta.env.BASE_URL}/collections/${collection.id}`.replace(/\/\/+/g, '/')} className="group hover:border-[#06B6D4] flex flex-col h-full focus-within:ring-2 focus-within:ring-[#06B6D4] focus-within:ring-offset-2 focus-within:ring-offset-[#0A0A0A]">
+            <Card href={`${import.meta.env.BASE_URL}/collections/${collection.id}`.replace(/\/\/+/g, '/')} className="group hover:border-secondary flex flex-col h-full focus-within:ring-2 focus-within:ring-secondary focus-within:ring-offset-2 focus-within:ring-offset-background">
                 <div class="flex flex-col mb-6">
-                    <span class="text-[#06B6D4] font-mono text-sm mb-2">Curated by {collection.curator}</span>
-                    <h3 class="font-heading font-bold text-3xl text-white group-hover:text-[#06B6D4] transition-colors">{collection.title}</h3>
+                    <span class="text-secondary font-mono text-sm mb-2">Curated by {collection.curator}</span>
+                    <h3 class="font-heading font-bold text-3xl text-white group-hover:text-secondary transition-colors">{collection.title}</h3>
                 </div>
                 
-                <p class="text-gray-400 text-lg mb-8 flex-grow border-l-4 border-[#333333] pl-4">{collection.description}</p>
+                <p class="text-gray-300 text-lg mb-8 flex-grow border-l-4 border-border pl-4">{collection.description}</p>
                 
-                <div class="mt-auto bg-[#0A0A0A] p-4 border-2 border-[#333333] flex flex-wrap gap-4 justify-between items-center">
+                <div class="mt-auto bg-background p-4 border-2 border-border flex flex-wrap gap-4 justify-between items-center">
                     <div class="flex flex-wrap items-center gap-2 sm:gap-4">
                         <Badge variant="solid">{collection.resources.length} Resources</Badge>
-                        <span class="font-mono text-xs text-gray-500">Updated: {new Date(collection.date_updated).toLocaleDateString()}</span>
+                        <span class="font-mono text-xs text-gray-400">Updated: {new Date(collection.date_updated).toLocaleDateString()}</span>
                     </div>
-                    <span class="text-[#06B6D4] font-bold group-hover:translate-x-1 transition-transform">View Collection →</span>
+                    <span class="text-secondary font-bold group-hover:translate-x-1 transition-transform">View Collection →</span>
                 </div>
             </Card>
         ))}

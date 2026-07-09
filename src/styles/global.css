@@ -4,31 +4,78 @@
   --font-heading: "Space Grotesk", sans-serif;
   --font-body: "Inter", sans-serif;
   --font-mono: "Roboto Mono", monospace;
-  
-  --color-base: #0A0A0A;
-  --color-surface: #171717;
-  --color-border: #333333;
-  
-  /* Primary purple palette */
+  /* Semantic color system */
+  --color-background: #0A0A0A;
+  --color-foreground: #D4D4D4;
   --color-primary: #7C3AED;
   --color-primary-dark: #5B21B6;
   --color-primary-light: #A78BFA;
-  
-  --color-accent-blue: #2563EB;
-  --color-accent-cyan: #06B6D4;
-  --color-accent-rose: #E11D48;
-  --color-accent-emerald: #10B981;
-  --color-accent-amber: #F59E0B;
-  --color-accent-purple: #7C3AED;
+  --color-secondary: #06B6D4;
+  --color-muted: #171717;
+  --color-border: #333333;
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-danger: #E11D48;
   
   --shadow-neo: 6px 6px 0px 0px var(--color-border);
   --shadow-neo-hover: 2px 2px 0px 0px var(--color-border);
 }
 
+/* Typography System */
+@utility text-h1 {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+@utility text-h2 {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+@utility text-h3 {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+@utility text-h4 {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+@utility text-body-lg {
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+@utility text-body {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+@utility text-body-sm {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+@utility text-caption {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
 @layer base {
   body {
-    background-color: var(--color-base);
-    color: #D4D4D4;
+    background-color: var(--color-background);
+    color: var(--color-foreground);
     font-family: var(--font-body);
   }
 
@@ -83,7 +130,7 @@
   }
 
   ::-webkit-scrollbar { width: 10px; }
-  ::-webkit-scrollbar-track { background: var(--color-base); border-left: 1px solid var(--color-border); }
+  ::-webkit-scrollbar-track { background: var(--color-background); border-left: 1px solid var(--color-border); }
   ::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 2px; }
   ::-webkit-scrollbar-thumb:hover { background: var(--color-primary); }
 
@@ -106,7 +153,7 @@
 
 @layer components {
   .neo-card {
-    background-color: var(--color-surface);
+    background-color: var(--color-muted);
     border: 2px solid var(--color-border);
     box-shadow: var(--shadow-neo);
     transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
@@ -118,8 +165,8 @@
     border-color: #444444;
   }
 
-  .neo-card-amber { box-shadow: 6px 6px 0px 0px var(--color-accent-amber); }
-  .neo-card-amber:hover { box-shadow: 4px 4px 0px 0px var(--color-accent-amber); }
+  .neo-card-amber { box-shadow: 6px 6px 0px 0px var(--color-warning); }
+  .neo-card-amber:hover { box-shadow: 4px 4px 0px 0px var(--color-warning); }
 
   .neo-card-purple { box-shadow: 6px 6px 0px 0px var(--color-primary); }
   .neo-card-purple:hover { box-shadow: 4px 4px 0px 0px var(--color-primary); }
@@ -137,7 +184,7 @@
     width: 100%;
     overflow-x: auto;
     border: 2px solid var(--color-border);
-    background: var(--color-surface);
+    background: var(--color-muted);
     margin-bottom: 3rem;
     border-radius: 2px;
   }

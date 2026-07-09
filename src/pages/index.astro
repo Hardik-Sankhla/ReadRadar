@@ -32,11 +32,11 @@ const featuredCollections = [...collections].slice(0, 6);
         <Section id="learning-paths" title="Featured Learning Paths" icon="C" className="mt-24">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {featuredCollections.map((collection: any) => (
-                    <Card href={`${import.meta.env.BASE_URL}/collections`.replace(/\/\/+/g, '/')} className="group hover:border-[#06B6D4]">
-                        <h3 class="font-heading font-bold text-xl text-white group-hover:text-[#06B6D4] transition-colors mb-2">{collection.title}</h3>
-                        <p class="text-sm text-gray-400 mb-4 flex-grow">{collection.description}</p>
+                    <Card href={`${import.meta.env.BASE_URL}/collections`.replace(/\/\/+/g, '/')} className="group hover:border-secondary">
+                        <h3 class="font-heading font-bold text-xl text-white group-hover:text-secondary transition-colors mb-2">{collection.title}</h3>
+                        <p class="text-sm text-gray-300 mb-4 flex-grow">{collection.description}</p>
                         <div class="flex justify-end items-center mt-auto">
-                            <span class="text-[#06B6D4] font-bold text-sm group-hover:translate-x-1 transition-transform">Explore →</span>
+                            <span class="text-secondary font-bold text-sm group-hover:translate-x-1 transition-transform">Explore →</span>
                         </div>
                     </Card>
                 ))}
@@ -58,9 +58,9 @@ const featuredCollections = [...collections].slice(0, 6);
     <Section id="metrics" title="Intelligence Metrics" icon="∑" className="mt-16 md:mt-24">
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
             <Statistics value={resources.length.toString()} label="Resources" />
-            <Statistics value={collections.length.toString()} label="Collections" color="text-[#06B6D4]" />
+            <Statistics value={collections.length.toString()} label="Collections" color="text-secondary" />
             <Statistics value={journeys.length.toString()} label="Journeys" color="text-[#8B5CF6]" />
-            <Statistics value="Live" label="Knowledge Graph" color="text-[#10B981]" />
+            <Statistics value="Live" label="Knowledge Graph" color="text-success" />
         </div>
     </Section>
 
@@ -68,24 +68,24 @@ const featuredCollections = [...collections].slice(0, 6);
     <!-- HOW IT WORKS -->
     <Section id="how-it-works" title="How ReadRadar Works" icon="⚙" className="mt-24">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="neo-card p-8 border-l-4 border-l-[#7C3AED]">
-                <div class="font-heading font-black text-4xl text-[#7C3AED] mb-4">01</div>
+            <div class="neo-card p-8 border-l-4 border-l-[var(--color-primary)]">
+                <div class="font-heading font-black text-4xl text-primary mb-4">01</div>
                 <h3 class="font-heading font-bold text-xl text-white mb-2">Choose a Goal</h3>
-                <p class="font-mono text-sm text-gray-400">
+                <p class="font-mono text-sm text-gray-300">
                     Select what you want to become. ReadRadar maps the knowledge graph to your career objective.
                 </p>
             </div>
-            <div class="neo-card p-8 border-l-4 border-l-[#06B6D4]">
-                <div class="font-heading font-black text-4xl text-[#06B6D4] mb-4">02</div>
+            <div class="neo-card p-8 border-l-4 border-l-[var(--color-secondary)]">
+                <div class="font-heading font-black text-4xl text-secondary mb-4">02</div>
                 <h3 class="font-heading font-bold text-xl text-white mb-2">Follow a Journey</h3>
-                <p class="font-mono text-sm text-gray-400">
+                <p class="font-mono text-sm text-gray-300">
                     Get a structured path across books, repos, papers, and models — ordered by phase and difficulty.
                 </p>
             </div>
-            <div class="neo-card p-8 border-l-4 border-l-[#10B981]">
-                <div class="font-heading font-black text-4xl text-[#10B981] mb-4">03</div>
+            <div class="neo-card p-8 border-l-4 border-l-[var(--color-success)]">
+                <div class="font-heading font-black text-4xl text-success mb-4">03</div>
                 <h3 class="font-heading font-bold text-xl text-white mb-2">Build & Ship</h3>
-                <p class="font-mono text-sm text-gray-400">
+                <p class="font-mono text-sm text-gray-300">
                     Each journey includes real project suggestions drawn from the highest-quality repositories.
                 </p>
             </div>
@@ -95,13 +95,13 @@ const featuredCollections = [...collections].slice(0, 6);
     <!-- PIPELINE EXPLAINER -->
     <Section id="pipeline" title="The Intelligence Pipeline" icon="⇌" className="mt-24">
         <div class="neo-card p-10 border-l-4 border-l-[#8B5CF6] overflow-hidden">
-            <div class="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-6 font-heading text-lg md:text-xl font-bold uppercase tracking-widest text-gray-400 flex-wrap">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-6 font-heading text-lg md:text-xl font-bold uppercase tracking-widest text-gray-300 flex-wrap">
                 {[
-                    { label: "BookOS", color: "#7C3AED" },
-                    { label: "Discovery", color: "#06B6D4" },
+                    { label: "BookOS", color: "var(--color-primary)" },
+                    { label: "Discovery", color: "var(--color-secondary)" },
                     { label: "Graph", color: "#8B5CF6" },
-                    { label: "Journeys", color: "#10B981" },
-                    { label: "ReadRadar", color: "#E11D48" },
+                    { label: "Journeys", color: "var(--color-success)" },
+                    { label: "ReadRadar", color: "var(--color-danger)" },
                 ].map((step, i) => (
                     <>
                         <div
@@ -115,7 +115,7 @@ const featuredCollections = [...collections].slice(0, 6);
                     </>
                 ))}
             </div>
-            <p class="mt-10 text-gray-400 font-mono text-sm max-w-2xl mx-auto text-center">
+            <p class="mt-10 text-gray-300 font-mono text-sm max-w-2xl mx-auto text-center">
                 BookOS continuously scans GitHub, ArXiv, and Hugging Face. Resources are normalized into a live knowledge graph, enriched with relationships, clustered into collections, and assembled into learning journeys — then rendered here.
             </p>
         </div>
@@ -131,14 +131,14 @@ const featuredCollections = [...collections].slice(0, 6);
                 { phase: "Phase 4", label: "Skill Graph", done: false },
                 { phase: "Phase 5", label: "Career OS", done: false },
             ].map((item) => (
-                <div class={`flex-1 neo-card p-6 border-l-4 ${item.done ? 'border-l-[#10B981]' : item.current ? 'border-l-[#F59E0B]' : 'border-l-[#333333]'}`}>
+                <div class={`flex-1 neo-card p-6 border-l-4 ${item.done ? 'border-l-[var(--color-success)]' : item.current ? 'border-l-[var(--color-warning)]' : 'border-l-[var(--color-border)]'}`}>
                     <div class="flex justify-between items-center mb-2">
-                        <span class={`font-bold ${item.done || item.current ? 'text-white' : 'text-gray-500'}`}>{item.phase}</span>
-                        <span class={item.done ? 'text-[#10B981]' : item.current ? 'text-[#F59E0B]' : 'text-gray-600'}>
+                        <span class={`font-bold ${item.done || item.current ? 'text-white' : 'text-gray-400'}`}>{item.phase}</span>
+                        <span class={item.done ? 'text-success' : item.current ? 'text-warning' : 'text-gray-600'}>
                             {item.done ? '✓' : item.current ? '⏳' : '·'}
                         </span>
                     </div>
-                    <span class={item.done || item.current ? 'text-gray-400' : 'text-gray-600'}>{item.label}</span>
+                    <span class={item.done || item.current ? 'text-gray-300' : 'text-gray-600'}>{item.label}</span>
                 </div>
             ))}
         </div>

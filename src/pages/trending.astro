@@ -29,26 +29,26 @@ const categoryData = [
 
 <Layout title="Trending | ReadRadar">
     <Section id="trending-header" title="Trending Analytics" icon="↑">
-        <p class="font-mono text-gray-400 max-w-2xl mt-4">
+        <p class="font-mono text-gray-300 max-w-2xl mt-4">
             Real-time insights into the fastest growing technical resources and intelligence vectors.
         </p>
     </Section>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-24">
         <div class="neo-card p-8">
-            <h3 class="font-heading font-bold text-white mb-6 uppercase text-sm tracking-wider text-gray-400">Resource Growth (30 Days)</h3>
-            <BarChart data={growthData} color="bg-[#10B981]" />
+            <h3 class="font-heading font-bold text-white mb-6 uppercase text-sm tracking-wider text-gray-300">Resource Growth (30 Days)</h3>
+            <BarChart data={growthData} color="bg-success" />
         </div>
         <div class="neo-card p-8">
-            <h3 class="font-heading font-bold text-white mb-6 uppercase text-sm tracking-wider text-gray-400">Trending Domains</h3>
+            <h3 class="font-heading font-bold text-white mb-6 uppercase text-sm tracking-wider text-gray-300">Trending Domains</h3>
             <BarChart data={categoryData} color="bg-[#8B5CF6]" />
         </div>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-24">
-        <Statistics value="+142%" label="MoM Growth" color="text-[#10B981]" />
+        <Statistics value="+142%" label="MoM Growth" color="text-success" />
         <Statistics value="Agentic AI" label="Top Domain" color="text-[#8B5CF6]" />
-        <Statistics value="9.9" label="Peak Trend Score" color="text-[#06B6D4]" />
+        <Statistics value="9.9" label="Peak Trend Score" color="text-secondary" />
     </div>
 
     <Section id="trending-table" title="Highest Velocity Resources" icon="⚡">
