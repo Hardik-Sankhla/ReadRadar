@@ -4,7 +4,7 @@ import Hero from '../components/Hero.astro';
 import Section from '../components/ui/Section.astro';
 import Card from '../components/ui/Card.astro';
 import Statistics from '../components/ui/Statistics.astro';
-import { Badge } from '../components/ui/Badge';
+import ProjectCard from '../components/ui/ProjectCard.astro';
 import { ResourceTable } from '../components/ui/Table';
 
 import resourcesData from '../data/resources.json';
@@ -18,25 +18,33 @@ const collections = collectionsData as Collection[];
 const journeys = journeysData as any[];
 
 // Process data for homepage
+const featuredJourneys = [...journeys].slice(0, 3);
+const featuredCollections = [...collections].slice(0, 6);
 const trendingResources = [...resources].sort((a, b) => b.trend_score - a.trend_score).slice(0, 5);
 const recentlyAdded = [...resources].sort((a, b) => new Date(b.date_added).getTime() - new Date(a.date_added).getTime()).slice(0, 5);
-const featuredCollections = [...collections].slice(0, 6);
 ---
 
 <Layout title="ReadRadar — What do you want to become?">
-    <!-- 1 & 2. GOAL-FIRST HERO & GOAL EXPLORER -->
+    <!-- 1. GOAL-FIRST HERO -->
     <Hero />
 
-    <!-- 3. FEATURED LEARNING PATHS (Collections) -->
-    {featuredCollections.length > 0 && (
-        <Section id="learning-paths" title="Featured Learning Paths" icon="C" className="mt-24">
+    <!-- 2. FEATURED JOURNEYS -->
+    {featuredJourneys.length > 0 && (
+        <Section id="journeys" title="Featured Journeys" icon="◈" className="mt-24">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {featuredCollections.map((collection: any) => (
-                    <Card href={`${import.meta.env.BASE_URL}/collections`.replace(/\/\/+/g, '/')} className="group hover:border-secondary">
-                        <h3 class="font-heading font-bold text-xl text-white group-hover:text-secondary transition-colors mb-2">{collection.title}</h3>
-                        <p class="text-sm text-gray-300 mb-4 flex-grow">{collection.description}</p>
-                        <div class="flex justify-end items-center mt-auto">
-                            <span class="text-secondary font-bold text-sm group-hover:translate-x-1 transition-transform">Explore →</span>
+                {featuredJourneys.map((journey: any) => (
+                    <Card href={`${import.meta.env.BASE_URL}/journeys/${journey.id}`.replace(/\/\/+/g, '/')} className="group hover:border-secondary">
+                        <div class="flex items-center gap-3 mb-2">
+                            <span class="w-2 h-2 bg-secondary rounded-full group-hover:scale-150 transition-transform"></span>
+                            <h3 class="font-heading font-bold text-xl text-white group-hover:text-secondary transition-colors">{journey.title}</h3>
+                        </div>
+                        <p class="text-sm text-gray-300 mb-4 flex-grow">{journey.description}</p>
+                        <div class="flex items-center gap-4 mt-auto pt-4 border-t border-[#222]">
+                            <span class="font-mono text-xs text-gray-400">
+                                <span class="text-white font-bold">{journey.metadata?.total_estimated_hours || 0}h</span> estimated
+                            </span>
+                            <span class="w-[1px] h-3 bg-[#333]"></span>
+                            <span class="text-secondary font-bold text-sm group-hover:translate-x-1 transition-transform ml-auto">Start →</span>
                         </div>
                     </Card>
                 ))}
@@ -44,24 +52,64 @@ const featuredCollections = [...collections].slice(0, 6);
         </Section>
     )}
 
-    <!-- 4. TRENDING RESOURCES -->
+    <!-- 3. PROJECTS YOU'LL BUILD -->
+    <Section id="projects" title="Projects You'll Build" icon="⚡" className="mt-24">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <ProjectCard 
+                title="RAG Chatbot"
+                description="Build a Retrieval-Augmented Generation chatbot that can answer questions based on your own custom knowledge base using vector databases."
+                icon="💬"
+                colorClass="border-l-primary text-primary"
+                skills={["LangChain", "Vector DBs", "LLMs"]}
+            />
+            <ProjectCard 
+                title="Multi-Agent System"
+                description="Design autonomous AI agents that can plan, reason, and collaborate to solve complex multi-step tasks without human intervention."
+                icon="🤖"
+                colorClass="border-l-secondary text-secondary"
+                skills={["AutoGen", "Prompting", "Python"]}
+            />
+            <ProjectCard 
+                title="MLOps Pipeline"
+                description="Deploy scalable machine learning models to production with automated training, CI/CD, and robust monitoring dashboards."
+                icon="⚙️"
+                colorClass="border-l-success text-success"
+                skills={["Docker", "Kubernetes", "CI/CD"]}
+            />
+            <ProjectCard 
+                title="LLM Evaluator"
+                description="Create a rigorous evaluation framework to test LLM outputs for hallucinations, bias, and factual accuracy."
+                icon="⚖️"
+                colorClass="border-l-warning text-warning"
+                skills={["Testing", "Metrics", "Data"]}
+            />
+        </div>
+    </Section>
+
+    <!-- 4. FEATURED LEARNING PATHS (Collections) -->
+    {featuredCollections.length > 0 && (
+        <Section id="learning-paths" title="Learning Paths" icon="C" className="mt-24">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {featuredCollections.map((collection: any) => (
+                    <Card href={`${import.meta.env.BASE_URL}/collections/${collection.id}`.replace(/\/\/+/g, '/')} className="group hover:border-primary">
+                        <h3 class="font-heading font-bold text-xl text-white group-hover:text-primary transition-colors mb-2">{collection.title}</h3>
+                        <p class="text-sm text-gray-300 mb-4 flex-grow">{collection.description}</p>
+                        <div class="flex justify-end items-center mt-auto">
+                            <span class="text-primary font-bold text-sm group-hover:translate-x-1 transition-transform">Explore →</span>
+                        </div>
+                    </Card>
+                ))}
+            </div>
+        </Section>
+    )}
+
+    <!-- 5. RESOURCE DISCOVERY -->
     <Section id="trending" title="Trending Resources" icon="↑" className="mt-24">
         <ResourceTable data={trendingResources} client:load />
     </Section>
 
-    <!-- 5. RECENTLY UPDATED -->
     <Section id="recent" title="Recently Updated" icon="+" className="mt-24">
         <ResourceTable data={recentlyAdded} client:load />
-    </Section>
-
-    <!-- 6. INTELLIGENCE METRICS -->
-    <Section id="metrics" title="Intelligence Metrics" icon="∑" className="mt-16 md:mt-24">
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-            <Statistics value={resources.length.toString()} label="Resources" />
-            <Statistics value={collections.length.toString()} label="Collections" color="text-secondary" />
-            <Statistics value={journeys.length.toString()} label="Journeys" color="text-[#8B5CF6]" />
-            <Statistics value="Live" label="Knowledge Graph" color="text-success" />
-        </div>
     </Section>
 
     <!-- EXTRA SECTIONS -->
@@ -141,6 +189,16 @@ const featuredCollections = [...collections].slice(0, 6);
                     <span class={item.done || item.current ? 'text-gray-300' : 'text-gray-600'}>{item.label}</span>
                 </div>
             ))}
+        </div>
+    </Section>
+
+    <!-- 6. INTELLIGENCE METRICS -->
+    <Section id="metrics" title="Intelligence Metrics" icon="∑" className="mt-24 mb-12">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+            <Statistics value={resources.length.toString()} label="Resources" />
+            <Statistics value={collections.length.toString()} label="Collections" color="text-secondary" />
+            <Statistics value={journeys.length.toString()} label="Journeys" color="text-[#8B5CF6]" />
+            <Statistics value="Live" label="Knowledge Graph" color="text-success" />
         </div>
     </Section>
 </Layout>

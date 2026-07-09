@@ -1,0 +1,45 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  icon?: string;
+  skills?: string[];
+  colorClass?: string;
+}
+
+const { 
+  title, 
+  description, 
+  icon = "⚡", 
+  skills = [], 
+  colorClass = "border-l-primary text-primary" 
+} = Astro.props;
+
+// Extract just the border and text color class names for conditional styling
+const borderColorClass = colorClass.split(' ').find(c => c.startsWith('border-l-'));
+const textColorClass = colorClass.split(' ').find(c => c.startsWith('text-'));
+const bgColorClass = textColorClass ? textColorClass.replace('text-', 'bg-') + '/10' : 'bg-primary/10';
+---
+
+<div class={`neo-card p-6 flex flex-col h-full bg-muted group hover:translate-y-[-2px] transition-transform border-l-4 ${borderColorClass}`}>
+    <div class="flex items-center gap-4 mb-4">
+        <div class={`w-10 h-10 flex items-center justify-center font-heading font-bold text-lg border-2 border-dashed border-border ${textColorClass} bg-background group-hover:${bgColorClass} transition-colors`}>
+            {icon}
+        </div>
+        <h3 class="font-heading font-bold text-xl text-white transition-colors">{title}</h3>
+    </div>
+    
+    <p class="text-sm text-gray-300 mb-6 flex-grow font-mono leading-relaxed">
+        {description}
+    </p>
+    
+    {skills.length > 0 && (
+        <div class="flex flex-wrap gap-2 mt-auto pt-4 border-t border-border">
+            {skills.map(skill => (
+                <span class="px-2 py-1 bg-background border border-border text-gray-400 text-[10px] font-mono uppercase tracking-wider">
+                    {skill}
+                </span>
+            ))}
+        </div>
+    )}
+</div>
