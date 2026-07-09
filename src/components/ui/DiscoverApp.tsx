@@ -165,23 +165,7 @@ export default function DiscoverApp({ resources, domains, collections = [], edge
       )}
 
       <div className={`table-density-${density}`}>
-        {filteredResources.length > 0 || isLoading ? (
-          <ResourceTable data={filteredResources} isLoading={isLoading} />
-        ) : (
-          <div className="neo-card p-16 text-center flex flex-col items-center justify-center border-dashed">
-            <svg className="w-16 h-16 text-gray-600 mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-            <h3 className="font-heading font-bold text-2xl text-white mb-2">No resources found</h3>
-            <p className="text-gray-300 font-mono text-sm max-w-md">
-              We couldn't find any resources matching "{search}" in the {selectedDomain} domain. 
-            </p>
-            <button 
-              onClick={() => { setSearch(""); setSelectedDomain("All"); }}
-              className="mt-8 px-6 py-2 bg-primary hover:bg-primary-dark text-white font-bold transition-colors border-2 border-transparent"
-            >
-              Clear Filters
-            </button>
-          </div>
-        )}
+        <ResourceTable data={filteredResources} isLoading={isLoading} />
       </div>
     </div>
   );
