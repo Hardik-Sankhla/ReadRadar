@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-STATISTICS",
+  "title": "Statistics",
+  "slug": "statistics",
+  "category": "Machine Learning",
+  "description": "Distributions, significance, Bayes theorem.",
+  "importance": 7,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-PYTHON"
+    ]
+  }
+}

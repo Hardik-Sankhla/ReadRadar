@@ -29,7 +29,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.754Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-PYTHON"
+      ]
+    }
   },
   {
     "id": "KA-REPO-0C8150",
@@ -61,7 +66,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.754Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-PYTHON"
+      ]
+    }
   },
   {
     "id": "KA-REPO-213926",
@@ -91,7 +101,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.755Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-REPO-297C15",
@@ -123,7 +136,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.755Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-PYTHON"
+      ]
+    }
   },
   {
     "id": "KA-REPO-375A37",
@@ -153,7 +171,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.755Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-REPO-37FE41",
@@ -185,7 +206,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.755Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-PYTHON"
+      ]
+    }
   },
   {
     "id": "KA-REPO-39C495",
@@ -215,7 +241,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.756Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-REPO-3BC35A",
@@ -245,7 +274,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.756Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-REPO-5535E2",
@@ -275,7 +307,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.756Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-REPO-609634",
@@ -305,7 +340,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.757Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-REPO-621FA3",
@@ -335,7 +373,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.757Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-REPO-63F1FB",
@@ -365,7 +406,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.757Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-REPO-68E04C",
@@ -395,7 +439,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.757Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-REPO-7C7AF9",
@@ -425,7 +472,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.758Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-REPO-89AA88",
@@ -455,7 +505,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.758Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-REPO-917A8C",
@@ -485,7 +538,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.758Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-REPO-94D874",
@@ -515,7 +571,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.758Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-REPO-99B0C1",
@@ -545,7 +604,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.758Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-REPO-A53D3C",
@@ -575,7 +637,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.759Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-REPO-B38D2E",
@@ -605,7 +670,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.759Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-REPO-B4203A",
@@ -637,7 +705,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.759Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-TRANSFORMERS"
+      ]
+    }
   },
   {
     "id": "KA-REPO-C41B5D",
@@ -669,7 +742,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.760Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-TRANSFORMERS"
+      ]
+    }
   },
   {
     "id": "KA-REPO-D6F0AD",
@@ -701,7 +779,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.760Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-TRANSFORMERS"
+      ]
+    }
   },
   {
     "id": "KA-REPO-E44A08",
@@ -731,7 +814,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.760Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-REPO-E4B7BA",
@@ -763,7 +849,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.760Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-PYTHON"
+      ]
+    }
   },
   {
     "id": "KA-REPO-FF870F",
@@ -793,7 +884,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.760Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-PAPR-05ADEB",
@@ -825,7 +919,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.761Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-PAPR-0F3D5D",
@@ -859,7 +956,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.761Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-PAPR-1340C5",
@@ -892,7 +992,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.762Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-PAPR-227F5A",
@@ -924,7 +1027,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.763Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-PAPR-364659",
@@ -958,7 +1064,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.764Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-PAPR-39E2A0",
@@ -990,7 +1099,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.764Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-TRANSFORMERS"
+      ]
+    }
   },
   {
     "id": "KA-PAPR-3B444C",
@@ -1022,7 +1136,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.765Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-TRANSFORMERS"
+      ]
+    }
   },
   {
     "id": "KA-PAPR-574207",
@@ -1055,7 +1174,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.765Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-PAPR-5C6742",
@@ -1087,7 +1209,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.765Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-RAG"
+      ]
+    }
   },
   {
     "id": "KA-PAPR-67A73B",
@@ -1119,7 +1246,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.765Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-PAPR-686507",
@@ -1152,7 +1282,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.766Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-PAPR-8585CC",
@@ -1184,7 +1317,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.766Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-RAG"
+      ]
+    }
   },
   {
     "id": "KA-PAPR-8AE9CE",
@@ -1216,7 +1354,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.766Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-TRANSFORMERS"
+      ]
+    }
   },
   {
     "id": "KA-PAPR-8B1077",
@@ -1248,7 +1391,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.766Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-PAPR-A7410C",
@@ -1280,7 +1426,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.767Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-PAPR-B591B8",
@@ -1312,7 +1461,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.767Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-RAG"
+      ]
+    }
   },
   {
     "id": "KA-PAPR-C37580",
@@ -1346,7 +1500,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.767Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-PAPR-C89F80",
@@ -1378,7 +1535,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.768Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-RAG"
+      ]
+    }
   },
   {
     "id": "KA-PAPR-D33E00",
@@ -1411,7 +1573,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.768Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-PAPR-DC00CE",
@@ -1443,7 +1608,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.768Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-TRANSFORMERS"
+      ]
+    }
   },
   {
     "id": "KA-PAPR-E5AA3F",
@@ -1475,7 +1645,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.768Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-PAPR-EC0918",
@@ -1508,7 +1681,13 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.768Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-RAG",
+        "KA-SKIL-TRANSFORMERS"
+      ]
+    }
   },
   {
     "id": "KA-PAPR-EE9A90",
@@ -1540,7 +1719,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.769Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-PAPR-F4A0DE",
@@ -1573,7 +1755,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.769Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-PAPR-F5F9C0",
@@ -1605,7 +1790,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.770Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-MODL-082D02",
@@ -1641,7 +1829,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.771Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-MODL-17EB2B",
@@ -1677,7 +1868,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.771Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-PYTORCH"
+      ]
+    }
   },
   {
     "id": "KA-MODL-21A5AA",
@@ -1713,7 +1909,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.771Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-PYTORCH"
+      ]
+    }
   },
   {
     "id": "KA-MODL-27B94C",
@@ -1749,7 +1950,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.771Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-PYTORCH"
+      ]
+    }
   },
   {
     "id": "KA-MODL-2D3F0F",
@@ -1785,7 +1991,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.772Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-MODL-476B34",
@@ -1821,7 +2030,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.772Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-PYTORCH"
+      ]
+    }
   },
   {
     "id": "KA-MODL-4B3CBE",
@@ -1857,7 +2071,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.772Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-PYTORCH"
+      ]
+    }
   },
   {
     "id": "KA-MODL-50D1E7",
@@ -1893,7 +2112,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.772Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-NLP-BASICS"
+      ]
+    }
   },
   {
     "id": "KA-MODL-58E98E",
@@ -1929,7 +2153,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.773Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-PYTORCH"
+      ]
+    }
   },
   {
     "id": "KA-MODL-5FE6BC",
@@ -1965,7 +2194,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.773Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-PYTORCH"
+      ]
+    }
   },
   {
     "id": "KA-MODL-6F07FF",
@@ -2002,7 +2236,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.773Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-PYTORCH"
+      ]
+    }
   },
   {
     "id": "KA-MODL-8F9B3D",
@@ -2038,7 +2277,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.773Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-MODL-986BB9",
@@ -2074,7 +2316,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.773Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-PYTORCH"
+      ]
+    }
   },
   {
     "id": "KA-MODL-9F883D",
@@ -2110,7 +2357,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.774Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-PYTORCH"
+      ]
+    }
   },
   {
     "id": "KA-MODL-A51D5D",
@@ -2146,7 +2398,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.774Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-NLP-BASICS"
+      ]
+    }
   },
   {
     "id": "KA-MODL-AAC97E",
@@ -2182,7 +2439,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.774Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-PYTORCH"
+      ]
+    }
   },
   {
     "id": "KA-MODL-B54837",
@@ -2218,7 +2480,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.775Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-MODL-C226BC",
@@ -2254,7 +2519,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.775Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-PYTORCH"
+      ]
+    }
   },
   {
     "id": "KA-MODL-C7D6CD",
@@ -2290,7 +2560,10 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.775Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": []
+    }
   },
   {
     "id": "KA-MODL-D09891",
@@ -2326,7 +2599,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.775Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-PYTORCH"
+      ]
+    }
   },
   {
     "id": "KA-MODL-F1EC23",
@@ -2362,7 +2640,12 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.775Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-PYTORCH"
+      ]
+    }
   },
   {
     "id": "KA-MODL-FF7399",
@@ -2398,6 +2681,11 @@
     "metadata": {
       "last_verified": "2026-07-09T05:29:11.776Z"
     },
-    "knowledge_dna": {}
+    "knowledge_dna": {},
+    "edges": {
+      "TEACHES": [
+        "KA-SKIL-PYTORCH"
+      ]
+    }
   }
 ]

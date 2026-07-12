@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-LLM-EVALUATION",
+  "title": "LLM Evaluation",
+  "slug": "llm-evaluation",
+  "category": "LLM Engineering",
+  "description": "LLM-as-a-judge, BLEU, ROUGE.",
+  "importance": 9,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-PROMPT-ENGINEERING"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-SEMANTIC-ROUTER",
+  "title": "Semantic Router",
+  "slug": "semantic-router",
+  "category": "Agent Engineering",
+  "description": "Fast intent routing.",
+  "importance": 7,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-EMBEDDINGS"
+    ]
+  }
+}

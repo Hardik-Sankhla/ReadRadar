@@ -1,0 +1,11 @@
+{
+  "id": "KA-SKIL-BASH",
+  "title": "Bash",
+  "slug": "bash",
+  "category": "Programming",
+  "description": "Server navigation and script automation.",
+  "importance": 7,
+  "edges": {
+    "REQUIRES_SKILL": []
+  }
+}

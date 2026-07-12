@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-IAC",
+  "title": "IaC",
+  "slug": "iac",
+  "category": "Infrastructure",
+  "description": "Terraform, Ansible.",
+  "importance": 7,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-CLOUD-PROVIDERS"
+    ]
+  }
+}

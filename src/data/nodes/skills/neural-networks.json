@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-NEURAL-NETWORKS",
+  "title": "Neural Networks",
+  "slug": "neural-networks",
+  "category": "Deep Learning",
+  "description": "Perceptrons, activation functions.",
+  "importance": 9,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-DEEP-LEARNING"
+    ]
+  }
+}

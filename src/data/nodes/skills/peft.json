@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-PEFT",
+  "title": "PEFT",
+  "slug": "peft",
+  "category": "LLM Engineering",
+  "description": "LoRA, QLoRA, adapters.",
+  "importance": 9,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-FINE-TUNING"
+    ]
+  }
+}

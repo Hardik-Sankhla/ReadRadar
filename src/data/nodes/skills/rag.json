@@ -1,0 +1,14 @@
+{
+  "id": "KA-SKIL-RAG",
+  "title": "RAG",
+  "slug": "rag",
+  "category": "LLM Engineering",
+  "description": "Retrieval-Augmented Generation.",
+  "importance": 10,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-PROMPT-ENGINEERING",
+      "KA-SKIL-VECTOR-DATABASES"
+    ]
+  }
+}

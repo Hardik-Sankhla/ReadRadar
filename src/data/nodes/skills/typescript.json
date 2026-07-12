@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-TYPESCRIPT",
+  "title": "TypeScript",
+  "slug": "typescript",
+  "category": "Programming",
+  "description": "Frontend and full-stack AI integration.",
+  "importance": 8,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-JAVASCRIPT"
+    ]
+  }
+}

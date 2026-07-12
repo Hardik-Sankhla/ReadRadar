@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-RNNS",
+  "title": "RNNs",
+  "slug": "rnns",
+  "category": "Deep Learning",
+  "description": "Sequential data processing.",
+  "importance": 6,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-DEEP-LEARNING"
+    ]
+  }
+}

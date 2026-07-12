@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-AGENTIC-RAG",
+  "title": "Agentic RAG",
+  "slug": "agentic-rag",
+  "category": "LLM Engineering",
+  "description": "RAG combined with agent routing.",
+  "importance": 8,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-ADVANCED-RETRIEVAL"
+    ]
+  }
+}

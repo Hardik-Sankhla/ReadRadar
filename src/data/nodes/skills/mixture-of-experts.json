@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-MIXTURE-OF-EXPERTS",
+  "title": "Mixture of Experts",
+  "slug": "mixture-of-experts",
+  "category": "Research",
+  "description": "Sparse routing, load balancing.",
+  "importance": 8,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-TRANSFORMERS"
+    ]
+  }
+}

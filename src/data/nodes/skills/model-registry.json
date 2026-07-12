@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-MODEL-REGISTRY",
+  "title": "Model Registry",
+  "slug": "model-registry",
+  "category": "MLOps",
+  "description": "Versioning weights and datasets.",
+  "importance": 8,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-EXPERIMENT-TRACKING"
+    ]
+  }
+}

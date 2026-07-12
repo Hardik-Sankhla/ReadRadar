@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-SCALING-LAWS",
+  "title": "Scaling Laws",
+  "slug": "scaling-laws",
+  "category": "Research",
+  "description": "Compute vs. Data paradigms.",
+  "importance": 7,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-TRANSFORMERS"
+    ]
+  }
+}

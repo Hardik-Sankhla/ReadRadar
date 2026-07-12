@@ -1,0 +1,14 @@
+{
+  "id": "KA-SKIL-FASTAPI",
+  "title": "FastAPI",
+  "slug": "fastapi",
+  "category": "Infrastructure",
+  "description": "Creating endpoints for inference.",
+  "importance": 9,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-PYTHON",
+      "KA-SKIL-DOCKER"
+    ]
+  }
+}

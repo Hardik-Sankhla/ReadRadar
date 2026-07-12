@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-PAPER-READING",
+  "title": "Paper Reading",
+  "slug": "paper-reading",
+  "category": "Research",
+  "description": "Reading ArXiv, implementing equations.",
+  "importance": 8,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-DEEP-LEARNING"
+    ]
+  }
+}

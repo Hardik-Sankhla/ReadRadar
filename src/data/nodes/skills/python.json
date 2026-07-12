@@ -1,0 +1,11 @@
+{
+  "id": "KA-SKIL-PYTHON",
+  "title": "Python",
+  "slug": "python",
+  "category": "Programming",
+  "description": "Core language for AI/ML.",
+  "importance": 10,
+  "edges": {
+    "REQUIRES_SKILL": []
+  }
+}

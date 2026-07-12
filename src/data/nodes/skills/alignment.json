@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-ALIGNMENT",
+  "title": "Alignment",
+  "slug": "alignment",
+  "category": "LLM Engineering",
+  "description": "RLHF, DPO.",
+  "importance": 8,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-FINE-TUNING"
+    ]
+  }
+}

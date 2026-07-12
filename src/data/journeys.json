@@ -39,6 +39,9 @@
         "run-llama/llama_index",
         "langchain-ai/langchain"
       ]
+    },
+    "edges": {
+      "TEACHES": []
     }
   },
   {
@@ -91,6 +94,9 @@
         "openai/openai-python",
         "EleutherAI/gpt-neox"
       ]
+    },
+    "edges": {
+      "TEACHES": []
     }
   },
   {
@@ -128,6 +134,9 @@
         "langchain-ai/langchain",
         "langchain-ai/langchain"
       ]
+    },
+    "edges": {
+      "TEACHES": []
     }
   },
   {
@@ -179,6 +188,9 @@
       "projects": [
         "vllm-project/vllm"
       ]
+    },
+    "edges": {
+      "TEACHES": []
     }
   },
   {
@@ -230,6 +242,9 @@
       "projects": [
         "openai/openai-python"
       ]
+    },
+    "edges": {
+      "TEACHES": []
     }
   }
 ]

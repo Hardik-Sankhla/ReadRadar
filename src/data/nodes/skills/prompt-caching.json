@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-PROMPT-CACHING",
+  "title": "Prompt Caching",
+  "slug": "prompt-caching",
+  "category": "LLM Engineering",
+  "description": "Context caching optimization.",
+  "importance": 7,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-PROMPT-ENGINEERING"
+    ]
+  }
+}

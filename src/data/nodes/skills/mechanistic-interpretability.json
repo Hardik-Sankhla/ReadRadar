@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-MECHANISTIC-INTERPRETABILITY",
+  "title": "Mechanistic Interpretability",
+  "slug": "mechanistic-interpretability",
+  "category": "Research",
+  "description": "Understanding neuron activations.",
+  "importance": 7,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-TRANSFORMERS"
+    ]
+  }
+}

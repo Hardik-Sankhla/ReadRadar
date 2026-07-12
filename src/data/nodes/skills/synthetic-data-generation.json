@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-SYNTHETIC-DATA-GENERATION",
+  "title": "Synthetic Data Generation",
+  "slug": "synthetic-data-generation",
+  "category": "LLM Engineering",
+  "description": "Generating training data using strong models.",
+  "importance": 7,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-PROMPT-ENGINEERING"
+    ]
+  }
+}

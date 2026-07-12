@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-CNNS",
+  "title": "CNNs",
+  "slug": "cnns",
+  "category": "Deep Learning",
+  "description": "Image data processing.",
+  "importance": 7,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-DEEP-LEARNING"
+    ]
+  }
+}

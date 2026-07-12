@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-REINFORCEMENT-LEARNING",
+  "title": "Reinforcement Learning",
+  "slug": "reinforcement-learning",
+  "category": "Machine Learning",
+  "description": "Q-learning, policies.",
+  "importance": 7,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-CLASSICAL-ML"
+    ]
+  }
+}

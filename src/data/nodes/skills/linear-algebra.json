@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-LINEAR-ALGEBRA",
+  "title": "Linear Algebra",
+  "slug": "linear-algebra",
+  "category": "Machine Learning",
+  "description": "Vectors, matrices, operations.",
+  "importance": 8,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-PYTHON"
+    ]
+  }
+}

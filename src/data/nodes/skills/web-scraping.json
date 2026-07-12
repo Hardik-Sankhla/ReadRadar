@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-WEB-SCRAPING",
+  "title": "Web Scraping",
+  "slug": "web-scraping",
+  "category": "Agent Engineering",
+  "description": "Beautiful Soup, Puppeteer.",
+  "importance": 7,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-PYTHON"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-CLASSICAL-ML",
+  "title": "Classical ML",
+  "slug": "classical-ml",
+  "category": "Machine Learning",
+  "description": "Scikit-Learn, Random Forests, XGBoost.",
+  "importance": 8,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-DATA-PREPROCESSING"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-KUBERNETES",
+  "title": "Kubernetes",
+  "slug": "kubernetes",
+  "category": "MLOps",
+  "description": "Container orchestration.",
+  "importance": 8,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-DOCKER"
+    ]
+  }
+}

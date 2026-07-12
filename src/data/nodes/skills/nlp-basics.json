@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-NLP-BASICS",
+  "title": "NLP Basics",
+  "slug": "nlp-basics",
+  "category": "Machine Learning",
+  "description": "Tokenization, TF-IDF.",
+  "importance": 7,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-DATA-PREPROCESSING"
+    ]
+  }
+}

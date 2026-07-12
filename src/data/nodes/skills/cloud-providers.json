@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-CLOUD-PROVIDERS",
+  "title": "Cloud Providers",
+  "slug": "cloud-providers",
+  "category": "Infrastructure",
+  "description": "AWS, GCP, Azure.",
+  "importance": 8,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-BASH"
+    ]
+  }
+}

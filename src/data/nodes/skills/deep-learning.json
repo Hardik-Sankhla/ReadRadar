@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-DEEP-LEARNING",
+  "title": "Deep Learning",
+  "slug": "deep-learning",
+  "category": "Deep Learning",
+  "description": "Neural networks base concepts.",
+  "importance": 9,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-LINEAR-ALGEBRA"
+    ]
+  }
+}

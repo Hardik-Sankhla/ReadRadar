@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-VECTOR-DATABASES",
+  "title": "Vector Databases",
+  "slug": "vector-databases",
+  "category": "LLM Engineering",
+  "description": "Milvus, Qdrant, Pinecone.",
+  "importance": 9,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-PYTHON"
+    ]
+  }
+}

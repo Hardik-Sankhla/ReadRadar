@@ -1,0 +1,11 @@
+{
+  "id": "KA-SKIL-C",
+  "title": "C++",
+  "slug": "c",
+  "category": "Programming",
+  "description": "Performance optimization.",
+  "importance": 6,
+  "edges": {
+    "REQUIRES_SKILL": []
+  }
+}

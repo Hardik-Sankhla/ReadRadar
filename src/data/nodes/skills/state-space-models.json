@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-STATE-SPACE-MODELS",
+  "title": "State Space Models",
+  "slug": "state-space-models",
+  "category": "Research",
+  "description": "Mamba, recurrent architectures.",
+  "importance": 7,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-TRANSFORMERS"
+    ]
+  }
+}

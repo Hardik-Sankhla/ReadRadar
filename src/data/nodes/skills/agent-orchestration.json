@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-AGENT-ORCHESTRATION",
+  "title": "Agent Orchestration",
+  "slug": "agent-orchestration",
+  "category": "Agent Engineering",
+  "description": "AutoGen, LangGraph, CrewAI.",
+  "importance": 9,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-TOOL-CALLING"
+    ]
+  }
+}

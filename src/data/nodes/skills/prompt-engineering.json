@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-PROMPT-ENGINEERING",
+  "title": "Prompt Engineering",
+  "slug": "prompt-engineering",
+  "category": "LLM Engineering",
+  "description": "Few-shot, chain-of-thought, system prompts.",
+  "importance": 9,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-PYTHON"
+    ]
+  }
+}

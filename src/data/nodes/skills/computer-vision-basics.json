@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-COMPUTER-VISION-BASICS",
+  "title": "Computer Vision Basics",
+  "slug": "computer-vision-basics",
+  "category": "Machine Learning",
+  "description": "Filters, Edge Detection.",
+  "importance": 6,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-DATA-PREPROCESSING"
+    ]
+  }
+}

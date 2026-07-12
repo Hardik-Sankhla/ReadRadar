@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-FEATURE-STORE",
+  "title": "Feature Store",
+  "slug": "feature-store",
+  "category": "MLOps",
+  "description": "Feast, Hopsworks.",
+  "importance": 7,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-DATA-PREPROCESSING"
+    ]
+  }
+}

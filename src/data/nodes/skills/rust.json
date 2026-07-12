@@ -1,0 +1,11 @@
+{
+  "id": "KA-SKIL-RUST",
+  "title": "Rust",
+  "slug": "rust",
+  "category": "Programming",
+  "description": "Safe systems programming.",
+  "importance": 5,
+  "edges": {
+    "REQUIRES_SKILL": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-LLM-OBSERVABILITY",
+  "title": "LLM Observability",
+  "slug": "llm-observability",
+  "category": "MLOps",
+  "description": "Langfuse, Arize, latency tracking.",
+  "importance": 8,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-MODEL-SERVING"
+    ]
+  }
+}

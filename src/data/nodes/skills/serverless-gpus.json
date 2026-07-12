@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-SERVERLESS-GPUS",
+  "title": "Serverless GPUs",
+  "slug": "serverless-gpus",
+  "category": "Infrastructure",
+  "description": "Modal, RunPod, Baseten.",
+  "importance": 8,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-DOCKER"
+    ]
+  }
+}

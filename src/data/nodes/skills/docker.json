@@ -1,0 +1,14 @@
+{
+  "id": "KA-SKIL-DOCKER",
+  "title": "Docker",
+  "slug": "docker",
+  "category": "MLOps",
+  "description": "Containerization.",
+  "importance": 9,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-GIT",
+      "KA-SKIL-BASH"
+    ]
+  }
+}

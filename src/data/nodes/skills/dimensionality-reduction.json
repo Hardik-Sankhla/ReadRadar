@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-DIMENSIONALITY-REDUCTION",
+  "title": "Dimensionality Reduction",
+  "slug": "dimensionality-reduction",
+  "category": "Machine Learning",
+  "description": "PCA, t-SNE, UMAP.",
+  "importance": 6,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-LINEAR-ALGEBRA"
+    ]
+  }
+}

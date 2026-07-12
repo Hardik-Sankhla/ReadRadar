@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-CI-CD-FOR-ML",
+  "title": "CI/CD for ML",
+  "slug": "ci-cd-for-ml",
+  "category": "MLOps",
+  "description": "Automated testing pipelines.",
+  "importance": 8,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-MODEL-REGISTRY"
+    ]
+  }
+}

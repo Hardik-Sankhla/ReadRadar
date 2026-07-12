@@ -1,0 +1,11 @@
+{
+  "id": "KA-SKIL-GIT",
+  "title": "Git",
+  "slug": "git",
+  "category": "Programming",
+  "description": "Version control.",
+  "importance": 9,
+  "edges": {
+    "REQUIRES_SKILL": []
+  }
+}

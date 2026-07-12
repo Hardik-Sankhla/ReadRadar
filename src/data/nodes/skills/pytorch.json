@@ -1,0 +1,14 @@
+{
+  "id": "KA-SKIL-PYTORCH",
+  "title": "PyTorch",
+  "slug": "pytorch",
+  "category": "Deep Learning",
+  "description": "Primary deep learning framework.",
+  "importance": 10,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-DEEP-LEARNING",
+      "KA-SKIL-PYTHON"
+    ]
+  }
+}

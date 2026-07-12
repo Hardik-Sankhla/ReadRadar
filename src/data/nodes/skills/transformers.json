@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-TRANSFORMERS",
+  "title": "Transformers",
+  "slug": "transformers",
+  "category": "LLM Engineering",
+  "description": "Self-attention, positional encoding.",
+  "importance": 10,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-PYTORCH"
+    ]
+  }
+}

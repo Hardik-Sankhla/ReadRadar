@@ -1,0 +1,14 @@
+{
+  "id": "KA-SKIL-DATA-PREPROCESSING",
+  "title": "Data Preprocessing",
+  "slug": "data-preprocessing",
+  "category": "Machine Learning",
+  "description": "Cleaning, normalization, feature engineering.",
+  "importance": 8,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-PYTHON",
+      "KA-SKIL-STATISTICS"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-OPTIMIZATION-ALGORITHMS",
+  "title": "Optimization Algorithms",
+  "slug": "optimization-algorithms",
+  "category": "Deep Learning",
+  "description": "SGD, Adam, learning rate schedules.",
+  "importance": 8,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-DEEP-LEARNING"
+    ]
+  }
+}

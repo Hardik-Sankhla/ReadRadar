@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-TOOL-CALLING",
+  "title": "Tool Calling",
+  "slug": "tool-calling",
+  "category": "Agent Engineering",
+  "description": "Binding APIs to LLM outputs.",
+  "importance": 9,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-PROMPT-ENGINEERING"
+    ]
+  }
+}

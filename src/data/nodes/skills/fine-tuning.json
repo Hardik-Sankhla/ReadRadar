@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-FINE-TUNING",
+  "title": "Fine-Tuning",
+  "slug": "fine-tuning",
+  "category": "LLM Engineering",
+  "description": "Supervised instruction tuning.",
+  "importance": 9,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-TRANSFORMERS"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-MULTI-AGENT-SYSTEMS",
+  "title": "Multi-Agent Systems",
+  "slug": "multi-agent-systems",
+  "category": "Agent Engineering",
+  "description": "Role-based agents, collaboration.",
+  "importance": 9,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-AGENT-ORCHESTRATION"
+    ]
+  }
+}

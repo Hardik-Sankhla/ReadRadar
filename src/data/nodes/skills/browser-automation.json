@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-BROWSER-AUTOMATION",
+  "title": "Browser Automation",
+  "slug": "browser-automation",
+  "category": "Agent Engineering",
+  "description": "Playwright, Selenium.",
+  "importance": 8,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-WEB-SCRAPING"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-A-B-TESTING",
+  "title": "A/B Testing",
+  "slug": "a-b-testing",
+  "category": "MLOps",
+  "description": "Online experiments.",
+  "importance": 7,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-STATISTICS"
+    ]
+  }
+}

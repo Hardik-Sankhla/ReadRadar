@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-MEMORY-SYSTEMS",
+  "title": "Memory Systems",
+  "slug": "memory-systems",
+  "category": "Agent Engineering",
+  "description": "Short-term context, episodic memory.",
+  "importance": 8,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-REASONING-FRAMEWORKS"
+    ]
+  }
+}

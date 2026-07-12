@@ -1,0 +1,11 @@
+{
+  "id": "KA-SKIL-JAVASCRIPT",
+  "title": "JavaScript",
+  "slug": "javascript",
+  "category": "Programming",
+  "description": "Web integrations.",
+  "importance": 8,
+  "edges": {
+    "REQUIRES_SKILL": []
+  }
+}

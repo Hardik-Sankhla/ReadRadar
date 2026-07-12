@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-MODEL-QUANTIZATION",
+  "title": "Model Quantization",
+  "slug": "model-quantization",
+  "category": "LLM Engineering",
+  "description": "GGUF, AWQ, GPTQ.",
+  "importance": 8,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-TRANSFORMERS"
+    ]
+  }
+}

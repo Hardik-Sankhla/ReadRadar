@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-SPECULATIVE-DECODING",
+  "title": "Speculative Decoding",
+  "slug": "speculative-decoding",
+  "category": "LLM Engineering",
+  "description": "Inference speed optimization.",
+  "importance": 7,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-TRANSFORMERS"
+    ]
+  }
+}

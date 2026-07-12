@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-REASONING-FRAMEWORKS",
+  "title": "Reasoning Frameworks",
+  "slug": "reasoning-frameworks",
+  "category": "Agent Engineering",
+  "description": "ReAct, Plan-and-Solve.",
+  "importance": 9,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-TOOL-CALLING"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "KA-SKIL-SQL",
+  "title": "SQL",
+  "slug": "sql",
+  "category": "Programming",
+  "description": "Database querying and data manipulation.",
+  "importance": 8,
+  "edges": {
+    "REQUIRES_SKILL": []
+  }
+}

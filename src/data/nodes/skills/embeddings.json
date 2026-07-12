@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-EMBEDDINGS",
+  "title": "Embeddings",
+  "slug": "embeddings",
+  "category": "Deep Learning",
+  "description": "Dense vector representations.",
+  "importance": 9,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-DEEP-LEARNING"
+    ]
+  }
+}

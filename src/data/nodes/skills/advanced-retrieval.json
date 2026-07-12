@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-ADVANCED-RETRIEVAL",
+  "title": "Advanced Retrieval",
+  "slug": "advanced-retrieval",
+  "category": "LLM Engineering",
+  "description": "Hybrid search, cross-encoder reranking.",
+  "importance": 9,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-RAG"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "KA-SKIL-MODEL-SERVING",
+  "title": "Model Serving",
+  "slug": "model-serving",
+  "category": "MLOps",
+  "description": "vLLM, TGI, batching.",
+  "importance": 9,
+  "edges": {
+    "REQUIRES_SKILL": [
+      "KA-SKIL-FASTAPI"
+    ]
+  }
+}
